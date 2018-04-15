@@ -1,0 +1,996 @@
+﻿1. The A320/A321 aircraft is divided into zones as follows:
+A.    The major zones, the major sub-zones, the zones.[CA]
+B.    The zones and sub-zones.
+C.    The zones and the station.
+D.    The major zones, the major sub-zones
+3.   Each major zone is identified by:
+A.    Three digit number and two letters
+B.    Three digit number
+C.    The first digit of three digit number.[CA]
+4.   Access doors and panels are identified by:
+A.    The number of the zone in which the panel is located followed by a two-letter suffix. .[CA]
+B.    The number of the zone in which the panel is located followed by one letter suffix.
+C.    a two-letter followed by the number of the zone in which the panel is located suffix.
+5.  There are how many major zones in the aircraft?
+A.    4
+B.    6
+C.    8[CA]
+D.    10
+6.   The Tail Safety stay is used to:
+A.    Share load with the main jacks during jacking process
+B.    Keep the aircraft more stable during landing gear retraction/ extension tests
+C.    Keep the aircraft stable on jacks .[CA]
+7. How many points on the structure are designated for the purpose of lifting the aircraft?
+A.    3[CA]
+B.    4
+C.    2
+8.  What is permissible during jacking for main LDG wheel change?
+A.    Cargo, PAX loading.
+B.    Gate docking.
+C.    Installation of the wheel chocks on the wheels of the other main LDG. .[CA]
+9. The main purpose of weighing aircraft is:
+A.    Calculate the position of the center of gravity.[CA]
+B.    Calculate of aircraft weight
+C.    Know the aircraft weight for passenger loading
+10. When Lifting the AIRCRAFT for leveling
+A.   You must not lift the aircraft with the safety stay.
+B.    The weight of fuel is applied equally on the two side of the aircraft  centerline
+C.    Make sure that the aircraft is stable before you lift it with jacks
+D.   All above.[CA]
+11. When Lifting the aircraft  
+A.   All the doors must be closed and locked
+B.    Passenger/crew door may be fully opened and locked but the cargo doors must be closed and locked
+C.    The passenger/crew doors, the emergency exits and the cargo doors are closed and locked or fully open and locked .[CA]
+D.   No requirement. 
+12. When the NLG dimension H is more than 300 mm
+A.    Do not tow the aircraft to prevent damage to the centering cams. .[CA]
+B.    Do not tow the aircraft to prevent tail to ground contact.
+C.    Smooth and speed limited towing is possible.
+13. If a engine is running
+A.    You can tow the aircraft from the front only.
+B.    You can push the aircraft only.
+C.    Either tow or push is possible. .[CA]
+14. Towing the aircraft is
+A.    Allowed with one engine running above idle.
+B.    Allowed with both engines running up to idle. .[CA]
+C.    Allowed only with one engine running up to idle.
+15. Towing can be carried out with
+A.    Passenger/crew doors fully open and locked without restriction.
+B.    Cargo doors open in vertical position with speed limited .[CA]
+C.    Engine cowls open and hold open rods fully locked
+16. Towing can be carried out using
+A.    Tow bar or towbarless tractor at NLG. .[CA]
+B.    Tow bar or towbarless tractor at MLG(s)
+C.    Tow bar at NLG only.
+17. The maximum permitted steering-angle on each side of the aircraft centerline is
+A.    95 degrees. .[CA]
+B.    75 degrees.
+C.    74 degrees
+18. What is the correct sequence?
+A.    Install the tow bar on the tow fitting then install the tow lever safety pin
+B.    Install the tow lever safety pin then install the tow bar on the tow fitting. .[CA]
+C.    There is no specific sequence
+19. Communication system(s) to be used during towing is (are)?
+A.    VHF and FLT INT. .[CA]
+B.    VHF or HF with FLT INT.
+C.    VHF only.
+20. What indication on ECAM do you have to check prior to start towing?
+A.     N WHEEL STEERG DISC .[CA]
+B.     N WHEEL STEERG INOP
+C.     N WHEEL STEERG OFF
+21.  From cockpit how can you know that the brake are release prior to towing the aircraft?
+A.    Check Parking brake selector in OFF, brake pressure indication on ECAM  is at 0 and confirm with GND personnel.
+B.    Check Parking brake selector in OFF; check all the 03 pointes are at green range and confirm with GND personnel.
+C.    Check Parking brake selector in OFF; brake pressure pointes at 0 and confirm with GND personnel. .[CA]
+22. Minimum separation from the nose wheels and the tractor while towing the aircraft is:
+A.   2 m
+B.    3 m. .[CA]
+C.    4 m.
+23. In towing configurations the safety pin locks the control lever on the interphone box in:
+A.      Disengaged position. .[CA]
+B.       Engaged position.
+C.       Normal position.
+24. When towing the aircraft:
+A.      All the doors must be closed and locked
+B.       Passenger/crew door may be fully opened and locked the cargo doors open in vertical position.[CA]
+C.       Passenger/crew door may be fully opened and locked but the cargo doors must be closed and locked 
+25.  When you do the Aircraft Grounding for the Refuel/Defuel Operations  
+A.    Connect the ground cable to parking ground point before you connect it to the aircraft.[CA]
+B.    Attach the cable to aircraft first then  connect to parking ground point
+C.    Grounding is not necessary
+26. To electrostatically balance the aircraft for the refuel/defuel operations
+A.    Connect a ground cable to the aircraft grounding point on the landing gears
+B.    Connect a bonding cable between the fuel tanker and a grounding point on one of the MLG Legs
+C.    A is essential, B is recommended
+D.    B is essential, A is recommended[CA]
+27.  Safety requirements for aircraft Refuelling and  defuelling are:
+A.     Do not operate the cell phones or mobile phones inside distances for 6m from aircraft.
+B.     Do not connect electrical equipment to a power source less than 15 m away from aircraft, unless the power source has spark-proof connectors
+C.     Do not operate the fuel tanker/pump unit until you stop operation of the weather radar
+D.     All above.[CA]
+28.  During aircraft Refuelling or  defuelling
+A.    APU starts or shutdowns are permitted
+B.    An APU start is not permitted during if the APU has failed to start or an automatic shutdown has occurred
+C.    A & B[CA]
+29.  During the refuelling
+A.    The NLG tires roll aft .[CA]
+B.    The NLG tires roll fwd
+C.    The NLG tires roll does not move
+30.   During the refuelling you must:
+A.    Move the aft NLG chocks away from the tires
+B.    Make sure that the chocks do not touch the MLG tires
+C.    A & B[CA]
+31.  When you do the Refuelling and/or defuelling in the Hangar
+A.    The hangar doors must be closed until you have completed the refuel/defuel procedure
+B.    The hangar doors must not be closed until you have completed the refuel/defuel procedure.[CA]
+C.    There is no requirement for hangar door
+32. When you do the aircraft  pressure Automatic refueling with battery power
+A.       It is not always possible to refuel to full capacity. This is because the intercell transfer valve are not always in the correct position.[CA]
+B.       It is always possible to refuel to full capacity.
+C.       You can not refuel in the outer cell.
+33.  The maximum safety pressure for refueling is:  
+A.       45psi
+B.       50psi.[CA]
+C.       55psi
+D.       60psi
+34.  When you do the aircraft refueling with battery power 
+A.    The HOT BUSS is energized for ten minutes only after you put the BATT POWER switch to the ON position. .[CA]
+B.    HOT BUSS is always energized after you put the BATT POWER switch to the ON position.
+C.    You must put the BATT POWER switch to the ON position and hold it during refueling process
+35. When you do the aircraft pressure refueling with manual control
+A.       Put the MODE SELECT switch to the REFUEL position
+B.       Put the REFUEL VALVES switch(es) for the applicable fuel tank(s) to the OPEN position and for the tank(s) which will not be refuelled to the SHUT position.
+C.       Put the REFUEL VALVES switch(es) of all the fuel tank(s) to the OPEN position
+D.       A & B[CA]
+36. The aircraft configuration requirements for filling the hydraulic fluid reservoir are:
+A.       The FWD, AFT cargo-compartment doors and the landing gear doors are closed[CA]
+B.       The FWD, AFT cargo-compartment doors and the landing gear doors are opened
+C.       The FWD, AFT cargo-compartment doors are closed and the landing gear doors are opened
+D.       The FWD, AFT cargo-compartment doors are opened and the landing gear doors are closed
+37. When doing the Hydraulic Fluid Reservoir Filling
+A.    The hydraulic system operating normally
+B.    The reservoirs air pressurize system must be depressurized
+C.    Do not depressurize the system reservoirs.[CA]
+D.    Green hydraulic system must be depressurized
+38. What happen if you fill to much hydraulic fluid in the reservoir?
+A.    Hydraulic system can not operate
+B.    A message "reservoir overfull" appear on ECAM
+C.    You cannot pressurize it the reservoir sufficiently and may cause the message "RSVR LO AIR PR" on ECAM. .[CA]
+D.    Hydraulic fluid transfers to other reservoir.
+39.When filling the hydraulic fluid Reservoir with a hydraulic service cart, the maximum supply pressure is:
+A.    3.5 +0.3 -0 bar (50.7631 +4.3511 -0.0000 psi)
+B.    30 bar (435,1132 psi). .[CA]
+C.    45 bar (652,669 psi)
+D.    50 bar (725,188 psi)
+40. If you think there are fuel fumes when you remove the oil filter cap of the engine oil tank.
+A.    You must let the oil tank pressure bleed off for a minimum of 5 minutes before you remove the tank filler cap for oil servicing.
+B.    Add oil in the oil tank to full mark
+C.    Replace the fuel/oil heat exchanger then flush the engine oil system.[CA]
+D.    Flush the oil tank and fill in with new oil.
+41.  When filling the hydraulic power accumulators with Nitrogen:
+A.    All hydraulic systems must be depressurized[CA]
+B.    The reservoirs air pressurize system must be depressurized
+C.    Do not depressurize the hydraulic systems
+D.    Green hydraulic system must be depressurized
+42. In the AMM tasks, “WARNING” is meant:
+A.   Calls attention to use of materials, processes, methods, procedures or limits which must be followed precisely to avoid injury of death to persons.[CA]
+B.    Calls attention to methods and procedures which be followed to avoid damage to equipment
+C.    Calls attention to methods which make the job easier or provide supplementary or explanatory information
+43. In the AMM tasks, “CAUTION” is meant:
+A.   Calls attention to use of materials, processes, methods, procedures or limits which must be followed precisely to avoid injury of death to persons
+B.    Calls attention to methods and procedures which be followed to avoid damage to equipment.[CA]
+C.    Calls attention to methods which make the job easier or provide supplementary or explanatory information
+44. In the AMM tasks, “NOTE” is meant:
+A.   Calls attention to use of materials, processes, methods, procedures or limits which must be followed precisely to avoid injury of death to persons
+B.    Calls attention to methods and procedures which be followed to avoid damage to equipment
+C.    Calls attention to methods which make the job easier or provide supplementary or explanatory information.[CA]
+45. AMM gives:
+A.   The status of the item of equipment, semi-equipment and related wiring
+B.    Information required for trouble shooting is contained in the manual
+C.    The information required to service, repair, replace, adjust, inspect and check equipments and systems of the A/C normally performed on the ramp or in the maintenance hangar.[CA]
+D.   Schematic diagrams of the electrical installation with sufficient data for A/C fault isolation
+46. What is the main purpose of the pack anti ice valve?
+A.   To stop the ice formation across the primary heat exchanger.
+B.    To stop the ice formation across the main heat exchanger.
+C.    To stop the ice formation across pack condenser. .[CA]
+47. What is the purpose of the pack RAM AIR flaps?
+a.  To ensure cabin ventilation in case both packs fail.
+b.  To provide air to the pack compressor.
+c.  To modulate the main air flow through the heat exchangers. .[CA]
+48. What flow is delivered by pack with Pack Flow selector on LO and bleed air supplied by the APU?
+a.  Low
+b.  Normal
+c.  High.[CA]
+49. The purpose of the safety valves is to avoid :
+A.   Excessive positive pressure differential
+B.    Excessive negative pressure differential
+C.    Excessive cabin altitude.
+D.   A and B.[CA]
+50. When does the avionics ventilation air come from when any OVRD selected? 
+A.   From the avionics bay
+B.    From outside the aircraft
+C.    From the air conditioning duct.[CA]
+D.   No ventilation. System is inoperative.
+51. What is the purpose of the avionic ventilation skin heat exchanger?
+A.   To cool the air coming from the avionics equipment when Isolation valve is open. .[CA]
+B.    To reheat air coming from avionics ventilation system
+C.    To cool air before it is ducted under the cargo compartment.
+42.Aircraft on ground, in order to communicate from the cockpit to the APU position, you must:
+A. Select the INT on the audio control panel, and press the “SERV INT” pushbutton
+B.    press “CAB” transmission key.[CA]
+C.    press the “SERV INT” pushbutton
+D.   press “CAB” receiving knob
+43.The loudspeaker volume knobs allow:
+A.   Controls the loudness of aural alerts and voice messages
+B.    Controls the loudness of voice messages only
+C.    Adjusts the volume of the loudspeaker for radio communication.[CA]
+D.   Adjusts the volume of the loudspeaker for radio communication , aural alerts and voice messages 
+44. Maintenance buses only are supplied when:
+A.     External power is connected and blue ON light on EXT PWR pushbutton illuminated; MAIN BUS switch in ON position
+B.     External power is connected and the green AVAIL light on EXT PWR pushbutton illuminated; MAIN BUS switch is ON position.[CA]
+C.     Any generator is coupled to the network; MAIN BUS switch is in ON position,
+D.     The APU generator or external power is connected; EXT PWR pushbutton illuminated; MAIN BUS switch in ON position
+45. Both light “AVAIL” and “NOT IN USE” in the external power receptacle are illuminated when:
+A.   An External Power Source is supplying the Aircraft Network
+B.   An External Power Source is supplying the Maintenance Bus Bars
+C.   At least one External Power Parameter is not correct, the External Power Contactor (EPC) stays Open              
+D.   All External Power Parameters are correct but the EPC is Open.[CA]
+46. If a high APU generator oil temperature detection occurs:
+A.   An immediate APU shut down is commanded and the APU Generator is denergized[CA]
+B.   The APU Generator is disconnected only
+C.   The APU Generator Fault Light illuminates only
+D.   A Warning Message is displayed on ECAM only
+47. What does the EXT PWR PB “AVAIL” light illuminated on EXT PWR panel means?
+A.     External power is plugged in,and all parameters are normal.[CA]
+B.     All external power parameters are normal but not plugged in
+C.     External power is plugged in
+D.     External power is plugged in and supplied to A/C network
+48. What is the output of  APU generator?
+A.     90 KVA[CA]
+B.     50 KVA
+C.     5 KVA
+D.     1 KVA 
+49. Smoke hoods are supplied for the cabin attendants to:
+A.    Supply oxygen for passengers.
+B.    Fight a fire or against emission of smoke or noxious gases. .[CA]
+C.    Breathe oxygen.
+50. Which device has to be unlocked before closing the slide window?
+A.    A locking pin on the sliding window frame. .[CA]
+B.    The sliding window operating handle.
+C.    None.
+51. Which cabin panels are removable?
+A.    Lower sidewall panels only.
+B.    All the panels. .[CA]
+C.    Upper sidewall panels only.
+52.Where are passenger oxygen masks stored?
+A.    In the passenger service unit.[CA]
+B.    In the seat arm rest
+C.    In the overhead stowage compartment   
+53.  Captain and First Officer Seats are:
+A.    Symmetrical and have the same function.[CA]
+B.    Asymmetrical and have the same function
+C.    Have the same function and interchangeable.
+D.    Folding type and has no adjustment
+54. Captain and First Officer Seats electrical control system permits
+A.    Control the seats in vertical and horizontal direction .[CA]
+B.    Control the seats in vertical and horizontal direction and adjust the backrest
+C.    Control the seats in vertical and horizontal direction and adjust the lumbar rest
+D.    All above
+55. The A320 aircraft is fitted with emergency evacuation slide at:  
+A.    The 4 entry doors.
+B.    The overwing exits
+C.    The 4 entry doors and the overwing exits.[CA]
+56.Third Occupant seat in the cockpit
+A.    Can slide along the Y-axis to take up a position on the aircraft centerline.[CA]
+B.    Have longitudinal adjustment
+C.    Can moves longitudinally and vertically
+D.    Attached to the left rear panel in the cockpit
+57.The passenger seats  
+A.    Seat pans are upholstered and not foldable or adjustable
+B.    Can fold the inner armrests between the backrests
+C.    Upholstered backrest assembly of each seat may be adjusted
+D.    All above.[CA]
+58.The Passenger Service/Information Units (PSIUs)
+A.    Has two primary units: Passenger Service Unit (PSU) and Passenger Information Unit (PIU)
+B.    The Passenger Service Unit (PSU), installed above each seat row
+C.    The Passenger Information Unit (PIU), installed above each second seat row
+D.    All above .[CA]
+59.  Where are the Engine fire detectors located?
+A.   On the Fan and the Turbine and Pylon
+B.    On the Pylon, the Fan and the Core.[CA]
+C.    On the Core, Gearbox and the Nozzle
+60. Is the extinguishing system controlled by the FDU:
+A.   Yes, continuously
+B.    Yes, whenever  engine fire is detected
+C.    No.[CA]
+61. How is an APU fire on ground normally extinguished:
+A.   From APU fire panel.
+B.    From APU compartment
+C.    Automatically. .[CA]
+D.   From external power panel.
+62. You press the APU shut off push button at 108VU panel to?
+A.   Initiate the shut down the APU with cooling down sequence.
+B.    Initiate the emergency shut down of APU without cooling down sequence. .[CA]
+C.    Initiate the emergency shut down of APU and discharge the APU fire bottle.
+63.To test the APU auto extinguishing function, you must :
+A.   Select APU master switch ON. .[CA]
+B.    Press the APU fire TEST push button.
+C.    Select APU master switch ON and press the APU fire TEST push button.
+64. What additional external warning is/ are activated in case of APU fire on GROUND?
+A.   APU fire light & external horn warning. .[CA]
+B.    A fire bell warning.
+C.    An external horn warning only.
+D.   An external horn warning & Red disk indicator disappears.
+65.How many fire extinguishing bottle(s) is(are) provided for the cargo compartments?
+A.   There’s one for FWD and one for AFT cargo compartment.
+B.    There’s one for both FWD and AFT cargo compartments.
+C.    None. .[CA]
+66.A pressure switch for each pump monitors a:
+A.  Pressure differential
+B.  Feed pipe pressurization
+C.  Pressure increase
+D.  Loss of pressure.[CA]
+67.What happen if a high level is detected?
+A.  A warning is triggered: too much fuel
+B.  Booster pumps are not operating correctly
+C.  The corresponding REFUEL valve closes.[CA]
+D.  All the refueling operating is stopped
+68.Are wing pumps running while center tank is supplying?
+A.  Yes, wing tank pumps run continuously.[CA]
+B.  No, only when center tank is empty
+C.  No, because of center tank pump priority
+D.  One of the two pumps is running in stand-by
+69.When the center tank is empty, in auto mode, center tank pumps:
+A.  Must be manually switched OFF
+B.  Stop and wing tank pumps start running
+C.  Stop automatically.[CA]
+D.  Run for 2 minutes
+70.Refuel valves may be controlled:
+A.  By refuel pressure
+B.  Electrically only
+C.  Manually only
+D.  Electrically or manually.[CA]
+71.The APU fuel feed is assured by:
+A.  Fuel booster pumps only
+B.  APU fuel pump only
+C.  All pumps together
+D.  A or B.[CA]
+72.What is the maximum total fuel capacity for VNA’s A320 aircraft?
+A.  12 470 KG
+B.  15 588 KG
+C.  18 932 KG.[CA]
+D.  20 829 KG
+73.In normal operation, each engine is supplied by:
+A.  One wing tank pump and/ or one center tank pump
+B.  Two wing tanks pumps and/ or one center tank pump.[CA]
+C.    Two wing tanks pumps and/ or two center tank pumps
+D.    One wing tank pump and/ or two center tank pumps
+74.During refueling, the wing tank fills in the following order:
+A.  The Outer cell and Inner cell at the same time
+B.  The Inner cell first, then the Outer cell
+D.  The Outer cell first, then the Inner cell.[CA]
+75.The inner cell is refueled only when?
+A.    Center tank is full.
+B.    Outer cell is full. .[CA]
+C.    Outer cell is empty.
+76.The maximum refuel pressure is?
+A.    11 psi
+B.    45 psi
+C.    50 psi.[CA]
+77.The END light in the refuel/defuel panel illuminate, means?
+A.    Pre-selected fuel is equal to actual fuel. .[CA]
+B.    All fuel tanks are full, refuel process stopped automatically.
+C.    Any high level sensor detected fuel.
+78.When performing the refuel, defuel, Ground transfer, the R/D electrical circuit is enable by?
+A.    Power from the aircraft electrical net work only.
+B.    Carrying out HI LVL test.
+C.    Contact R/D panel door switch. .[CA]
+79.In flight, if the blue electric pump fails the blue system:
+A.    Is lost.
+B.    Can be recovered by the RAT. .[CA]
+C.    Can be recovered by the PTU.
+D.    Both B and C
+80.During first engine start the PTU is:
+A.    Automatically running.
+B.    Tested
+C.    Inhibited .[CA]
+81.To which system(s) will the Ram Air Turbine provide hydraulic power?
+A.    The blue system.[CA]
+B.    The yellow system
+C.    The green and yellow systems
+D.    The blue and yellow systems
+82.What happens if hydraulic pressure drops?
+A.    The priority valves give priority to the heavy loads users.
+B.    The priority valves give priority to the essential systems.[CA]
+C.    The priority valves modulate the pressure to the users
+83.A Blue system pipeline is identified by:
+A.    A blue band and number 1.
+B.    A blue band and number 2. [CA]
+C.    A blue band and number 3.
+84.When is the engine fire shut off valve closed?
+A.     When the engine is shut down
+B.    Automatically as soon as an engine fire is detected
+C.    If the engine fire pushbutton is release out. [CA]
+85.What can the hand pump be used for?
+A.    To pressurized the reservoir.
+B.    To check the flight controls
+C.    To operate the cargo doors[CA]
+ 
+86.During which operation is the leak measurement valve closed automatically
+A.    PTU operation.
+B.    Cargo door operation. [CA]
+C.    Hand pump operation.
+ 
+87.What are the manual depressurization valves provided for?
+A.    Individual reservoir depressurization[CA]
+B.    Depressurization of related hydraulic circuit
+C.    Hydraulic system depressurization 
+88.Hot air used for wing anti-iced is taken from?
+A.    Aircraft pneumatic system. [CA]
+B.    Bleed from either engine 1 or 2.
+C.    Directly from the main engine compressors.
+ 
+89.In the event of an engine anti-ice valve failure?
+A.    Each valve can be deactivated in open position.
+B.    Each valve can be deactivated in close position. [CA]
+C.    Each valve can be deactivated either in close or open position. 
+90.When does the UNLK light come on?
+A.    When the gear and the related doors are not locked up.
+B.    When the gear is not locked down.
+C.    When the gear is not locked in the selected position. [CA]
+91.What is the normal retraction sequence?
+A.    Door open, gear up, door close, cancel gear up signal.[CA]
+B.    Door open, gear up, door close, maintain gear up signal.
+C.    Door open, gear up, door close, cancel door close signal.
+92.How can the parking brake be hydraulically powered?
+A.    Only by yellow high pressure
+B.    Only by the brake accumulator
+C.    Either by yellow high pressure or by the brake accumulator[CA]
+93.What is the purpose of the hydraulic fuses?
+A.    To stop the flow in case of leakage [CA]
+B.    To shut off the return lines
+C.    To separate the Normal from the Alternate Servovalve.
+94.Which lighting includes fluorescent lamps and integral ballast units:
+A.   Passenger reading lights and work attendant light
+B.    Cabin light, entrance light and lavatory lights[CA]
+C.    Lavatory lights sign
+D.   Emergency lights sign
+95.The navigation lights include:
+A.   RED light on the left hand, GREEN light on the right hand and WHITE light on the APU tail. [CA]
+B.    GREEN light on the left hand, RED light on the right hand and WHITE light on the APU tail.
+C.    WHITE light on the left hand, GREEN light on the right hand and RED light on the APU tail.
+D.   RED light on the left hand, WHITE light on the right hand and GREEN light on the APU tail.
+96.An oxygen generator starts to make oxygen when:
+A.    The panel is opened
+B.    The lanyard is pulled [CA]
+C.    The MAN OVRD pushbutton on the passenger oxygen control panel is operated
+D.    When the cabin pressure altitude is above 14.000ft.
+97.How is the passenger chemical generator activated?
+A.    By pushing the MASK MAN ON pushbutton.
+B.    As soon as the ALTITUDE PRESSURE SWITCH is closed
+C.    When the TIME DELAY RELAY is fully energized
+D.    By a release pin which is connected via a lanyard to the oxygen mask[CA]
+98.The crew oxygen system consists of:
+A.    A fixed high pressure cylinder.
+B.    A high pressure portable cylinder
+C.    A fixed cylinder with masks and a breathing hood system[CA]
+99.Can the crew oxygen cylinder pressure be checked when there is no electrical power?
+A.    Yes[CA]
+B.    No
+100.What indicates an overboard discharge?
+A.    A warning on the oxygen control panel 21VU.
+B.    The direct reading pressure gauge on the oxygen cylinder.
+C.    A yellow indicator. [CA]
+101.At high engine speed the high pressure valve (HPV) is:
+A.    Regulating a pressure
+B.    Fully closed[CA]
+C.    Fully open
+D.    Regulating a temperature
+102.Where the air is taken from during engine high power setting?
+A.    IP stage. [CA]
+B.    HP stage.
+C.    IP and HP at the same time.
+103.What is the purpose of IP/HP switching?
+A.    To regulate the output pressure depending on the Fan Air Valve position.
+B.    To keep sufficient bleed pressure at low engine speed [CA]
+C.    To regulate the output temperature depending on the configuration of users.
+104.The APU bleed valve is?
+A.    A modulating valve.
+B.    An ON/OFF valve. [CA]
+C.    A and B.
+105.The APU bleed leak detection system is?
+A.    A single loop that connects to BMC 1. [CA]
+B.    A single loop that connects to both BMC 1 and BMC 2.
+C.    The double loops that connect to BMC 1 and BMC 2 respectively.
+106.Which signal close the Fill/ Drain valve during servicing with electrical power available?
+A.    By a quantity transmitter which sends a tank full signal to close the fill/drain valve automatically[CA]
+B.    When the quantity gauge indicates full the valve has to be closed manually
+C.    When the water comes out of the overflow port the valve has to be closed manually
+D.    There is no signal available, the tank has to be filled with a measured amount of water.
+107.How is the water tank depressurized during servicing?
+A.    By waiting for the system pressure to dissipate
+B.    By operating a wash basin faucet
+C.    By operating the fill/over flow valve[CA]
+D.    By a push button the servicing panel
+108.Can any toilet be used during servicing?
+A.    Yes, because toilet use and servicing is independent
+B.    Yes, but only the front toilet
+C.    Yes, but electric power is required to supply the toilet control system
+D.    No, the door limit switch on the toilet servicing panel deactivates the toilet control system. [CA]
+109.Is it possible to drain the whole water system without electrical power?
+A.    No, electrical power is always required
+B.    Yes, all the drain valves can be operated manually[CA]
+C.    No, only the water tanks can be drained by using the aft drain valve
+D.    No, only the forward drain valve can be operated manually.
+410.Why is water tank pressurized?
+A.    To ease draining operation.
+B.    To warm up water.
+C.    To allow water distribution. [CA]
+111.What is used for A320 aircraft water tank filling operation?
+A.    One handle, one valve.
+B.    Two handles, one valve.
+C.    One handle, two valves. [CA]
+112.How many valves are used during draining operation of A320 aircraft water tank
+A.    Two
+B.    Three
+C.    Four[CA]
+113.How many potable water service and drain panels are fitted to the A320 aircraft?
+A.    One
+B.    Two
+C.    Three [CA]
+114.Where is the main drain port of the A320 aircraft potable water system?
+A.    On the portable water service panel. [CA]
+B.    On the fwd service panel.
+C.    Both
+115.How many potable water quantity indicators are there?
+A.    One
+B.    Two[CA]
+C.    Three  
+116.How many quantity TRANSMITTER is in the potable water tank?
+A.    One[CA]
+B.    Two
+C.    Three
+117.The waste water drain valve.
+A.    Electrically operated
+B.    Is held closed in flight by cabin air pressure and open when waste water enters the valve has build up enough. [CA]
+C.    Open on ground and close in flight
+D.    Manually operated only by lifting the seal assembly. 
+118.Where does the toilet bowl rinsing water come from?
+A.    Waste holding tank.
+B.    Waste water tank.
+C.    Potable water tank. [CA]
+119.How is the waste transported to the waste holding tank?
+A.    By the vacuum created in the waste holding tank. [CA]
+B.    By the water flushing and gravity.
+C.    By the water pressure
+120.How many toilet service panels are fitted on the aircraft?
+A.    One[CA]
+B.    Two
+C.    Three
+121.How many potable water service and drain panels are fitted to the aircraft?
+A.    One
+B.    Two[CA]
+C.    Three
+122.Where is the waste quantity displayed?
+A.    On the toilet service panel
+B.    On the Forward Attendant Panel
+C.    On both panels. [CA]
+123.The E.C.B has?
+A.    Restricted authority over APU operation.
+B.    Monitoring function over APU operation.
+C.    Full authority over APU operation. [CA]
+124.From where the APU emergency shut down can be initiated?
+A.    Refuel/Defuel panel; External power panel and Cockpit.
+B.    External power panel and Cockpit only. [CA]
+C.    External power panel only, if the aircraft is on ground
+125.What indication can be displayed on the APU page?
+A.    FLAP OPEN.
+B.    FUEL LO PR; LOW OIL LVL
+C.    FLAP OPEN; FUEL LO PR; LOW OIL LVL. [CA]
+126.What are the three APU modules?
+A.    Compressor, Combustion chambers, Turbine.
+B.    Power section, Load Compressor, Turbine.
+C.    Power section, Load Compressor, Gearbox. [CA]
+127.The APU fuel low pressure circuit can be activated from?
+A.    Cockpit and External Power Panel.
+B.    Cockpit and Fuel Vent system at APU compartment. [CA]
+C.    Cockpit; External Power Panel and Fuel Vent system at APU compartment.
+128.How can you activate the APU fuel vent system?
+A.    Push and hold the VENT P/B at the APU compartment. [CA]
+B.    Select master switch ON.
+C.    Push and hold the VENT P/B with the master switch selected ON.
+129.How do you check the APU OIL quantity?
+A.    On APU page, on sight glass located on the gear box and interrogate the CFDS. [CA]
+B.    On APU page, on sight glass located on the gear box.
+C.    On APU page, on sight glass located on the oil cooler and interrogate the CFDS.
+130.The high oil temperature or low oil pressure detected during APU operation, the ECB will cause the APU to shut down:
+A.    Only if the MASTER switch is released
+B.    Only if the START pushbutton is released
+C.    Only after the cool down period has elapsed
+D.    Immediately [CA]
+131.During cooling down sequence at 75% N, the APU is:
+A.    Still running without electrical and pneumatic load [CA]
+B.    Still running with electrical load
+C.    Wind milling without electrical and pneumatic load
+D.    Still running with electrical and pneumatic load 
+132.The APU self test is performed from the MCDU. this function is available only:
+A.    If the APU is running
+B.    If the APU is not running[CA]
+C.    Doing the APU start sequence
+D.    If the START pushbutton is pressed in
+133.What indicates the red flashing light on the cabin door?
+A.    The escape slide will not deploy after automatic opening
+B.    The first bar has failed to engage into the floor fittings
+C.    The slide system is armed avoid the interior locking handle is partly lifted
+D.    Both engine shut down, door disarmed, the cabin pressure is greater than 2,5 mb[CA]
+134.How is the passenger door closed and locked information be monitored?
+A.    By a single microswitch (lock position) on the "ECAM DOOR" page
+B.    By two proximity detection on the "ECAM DOOR" page[CA]
+C.    No indication at all
+D.    Landing gear control interface unit n° 1 (LGCIU 1) on the "ECAM DOOR" page
+135.What indicates the green light in the cargo door access?
+A.    The cargo door is closed and locked
+B.    The cargo door is not closed
+C.    The cargo door is unlocked
+D.    The cargo door is open and locked[CA]
+136.What happen when the passenger door is opened from the outside and the slide system is armed?
+A.    The locking mechanism is blocked
+B.    The escape slide will deploy
+C.    The slide system is disarmed[CA]
+D.    There is no possibility to open the door from the outside
+137.What happen when the emergency exit door of A320 aircraft is opened from the outside and the slide system is armed?
+A.    The locking mechanism is blocked
+B.    The escape slide will deploy[CA]
+C.    The slide system is disarmed
+D.    There is no possibility to open the door from the outside
+138.The PAX door is maintained parallel to the fuselage by:
+A.    The guide arms. [CA]
+B.    The support arms
+C.    The upper and lower connection links.
+139.How the operator is warned, when there is a residual pressure in the cabin?
+A.    By a white flushing light.
+B.    By a red flushing light. [CA]
+C.    By an ember flushing light. 
+140.What does the green light fitted near the manual selector valve of the cargo door indicate?
+A.    The yellow hydraulic pressure is available to operate the door.
+B.    The door is fully opened and locked [CA]
+C.    The door is correctly unlatched and unlocked
+141.When can the cargo door be opened?
+A.    When the cam and the hooks are in the locked position.
+B.    When the cam is in the unlocked position and the hooks are in the locked position
+C.    When the cam and the hooks are in the unlocked position  [CA]
+142.The cargo doors hydraulic system is pressurized by the:
+A.    Green electric pump
+B.    Blue electric pump
+C.    Yellow electric pump[CA]
+143.When does the residual cabin pressure red light come on?
+A.    When all the engines are not running, the parking brake is applied and the residual cabin pressure exceeds 2.5 mbars
+B.    When the engines are not running, the slide is disarmed and the residual cabin pressure exceeds 2.5 mbars[CA]
+C.    When the engines are not running, the parking brake is applied, the slide is disarmed and the residual cabin pressure exceeds 2.5 mbars
+144.The seal of pax door:
+A.    Is installed around the door on the inner side and when the door is closed, the it is pushed against the frame of the fuselage[CA]
+B.    Is installed around the door on the outer side and when the door is closed, the it is pushed against the frame of the fuselage
+C.    Is deflated when the door is closed and the passenger cabin is pressurized
+145.The air stoppers are installed between the PAX door and the door frame
+A.    Prevent the cold air from penetrating into the cabin[CA]
+B.    Prevent the water comes into the cabin
+C.    Protect the door structure during operation.
+146.Emergency exit door of a320 aircraft:
+A.    Can be opened from outside or/and inside and the door fall outside of aircraft.
+B.    Can be opened from outside or/and inside and the door fall into the cabin. [CA]
+C.    Can be opened from outside and the door fall outside of aircraft
+D.    Can be opened from inside and the door fall into the cabin, 
+147.The pressurization of the cargo door hydraulic system does not occur when:
+A.    The locking mechanism is in the locked condition. [CA]
+B.    The door not in fully close or/and open position.
+C.    The door not in fully open position.
+D.    The door is operated with hand pump
+148.BULK Cargo-Compartment Door is opened:
+A.    Outward and upward
+B.    Outward and downward
+C.    Inward and upward [CA]
+D.    Inward and downward
+149.The FWD and AFT cargo doors:
+A.    Possible to open/close at the same time[CA]
+B.    Possible to open at the same time when using the electric pump only
+C.    Possible to open one by one only
+D.    Possible to close at the same time only
+150.The external power receptacle  
+A.    Is installed in the lower and is a quick-opening type door and opens outwards towards the front of the aircraft[CA]
+B.    Is installed in the lower and is a quick-opening type door and opens outwards downwards the front of the aircraft
+C.    Is installed in the lower and is a quick-opening type door and opens outwards upwards the front of the aircraft
+151.The escape slide will be automatically deployed if:
+A.    Girt bar attached with escape slide pack and the door is opened [CA]
+B.    Girt bar is still engaged into floor bracket and the door is opened
+C.    Girt bar is still engaged into floor bracket and the door is opened by outside handle
+152.The function of the safety pin on the pax door is:
+A.    To hold the door when it is closed during whole flight.
+B.    To hold the door in the closed position until it is locked
+C.    To hold the door in the closed position until it is unlocked [CA]
+153.Landing gear doors can be opened
+A.    Hydraulically on ground only with landing gear selector set to down.
+B.    Hydraulically or manually if aircraft is on jack. [CA]
+C.    Manually on ground only with landing gear selector set to down
+154.Avionics compartment can be accessed through:
+A.    Avionics lower side of the fuselage. [CA]
+B.    Avionics door on the fwd cargo compartment.
+C.    Access door in the cockpit.
+155.Emergency exit door of a320 aircraft is equipped
+A.    Slide, which is automatically disarmed when the door is opened from inside.
+B.    Slide, which is automatically disarmed when the door is opened from outside.
+C.    Slide, which can only be disarmed by release the latch pin from inside. [CA]
+156.The potable water is located at:
+A.    L/H behind the rear cargo compartment. [CA]
+B.    R/H behind the forward cargo compartment.
+C.    R/H behind the rear cargo compartment.
+157.If the cabin emergency door is opened from outer side with the escape slide in ARMED mode.
+A.    The ARMED mode of the escape slide changes to DISARMED mode as well as passenger door. [CA]
+B.    The escape slide will deploy.
+C.    The door can not be opened
+158. Where the escape slide pack of cabin emergency door located?
+A.    Holds on the door.
+B.    Holds in a container underneath the door. [CA]
+C.    Holds on the overhead stowage compartment.
+159.Where the inflation reservoir of the emergency exits door located?
+A.    At the bottom of the door.
+B.    In the overhead stowage compartment. [CA]
+C.    In the AFT cargo compartment.
+160.The APU can normally be supplied with fuel by:
+A.    Only the APU pump.
+B.    Only the LH main pumps.
+C.    LH main pumps or APU fuel pump. [CA]
+161.What happen if a high level is detected?
+A.    A warning is triggered: too much fuel.
+B.    The corresponding REFUEL valve closes. [CA]
+C.    All refueling operations are stopped
+162.Which tanks are the main supply tanks?
+A.    Wing tanks. [CA]
+B.    Center (transfer) tank.
+C.    Outer cells.
+163.How many valves are used during the draining operation of water system?
+A.    One.
+B.    Two. [CA]
+C.    Three.
+164.Which cabin emergency exits door can be used as passenger door?
+A.    All emergency exits doors
+B.    Two FWD emergency exits doors
+C.    Two AFT emergency exits doors
+D.    FWD L/H emergency exits doors[CA]
+165.What happen when the emergency exit door of A321 aircraft is opened from the outside and slide system is armed?
+A.    The locking mechanism is blocked
+B.    The escape slide will deploy
+C.    The slide system is disarmed[CA]
+D.    There is no possibility to open the door from the outside 
+166.Is it possible to fill the A321 aircraft water tank without electrical supplied?
+A.    Yes, fill/overflow drain valve can operate manually
+B.    Yes, but when finished you must manually return the control handle to the NORMAL position to close the fill/overflow drain valve[CA]
+C.    No, because level transmitter can not send signal to close the fill/overflow drain valve
+D.    No, because the fill/overflow drain valve operate electrically
+167.The APU of A321 aircraft can normally be supplied with the fuel by:
+A.    Only the APU pump
+B.    Only the LH main pumps
+C.    LH main pumps or APU fuel pump[CA]
+168.The engine anti-ice air overboard discharge grill is located?
+A.    On the outboard side of the inlet cowl.
+B.    On the right side fan cowl door.
+C.    On the lower right side of the inlet cowl. [CA]
+D.    At the bottom (5 o’clock position) of fan cowling
+169.The engine oil servicing panel is located?
+A.    On the outboard side of the inlet cowl.
+B.    On the left side fan cowl door. [CA]
+C.    On the left side of the inlet cowl.
+D.    On the left side of the reverser cowl.
+170.Each reverser cowl:
+A.    Is hold closed by 6 single latches.
+B.    Is held open by a single hold open rod [CA]
+C.    Is held open by two hold open rods.
+171.When the  engine is running :
+A.    No personnel is allowed to get access to the engine.
+B.    Access to the engine is permitted within the Entry/Exit corridor if power do not exceed min idle. [CA]
+C.    Access to the engine is permitted within the Entry/Exit corridor at all power rating.
+172.The engine run up at Min idle can be carried out with :
+A.    Fan cowls opened and secured [CA]
+B.    Both Reverser and Fan cowls opened and secured
+C.    Thrust Reverser cowls opened and secured
+D.    Non engine cowl opened
+173.Features of CFM-56-5B4 engine are:
+A.    Two spools, axial flow, high fan bypass ratio and mixed exhaust.
+B.    Two spools, radial flow, high fan bypass ratio and mixed exhaust.
+C.    Two spools, axial flow, high fan bypass ratio and separated exhaust. [CA]
+D.    Two spools, axial flow, high fan bypass ratio and mixed exhaust.
+174.Select the correct type of combustion chamber for CFM-56-5B4 engine?
+A.    Annular combustor. [CA]
+B.    Tubular combustor.
+C.    Reverse flow combustor.
+175.The H.P. Compressor has how many stages?
+A.    Twelve.
+B.    Ten.
+C.    Nine[CA]
+176.The HP Turbine has how many stages?
+A.    Only one stage. [CA]
+B.    Four stages
+C.    Two stages.
+177. Identify the number of blades in one engine fan set?
+A.    Thirty six (36) [CA]
+B.    Twenty two (22)
+C.    Thirty two (32)
+178.The engine gear boxes are driven by which shaft?
+A.    N1 rotor.
+B.    N2 rotor via the transfer gear box. [CA]
+C.    N2 rotor.
+179.The hand cranking drive connects to?
+A.   LP rotor.
+B.    HP rotor. [CA]
+C.    Both LP and HP rotors. 
+180.Of which type is the ignition system?
+A.   Low voltage, high energy.
+B.    High voltage, low energy.
+C.    High voltage, high energy. [CA]
+181.What provide the selection of ignition A/B?
+A.   The ECU. [CA]
+B.    The engine control panel.
+C.    The ECAM control panel.
+182.When the ignition is inhibited?
+A.   During automatic start when N2 is above 16%.
+B.    During dry crank sequence.
+C.    During wet crank sequence.
+D.   During wet and dry crank sequences. [CA]
+183.Each engine equipped with?
+A.   One ignition system with two igniters.
+B.    Two ignition systems, each has two igniters.
+C.    Two ignition systems with two igniters. [CA]
+184.Ignition system power supply is?
+A.   115 V from the aircraft. [CA]
+B.    115 V from engine generator.
+C.    28 V from the FADEC PMA
+185.What does Continuous Relight mean?
+A.   An active ignition system will work continuously.
+B.    Both ignition systems are selected during engine start.
+C.    Both ignition systems are demanded to work continuously. [CA]
+186.Is the purpose of the Active Clearance Control (ACC) system?
+A.   To improve compressor efficiency
+B.    To improve and maintain engine performance[CA]
+C.    To reduce overall engine thermal growth
+187.What is used to cool the ECU?
+A.   Ram air taken from dedicated air intake scoop. [CA]
+B.    Fan air taken from dedicated air intake scoop.
+C.    Fan air taken from nacelle cooling system.
+188.What is used to cool the fan and core compartments?
+A.   Ram air for both compartments
+B.    Fan air for both compartments.
+C.    Ram air for fan compartment and Fan air for core compartment. [CA]
+189.The engine primary parameters are displayed on?
+A.   The lower ECAM engine page.
+B.    The upper ECAM. [CA]
+C.    Both The lower ECAM engine page and the upper ECAM.
+190.The engine page is selected?
+A.   Manually or automatically depend on flight phases. [CA]
+B.    Manually only.
+C.    Automatically only depend on flight phases.
+191.The engine vibration parameter is displayed on?
+A.   The Upper ECAM.
+B.    The Lower ECAM engine page.
+C.    The Lower ECAM engine page or Cruise page. [CA]
+192.The engine oil quantity parameters are displayed on?
+A.   The Upper ECAM.
+B.    The Lower ECAM engine page.
+C.    The Lower ECAM engine page or Cruise page. [CA]
+193.The engine oil pressure parameters are displayed on?
+A.   The Upper ECAM.
+B.    The Lower ECAM engine page. [CA]
+C.    The Lower ECAM engine page or Cruise page.
+194.The fuel used indication is reset to Zero :
+A.   Five minutes after engine shut down
+B.    After a new take-off
+C.    Through the MCDU
+D.   At each engine start[CA]
+195.The engine thrust indicated on ECAM via what parameter?
+A.   N1 speed [CA]
+B.    N2 speed
+C.    EGT
+196.Which important safety procedure should be performed before any maintenance work on or near the ‘C’ ducts or reverser system? 
+A.   Unlock and pin the actuators.
+B.    Lock out the translating sleeves.
+C.    Deactivate and pin the lever on the HCU. [CA]
+D.   Deactivate and pin the lever on the HCU and lock out translating sleeves.
+197.The oil tank content can be checked by?
+A.   Opening a dedicated servicing access panel in the LH fan cowl. [CA]
+B.    Opening an access panel on the LH “C’ duct.
+C.    Opening the RH fan cowl 
+198.How is the main cooling of the oil system achieved?
+A.   By an air-cooled oil cooler.
+B.    By a fuel cooled oil cooler in the HP fuel system.
+C.    By a fuel cooled oil cooler in the LP fuel system. [CA]
+199.Engine oil MCD is on?
+A.   The oil supply circuit.
+B.    The oil scavenge circuit. [CA]
+C.    The oil ventilation circuit.
+200.Engine oil temperature indication is measured on?
+A.   The oil supply circuit. [CA]
+B.    The oil scavenge circuit.
+C.    The oil ventilation circuit. 
+201.How can you assure that the oil servicing of starter is accomplished?
+A.   Checking the engine oil sign glass.
+B.    Check ECAM indication.
+C.    Check the oil flows though the overflow port. [CA]
+202.What is the best wind direction for engine STARTING?
+A.   Side wind
+B.    Tail wind
+C.    Front wind [CA]
+203.Features of V2530-A5 engine are:
+A.    Two spools, axial flow, annular combustor and mixed exhaust. [CA]
+B.    Two spools, radial flow, annular combustor and mixed exhaust.
+C.    Two spools, axial flow, annular combustor and separated exhaust.
+D.    Two spools, axial flow, tubular combustor and mixed exhaust.
+204.“V2530-A5” means:
+A.    Engine is rated at max thrust of 25300 lbs to install in the Airbus A/C
+B.    Engine is rated at max thrust of 30000 lbs to install in the Airbus A/C [CA]
+C.    Engine is rated at max thrust of 25000 lbs to install in the Airbus A/C
+205.The engine exhaust directs rearwards?
+A.    Fan air discharge.
+B.    Engine core exhaust.
+C.    Both fan air discharge and the engine core exhaust. [CA]
+206.Reverser cowling:
+A.    Is attached to the engine core by 6 hinges each half.
+B.    Is hold closed by 5 single latches.
+C.    Should be opened/closed using the Auxiliary latch assembly. [CA]
+207.Each half of reverser cowl c duct:
+A.    Is held closed by 4 latches.
+B.    Is held open by a single hold open rod
+C.    Is held open by two hold open rods. [CA]
+208.Fan cowls:
+A.   Must be held open by both struts each when the wind is more than 26 knots (30 mph).
+B.    Should be opened by releasing 6 latches in sequence from the front to the rear.
+C.    Must always be held open by both struts each. [CA]
+209.The H.P. Compressor has how many stages?
+A.    Twelve.
+B.    Ten. [CA]
+C.    Fourteen.
+210.Identify the number of blades in one engine fan set?
+A.   Thirty three (33)
+B.    Twenty two (22) [CA]
+C.    Thirty two (32)
+211.What statement is NOT correct?
+A.    Fan stage has 22 fan blades.
+B.    Fan stage has 24 fan blades. [CA]
+C.    Engine is constructed by 05 modules.
+D.    Gearboxes are driven by HP shaft.   
+212.The air starter valve access panel is on?
+A.    RH fan cowl. [CA]
+B.    LH fan cowl
+C.    RH reverser cowl.
+D.    Out board fan cowl.
+213.Has the oil pressure filter a pop out indicator fitted?
+A.    Yes.
+B.    No. [CA]
+C.    There is no pressure filter in the system.
+214.Which filters in the oil system have associated “filter clog” messages on the ECAM?
+A.    Pressure Scavenge and Scavenge strainers.
+B.    Pressure only.
+C.    Scavenge only. [CA]
+215.Which normal indications are displayed on the ECAM for the oil system?
+A.    Oil differential pressure, oil temperature, oil tank quantity. [CA]
+B.    Oil temperature, oil pressure.
+C.    Oil differential pressure, oil quantity,  
+216.What does the HMS heat and cool? 
+A.    Fuel, engine oil and IDG oil. [CA]
+B.    Engine oil and IDG oil.
+C.    Fuel only.
+D.    Fuel and engine oil.
+217.How the Nose Cone (Spinner) is anti-iced?
+A.    Electrically.
+B.    Pneumatically.
+C.    Neither electrically nor pneumatically. [CA]
+D.    Not required
+218.In normal T/R operation, actuator unlocked condition is indicated by?
+A.    REV in green appears inside the EPR gauge.
+B.    REV in amber appears inside the N1 gauge.
+C.    REV in amber appears inside the EPR gauge. [CA]
+219.Fuel samples can be taken from?
+A.    The LP fuel filter cover. [CA]
+B.    The LP fuel pump case.
+C.    The HP fuel pump outlet.
+230.Which engine parameters are displayed on the ECAM upper display?
+A.    EPR, N1 & N2.
+B.    N1, N2, EPR, oil pressure, oil temperature.
+C.    N1, N2, EPR & EGT. [CA]

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_WorksheetDoc extension
+ * 
+ * @category       BS
+ * @package        BS_WorksheetDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_worksheetdoc translate="title" module="bs_worksheetdoc">
+                                        <title>WorksheetDoc</title>
+                                    </bs_worksheetdoc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material>
+                        <children>
+                            <worksheetdoc translate="title" module="bs_worksheetdoc">
+                                <title>Worksheet Document</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </worksheetdoc>
+                        </children>
+                    </bs_material>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material>
+            <children>
+                <worksheetdoc translate="title" module="bs_worksheetdoc">
+                    <title>Worksheet Document</title>
+                    <action>adminhtml/worksheetdoc_worksheetdoc</action>
+                    <sort_order>30</sort_order>
+                </worksheetdoc>
+            </children>
+        </bs_material>
+
+    </menu>
+</config>

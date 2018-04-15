@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Trainee extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       BS
+ * @package        BS_Trainee
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <BS_Trainee>
+            <version>1.0.0</version>
+        </BS_Trainee>
+    </modules>
+    <global>
+        <resources>
+            <bs_trainee_setup>
+                <setup>
+                    <module>BS_Trainee</module>
+                    <class>BS_Trainee_Model_Resource_Setup</class>
+                </setup>
+            </bs_trainee_setup>
+        </resources>
+        <blocks>
+            <bs_trainee>
+                <class>BS_Trainee_Block</class>
+            </bs_trainee>
+        </blocks>
+        <helpers>
+            <bs_trainee>
+                <class>BS_Trainee_Helper</class>
+            </bs_trainee>
+        </helpers>
+        <models>
+            <bs_trainee>
+                <class>BS_Trainee_Model</class>
+                <resourceModel>bs_trainee_resource</resourceModel>
+            </bs_trainee>
+            <bs_trainee_resource>
+                <class>BS_Trainee_Model_Resource</class>
+                <entities>
+                    <trainee>
+                        <table>bs_trainee_trainee</table>
+                    </trainee>
+                    <trainee_product>
+                        <table>bs_trainee_trainee_product</table>
+                    </trainee_product>
+                    <eav_attribute>
+                        <table>bs_trainee_eav_attribute</table>
+                    </eav_attribute>
+                </entities>
+            </bs_trainee_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_trainee>
+                    <file>bs_trainee.xml</file>
+                </bs_trainee>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Trainee>
+                    <files>
+                        <default>BS_Trainee.csv</default>
+                    </files>
+                </BS_Trainee>
+            </modules>
+        </translate>
+        <events>
+            <!--<core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_trainee_trainee_product>
+                        <type>singleton</type>
+                        <class>bs_trainee/adminhtml_observer</class>
+                        <method>addProductTraineeBlock</method>
+                    </bs_trainee_trainee_product>
+                </observers>
+            </core_block_abstract_prepare_layout_after>-->
+            <catalog_product_save_after>
+                <observers>
+                    <bs_trainee_trainee_product>
+                        <type>singleton</type>
+                        <class>bs_trainee/adminhtml_observer</class>
+                        <method>saveProductTraineeData</method>
+                    </bs_trainee_trainee_product>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+        <global_search>
+            <trainee>
+                <class>bs_trainee/adminhtml_search_trainee</class>
+                <acl>bs_trainee</acl>
+            </trainee>
+        </global_search>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Trainee before="Mage_Adminhtml">BS_Trainee_Adminhtml</BS_Trainee>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

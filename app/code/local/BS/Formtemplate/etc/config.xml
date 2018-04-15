@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Formtemplate extension
+ * 
+ * @category       BS
+ * @package        BS_Formtemplate
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Formtemplate>
+            <version>1.0.1</version>
+        </BS_Formtemplate>
+    </modules>
+    <global>
+        <resources>
+            <bs_formtemplate_setup>
+                <setup>
+                    <module>BS_Formtemplate</module>
+                    <class>BS_Formtemplate_Model_Resource_Setup</class>
+                </setup>
+            </bs_formtemplate_setup>
+        </resources>
+        <blocks>
+            <bs_formtemplate>
+                <class>BS_Formtemplate_Block</class>
+            </bs_formtemplate>
+        </blocks>
+        <helpers>
+            <bs_formtemplate>
+                <class>BS_Formtemplate_Helper</class>
+            </bs_formtemplate>
+        </helpers>
+        <models>
+            <bs_formtemplate>
+                <class>BS_Formtemplate_Model</class>
+                <resourceModel>bs_formtemplate_resource</resourceModel>
+            </bs_formtemplate>
+            <bs_formtemplate_resource>
+                <class>BS_Formtemplate_Model_Resource</class>
+                <entities>
+                    <formtemplate>
+                        <table>bs_formtemplate_formtemplate</table>
+                    </formtemplate>
+                </entities>
+            </bs_formtemplate_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_formtemplate>
+                    <file>bs_formtemplate.xml</file>
+                </bs_formtemplate>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Formtemplate>
+                    <files>
+                        <default>BS_Formtemplate.csv</default>
+                    </files>
+                </BS_Formtemplate>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <formtemplate>
+                <class>bs_formtemplate/adminhtml_search_formtemplate</class>
+                <acl>bs_formtemplate</acl>
+            </formtemplate>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Formtemplate before="Mage_Adminhtml">BS_Formtemplate_Adminhtml</BS_Formtemplate>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

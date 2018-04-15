@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Car extension
+ * 
+ * @category       BS
+ * @package        BS_Car
+ * @copyright      Copyright (c) 2016
+ */
+--> 
+<layout>
+    <adminhtml_car_qacar_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_car/qacar</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_car/adminhtml_qacar" name="qacar" />
+
+        </reference>
+    </adminhtml_car_qacar_index>
+    <adminhtml_car_qacar_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_car/adminhtml_qacar_grid" name="qacar_grid"/>
+        </block>
+    </adminhtml_car_qacar_grid>
+    <!-- Qacar add/edit action -->
+    <adminhtml_car_qacar_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_car/qacar</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_car/adminhtml_qacar_edit" name="qacar_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_car/adminhtml_qacar_edit_tabs" name="qacar_tabs"></block>
+        </reference>
+    </adminhtml_car_qacar_edit>
+
+    <adminhtml_car_cardoc_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_car/cardoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_car/adminhtml_cardoc" name="cardoc" />
+
+        </reference>
+    </adminhtml_car_cardoc_index>
+    <adminhtml_car_cardoc_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_car/adminhtml_cardoc_grid" name="cardoc_grid"/>
+        </block>
+    </adminhtml_car_cardoc_grid>
+    <!-- Cardoc add/edit action -->
+    <adminhtml_car_cardoc_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_car/cardoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_car/adminhtml_cardoc_edit" name="cardoc_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_car/adminhtml_cardoc_edit_tabs" name="cardoc_tabs"></block>
+        </reference>
+    </adminhtml_car_cardoc_edit>
+
+
+</layout>

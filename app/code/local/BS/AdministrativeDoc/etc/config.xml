@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_AdministrativeDoc extension
+ * 
+ * @category       BS
+ * @package        BS_AdministrativeDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_AdministrativeDoc>
+            <version>1.0.0</version>
+        </BS_AdministrativeDoc>
+    </modules>
+    <global>
+        <resources>
+            <bs_administrativedoc_setup>
+                <setup>
+                    <module>BS_AdministrativeDoc</module>
+                    <class>BS_AdministrativeDoc_Model_Resource_Setup</class>
+                </setup>
+            </bs_administrativedoc_setup>
+        </resources>
+        <blocks>
+            <bs_administrativedoc>
+                <class>BS_AdministrativeDoc_Block</class>
+            </bs_administrativedoc>
+        </blocks>
+        <helpers>
+            <bs_administrativedoc>
+                <class>BS_AdministrativeDoc_Helper</class>
+            </bs_administrativedoc>
+        </helpers>
+        <models>
+            <bs_administrativedoc>
+                <class>BS_AdministrativeDoc_Model</class>
+                <resourceModel>bs_administrativedoc_resource</resourceModel>
+            </bs_administrativedoc>
+            <bs_administrativedoc_resource>
+                <class>BS_AdministrativeDoc_Model_Resource</class>
+                <entities>
+                    <administrativedocument>
+                        <table>bs_administrativedoc_administrativedocument</table>
+                    </administrativedocument>
+                    <administrativedocument_product>
+                        <table>bs_administrativedoc_administrativedocument_product</table>
+                    </administrativedocument_product>
+                </entities>
+            </bs_administrativedoc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_administrativedoc>
+                    <file>bs_administrativedoc.xml</file>
+                </bs_administrativedoc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_AdministrativeDoc>
+                    <files>
+                        <default>BS_AdministrativeDoc.csv</default>
+                    </files>
+                </BS_AdministrativeDoc>
+            </modules>
+        </translate>
+        <!--<events>
+            <core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_administrativedoc_administrativedocument_product>
+                        <type>singleton</type>
+                        <class>bs_administrativedoc/adminhtml_observer</class>
+                        <method>addProductAdministrativedocumentBlock</method>
+                    </bs_administrativedoc_administrativedocument_product>
+                </observers>
+            </core_block_abstract_prepare_layout_after>
+            <catalog_product_save_after>
+                <observers>
+                    <bs_administrativedoc_administrativedocument_product>
+                        <type>singleton</type>
+                        <class>bs_administrativedoc/adminhtml_observer</class>
+                        <method>saveProductAdministrativedocumentData</method>
+                    </bs_administrativedoc_administrativedocument_product>
+                </observers>
+            </catalog_product_save_after>
+        </events>-->
+        <!--<global_search>
+            <administrativedocument>
+                <class>bs_administrativedoc/adminhtml_search_administrativedocument</class>
+                <acl>bs_administrativedoc</acl>
+            </administrativedocument>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_AdministrativeDoc before="Mage_Adminhtml">BS_AdministrativeDoc_Adminhtml</BS_AdministrativeDoc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

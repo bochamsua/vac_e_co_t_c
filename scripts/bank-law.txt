@@ -1,0 +1,373 @@
+1. "Maintenance" definition:
+ 
+A. means any  or combination of overhaul, repair, inspections, replacement, modification or defect rectification of an aircraft/aircraft component. [CA]
+B. means any  or combination of  repair, inspections, replacement, modification or defect rectification of an aircraft/aircraft component.
+C. Both A and B are correct.
+ 
+2. "Maintenance data" definition:
+A. means any information necessary to ensure that the aircraft or aircraft component can be maintained in a condition such that airworthiness of the aircraft, or serviceability of operational and emergency equipment as appropriate, is assured:
+B. means any information necessary to ensure that the aircraft or aircraft component can be maintained in a condition such that airworthiness of the aircraft, or serviceability of operational and emergency equipment as appropriate, is assured[CA]
+C.  are documents such as: AMM, MEL, AFM, SAM, AMS and NDT guidance.
+ 
+3. "Inspection" definition:
+A. means the examination of an aircraft to establish conformity with an approved standard
+B. means the examination of an aircraft/aircraft component to establish conformity with an approved standard [CA]
+C. means the examination of an aircraft component to establish conformity with an approved standard
+ 
+4. " Pre-flight inspection" definition:
+A. means the inspection carried out before flight to ensure that the aircraft is fit for all flights. It does not include defect rectification.
+B. means the inspection carried out before flight to ensure that the aircraft is fit for the intended flight. It includes defect rectification.
+C. means the inspection carried out before flight to ensure that the aircraft is fit for the intended flight. It does not include defect rectification. [CA]
+ 
+4. "Certifying staff" definition:
+ 
+A. means those personnel who are authorised by the VAR145 approved maintenance organisation in accordance with a procedure acceptable to the CAAV to certify aircraft or aircraft components for release to service. [CA]
+B. means those personnel who are authorised by the approved maintenance organisation in accordance with a procedure established by the AMO to certify aircraft or aircraft components for release to service.
+C. means those personnel who are authorised by an airlines in accordance with a procedure acceptable to the CAAV to certify aircraft or aircraft components for release to service.
+ 
+5. A maintenance organisation may be maintain an aircraft if:
+A. working under the quality system of an appropriately approved VAR -145 approved maintenance organisation or accepted in accordance with VAR 145. [CA]
+B. such aircraft not used for commercial air transport.
+C. Neither A nor B are correct.
+ 
+6. A certificate of release to service must be issued when:
+A. satisfied that all required maintenance of aircraft carried out by the VAR-145 approved maintenance organisation in accordance with the procedures specified in the VAR 145 approved maintenance organisation exposition.
+B. aircraft component has been properly carried out by the VAR-145 approved maintenance organisation in accordance with the procedures specified in the VAR 145 approved maintenance organisation exposition.
+C. Both A and B are correct. [CA]
+ 
+ 
+7. A certificate of release to service must be issued by:
+A. appropriately authorised staff on behalf of the VAR-145 approved maintenance organisation. [CA]
+B. the level C  certifying staff  authorised by VAR-145 AMO.
+C. the accoutable manager of AMO
+ 
+8. "Category B1 and B2 support staff"  definition:
+A. means those category B1 and B2 staff in the base and line maintenance environment who do not hold necessarily certification privileges.
+B.  means those category B1 and B2 staff in the base maintenance environment who do not hold necessarily certification privileges. [CA]
+C. means those category B1 and B2 staff in the base maintenance environment who do not hold VAR-66 licence.
+ 
+9. "Aircraft component" definition:
+A. means means those aircraft or components specified in the particular certification authorisation
+B. means any assembly/item/component/part of an aircraft up to and including a complete powerplant and/or any operational/emergency equipment. [CA]
+C. means any assembly/item/component/part of an aircraft up to but excluding a complete powerplant and/or any operational/emergency equipment.
+ 
+10. Certifying staff shall produce their certification authorisation to any authorised person:
+A. within 24 hours[CA]
+B. immediately
+C. within 72 hours
+ 
+ 
+11. The minimum age for certifying staff and category B1 and B2 support staff is:
+A. 18 years
+B. 21 years[CA]
+C. not required
+ 
+12. Prior to installation of a component, the organisation shall ensure that:
+A. the particular component is eligible to be fitted when different modification and/or airworthiness directive standards may be applicable.
+B. standard parts used on an aircraft, engine, propeller or other aircraft component must be specified in the manufacturer's illustrated parts catalogue and/or the maintenance data
+C. Both A and B are correct. [CA]
+ 
+13. When an aircraft is grounded at a location other than the main line station or main maintenance base due to the non-availability of a component with the appropriate release certificate, it is permissible to temporarily fit a component without the appropriate release certificate:
+A. for a maximum of 30 flight hours or until the aircraft first returns to the main line station or main maintenance base, whichever is the sooner. [CA]
+B. until the aircraft first returns to the main line station or main maintenance base or for maximum of 30 flight hours.
+C. Neither A nor B are correct
+ 
+14. The VAR-145 approved maintenance organisationmust retain a copy of all detailed maintenance records and any associated maintenance data for:
+A. two years from the date the aircraft or aircraft component to which the work relates was released from the 145 approved maintenance organisation. [CA]
+B. three years from the date the aircraft or aircraft component to which the work relates was released from the 145 approved maintenance organisation as required by the Operator.
+C. according to the Annex 8 to Chicago Convention.
+ 
+15. If any condition of the aircraft or aircraft component, identified by the VAR-145 approved maintenance organisation that has resulted or may result in an unsafe condition that could seriously hazard the aircraft, the VAR-145 approved maintenance organisation must report to:
+A. the CAAV and the Operator.
+B. the CAAV and organisation responsible for the design of the aircraft or aircraft component. [CA]
+C. the CAAV and the manufacture of the aircraft or aircraft component.
+ 
+16. Where the VAR-145 approved maintenance organisation is contracted by an operator to carry out maintenance, the VAR-145 approved maintenance organisation must also report any such condition affecting the operator’s aircraft or aircraft component.
+A. to the operator
+B. the CAA of State of Registry in the case of an aircraft, where the state of registration is different to that of Vietnam.
+C. Both A and B are correct[CA]
+ 
+ 
+17. The VAR-145 approved maintenance organisationmay only carry out the following tasks as permitted by and in accordance with the VAR-145 approved maintenance organisation exposition including:
+A.maintain any aircraft or aircraft component for which it is contracted by an operator to carry out maintenance.
+B. arrange for maintenance of any aircraft or aircraft component within the limitations for which it is approved at another organisation that is working under the quality system of the 145 approved maintenance organisation. [CA]
+C. maintain any aircraft or aircraft component for which it is approved at a location identified as a line maintenance location capable of supporting minor maintenance.
+ 
+18.  Which following changes that the VAR-145 approved maintenance organisation must not notify CAAV:
+A. The name of the organisation
+B. The list of certifying staff . [CA]
+C. The accountable manager
+ 
+19. The organisation shall ensure that personnel who carry out and/or control a continued airworthiness non-destructive test of aircraft structures and/or components are appropriately qualified for the particular non-destructive test in accordance with:
+A. the 22TCN 338-05 or equivalent Standard recognised by Authority[CA]
+B. the standards of State of the Operator
+C. the standards of State of the Oner
+ 
+20. For a repetitive pre-flight airworthiness directive which specifically states that the flight crew may carry out such airworthiness directive, the organisation may issue a limited certification authorisation to:
+A. the aircraft commander on the basis of the flight crew licence held [CA]
+B. any flight crew members on the basis of the flight crew licence held
+C. any crew members on the basis of the crew licence held
+ 
+21. In the case of aircraft operating away from a supported location the organisation may issue a limited certification authorisation to:
+A. the commander on the basis of the flight crew licence held subject to being satisfied that sufficient practical training has been carried out to ensure that the commander can accomplish the specified task to the required standard
+B. the the flight engineer on the basis of the flight crew licence held subject to being satisfied that sufficient practical training has been carried out to ensure that the flight engineer can accomplish the specified task to the required standard
+C. Both A and B are correct. [CA]
+ 
+ 
+22. In the following unforeseen cases, where an aircraft is grounded at a location other than the main base where no appropriate certifying staff are available, the organisation contracted to provide maintenance support may issue a one-off certification authorisation:
+A. to one of its employees holding equivalent type authorisations on aircraft of similar technology, construction and systems. [CA]
+B. to any person with not less than three years maintenance experience and holding a valid ICAO aircraft maintenance licence rated for the aircraft type requiring certification provided there is no organisation appropriately approved under this VAR-145 at that location and the contracted organisation obtains and holds on file evidence of the experience and the licence of that person
+C. Neither A nor B are correct
+ 
+23. In the following unforeseen cases, where an aircraft is grounded at a location other than the main base where no appropriate certifying staff are available, the organisation contracted to provide maintenance support may issue a one-off certification authorisation:
+A. to any person with not less than three years maintenance experience and holding a valid ICAO aircraft maintenance licence rated for the aircraft type requiring certification provided there is no organisation appropriately approved under this VAR-145 at that location and the contracted organisation obtains and holds on file evidence of the experience and the licence of that person.
+B. to any person with not less than five years maintenance experience and holding a valid ICAO aircraft maintenance licence rated for the aircraft type requiring certification provided there is no organisation appropriately approved under this VAR-145 at that location and the contracted organisation obtains and holds on file evidence of the experience and the licence of that person[CA]
+C. Neither A nor B are correct.
+ 
+24  Which following statements is incorrect:
+A. No aircraft when used for Commercial Air Transport may fly unless a certificate of release to service has been issued by an organisation for maintenance carried out on the aircraft or an aircraft component intended for fitment to such an aircraft.
+B. No organisation may certify for release to service an aircraft used for Commercial Air Transport unless either approved in accordance with this VAR-145 or accepted in accordance with the VAR-145 alternative.
+C. A 145 approval is required for the pre-flight inspection. [CA]
+ 
+25.  Which following statements is incorrect:
+A. No organisation may certify for release to service an aircraft component intended for fitment to an aircraft used for Commercial Air Transport unless either approved in accordance with this VAR-145 or accepted in accordance with the VAR-145 alternative.
+B. A maintenance organisation approval may be granted for maintenance activity varying from that for an aircraft component to that for a complete aircraft or any combination thereof
+C. No organisation may maintain such an aircraft if either appropriately approved in accordance with this VAR-145 or accepted in accordance with  the VAR-14 alternative, or working under the quality system of an appropriately approved or accepted VAR-145 maintenance organisation. [CA]
+ 
+26. The organisation shall:
+A. appoint an accountable manager who has corporate Authority for ensuring that all maintenance required by the customer can be financed and carried out to the standard required by this VAR-145
+B. nominate a person or group of persons, whose responsibilities include ensuring that the organization complies with this VAR-145.
+C. Both A and B are correct[CA]
+ 
+ 
+27. Who shall have direct access to the accountable manager to ensure that the accountable manager is kept properly informed on quality and compliance matters?
+A. certifying staff
+B. person or group of persons nominated by organisation, whose responsibilities include ensuring that the organization complies with this VAR-145.
+C. person appointed by the accoutable manager, whose responsibility for monitoring the quality system, including the associated feedback system as required by VAR-145. [CA]
+ 
+ 
+28. The organisation shall have:
+A. a maintenance man-hour plan showing that the organisation has sufficient staff to plan, perform, supervise, inspect and quality monitor the organisation in accordance with the approval. [CA]
+B. a procedure to reassess work intended to be carried out when actual staff availability is more than the planned staffing level for any particular work shift or period.
+C. Both A  and B are correct.
+ 
+29.  Which is correct:
+A. The organisation shall establish and control the competence of personnel involved in any maintenance, management and/or quality audits in accordance with a procedure and to a standard agreed by Authority.
+B. In addition to the necessary expertise related to the job function, competence must include an understanding of the application of human factors and human performance issues appropriate to that person's function in the organisation.
+C. Both A and B are correct. [CA]
+ 
+30. The organisation issuing the one-off authorisation shall report to the CAAV within:
+A. 5 days
+B. 7 days
+C. 10 days[CA]
+ 
+VAR-66
+ 
+31. This VAR–66 becomes effective on
+A.   01st May 2000[CA]
+B.   03 Feb 2000
+C.   03 Feb 1999
+ 
+ 
+32. Certifying staff must not be less than :
+A. 21 years of age[CA]
+B. 18 years of age
+C. 17 years of age
+ 
+33. Certifying staff must be:
+A. able to read, write and communicate to an understandable level in the language(s) in which the technical documentation and organisation procedures necessary to support the issue of the certificate of release to service are written. [CA]
+B. less than 21 years of age
+C. Both A and B are correct.
+ 
+34. How many categories prescibed in VAR-66
+A. 2
+B. 3
+C. 4 [CA]
+ 
+35. Which category of certifying staff authorisation permits the holder to issue certificates of release to service following line maintenance on avionic and electrical systems:
+A. A
+B. B1
+C. B2[CA]
+ 
+36. Which category of certifying staff authorisation permits the holder to issue certificates of release to service following minor scheduled line maintenance and simple defect rectification, as specified in VAR–145, within the limits of tasks specifically endorsed on the authorisation:
+A. A[CA]
+B. B1
+C. C
+37. Which category of certifying staff authorisation permits the holder to issue certificates of release to service following line maintenance, including aircraft structure, powerplants and mechanical and electrical systems. Replacement of avionic line replaceable units, requiring simple tests to prove their serviceability, is also included in the privileges.
+A. B1[CA]
+B. B2
+C. C
+
+38. Which category of certifying staff authorisation permits the holder to issue certificates of release to service following base maintenance. The authorisation is valid for the aircraft in its entirety, including all systems
+A. B1
+B. B2
+C. C[CA]
+ 
+39. The minimum civil aircraft  maintenance experience requirement for category A is:
+A. three years involved with a representative cross section of maintenance tasks on aircraft[CA]
+B. five years involved with a representative cross section of maintenance tasks on aircraft
+C. two years involved with a representative cross section of maintenance tasks on aircraft
+ 
+40. The minimum civil aircraft  maintenance experience requirement for category B1 is:
+A. three years involved with a representative cross section of maintenance tasks on aircraft
+B. five years involved with a representative cross section of maintenance tasks on aircraft[CA]
+C. seven  years involved with a representative cross section of maintenance tasks on aircraft
+ 
+ 
+41. The minimum civil aircraft maintenance experience for category B2 is:
+A. three years involved with a representative cross section of maintenance tasks on aircraft
+B. five years involved with a representative cross section of maintenance tasks on aircraft[CA]
+C. seven  years involved with a representative cross section of maintenance tasks on aircraft
+ 
+42.  The minimum civil aircraft maintenance experience for category C is:
+A. three years involved with a representative cross section of maintenance tasks on aircraft
+B. three years on a representative selection of tasks directly associated with aircraft maintenance  including six months of observation of base maintenance tasks if certifying staff qualified by holding an academic degree in a technical discipline from a university or other higher educational institute accepted by the CAAV. [CA]
+C. Both A and B are correct
+ 
+43. The minimum civil aircraft maintenance experience for category C is:
+A. three years on a representative selection of tasks directly associated with aircraft maintenance  including six months of observation of base maintenance tasks if certifying staff qualified by holding an academic degree in a technical discipline from a university or other higher educational institute accepted by the CAAV. [CA]
+B. five years qualified  as a B1 or B2 certifying staff in line maintenance, or, in base maintenance supporting the category C certifying staff, or, a combination of both.
+C. Both A and B are correct
+ 
+44. The minimum civil aircraft maintenance experience for category C is:
+A. three years on a representative selection of tasks directly associated with aircraft maintenance  including six months of observation of base maintenance tasks if certifying staff qualified by holding an academic degree in a technical discipline from a university or other higher educational institute accepted by the CAAV.
+B. three years qualified  as a B1 or B2 certifying staff in line maintenance, or, in base maintenance supporting the category C certifying staff, or, a combination of both.
+C. Both A and B are correct[CA]
+45. The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:
+A. Obtained the VAR–66 aircraft maintenance licence and/or the VAR–145 certification authorisation by falsification of submitted evidence.
+B. Failed to carry out requested maintenance combined with failure to report such fact to the organisation that requested the maintenance.
+C. Both A and B are correct[CA]
+ 
+46. The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:
+A. Failed to carry out required maintenance resulting from own inspection combined with failure to report such fact to the organisation for whom the maintenance was intended to be carried out. [CA]
+B. Meet a minimum civil aircraft  maintenance experience requirement appropriate to the VAR–66 aircraft maintenance licence sought, which will be reduced by the CAAV when satisfied that either approved training or other appropriate technical training has been received
+C. Both A and B are correct
+ 
+47. The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:
+A. Negligent maintenance.
+B. Falsification of the maintenance record
+C. Both A and B are correct[CA]
+ 
+ 
+48. The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:
+A. The issue of a certificate of release to service knowing that the maintenance specified on the certificate of release to service has not been carried out or without verifying that such maintenance has been carried out. [CA]
+B. demonstrate by examination a level of knowledge acceptable to the CAAV, in subject modules appropriate to the VAR–66 category for which a VAR–66  aircraft maintenance  licence is issued or extended
+C. a minimum civil aircraft  maintenance experience requirement appropriate to the VAR–66 aircraft maintenance licence sought, which will be reduced by the CAAV when satisfied that either approved training or other appropriate technical training has been received
+ 
+49. For all certifying staff, the required recent maintenance experience on aircraft typical of the category/sub-category for which the VAR–66 aircraft maintenance licence is sought must be:
+A. at least 1 year[CA]
+B. 6 months
+C. 3 years
+ 
+50. The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:
+A. Carrying out maintenance or issuing a certificate of release to service when adversely affected by alcohol or drugs[CA]
+B. produce their licence if requested by an authorised person within a reasonable time
+C. Both A and B are correct
+ 
+AIR LAW
+ 
+51. The number of Annex to Chicago Convention is:
+A. 28
+B. 18[CA]
+C. 22
+ 
+52. Each earoplane shall be operated in compliance with the term of its Certificate of Airworthiness and within the approved limitation contained in its:
+A. MPD
+B.   MEL[CA]
+C.   AMS
+ 
+53. An Operator shall established a MEL (Minimum Equipment List) approved by the CAAV for:
+A. all Operator’s own aircrafts
+B. each type of aircraft operated under its AOC
+C. each aircraft operated under its AOC[CA]
+
+54. An Operator shall not operated an aircraft under its AOC other than in accordance with MEL:
+A. unless permitted by the CEO of the Operator
+B. unless permitted by the Accountable Manager of the Operator.
+C. unless permitted by the CAAV. [CA]
+ 
+55. According to Chicago Convention, which country is responsible for investigation of an aircraft accident:
+A. the State of occurrence[CA]
+B. the State of Registry
+C. the State of Operator
+ 
+56. The mandatory requirement for aircraft register in Vietnam is:
+A. the owner is Vietnamese citizen.
+B. the aircraft has not been registered or has been de-registered [CA]
+C. the aircraft shall be belonged to an AOC holder.
+ 
+57. The Annex to Chicago Cenvention contains Standards and Recommendations on  aircraft accident investigation:
+A. Annex 11
+B. Annex 18
+C. Annex 13.  [CA]
+ 
+58. Which following Annexes contains requirements concerning Aircraft Maintenance Engineer?
+A. Annex 1[CA]
+A. Annex 11
+C. Annex 13
+ 
+59. The VAR-66 licence shall be re-issued not later than:
+A. 60 months[CA]
+B. 36 months
+C. 24 months
+ 
+60. Which is not correct?
+A. The aircraft  maintenance licence alone permit the holder to issue certificates of release to service in respect of aircraft used for commercial air transport. [CA]
+B. To issue a certificate of release to service for such aircraft, the aircraft maintenance licence holder must in addition hold a VAR–145 certification authorisation issued by the VAR–145 approved maintenance organisation.
+C. The aircraft  maintenance licence alone does not permit the holder to issue certificates of release to service in respect of aircraft used for commercial air transport.
+ 
+61. The International Civil Aviation Organisation (ICAO) establishes:
+A. standards and recommended international practices for contracting member states. [CA]
+B. aeronautical standards adopted by all states.
+C. proposals for aeronautical regulations in the form of 18 annexes.
+ 
+62. The second freedom of the air is the:
+A. right to overfly without landing
+B. right to land for a technical stop[CA]
+C. right to operate a commercial passenger flight with passengers on board between two states.
+ 
+63. The loading limitations shall include:
+ 
+A. all limiting mass and centres of gravity
+B. all limiting mass, centres of gravity position, mass distributions and floor loading[CA]
+C. all limiting mass, centres of gravity position and floor loading
+ 
+64. According to Annex 7, the registration mark shall be letters, numbers or a combination of letters and numbers and shall be that assigned by:
+A. the state of registry or common mark registering authority[CA]
+B. the state of registry only
+C. the International Civil Aviation Organisation
+ 
+65. What is International Law based on :
+ 
+A. Historic rights of passage.
+B. The ability of the strongest nation to impose its will.
+C. Mutual agreement.[CA]
+ 
+66. Which of the following concerning aviation, applies in areas where international law is applicable :
+A. ICAO Law applies
+B. The law of the state of registry of the aicraft applies. [CA]
+C. Law as agreed by the Geneva Convention on Territorial Waters and Contiguous Zones applies.
+ 
+67.  In civil aviation, what does Suzerainty mean :
+ 
+A. Where one state has control over the movement of traffic in the airspace of another.
+B. Where one state applies its law to high seas areas.
+C. Where one state accepts internationally agreed regulation. [CA]
+ 
+68. What does the International Air Transport Agreement provide for ?
+ 
+A. Free and unhindered transit of aeroplanes over the high seas.
+B. The freedom for aeroplanes to over fly the territory of any other state without landing.
+C. The freedom for aeroplanes registered in one state to land in another state and drop off passengers. [CA]
+ 
+69. What is each contracting state of ICAO required to provide :
+ 
+A. Facilities for SAR operations to be undertaken in its airspace. [CA]
+B. Oceanic control facilities in oceanic areas adjacent to territorial airspace.
+C. Modern radio navigation facilities for aeroplanes transiting its airspace.
+ 
+70. What does the structure of ICAO consists of :
+ 
+A. A Council; a Secretariat and committees and commissions.
+B. An Assembly, Council, Secretariat, committees and commissions. [CA]
+C. A ruling council of a small number of permanent states (like the UN Security Council) with committees and commissions reporting to the Council.

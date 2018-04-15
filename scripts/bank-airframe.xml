@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wpProQuiz>
+    <header version="0.37" exportVersion="1"/>
+    <data>
+        <quiz>
+            <title titleHidden="false"><![CDATA[Airframe]]></title>
+            <text><![CDATA[Airframe]]></text>
+            <category/>
+            <resultText gradeEnabled="false"><![CDATA[]]></resultText>
+            <btnRestartQuizHidden>false</btnRestartQuizHidden>
+            <btnViewQuestionHidden>false</btnViewQuestionHidden>
+            <questionRandom>false</questionRandom>
+            <answerRandom>false</answerRandom>
+            <timeLimit>0</timeLimit>
+            <showPoints>true</showPoints>
+            <statistic activated="true" ipLock="1440"/>
+            <quizRunOnce type="1" cookie="false" time="0">false</quizRunOnce>
+            <numberedAnswer>true</numberedAnswer>
+            <hideAnswerMessageBox>false</hideAnswerMessageBox>
+            <disabledAnswerMark>false</disabledAnswerMark>
+            <showMaxQuestion showMaxQuestionValue="1" showMaxQuestionPercent="false">false</showMaxQuestion>
+            <toplist activated="false">
+                <toplistDataAddPermissions>1</toplistDataAddPermissions>
+                <toplistDataSort>1</toplistDataSort>
+                <toplistDataAddMultiple>false</toplistDataAddMultiple>
+                <toplistDataAddBlock>1</toplistDataAddBlock>
+                <toplistDataShowLimit>1</toplistDataShowLimit>
+                <toplistDataShowIn>0</toplistDataShowIn>
+                <toplistDataCaptcha>false</toplistDataCaptcha>
+                <toplistDataAddAutomatic>false</toplistDataAddAutomatic>
+            </toplist>
+            <showAverageResult>false</showAverageResult>
+            <prerequisite>false</prerequisite>
+            <showReviewQuestion>true</showReviewQuestion>
+            <quizSummaryHide>false</quizSummaryHide>
+            <skipQuestionDisabled>false</skipQuestionDisabled>
+            <emailNotification>0</emailNotification>
+            <userEmailNotification>false</userEmailNotification>
+            <showCategoryScore>true</showCategoryScore>
+            <hideResultCorrectQuestion>false</hideResultCorrectQuestion>
+            <hideResultQuizTime>false</hideResultQuizTime>
+            <hideResultPoints>false</hideResultPoints>
+            <autostart>false</autostart>
+            <forcingQuestionSolve>false</forcingQuestionSolve>
+            <hideQuestionPositionOverview>false</hideQuestionPositionOverview>
+            <hideQuestionNumbering>false</hideQuestionNumbering>
+            <sortCategories>true</sortCategories>
+            <showCategory>false</showCategory>
+            <quizModus questionsPerPage="0">2</quizModus>
+            <startOnlyRegisteredUser>false</startOnlyRegisteredUser>
+            <adminEmail>
+                <to/>
+                <form/>
+                <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+                <html>false</html>
+                <message><![CDATA[Wp-Pro-Quiz
+
+The user "$username" has completed "$quizname" the quiz.
+
+Points: $points
+Result: $result]]></message>
+            </adminEmail>
+            <userEmail>
+                <to>-1</to>
+                <toUser>false</toUser>
+                <toForm>false</toForm>
+                <form/>
+                <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+                <html>false</html>
+                <message><![CDATA[Wp-Pro-Quiz
+
+You have completed the quiz "$quizname".
+
+Points: $points
+Result: $result]]></message>
+            </userEmail>
+            <forms activated="false" position="0"/>
+            <questions><question answerType="single">
+                    <title><![CDATA[Question: 1]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The cantilever wing uses.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[external struts or wire bracing.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[no external bracing]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the skin to carry most of the load to the wing butt.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 2]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Moisture, mildew, chemicals, and acids have no effect on]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[glass fabric]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[linen fabric]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[dacron fabric]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 3]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The strength classification of fabrics used in aircraft covering is based on]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[bearing strength.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[shear strength.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[tensile strength]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 4]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Before spraying any finishing materials on unpainted clean aluminum,]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[wipe the surface with avgas or kerosene.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[remove any conversion coating film.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[avoid touching the surface with bare hands]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 5]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A well-designed rivet joint will subject the rivets to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Compressive loads.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[shear loads]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[tension loads.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 6]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A main difference between Lockbolt/Huckbolt tension and shear fasteners (other than their application) is in the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[number of locking collar grooves]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[shape of the head]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[method of installation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 7]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[One of the main advantages of Hi-Lok type fasteners over earlier generations is that]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[they can be removed and reused again.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the sueezed on collar installation provides a more secure, tighter fit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[they can be installed with ordinary hand tools]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 8]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Hole filling fasteners (for example, MS20470 rivets) should not be used in composite structures primarily because of the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[possibility of causing delamination]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increased possibility of fretting corrosion in the fastener.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[difficulty in forming a proper shop head]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 9]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Metal fasteners used with carbon/graphite composite structures]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[may be constructed of any of the metals commonly used in aircraft fasteners.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[must be constructed of material such as titanium or corrosion resistant steel]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[must be constructed of high strength aluminumlithium alloy.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 10]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Sandwich panels made of metal honeycomb construction are used on modern aircraft because this type of construction]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[has a high strength to weight ratio]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[may be repaired by gluing replacement skin to the inner core material with thermoplastic resin.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[is lighter than single sheet skin of the same strength and is more corrosion resistant.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 11]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[(1) When performing a ring (coin tap) test on composite structures, a change in sound may be due to damage or to transition to a different internal structure. (2)The extent of separation damage in composite structures is most accurately measured by a ring (coin tap) test. Regarding the above statements,]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[both No. 1 and No. 2 are true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[only No.1 is true]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[only No.2 is true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 12]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water? 1. Acoustic emission monitoring. 2. X-ray. 3. Backlighting.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1 and 2.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1 and 3.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[2 and 3]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 13]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Composite inspections conducted by means of acoustic emission monitoring]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[pick up the “noise” of corrosion or other deterioration occurring]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[analyze ultrasonic signals transmitted into the parts being inspected]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[create sonogram pictures of the areas being inspected]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 14]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What precaution, if any, should be taken to prevent corrosion inside a repaired metal honeycomb structure?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Prime the repair with a corrosion inhibitor and seal from the atmosphere]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Paint the outside area with several coats of exterior paint.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[None. Honeycomb is usually made from a man-made or fibrous material which is not susceptible to corrosion.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 15]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[One method of inspecting a laminated fiberglass structure that has been subjected to damage is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[strip the damaged area of all paint and shine a strong light through the structure]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[use dye-penetrant inspection procedures, exposing the entire damaged area to the penetrant solution.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[use an eddy current probe on both sides of the damaged area]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 16]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The classification for high tensile strength fiber-glass used in aircraft structures is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[E.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[S]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[G.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 17]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The classification for fiberglass reinforcement material that has high resistivity and is the most common is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[E]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[S.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[G.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 18]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An airplane is controlled directionally about its vertical axis by the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[rudder]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[elevator(s).]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[ailerons.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 19]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The elevators of a conventional airplane are used to provide rotation about the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[longitudinal axis.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[lateral axis]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[vertical axis.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 20]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The chord of a wing is measured from]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[wingtip to wingtip.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[wing root to the wingtip.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[leading edge to trailing edge]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 21]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When the lift of an airfoil increases, the drag will]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[decrease.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[also increase]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increase while the lift is changing but will return to its original value.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 22]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The purpose of wing slats is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[reduce stalling speed]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[decreases drag.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increase speed on takeoff.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 23]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When inspecting a control cable turnbuckle for proper installation, determine that]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[no more than four threads are exposed on either side of the turnbuckle barrel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the terminal end threads are visible through the safety hole in the barrel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the safety wire ends are wrapped a minimum of four turns around the terminal end shanks]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 24]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The purpose of the vertical fin is to provide]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[directional stability]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[longitudinal stability.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[lateral stability.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 25]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Excessive wear on both of the sides of a control cable pulley groove is evidence of]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[pulley misalignment]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[cable misalignment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[excessive cable tension.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 26]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Stability about the axis which runs parallel to the line of flight is referred to as]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[longitudinal stability.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[lateral stability]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[directional stability.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 27]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A stripe or mark applied to a wheel rim and extending onto the sidewall of a tube- type tire is a]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[slippage mark]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[wheel-to-tire balance mark.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[wheel weight reference mark.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 28]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When bleeding aircraft brakes, one of the indications that the air has been purged from the system is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Partial brake pedal travel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Full brake pedal travel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Film brake pedals]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 29]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Overinflated aircraft tires may cause damage to the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Brake linings.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Wheel hub]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Wheel flange]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 30]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An embossed letter “H” on an air valve core stem]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Is the manufacturer’s trademark.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Indicates hydraulic type.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Indicates high-pressure type]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 31]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The primary purpose for balancing aircraft wheel assemblies is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Prevent heavy spots and reduce vibration]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Distribute the aircraft weight properly.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Reduce excessive wear and turbulence.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 32]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[On all aircraft equipped with retractable landing gear, some means must be provided to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Retract and extend the landing gear if the normal operating mechanism fails.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Extend the landing gear if the normal operating mechanism fails]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevent the throttle from being reduced below a safe power setting while the landing gear is retracted]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 33]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is the purpose of the torque links attached to the cylinder and piston of a landing gear oleo strut?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Limit compression stroke.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Hold the strut in place.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Maintain correct wheel alignment]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 34]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Aircraft brakes requiring a large volume of fluid to operate the brakes generally]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Use independent master cylinder systems.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Do not use brake system accumulators.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Use power brake control valves]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 35]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When an air/oil type of landing gear shock strut is used, the initial shock of landing is cushioned by]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Compression of the air charge.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The fluid being forced through a metered opening]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Compression of the fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 36]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A sleeve, spacer, or bumper ring is incorporated in a landing gear oleo shock strut to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Limit the extension of the torque arm.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Limit the extension stroke]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Reduce the rebound effect.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 37]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The purpose of a sequence valve in a hydraulic retractable landing gear system is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevent heavy landing gear from falling too rapidly upon extension.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Provide a means of disconnecting the normal source of hydraulic power and connecting the emergency source of power.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Ensure operation of the landing gear and gear doors in the proper order]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 38]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The pressure source for power brakes is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The main hydraulic system]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The power brake reservoir.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A master cylinder.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 39]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement is true with respect to an aircraft equipped with hydraulically operated multiple-disk type brake assemblies?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[There are no minimum or maximum disk clearance checks required due to the use of self-compensating cylinder assemblies.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Do not set parking brake when brakes are hot]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[No parking brake provisions are possible for this type of brake assembly.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 40]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What type of valve is used in the brake actuating line to isolate the emergency brake system from the normal power brake control valve system?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A bypass valve.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[An orifice check valve.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[A shuttle valve]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 41]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Instructions concerning the type of fluid and amount of air pressure to be put in a shock strut are found]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[On the airplane data plate.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[In the aircraft operations limitations.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[In the aircraft manufacture’s service manual]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 42]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The purpose of a relief valve in a brake system is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Reduce pressure for brake application.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevent the tire from skidding.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Compensate for thermal expansion]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 43]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Aircraft tire pressure should be checked]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Using only a push on stick-type gauge having 1-pound increments.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[At least once a week or more often]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[As soon as possible after each flight.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 44]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is the purpose of a compensating port or valve in a brake master cylinder of an independent brake system?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Permits the fluid to flow toward or away from the reservoir as temperature changes]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Assists in the mater cylinder piston return.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevents fluid from flowing back to the reservoir.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 45]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If an aircraft shock strut (air/oil type) bottoms upon initial landing contact, but functions correctly during taxi, the most probable cause is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Low fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Low air charge.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A restricted metering pin orifice.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 46]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is the function of a cam incorporated in a nose gear shock strut?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Provides an internal shimmy damper.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Straightens the nosewheel]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Provides steering of aircraft during ground operation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 47]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Extension of an oleo shock strut is measured to determine the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Amount of oil in the strut]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Physical condition of the strut itself.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Proper operating position of the strut]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 48]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If a shock strut bottoms after it has been properly serviced, the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Strut should be disassembled and the metering pin orifice plate replaced]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Air pressure should be increased]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Strut should be removed, disassembled and inspected]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 49]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The correct in inflation pressure for an aircraft tire can be obtained from]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Tire manufacturer’s specifications.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The aircraft service manual]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The information stamped on the aircraft wheel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 50]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What should be checked when a shock strut bottoms during a landing?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Air pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Packing seals for correct installation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Fluid level]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 51]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[How can it be determined that all air has been purged from a master cylinder brake system?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[By operating a hydraulic unit and watching the system pressure gauge for smooth, full-scale deflection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[By noting whether the brake is firm or spongy]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[By noting the amount of fluid return to the master cylinder upon brake release.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 52]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The rubber seals used in a landing gear shock strut]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Are generally designed to be compatible with more than one type of fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Are kept from direct contact with fluid by teflon or nylon backup rings.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[May be used only with a specific type of fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 53]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When a properly operating fusible plug has allowed a tire to deflate, the tire should be]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Replaced]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Externally inspected for damage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Removed from the wheel and inspected for carcass and tread damage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 54]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The fusible plugs installed in some aircraft wheels will]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Indicate tire tread separation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevent overinflation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Melt at a specified elevated temperature]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 55]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What action, if any, should be taken when there is a difference of more than 5 pounds of air pressure in tires mounted as duals?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Replace both tires.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Correct the discrepancy and enter in logbook]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Replace the tire with the lowest pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 56]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[How long should you wait after a flight before checking tire pressure?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[At least 2 hours (3 hours in hot weather)]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[At least 3 hours (4 hours in hot weather).]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[At least 4 hours (5 hours in hot weather).]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 57]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Excessive wear in the shoulder area of an aircraft tire is an indication of]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Overinflation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Excessive toe-in.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Underinflation]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 58]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Excessive wear in the center of the tread of an aircraft tire is an indication of]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Incorrect camber.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Excessive toe-out.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Overinflation]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 59]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When an empty shock strut is filled with fluid, care should be taken to extend and compress the strut completely at least two times to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Thoroughly lubricate the piston rod]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Force out any excess fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Ensure proper packing ring seating and removal of air bubbles]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 60]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A pilot reports that the brake pedals have excessive travel. A probable cause is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Brake lining has oil or some foreign matter on the disks and linings.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Lack of fluid in the brake system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Brake rotors have worn]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 61]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Nose gear centering cams are used in many retractable landing gear systems. The primary purpose of the centering device is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Align the nosewheel prior to touchdown.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Engage the nosewheel steering.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Center the nosewheel before it enters the wheel well]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 62]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An O-ring intended for use in a hydraulic system using MIL-H-5606 (mineral base) fluid will be marked with]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[A blue stripe or dot]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[One or more white dots.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A white and yellow stripe.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 63]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What condition would most likely cause excessive fluctuation of the pressure gauge when the hydraulic pump is operating?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Accumulator air pressure low.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Inadequate supply of fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[System relief valve sticking closed]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 64]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Select the valve used in a hydraulic system that directs pressurized fluid one end of an actuating cylinder and simultaneously directs return fluid to the reservoir from the other end.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Sequence.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Shuttle.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Selector]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 65]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Relief valve are used in pneumatic systems]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[For one direction flow control.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[To reduce the rate of airflow.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[As damage-preventing units]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 66]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The removal of air from an aircraft hydraulic system is generally accomplished]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Through automatic bleed valves on individual components during system operation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[By operating the various hydraulic components through several cycles]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[By allowing the system to remain inoperative for several hours.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 67]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The component in the hydraulic system that is used to direct the flow of fluid is the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Check valve.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Orifice check valve.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Selector valve]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 68]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is the purpose of using backup rings with O-rings in hydraulic systems above 1,500 PSI?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevent internal and external leakage of all moving parts within a hydraulic system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Provide a seal between two parts of a unit which move in relation to each other.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Prevent high pressure from extruding the seal between the moving and stationary part]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 69]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The purpose of the pressure regulator in a hydraulic system is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Maintain system operating pressure within a predetermined range and to unload the pump]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Regulate the amount of fluid flow to the actuating cylinders within the system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Prevent failure of components or rupture of hydraulic lines under excessive pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 70]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A flexible sealing element subject to motion is a]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Compound]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Packing]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Gasket.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 71]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which characteristics apply to aircraft hydraulic systems? 1. Minimum maintenance requirements. 2. Lightweight. 3. About 80 percent operating efficiency (20 percent loss due to fluid friction). 4. Simple to inspect.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1, 2, 3, 4.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1, 3, 4.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[1, 2, 4]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 72]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Generally, the first step in removing an accumulator from an aircraft is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Relieve system pressure]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Discharge the preload]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Drain the reservoir.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 73]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The internal resistance of a fluid which tends to prevent it from flowing is called]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Volatility.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Viscosity]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Acidity.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 74]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[(1) When servicing aircraft hydraulic systems, use the type fluid specified in the aircraft manufacturer’s maintenance manual or on the instruction plate affixed to the reservoir or unit. (2) Hydraulic fluids for aircraft are dyed a specific color for each type of fluid Regarding the above statements,]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Only No. 1 is true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Only No. 2 is true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both No. 1 and No. 2 are true]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 75]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Petroleum base hydraulic fluid is which color?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Purple.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Blue.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Red]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 76]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which of the following is adversely affected by atmospheric humidity if left unprotected? 1. MIL-H-5606 hydraulic fluid 2. Skydrol hydraulic fluid. 3. None of the above.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1 and 2.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[3.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[2]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 77]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which is a characteristic of synthetic base hydraulic fluid?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Low moisture retention.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[High flash point]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Low flash point.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 78]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement about fluids is correct?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Any fluid will completely fill its container.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[All fluids are considered to be highly compressible.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[All fluids readily transmit pressure]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 79]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Three types of hydraulic fluids currently being used in civil aircraft are]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Mineral base, vegetable, and phosphate ester base]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Mineral base, phosphate ester base, and mixed mineral and phosphate ester base.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Mineral base, phosphate ester base, and mixed vegetable and alcohol base.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 80]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which of the following lists only desirable properties of a good hydraulic fluid?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[High viscosity, low flash point, chemical stability, high fire point.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[High flash point, low viscosity, chemical stability, low fire point.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Low viscosity, chemical stability, high flash point, high fire point]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 81]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Characteristics of MIL-H-8446 (Skydrol 500 A & B) hydraulic fluid are]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Blue color, phosphate ester base, fire resistant, butyl rubble seals.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Light purple color, phosphate ester base, fire resistant, butyl rubber seals]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Light green color, phosphate ester base, fire resistant, butyl rubber seals.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 82]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Characteristics of MIL-H-5606 hydraulic fluid are]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Light purple color, phosphate ester base, fire resistant, butyl rubber seals.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Blue color, vegetable base, will burn, natural rubber seals.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Red color, petroleum base, will burn, synthetic rubber seals]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 83]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[How the proper hydraulic fluid to be used in an airplane the determined?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Refer to the aircraft parts manual.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Consult the aircraft Type Certificate Data Sheet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Consult the aircraft manufacturer’s service manual]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 84]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Phosphate ester base hydraulic fluid is very susceptible to contamination from]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Teflon seal material.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Water in the atmosphere]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Ethylene- propylene elastomers.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 85]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The hydraulic component that automatically directs fluid from either the normal source to an actuating cylinder is called a]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Bypass valve.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Shuttle valve]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Crossflow valve.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question></questions>
+        </quiz>
+    </data>
+</wpProQuiz>

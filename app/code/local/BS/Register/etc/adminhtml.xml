@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Register extension
+ * 
+ * @category       BS
+ * @package        BS_Register
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_register translate="title" module="bs_register">
+                                        <title>Register</title>
+                                    </bs_register>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <catalog>
+                        <children>
+                            <bs_register translate="title" module="bs_register">
+                                <title>Register</title>
+                                <sort_order>11</sort_order>
+                                <children>
+                                    <attendance translate="title" module="bs_register">
+                                        <title>Absence Record</title>
+                                        <sort_order>0</sort_order>
+                                        <children>
+                                            <new translate="title">
+                                                <title>New</title>
+                                            </new>
+                                            <edit translate="title">
+                                                <title>Edit</title>
+                                            </edit>
+                                            <delete translate="title">
+                                                <title>Delete</title>
+                                            </delete>
+                                        </children>
+                                    </attendance>
+                                    <schedule translate="title" module="bs_register">
+                                        <title>Course Schedule</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title">
+                                                <title>New</title>
+                                            </new>
+                                            <edit translate="title">
+                                                <title>Edit</title>
+                                            </edit>
+                                            <delete translate="title">
+                                                <title>Delete</title>
+                                            </delete>
+                                            <clearall translate="title">
+                                                <title>Clear All</title>
+                                            </clearall>
+                                        </children>
+                                    </schedule>
+                                </children>
+                            </bs_register>
+                        </children>
+                    </catalog>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <catalog>
+            <children>
+                <bs_register translate="title" module="bs_register">
+                    <title>Register</title>
+                    <sort_order>11</sort_order>
+                    <children>
+                        <attendance translate="title" module="bs_register">
+                            <title>Absence Record</title>
+                            <action>adminhtml/register_attendance</action>
+                            <sort_order>0</sort_order>
+                        </attendance>
+                        <schedule translate="title" module="bs_register">
+                            <title>Course Schedule</title>
+                            <action>adminhtml/register_schedule</action>
+                            <sort_order>10</sort_order>
+                        </schedule>
+                    </children>
+                </bs_register>            </children>
+        </catalog>
+
+    </menu>
+</config>

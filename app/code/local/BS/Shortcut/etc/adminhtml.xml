@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Shortcut extension
+ * 
+ * @category       BS
+ * @package        BS_Shortcut
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_shortcut translate="title" module="bs_shortcut">
+                                        <title>Shortcut</title>
+                                    </bs_shortcut>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <cms>
+                        <children>
+                            <shortcut translate="title" module="bs_shortcut">
+                                <title>Manage Shortcut</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </shortcut>
+                        </children>
+                    </cms>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <cms>
+            <children>
+                <shortcut translate="title" module="bs_shortcut">
+                    <title>Shortcut</title>
+                    <action>adminhtml/shortcut_shortcut</action>
+                    <sort_order>30</sort_order>
+                </shortcut>
+            </children>
+        </cms>
+
+    </menu>
+</config>

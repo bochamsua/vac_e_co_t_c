@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Questionnaire extension
+ * 
+ * @category       BS
+ * @package        BS_Questionnaire
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_questionnaire_questionnaire_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/questionnaire</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_questionnaire/adminhtml_questionnaire" name="questionnaire" />
+
+        </reference>
+    </adminhtml_questionnaire_questionnaire_index>
+    <adminhtml_questionnaire_questionnaire_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_questionnaire/adminhtml_questionnaire_grid" name="questionnaire_grid"/>
+        </block>
+    </adminhtml_questionnaire_questionnaire_grid>
+    <!-- Questionnaire add/edit action -->
+    <adminhtml_questionnaire_questionnaire_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/questionnaire</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_questionnaire/adminhtml_questionnaire_edit" name="questionnaire_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_questionnaire/adminhtml_questionnaire_edit_tabs" name="questionnaire_tabs"></block>
+        </reference>
+    </adminhtml_questionnaire_questionnaire_edit>
+
+</layout>

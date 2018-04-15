@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tasktraining extension
+ * 
+ * @category       BS
+ * @package        BS_Tasktraining
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_tasktraining_taskinstructor_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_tasktraining/taskinstructor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tasktraining/adminhtml_taskinstructor" name="taskinstructor" />
+
+        </reference>
+    </adminhtml_tasktraining_taskinstructor_index>
+    <adminhtml_tasktraining_taskinstructor_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tasktraining/adminhtml_taskinstructor_grid" name="taskinstructor_grid"/>
+        </block>
+    </adminhtml_tasktraining_taskinstructor_grid>
+    <!-- Taskinstructor add/edit action -->
+    <adminhtml_tasktraining_taskinstructor_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_tasktraining/taskinstructor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tasktraining/adminhtml_taskinstructor_edit" name="taskinstructor_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_tasktraining/adminhtml_taskinstructor_edit_tabs" name="taskinstructor_tabs"></block>
+        </reference>
+    </adminhtml_tasktraining_taskinstructor_edit>
+
+    <adminhtml_tasktraining_taskfunction_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_tasktraining/taskfunction</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tasktraining/adminhtml_taskfunction" name="taskfunction" />
+
+        </reference>
+    </adminhtml_tasktraining_taskfunction_index>
+    <adminhtml_tasktraining_taskfunction_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tasktraining/adminhtml_taskfunction_grid" name="taskfunction_grid"/>
+        </block>
+    </adminhtml_tasktraining_taskfunction_grid>
+    <!-- Taskfunction add/edit action -->
+    <adminhtml_tasktraining_taskfunction_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_tasktraining/taskfunction</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tasktraining/adminhtml_taskfunction_edit" name="taskfunction_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_tasktraining/adminhtml_taskfunction_edit_tabs" name="taskfunction_tabs"></block>
+        </reference>
+    </adminhtml_tasktraining_taskfunction_edit>
+
+    <adminhtml_tasktraining_taskinstructor_categories>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tasktraining/adminhtml_taskinstructor_edit_tab_categories" name="taskinstructor.edit.tab.categories"/>
+        </block>
+    </adminhtml_tasktraining_taskinstructor_categories>
+    <adminhtml_tasktraining_taskinstructor_catalog_category_taskinstructorsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tasktraining/adminhtml_catalog_category_tab_taskinstructor" name="category.edit.tab.taskinstructor"/>
+        </block>
+    </adminhtml_tasktraining_taskinstructor_catalog_category_taskinstructorsgrid>
+</layout>

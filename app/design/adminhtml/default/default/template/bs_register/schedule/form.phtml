@@ -1,0 +1,426 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ *
+ * @var $this BS_Register_Block_Adminhtml_Schedule_Edit_Tab_Form
+ */
+?>
+<?php echo $this->getTemplatesHtml() ?>
+
+<div class="entry-edit custom-options product-custom-options">
+    <div class="entry-edit-head">
+        <h4><?php echo Mage::helper('catalog')->__('Course Schedule. From %s to %s', $this->getStartDate(), $this->getFinishDate()) ?></h4>
+        <div class="right"><button style="" onclick="" class="scalable add" type="button" title="Add" id="add_new_row"><span><span><span>Add more</span></span></span></button></div>
+    </div>
+
+    <div id="product_options_container" class="box">
+        <div id="product_options_container_top"></div>
+        <?php echo $this->getOptionsBoxHtml() ?>
+    </div>
+</div>
+
+
+<?php
+$startDate = $this->getStartDate();
+$startDate = explode("/", $startDate);
+$startDay = (int)$startDate[0];
+$startMonth = (int)$startDate[1] - 1;//because we compare the index of month in year, not the real month, Jan is 0, Dec is 11
+$startYear = (int)$startDate[2];
+
+$finishDate = $this->getFinishDate();
+$finishDate = explode("/", $finishDate);
+$finishDay = (int)$finishDate[0];
+$finishMonth = (int)$finishDate[1] - 1;
+$finishYear = (int)$finishDate[2];
+
+?>
+<script type="text/javascript">
+//<![CDATA[
+var firstStepTemplate = '<div class="option-box" id="option_{{id}}">'+
+            '<table id="<?php echo $this->getFieldId() ?>_{{id}}" class="option-header" cellpadding="0" cellspacing="0">'+
+
+            '<thead>'+
+                '<tr>'+
+                    '<th class="opt-title">From Date</th>'+
+                    '<th class="opt-title">To Date</th>'+
+                    '<th class="opt-order">Subject Type</th>'+
+                    '<th class="opt-title">Subject</th>'+
+                    '<th class="opt-title">Instructor</th>'+
+                    '<th class="opt-title">Room/Location</th>'+
+                    '<th class="opt-order">Hours</th>'+
+                    '<th class="opt-title">Note</th>'+
+                    '<th class="a-right"><button style="" onclick="" class="scalable delete delete-product-option " type="button" title="Delete"><span><span><span>Delete</span></span></span></button></th>'+
+                '</tr>'+
+            '</thead>'+
+            '<tr>'+
+                '<td><input type="text" class="input-text" id="schedule_start_date_{{id}}" name="schedule[{{id}}][schedule_start_date]" value=""><img id="schedule_start_date_{{id}}_trig" class="v-middle" alt="" src="http://vaecotc.local/skin/adminhtml/default/default/images/grid-cal.gif"></td>'+
+                '<td><input type="text" class="input-text" id="schedule_finish_date_{{id}}" name="schedule[{{id}}][schedule_finish_date]" value=""><img id="schedule_finish_date_{{id}}_trig" class="v-middle" alt="" src="http://vaecotc.local/skin/adminhtml/default/default/images/grid-cal.gif"></td>'+
+                '<td><?php echo $this->getSubjectTypeSelectHtml() ?></td>'+
+                '<td><?php echo addslashes($this->getSubjects()) ?><?php echo addslashes($this->getSubjects(true)) ?></td>'+
+                '<td><?php echo $this->getInstructorSelectHtml() ?></td>'+
+                '<td><?php echo $this->getRoomSelectHtml() ?></td>'+
+                '<td><input type="text" class="input-text" name="schedule[{{id}}][schedule_hours]" value=""></td>'+
+                '<td><textarea class="textarea" id="schedule_{{id}}_note" name="schedule[{{id}}][schedule_note]" value=""></textarea></td>'+
+                '<td><input type="hidden" name="schedule[{{id}}][course_id]" value="<?php echo $this->getProductId() ?>"></td>'+
+                
+            '</tr></table></div>';
+
+
+var productOption = {
+    div : $('product_options_container_top'),
+    templateSyntax : /(^|.|\r|\n)({{(\w+)}})/,
+    templateText : firstStepTemplate,
+    itemCount : 1,
+    add : function(data) {
+        this.template = new Template(this.templateText, this.templateSyntax);
+
+        if(!data.id){
+            data = {};
+            data.id  = this.itemCount;
+            data.type = '';
+            data.option_id = 0;
+        } else {
+            this.itemCount = data.item_count;
+        }
+
+        Element.insert(this.div, {'after':this.template.evaluate(data)});
+
+        //set selected type
+        if (data.type) {
+            $A($('<?php echo $this->getFieldId() ?>_'+data.id+'_type').options).each(function(option){
+                if (option.value==data.type) option.selected = true;
+            });
+        }
+
+        //set selected is_require
+        if (data.is_require) {
+            $A($('<?php echo $this->getFieldId() ?>_'+data.id+'_is_require').options).each(function(option){
+                if (option.value==data.is_require) option.selected = true;
+            });
+        }
+
+        if (data.checkboxScopeTitle) {
+            //set disabled
+            if ($('<?php echo $this->getFieldId() ?>_'+data.option_id+'_title') && data.scopeTitleDisabled) {
+                $('<?php echo $this->getFieldId() ?>_'+data.option_id+'_title').disable();
+            }
+        }
+
+        this.itemCount++;
+        this.bindRemoveButtons();
+        productOptionType.bindSelectInputType(data.id);
+    },
+    remove : function(event){
+        var element = $(Event.findElement(event, 'div'));
+        if(element){
+            element.remove();
+        }
+    },
+    bindRemoveButtons : function(){
+        var buttons = $$('div.product-custom-options .delete-product-option');
+        for(var i=0;i<buttons.length;i++){
+            if(!$(buttons[i]).binded){
+                $(buttons[i]).binded = true;
+                Event.observe(buttons[i], 'click', this.remove.bind(this));
+            }
+        }
+        var inputs = $$('div.product-custom-options button', 'div.product-custom-options input', 'div.product-custom-options select', 'div.product-custom-options textarea');
+
+        inputs.each(function(el) { Event.observe(el, 'change', el.setHasChanges.bind(el));  } )
+
+    }
+}
+
+
+var productOptionType = {
+    templateSyntax : /(^|.|\r|\n)({{(\w+)}})/,
+    loadStepTwo : function(event){
+        var element = $(Event.findElement(event, 'select'));
+
+        var group = '';
+        var previousGroupElm = $(element.readAttribute('id').sub('_type', '_previous_group'));
+
+        switch(element.getValue()){
+            case 'field':
+            case 'area':
+                template = OptionTemplateText;
+                group = 'text';
+                break;
+            case 'file':
+                template = OptionTemplateFile;
+                group = 'file';
+                break;
+            case 'drop_down':
+            case 'radio':
+            case 'checkbox':
+            case 'multiple':
+                template = OptionTemplateSelect;
+                group = 'select';
+                break;
+            case 'date':
+            case 'date_time':
+            case 'time':
+                template = OptionTemplateDate;
+                group = 'date';
+                break;
+            default:
+                template = '';
+                group = 'unknown';
+                break;
+        }
+
+        if (previousGroupElm.getValue() != group) {
+            if ($(element.readAttribute('id')+'_'+previousGroupElm.getValue())) {
+                formElm = $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).descendants();
+                formElm.each(function(elm){
+                    if (elm.tagName == 'input' || elm.tagName == 'select') {
+                        elm.name = '__delete__'+elm.readAttribute('name');
+                    }
+                });
+
+                $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).addClassName('no-display');
+                $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).addClassName('ignore-validate');
+                $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).hide();
+            }
+
+            previousGroupElm.value = group;
+
+            if ($(element.readAttribute('id')+'_'+group)) {
+                formElm = $(element.readAttribute('id')+'_'+group).descendants();
+                formElm.each(function(elm){
+                    if (elm.match('input') || elm.match('select')) {
+                        elm.name = elm.readAttribute('name').sub('__delete__', '');
+                    }
+                });
+                $(element.readAttribute('id')+'_'+group).removeClassName('no-display');
+                $(element.readAttribute('id')+'_'+group).removeClassName('ignore-validate');
+                $(element.readAttribute('id')+'_'+group).show();
+
+            } else {
+                template = '<div id="'+element.readAttribute('id')+'_'+group+'" class="grid tier form-list">'+template+'</div><div id="'+element.readAttribute('id')+'_'+group+'_advice"></div';
+                this.secondTemplate = new Template(template, this.templateSyntax);
+
+                data = {};
+                if (!data.option_id) {
+                    data = {};
+                    data.option_id = $(element.readAttribute('id').sub('_type', '_id')).getValue();
+                }
+
+                Element.insert(element.readAttribute('id').sub('_type', ''), {'after':this.secondTemplate.evaluate(data)});
+
+                switch(element.getValue()){
+                    case 'drop_down':
+                    case 'radio':
+                    case 'checkbox':
+                    case 'multiple':
+                        selectOptionType.bindAddButton();
+                        break;
+                }
+            }
+        }
+    },
+    addDataToValues : function(data){
+
+        switch(data.type){
+            case 'field':
+            case 'area':
+                template = OptionTemplateText;
+                group = 'text';
+                break;
+            case 'file':
+                template = OptionTemplateFile;
+                group = 'file';
+                break;
+            case 'drop_down':
+            case 'radio':
+            case 'checkbox':
+            case 'multiple':
+                template = OptionTemplateSelect;
+                group = 'select';
+                break;
+            case 'date':
+            case 'date_time':
+            case 'time':
+                template = OptionTemplateDate;
+                group = 'date';
+                break;
+        }
+
+        $('<?php echo $this->getFieldId() ?>_'+data.id+'_previous_group').value = group;
+
+        template = '<div id="<?php echo $this->getFieldId() ?>_{{id}}_type_'+group+'" class="grid tier form-list">'+template+'</div><div id="<?php echo $this->getFieldId() ?>_{{id}}_type_'+group+'_advice"></div>';
+
+        this.secondTemplate = new Template(template, this.templateSyntax);
+
+        Element.insert($('<?php echo $this->getFieldId() ?>_'+data.option_id), {'after':this.secondTemplate.evaluate(data)});
+
+        if (data.checkboxScopePrice) {
+            //set disabled
+            if ($('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price') && data.scopePriceDisabled) {
+                $('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price').disable();
+                $('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price_type').disable();
+            }
+        }
+
+        switch(data.type){
+            case 'drop_down':
+            case 'radio':
+            case 'checkbox':
+            case 'multiple':
+                data.optionValues.each(function(value) {
+                    selectOptionType.add(value);
+                });
+                selectOptionType.bindAddButton();
+                break;
+        }
+
+        if (data.price_type) {
+            $A($('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price_type').options).each(function(option){
+                if (option.value==data.price_type) option.selected = true;
+            });
+        }
+
+    },
+    bindSelectInputType : function(id){
+        var subType = $('schedule_type_select_' + id);
+        var single = $('schedule_single_' + id);
+        var multiple = $('schedule_multiselect_' + id);
+        multiple.hide();
+        Event.observe(subType, 'change', function(event){
+
+            var element = subType.getValue();
+
+            multiple.hide();
+            if(element == 1){
+                multiple.show();
+                single.hide();
+            }else {
+                single.show();
+            }
+
+
+        });
+
+        Calendar.setup({
+            inputField: "schedule_start_date_" + id,
+            ifFormat: "%d/%m/%Y",
+            showsTime: false,
+            button: "schedule_start_date_"+id+"_trig",
+            align: "Bl",
+            singleClick: true,
+            /*disableFunc: function(date)  {
+                if(date.getFullYear()   <   <?php echo $startYear?>)  { return true; }
+                if(date.getFullYear()   ==  <?php echo $startYear?>)  { if(date.getMonth()    <   <?php echo $startMonth?>) { return true; } }
+                if(date.getMonth()      ==  <?php echo $startMonth?>)     { if(date.getDate()     <   <?php echo $startDay?>)  { return true; } }
+
+                if(date.getFullYear()   >  <?php echo $finishYear?>)  { return true; }
+                if(date.getFullYear()   ==  <?php echo $finishYear?>)  { if(date.getMonth()    >   <?php echo $finishMonth?>) { return true; } }
+                if(date.getMonth()      ==  <?php echo $finishMonth?>)     { if(date.getDate()     >   <?php echo $finishDay?>)  { return true; } }
+
+            },*/
+        });
+
+        Calendar.setup({
+            inputField: "schedule_finish_date_" + id,
+            ifFormat: "%d/%m/%Y",
+            showsTime: false,
+            button: "schedule_finish_date_"+id+"_trig",
+            align: "Bl",
+            singleClick: true,
+            /*disableFunc: function(date)  {
+                if(date.getFullYear()   <   <?php echo $startYear?>)  { return true; }
+                if(date.getFullYear()   ==  <?php echo $startYear?>)  { if(date.getMonth()    <   <?php echo $startMonth?>) { return true; } }
+                if(date.getMonth()      ==  <?php echo $startMonth?>)     { if(date.getDate()     <   <?php echo $startDay?>)  { return true; } }
+
+                if(date.getFullYear()   >  <?php echo $finishYear?>)  { return true; }
+                if(date.getFullYear()   ==  <?php echo $finishYear?>)  { if(date.getMonth()    >   <?php echo $finishMonth?>) { return true; } }
+                if(date.getMonth()      ==  <?php echo $finishMonth?>)     { if(date.getDate()     >   <?php echo $finishDay?>)  { return true; } }
+
+            },*/
+        });
+
+
+    }
+}
+
+var productOptionScope = {
+    addScope : function(event){
+        var element = $(Event.element(event));
+        fieldToDisable = $(element.readAttribute('id').sub('_use_default', ''));
+
+        if (fieldToDisable.disabled) {
+            if (fieldToDisable.hasClassName('product-option-price')) {//need change to cheking value of element
+                $(fieldToDisable.readAttribute('id')+'_type').enable();
+            }
+            fieldToDisable.enable();
+        } else {
+            if (fieldToDisable.hasClassName('product-option-price')) {//need change to cheking value of element
+                $(fieldToDisable.readAttribute('id')+'_type').disable();
+            }
+            fieldToDisable.disable();
+        }
+    },
+    bindScopeCheckbox : function(){
+        var checkboxes = $$('.product-option-scope-checkbox');
+        for (var i=0;i<checkboxes.length;i++) {
+            if (!$(checkboxes[i]).binded) {
+                $(checkboxes[i]).binded = true;
+                Event.observe(checkboxes[i], 'click', this.addScope.bind(this));
+            }
+        }
+    }
+}
+
+if($('option_panel')){
+    $('option_panel').remove();
+}
+
+productOption.bindRemoveButtons();
+
+
+if($('<?php echo $this->getAddButtonId() ?>')){
+    Event.observe('<?php echo $this->getAddButtonId() ?>', 'click', productOption.add.bind(productOption));
+}
+
+//validation for selected input type
+Validation.addAllThese([
+    ['required-option-select', <?php echo $this->helper('core')->jsonEncode(Mage::helper('catalog')->__('Select type of option')) ?>, function(v, elm) {
+        if (elm.getValue() == '') {
+            return false;
+        }
+        return true;
+}]]);
+
+//adding data to templates
+<?php foreach ($this->getOptionValues() as $_value): ?>
+    productOption.add(<?php echo $_value->toJson() ?>);
+    productOptionType.addDataToValues(<?php echo $_value->toJson() ?>);
+<?php endforeach; ?>
+
+//bind scope checkboxes
+productOptionScope.bindScopeCheckbox();
+
+
+//]]>
+</script>

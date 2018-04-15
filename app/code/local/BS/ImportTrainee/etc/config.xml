@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_ImportTrainee extension
+ * 
+ * @category       BS
+ * @package        BS_ImportTrainee
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_ImportTrainee>
+            <version>1.0.1</version>
+        </BS_ImportTrainee>
+    </modules>
+    <global>
+        <resources>
+            <bs_importtrainee_setup>
+                <setup>
+                    <module>BS_ImportTrainee</module>
+                    <class>BS_ImportTrainee_Model_Resource_Setup</class>
+                </setup>
+            </bs_importtrainee_setup>
+        </resources>
+        <blocks>
+            <bs_importtrainee>
+                <class>BS_ImportTrainee_Block</class>
+            </bs_importtrainee>
+        </blocks>
+        <helpers>
+            <bs_importtrainee>
+                <class>BS_ImportTrainee_Helper</class>
+            </bs_importtrainee>
+        </helpers>
+        <models>
+            <bs_importtrainee>
+                <class>BS_ImportTrainee_Model</class>
+                <resourceModel>bs_importtrainee_resource</resourceModel>
+            </bs_importtrainee>
+            <bs_importtrainee_resource>
+                <class>BS_ImportTrainee_Model_Resource</class>
+                <entities>
+                    <importtrainee>
+                        <table>bs_importtrainee_importtrainee</table>
+                    </importtrainee>
+                </entities>
+            </bs_importtrainee_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_importtrainee>
+                    <file>bs_importtrainee.xml</file>
+                </bs_importtrainee>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_ImportTrainee>
+                    <files>
+                        <default>BS_ImportTrainee.csv</default>
+                    </files>
+                </BS_ImportTrainee>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_ImportTrainee before="Mage_Adminhtml">BS_ImportTrainee_Adminhtml</BS_ImportTrainee>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

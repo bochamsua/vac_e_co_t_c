@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Shortcut extension
+ * 
+ * @category       BS
+ * @package        BS_Shortcut
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_shortcut_shortcut_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>cms/bs_shortcut/shortcut</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_shortcut/adminhtml_shortcut" name="shortcut" />
+
+        </reference>
+    </adminhtml_shortcut_shortcut_index>
+    <adminhtml_shortcut_shortcut_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_shortcut/adminhtml_shortcut_grid" name="shortcut_grid"/>
+        </block>
+    </adminhtml_shortcut_shortcut_grid>
+    <!-- Shortcut add/edit action -->
+    <adminhtml_shortcut_shortcut_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>cms/bs_shortcut/shortcut</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_shortcut/adminhtml_shortcut_edit" name="shortcut_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_shortcut/adminhtml_shortcut_edit_tabs" name="shortcut_tabs"></block>
+        </reference>
+    </adminhtml_shortcut_shortcut_edit>
+
+</layout>

@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Report extension
+ * 
+ * @category       BS
+ * @package        BS_Report
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_report_report_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/report</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+
+            <block type="bs_report/adminhtml_report" template="report/grid/container.phtml" name="report">
+
+                <!--<block type="bs_report/adminhtml_filter_form" name="grid.filter.form" />-->
+            </block>
+
+        </reference>
+    </adminhtml_report_report_index>
+    <adminhtml_report_report_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_report/adminhtml_report_grid" name="report_grid"/>
+        </block>
+    </adminhtml_report_report_grid>
+    <!-- Report add/edit action -->
+    <adminhtml_report_report_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/report</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_report_edit" name="report_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_report/adminhtml_report_edit_tabs" name="report_tabs"></block>
+        </reference>
+    </adminhtml_report_report_edit>
+
+    <adminhtml_report_manage_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/manage</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_manage" template="report/grid/container.phtml" name="manage">
+                <block type="bs_report/adminhtml_filter_form" name="grid.filter.form" />
+            </block>
+        </reference>
+    </adminhtml_report_manage_index>
+    <adminhtml_report_manage_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_report/adminhtml_manage_grid" name="manage_grid"/>
+        </block>
+    </adminhtml_report_manage_grid>
+    <!-- Manage add/edit action -->
+    <adminhtml_report_manage_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/manage</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_manage_edit" name="manage_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_report/adminhtml_manage_edit_tabs" name="manage_tabs"></block>
+        </reference>
+    </adminhtml_report_manage_edit>
+
+
+    <adminhtml_report_supervisor_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/supervisor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_supervisor" template="report/grid/container.phtml" name="supervisor">
+
+            <block type="bs_report/adminhtml_filter_form" name="grid.filter.form" />
+            </block>
+
+        </reference>
+    </adminhtml_report_supervisor_index>
+    <adminhtml_report_supervisor_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_report/adminhtml_supervisor_grid" name="supervisor_grid"/>
+        </block>
+    </adminhtml_report_supervisor_grid>
+    <adminhtml_report_supervisor_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/supervisor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_supervisor_edit" name="supervisor_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_report/adminhtml_supervisor_edit_tabs" name="supervisor_tabs"></block>
+        </reference>
+    </adminhtml_report_supervisor_edit>
+
+    <adminhtml_report_tctask_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/tctask</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_tctask" name="tctask" />
+
+        </reference>
+    </adminhtml_report_tctask_index>
+    <adminhtml_report_tctask_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_report/adminhtml_tctask_grid" name="tctask_grid"/>
+        </block>
+    </adminhtml_report_tctask_grid>
+    <!-- Tctask add/edit action -->
+    <adminhtml_report_tctask_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_report/tctask</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_report/adminhtml_tctask_edit" name="tctask_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_report/adminhtml_tctask_edit_tabs" name="tctask_tabs"></block>
+        </reference>
+    </adminhtml_report_tctask_edit>
+
+</layout>

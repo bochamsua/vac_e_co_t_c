@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_ImportInstructor extension
+ * 
+ * @category       BS
+ * @package        BS_ImportInstructor
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_importinstructor_importinstructor_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/importinstructor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_importinstructor/adminhtml_importinstructor" name="importinstructor" />
+
+        </reference>
+    </adminhtml_importinstructor_importinstructor_index>
+    <adminhtml_importinstructor_importinstructor_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_importinstructor/adminhtml_importinstructor_grid" name="importinstructor_grid"/>
+        </block>
+    </adminhtml_importinstructor_importinstructor_grid>
+    <!-- Importinstructor add/edit action -->
+    <adminhtml_importinstructor_importinstructor_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/importinstructor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_importinstructor/adminhtml_importinstructor_edit" name="importinstructor_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_importinstructor/adminhtml_importinstructor_edit_tabs" name="importinstructor_tabs"></block>
+        </reference>
+    </adminhtml_importinstructor_importinstructor_edit>
+
+</layout>

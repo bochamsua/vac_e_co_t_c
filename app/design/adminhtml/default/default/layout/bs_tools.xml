@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tools extension
+ * 
+ * @category       BS
+ * @package        BS_Tools
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_tools_getinfo_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tools/getinfo</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tools/adminhtml_getinfo" name="getinfo" />
+
+        </reference>
+    </adminhtml_tools_getinfo_index>
+    <adminhtml_tools_getinfo_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tools/adminhtml_getinfo_grid" name="getinfo_grid"/>
+        </block>
+    </adminhtml_tools_getinfo_grid>
+    <!-- Getinfo add/edit action -->
+    <adminhtml_tools_getinfo_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tools/getinfo</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tools/adminhtml_getinfo_edit" name="getinfo_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_tools/adminhtml_getinfo_edit_tabs" name="getinfo_tabs"></block>
+        </reference>
+    </adminhtml_tools_getinfo_edit>
+
+    <adminhtml_tools_migration_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tools/migration</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tools/adminhtml_migration" name="migration" />
+
+        </reference>
+    </adminhtml_tools_migration_index>
+    <adminhtml_tools_migration_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tools/adminhtml_migration_grid" name="migration_grid"/>
+        </block>
+    </adminhtml_tools_migration_grid>
+    <!-- Migration add/edit action -->
+    <adminhtml_tools_migration_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tools/migration</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tools/adminhtml_migration_edit" name="migration_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_tools/adminhtml_migration_edit_tabs" name="migration_tabs"></block>
+        </reference>
+    </adminhtml_tools_migration_edit>
+
+
+</layout>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_InstructorCopy extension
+ * 
+ * @category       BS
+ * @package        BS_InstructorCopy
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_instructorcopy_instructorcopy_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/instructorcopy</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorcopy/adminhtml_instructorcopy" name="instructorcopy" />
+
+        </reference>
+    </adminhtml_instructorcopy_instructorcopy_index>
+    <adminhtml_instructorcopy_instructorcopy_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorcopy/adminhtml_instructorcopy_grid" name="instructorcopy_grid"/>
+        </block>
+    </adminhtml_instructorcopy_instructorcopy_grid>
+    <!-- Instructorcopy add/edit action -->
+    <adminhtml_instructorcopy_instructorcopy_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/instructorcopy</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorcopy/adminhtml_instructorcopy_edit" name="instructorcopy_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_instructorcopy/adminhtml_instructorcopy_edit_tabs" name="instructorcopy_tabs"></block>
+        </reference>
+    </adminhtml_instructorcopy_instructorcopy_edit>
+
+</layout>

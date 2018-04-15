@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_InstructorCopy extension
+ * 
+ * @category       BS
+ * @package        BS_InstructorCopy
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_InstructorCopy>
+            <version>1.0.0</version>
+        </BS_InstructorCopy>
+    </modules>
+    <global>
+        <resources>
+            <bs_instructorcopy_setup>
+                <setup>
+                    <module>BS_InstructorCopy</module>
+                    <class>BS_InstructorCopy_Model_Resource_Setup</class>
+                </setup>
+            </bs_instructorcopy_setup>
+        </resources>
+        <blocks>
+            <bs_instructorcopy>
+                <class>BS_InstructorCopy_Block</class>
+            </bs_instructorcopy>
+        </blocks>
+        <helpers>
+            <bs_instructorcopy>
+                <class>BS_InstructorCopy_Helper</class>
+            </bs_instructorcopy>
+        </helpers>
+        <models>
+            <bs_instructorcopy>
+                <class>BS_InstructorCopy_Model</class>
+                <resourceModel>bs_instructorcopy_resource</resourceModel>
+            </bs_instructorcopy>
+            <bs_instructorcopy_resource>
+                <class>BS_InstructorCopy_Model_Resource</class>
+                <entities>
+                    <instructorcopy>
+                        <table>bs_instructorcopy_instructorcopy</table>
+                    </instructorcopy>
+                </entities>
+            </bs_instructorcopy_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_instructorcopy>
+                    <file>bs_instructorcopy.xml</file>
+                </bs_instructorcopy>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_InstructorCopy>
+                    <files>
+                        <default>BS_InstructorCopy.csv</default>
+                    </files>
+                </BS_InstructorCopy>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <instructorcopy>
+                <class>bs_instructorcopy/adminhtml_search_instructorcopy</class>
+                <acl>bs_instructorcopy</acl>
+            </instructorcopy>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_InstructorCopy before="Mage_Adminhtml">BS_InstructorCopy_Adminhtml</BS_InstructorCopy>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

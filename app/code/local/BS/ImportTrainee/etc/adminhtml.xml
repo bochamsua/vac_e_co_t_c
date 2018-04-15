@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_ImportTrainee extension
+ * 
+ * @category       BS
+ * @package        BS_ImportTrainee
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_importtrainee translate="title" module="bs_importtrainee">
+                                        <title>ImportTrainee</title>
+                                    </bs_importtrainee>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <importtrainee translate="title" module="bs_importtrainee">
+                                <title>Import Trainee</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </importtrainee>
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <!--<menu>
+        <bs_traininglist>
+            <children>
+                <importtrainee translate="title" module="bs_importtrainee">
+                    <title>Import Trainee</title>
+                    <action>adminhtml/importtrainee_importtrainee</action>
+                    <sort_order>10</sort_order>
+                </importtrainee>
+            </children>
+        </bs_traininglist>
+
+    </menu>-->
+</config>

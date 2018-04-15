@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_StaffInfo extension
+ * 
+ * @category       BS
+ * @package        BS_StaffInfo
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_staffinfo translate="title" module="bs_staffinfo">
+                                        <title>StaffInfo</title>
+                                    </bs_staffinfo>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <customer>
+                        <children>
+                            <training translate="title" module="bs_staffinfo">
+                                <title>Related Training</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </training>
+                            <working translate="title" module="bs_staffinfo">
+                                <title>Related Working</title>
+                                <sort_order>60</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </working>
+                        </children>
+                    </customer>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <customer>
+            <children>
+                <training translate="title" module="bs_staffinfo">
+                    <title>Related Training</title>
+                    <action>adminhtml/staffinfo_training</action>
+                    <sort_order>50</sort_order>
+                </training>
+                <working translate="title" module="bs_staffinfo">
+                    <title>Related Working</title>
+                    <action>adminhtml/staffinfo_working</action>
+                    <sort_order>60</sort_order>
+                </working>
+            </children>
+        </customer>
+
+    </menu>
+</config>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CourseDoc extension
+ * 
+ * @category       BS
+ * @package        BS_CourseDoc
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_coursedoc_coursedoc_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_coursedoc/coursedoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursedoc/adminhtml_coursedoc" name="coursedoc" />
+
+        </reference>
+    </adminhtml_coursedoc_coursedoc_index>
+    <adminhtml_coursedoc_coursedoc_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursedoc/adminhtml_coursedoc_grid" name="coursedoc_grid"/>
+        </block>
+    </adminhtml_coursedoc_coursedoc_grid>
+    <!-- Coursedoc add/edit action -->
+    <adminhtml_coursedoc_coursedoc_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_coursedoc/coursedoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursedoc/adminhtml_coursedoc_edit" name="coursedoc_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_coursedoc/adminhtml_coursedoc_edit_tabs" name="coursedoc_tabs"></block>
+        </reference>
+    </adminhtml_coursedoc_coursedoc_edit>
+
+    <adminhtml_coursedoc_coursedoc_catalog_product_coursedocs>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursedoc/adminhtml_catalog_product_edit_tab_coursedoc" name="product.edit.tab.coursedoc"/>
+            <block type="adminhtml/widget_grid_serializer" name="coursedoc_grid_serializer">
+                <reference name="coursedoc_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.coursedoc</grid_block_name>
+                        <data_callback>getSelectedCoursedocs</data_callback>
+                        <hidden_input_name>coursedocs</hidden_input_name>
+                        <reload_param_name>product_coursedocs</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_coursedoc_coursedoc_catalog_product_coursedocs>
+    <adminhtml_coursedoc_coursedoc_catalog_product_coursedocsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursedoc/adminhtml_catalog_product_edit_tab_coursedoc" name="product.edit.tab.coursedoc"/>
+        </block>
+    </adminhtml_coursedoc_coursedoc_catalog_product_coursedocsgrid>
+    <adminhtml_coursedoc_coursedoc_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursedoc/adminhtml_coursedoc_edit_tab_product" name="coursedoc.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>coursedoc.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>coursedoc_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_coursedoc_coursedoc_products>
+    <adminhtml_coursedoc_coursedoc_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursedoc/adminhtml_coursedoc_edit_tab_product" name="coursedoc.edit.tab.product"/>
+        </block>
+    </adminhtml_coursedoc_coursedoc_productsgrid>
+</layout>

@@ -1,0 +1,83 @@
+<?php
+$trainees = $this->getTrainees();
+$subjects = $trainees[0]['marks'];
+$count = count($subjects);
+
+$edit = 'You are inputting the 1st Scores. Click to 2nd Score button to input 2nd Scores-->';
+$tm = $this->getMarkTime();
+if($tm == 2){
+    $edit = 'You are inputting the 2nd Scores. Click to 1st Score button to input 1st Scores-->';
+}
+
+if(!$trainees){
+    $edit = 'Please click Fill Out Subjects button to fill out the subjects in order to input the scores-->';
+}
+
+
+?>
+
+
+<div id="<?php echo $this->getId() ?>">
+    <?php if ($this->getPagerVisibility() || $this->getExportTypes() || $this->getFilterVisibility()): ?>
+        <table cellspacing="0" class="actions">
+            <tr>
+                <td>
+                    <h3 style="color: #3d6611; font-style: italic;"><?php echo $edit?></h3>
+                </td>
+
+                <td class="filter-actions a-right">
+                    <?php echo $this->getMainButtonsHtml() ?>
+                </td>
+            </tr>
+        </table>
+    <?php endif; ?>
+    <?php if ($this->getMassactionBlock()->isAvailable()): ?>
+        <?php echo $this->getMassactionBlockHtml() ?>
+    <?php endif ?>
+    <div class="grid">
+        <div class="hor-scroll">
+            <?php
+
+            if($trainees){
+            ?>
+            <table cellspacing="0" class="data" id="<?php echo $this->getId() ?>_table">
+                <col  />
+                <?php foreach ($this->getSubjects() as $subject): ?>
+                    <col  />
+                <?php endforeach; ?>
+                <?php if ($this->getHeadersVisibility() || $this->getFilterVisibility()): ?>
+                    <thead>
+                    <?php if ($this->getHeadersVisibility()): ?>
+                        <tr class="headings">
+                            <th><span class="nobr">&nbsp;</span></th>
+                            <?php foreach ($trainees[0]['marks'] as $subjectId => $mark): ?>
+                                <th><span class="nobr"><?php echo $this->getSubject($subjectId) ?></span></th>
+                            <?php endforeach; ?>
+                        </tr>
+                    <?php endif; ?>
+                    </thead>
+                <?php endif; ?>
+                <tbody>
+                <?php  foreach ($this->getTrainees() as $trainee): ?>
+                    <tr>
+                        <td style="<?php if($count < 3){ echo "width: 250px;"; } ?>"><?php echo $trainee['name'] ?></td>
+                        <?php $i=0; foreach ($trainee['marks'] as $subjectId => $mark) { ?>
+
+                            <?php if($mark == 0) {$mark = '';} ?>
+
+                            <td style="<?php if($count == 2 && $i==0){ echo "width: 100px;"; } ?>" ><input style="width: 30px;" name="mark[<?php echo $this->getMarkTime() ?>][<?php echo $this->getProduct()->getId()?>][<?php echo $trainee['id'] ?>][<?php echo $subjectId ?>]" type="text" value="<?php echo $mark ?>"/></td>
+
+                        <?php
+                         $i++;
+                        } ?>
+                        
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+
+            </table>
+            <?php } ?>
+        </div>
+    </div>
+
+</div>

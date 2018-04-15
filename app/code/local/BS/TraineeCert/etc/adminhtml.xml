@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_TraineeCert extension
+ * 
+ * @category       BS
+ * @package        BS_TraineeCert
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_traineecert translate="title" module="bs_traineecert">
+                                        <title>TraineeCert</title>
+                                    </bs_traineecert>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <traineecert translate="title" module="bs_traineecert">
+                                <title>Trainee Certificate</title>
+                                <sort_order>60</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </traineecert>                      </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_traininglist>
+            <children>
+                <traineecert translate="title" module="bs_traineecert">
+                    <title>Trainee Certificate</title>
+                    <action>adminhtml/traineecert_traineecert</action>
+                    <sort_order>60</sort_order>
+                </traineecert>
+            </children>
+        </bs_traininglist>
+
+    </menu>
+</config>

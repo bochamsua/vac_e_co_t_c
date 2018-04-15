@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_WorksheetDoc extension
+ * 
+ * @category       BS
+ * @package        BS_WorksheetDoc
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_worksheetdoc_worksheetdoc_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_worksheetdoc/worksheetdoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_worksheetdoc/adminhtml_worksheetdoc" name="worksheetdoc" />
+
+        </reference>
+    </adminhtml_worksheetdoc_worksheetdoc_index>
+    <adminhtml_worksheetdoc_worksheetdoc_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheetdoc/adminhtml_worksheetdoc_grid" name="worksheetdoc_grid"/>
+        </block>
+    </adminhtml_worksheetdoc_worksheetdoc_grid>
+    <!-- Worksheetdoc add/edit action -->
+    <adminhtml_worksheetdoc_worksheetdoc_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_worksheetdoc/worksheetdoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_worksheetdoc/adminhtml_worksheetdoc_edit" name="worksheetdoc_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_worksheetdoc/adminhtml_worksheetdoc_edit_tabs" name="worksheetdoc_tabs"></block>
+        </reference>
+    </adminhtml_worksheetdoc_worksheetdoc_edit>
+
+    <adminhtml_worksheetdoc_worksheetdoc_worksheet_worksheet_worksheetdocs>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheetdoc/adminhtml_worksheet_worksheet_edit_tab_worksheetdoc" name="worksheet.edit.tab.worksheetdoc"/>
+            <block type="adminhtml/widget_grid_serializer" name="worksheetdoc_grid_serializer">
+                <reference name="worksheetdoc_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>worksheet.edit.tab.worksheetdoc</grid_block_name>
+                        <data_callback>getSelectedWorksheetdocs</data_callback>
+                        <hidden_input_name>worksheetdocs</hidden_input_name>
+                        <reload_param_name>worksheet_worksheetdocs</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_worksheetdoc_worksheetdoc_worksheet_worksheet_worksheetdocs>
+    <adminhtml_worksheetdoc_worksheetdoc_worksheet_worksheet_worksheetdocsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheetdoc/adminhtml_worksheet_worksheet_edit_tab_worksheetdoc" name="worksheet.edit.tab.worksheetdoc"/>
+        </block>
+    </adminhtml_worksheetdoc_worksheetdoc_worksheet_worksheet_worksheetdocsgrid>
+    <adminhtml_worksheetdoc_worksheetdoc_worksheets>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheetdoc/adminhtml_worksheetdoc_edit_tab_worksheet" name="worksheetdoc.edit.tab.worksheet"/>
+            <block type="adminhtml/widget_grid_serializer" name="worksheet_grid_serializer">
+                <reference name="worksheet_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>worksheetdoc.edit.tab.worksheet</grid_block_name>
+                            <data_callback>getSelectedWorksheets</data_callback>
+                            <hidden_input_name>worksheets</hidden_input_name>
+                            <reload_param_name>worksheetdoc_worksheets</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_worksheetdoc_worksheetdoc_worksheets>
+    <adminhtml_worksheetdoc_worksheetdoc_worksheetsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheetdoc/adminhtml_worksheetdoc_edit_tab_worksheet" name="worksheetdoc.edit.tab.worksheet"/>
+        </block>
+    </adminhtml_worksheetdoc_worksheetdoc_worksheetsgrid>
+</layout>

@@ -1,0 +1,501 @@
+GENERAL
+
+1. In an ac circuit, the effective voltage is
+A. equal to the maximum instantaneous voltage.
+B. greater than the maximum instantaneous voltage.
+C. less than the maximum instantaneous voltage.[CA]
+
+2. The amount of electricity a capacitor can store is directly proportional to the
+A. distance between the plates and inversely proportional to the plate area
+B. plate area and is not affected by the distance between the plates.
+C. plate area and inversely proportional to the distance between the plates. .[CA]
+
+3. When different rated capacitors are connected in parallel in a circuit, the total capacitance is
+A. less than the capacitance of the lowest rated capacitor.
+B. equal to the capacitance of the highest rated capacitor.
+C. equal to the sum of all the capacitances. .[CA]
+
+
+4. Which requires the most electrical power during operation?
+A. A 12-volt motor requiring 8 amperes.
+B. Four 30-watt lamps in a 12-volt parallel circuit.
+C. Two lights requiring 3 amperes each in a 24-volt parallel system. .[CA]
+
+
+5. How much power must a 24-volt generator furnish to a system which contains the following loads?
+A. 402 watts.
+B. 385 watts.
+C. 450 watts. .[CA]
+
+
+6. A 12-volt electric motor has 1,000 watts input and 1 horsepower output. Maintaining the same efficiency, how much input power will a 24-volt, 1-horsepower electric motor require?
+A. 1,000 watts. .[CA]
+B. 2,000 watts.
+C. 500 watts.
+
+7. The potential difference between two conductors which are in insulated from each other is measured in
+A. volts. .[CA]
+B. amperes.
+C. coulombs.
+
+
+8.The correct way to connect a test voltmeter in a circuit is
+A. in series with a unit.
+B. between the source voltage and the load
+C. in parallel with a unit. .[CA]
+
+
+9.Which term means .001 ampere?
+A. Microampere.
+B. Kiloampere.
+C. Milliampere. .[CA]
+
+
+10. A cabin entry light of 10 watts and a dome light of 20 watts are connected in parallel to a 30-volt source. If the voltage across the 10-watt light is measured, it will be
+A. equal to the voltage across the 20-watt light. .[CA]
+B. half the voltage across the 20-2watt light.
+C. one-third of the input voltage.
+
+
+11. 002KV equals
+A. 20 volts.
+B. 2.0 volts. .[CA]
+C. .2 volt.
+
+12. What unit is used to express electrical power?
+A. Volt.
+B. Watt. .[CA]
+C. Ampere.
+
+13.Which statement is correct when made in reference to a parallel circuit?
+A. The current is equal in all portions of the circuit.
+B. The total current is equal to the sum of the currents through the individual branches of the circuit. .[CA]
+C. The current in amperes can be found by dividing the EMF in volts by the sum of the resistors in ohms.
+
+14. Diodes are used in electrical power circuits primarily as
+A. switches.
+B. rectifiers. .[CA]
+C. relays.
+
+
+15. A circuit has an applied voltage of 30 volts and a load consisting of a 10-ohm resistor in series with a 20-ohm resistor. What is the voltage drop across the 10-ohm resistor?
+A. 10 volts. .[CA]
+B. 20 volts.
+C. 30 volts.
+
+
+16. Which is correct concerning a parallel circuit?
+A. Total resistance will be smaller than the smallest resistor. .[CA]
+B. Total resistance will decrease when one of the resistances is removed
+C. Total voltage drop is the same as the total resistance.
+
+
+17. A thermal switch, as used in an electric motor, is designed to
+A. close the integral fan circuit to allow cooling of the motor.
+B. open the circuit in order to allow cooling of the motor. .[CA]
+C. reroute the circuit to ground
+
+
+18. When referring to an electrical circuit diagram, what point is considered to be at zero voltage?
+A. The circuit breaker.
+B. The switch.
+C. The ground reference. .[CA]
+
+
+19. (Refer to Figure 24.) Which statement concerning the depicted logic gate is true?
+A. Any input being 1 will produce a 0 output.
+B. Any input being 1 will produce a 1 output. .[CA]
+C. All inputs must be 1 to produce a 1 output.
+
+20. (Refer to Figure 25.) In a functional and operation circuit, the depicted logic gate’s output will be 0
+A. only when all inputs are 0.
+B. when all inputs are 1.
+C. when one or more inputs are 0. .[CA]
+
+21. A specific measured distance from the datum or some other point identified by the manufacturer, to a point in or on the aircraft is called a
+A. zone number.
+B. reference number.
+C. station number. .[CA]
+
+
+22. (1) Schematic diagrams indicate the location of individual components in the aircraft.   (2) Schematic diagrams indicate the location of components with respect to each other within the system.
+A. only No. 1 is true.
+B. both No. 1 and No. 2 are true.
+C. only No. 2 is true. .[CA]
+
+
+23. One purpose for schematic diagrams is to show the
+A.  functional location of components within a system. .[CA]
+B. physical location of components within a system.
+C. size and shape of components within a system.
+
+24. A hydraulic system schematic drawing typically indicates the
+A. specific location of the individual components within the aircraft.
+B. direction of fluid flow through the system. .[CA]
+C. amount of pressure in the pressure and return lines, and in system components.
+
+
+25. What type of diagram shows the wire size required for a particular installation?
+A. A block diagram.
+B. A schematic diagram.
+C. A wiring diagram. .[CA]
+
+
+26. Schematic diagrams are best suited for which of the following?
+A. Showing the visual details of individual components in a system.
+B. Showing the overall location and appearance of components in a system.
+C. Troubleshooting system malfunctions. .[CA]
+
+
+27. What tasks are completed prior to weighing an aircraft to determine its empty weigh?
+A. Remove all items except those on the aircraft equipment list; drain fuel and hydraulic fluid
+B. Remove all items on the aircraft equipment list; drain fuel, compute oil and hydraulic fluid weight.
+C. Remove all items except those on the aircraft equipment list; drain fuel and fill hydraulic reservoir. .[CA]
+
+28. The useful load of an aircraft consists of the
+A. crew, usable fuel, passengers, and cargo. .[CA]
+B. crew, usable fuel, oil and fixed equipment.
+C. crew, passengers, usable fuel, oil, cargo, and fixed equipment.
+
+
+29. In the theory of weight and balance, what is the name of the distance from the fulcrum to an object?
+A. Level arm. .[CA]
+B. Balance arm.
+C. Fulcrum arm.
+
+30. What determines whether the value of the moment is preceded by a plus (+) or a minus (-) sign in aircraft weight and balance?
+A. The location of the weight in reference to the datum.
+B. The result or a weight being added or removed and its location relative to the datum. .[CA]
+C. The location of the datum in reference to the aircraft CG.
+
+
+31. The maximum weight of an aircraft is the
+A. empty weight plus crew, maximum fuel, cargo, and baggage.
+B. empty weight plus crew, passengers, and fixed equipment.
+C. empty weight plus useful load .[CA]
+
+
+32. Zero fuel weight is the
+A. dry weight plus the weight of full crew, passengers, and cargo.
+B. basis operating weight without crew, fuel, and cargo.
+C. maximum permissible weight of a loaded aircraft (passengers, crew, and cargo) without fuel. .[CA]
+
+
+33. The useful load of an aircraft is the
+A. difference between the maximum gross weight and empty weight. .[CA]
+B. difference between the net weight and total weight.
+C. sum of the empty weight and the maximum gross weight.
+
+
+34. The maximum weight as used in weight and balance control of a given aircraft can normally be found
+A. by adding the weight of full fuel, pilot, passengers, and maximum allowable baggage to the empty weight.
+B. in the Aircraft Specification or Type Certificate Data Sheet. .[CA]
+C. by adding the empty weight and payload
+
+35. Hydraulic tubing, which is damaged in a localized area to such an extent that repair is necessary, may be repaired
+A. by cutting out the damaged area and utilizing a swaged tube fitting to join the tube ends. .[CA]
+B. only by replacing the entire tubing using the same size and material as the original.
+C. by cutting out the damaged section and soldering in a replacement section of tubing.
+
+36. A certain amount of slack must be left in a flexible hose during installation because, when under pressure, it
+A. expands in length and diameter.
+B. expands in length and contracts in diameter.
+C. contracts in length and expands in diameter. .[CA]
+
+37. Flexible lines must be installed with
+A. a slack of 5 to 8 percent of the length. .[CA]
+B. a slack of at least 10 to 12 percent of the length.
+C. enough slack to allow maximum flexion during operation.
+
+
+38. the maximum distance between end fittings to which a straight hose assembly is to be connected is 50 inches. The minimum hose length to make such a connection should be
+A. 54-1/2 inches.
+B. 51- 1/2 inches.
+C. 52- 1/2 inches. .[CA]
+
+39. Scratches or nicks on the straight portion of aluminum alloy tubing may be repaired if they are no deeper than
+A. 20 percent of the wall thickness.
+B. 1/32 inch or 20 percent of wall thickness, whichever is less.
+C. 10 percent of the wall thickness. .[CA]
+
+
+40. Which statement concerning Bernoulli’s principle is true?
+A. The pressure of a fluid increases at points where the velocity of the fluid increases.
+B. The pressure of a fluid decreases at points where the velocity of the fluid increases. .[CA]
+C. It applies only to gases and vaporized liquids.
+
+41. Magnetic particle inspection is used primarily to detect
+A. distortion.
+B.deep subsurface flaws.
+C. flaws on or near the surface. .[CA]
+
+42. Which of these nondestructive testing methods is suitable for the inspection of most metals, plastics, and ceramics for surface and subsurface defects?
+A. Eddy current inspection.
+B. Magnetic particle inspection.
+C. Ultrasonic inspection. .[CA]
+
+43. What nondestructive testing method requires little or no part preparation, is used to detect surface or near-surface defects in most metals, and may also be used to separate metals or alloys and their heat-treat conditions?
+A. Eddy current inspection. .[CA]
+B. Ultrasonic inspection.
+C. Magnetic particle inspection.
+
+44. Unless otherwise specified, torque values for tight-enting aircraft nuts and bolts relate to
+A. clean, dry threads. .[CA]
+B. clean, lightly oiled threads.
+C. either dry or lightly oiled threads.
+
+45. What is generally used in the construction of aircraft engine firewalls?
+A. Stainless steel. .[CA]
+B. Chrome-molybdenum alloy steel.
+C. Magnesium-titanium alloy steel.
+
+
+46. Unless otherwise specified or required, aircraft bolts should be installed so that the bolthead is
+A. upward, or in a forward direction. .[CA]
+B. downward, or in a forward direction.
+C. downward, or in a reaward direction.
+
+
+47. Aircraft bolts with a cross or asterisk marked on the bolthead are
+A. made of aluminum alloy.
+B. close tolerance bolts.
+C. standard steel bolts. .[CA]
+
+48. Which statement regarding aircraft bolts is correct?
+A. When tightening castellated nuts on drilled bolts, if the cotter pin holes do not line up, it is permissible to overtighten the nut to permit alignment of the next slot with the cotter pin hole.
+B. In general, bolt grip lengths should equal the material thickness. .[CA]
+C. Alloy steel bolts smaller than 1/4-inhch diameter should not be used in primary structure.
+
+49. Generally speaking, bolt grip lengths should be
+A. equal to the thickness of the material which is fastened together, plus approximately one diameter.
+B. equal to  the thickness of the material which is fastened together. .[CA]
+C. one and one half times the thickness of the material which is fastened together.
+
+50. A particular component is attached to the aircraft structure by the use of an aircraft bolt and a castle tension nut combination. If the cotter pin hole does not align within the recommended torque range, the acceptable practice is to
+A. exceed the recommended torque range by no more than 10 percent.
+B. tighten below the torque range.
+C. change washers and try again. .[CA]
+
+
+51. During starting of a turbine powerplant using a compressed air stater, a hung start occurred, Select the proper procedure.
+A. Advance power lever to increase RPM.
+B. Re-engage the starter.
+C. Shut the engine down. .[CA]
+
+
+52. A hung start in a jet engine is often caused by
+A. malfunctions in the ignition system.
+B. the starter cutting off too soon. .[CA]
+C. an excessively rich fuel/air mixture.
+
+53. Which statement below reflects a typical requirement when towing some aircraft?
+A. Discharge all hydraulic pressure to prevent accidental operation of the nosewheel steering mechanism.
+B. Tailwheel aircraft must be towed backward
+C. If the aircraft has a steerable nosewheel, the torquelink lock should be set to full swivel. .[CA]
+
+
+54. When approaching the front of an idling jet engine, the hazard area extends forward of the engine approximately
+A. 10 feet.
+B. 15 feet.
+C. 25 feet. .[CA]
+
+
+55. Which of the following is the most satisfactory extinguishing agent for use on a carburetor or intake fire?
+A. Dry chemical.
+B. A fine, water mist.
+C. Carbon dioxide. .[CA]
+
+56. The most important condition to be monitored during start after fuel flow begins in a turbine engine is the
+A. EGT, TIT, or ITT. .[CA]
+B. RPM.
+C. oil pressure.
+
+
+57. When approaching the rear of an idling turbojet engine, the hazard area extends aft of the engine approximately
+A. 200 feet.
+B. 100 feet. .[CA]
+C. 50 feet.
+
+
+58. If a hot start occurs during starting of a turbine powerplant, what is the likely cause?
+A. The starting unit overheated
+B. The ambient air temperature was too high (over 100 degrees F).
+C. The fuel/air mixture was excessively rich. .[CA]
+
+59. When towing a large aircraft
+A. a person should be in the cockpit to watch for obstructions.
+B. persons should be stationed at the nose, each wingtip, and the empennage at all times.
+C. a person should be in the cockpit to operate brakes. .[CA]
+
+60. Intergranular corrosion in aluminum alloy parts
+A. may be detected by surface pitting, and white, powdery deposit formed on the surface of the metal.
+B. commonly appears as threadlike filaments of corrosion products under a dense film of paint.
+C. cannot always be detected by surface indications. .[CA]
+
+
+61. A primary cause of intergranular corrosion is
+A. improper heat treatment. .[CA]
+B. dissimilar metal contact.
+C. improper application of primer.
+
+62. Why is a plastic surface flushed with fresh water before it is cleaned with soap and water?
+A. To prevent crazing.
+B. To prevent scratching. .[CA]
+C. To prevent discoloration.
+63. What should be done to prevent rapid deterioration when oil or grease come in contact with a tire?
+A. Wipe the tire thoroughly with a dry cloth, and then rinse with clean water.
+B. Wipe the tire with a dry cloth followed by a washdown and rinse with soap and water. .[CA]
+C. Wipe the tire with a cloth dampened with aromatic naphtha and then wipe dry with a clean cloth.
+
+
+64. Galvanic corrosion at the interface of a dissimilar metal part may best be prevented by
+A. placing a nonporous dielectric material between the surfaces. .[CA]
+B. conducting frequent inspections and keeping all exposed areas of the part clean.
+C. sealing exposed seam edges with a recommended sealing compound
+
+65. Corrosion caused by galvanic action is the result of
+A. excessive anodization.
+B. contact between two unlike metals. .[CA]
+C. excessive etching.
+
+
+66. Spilled mercury on aluminum
+A. increases susceptibility to hydrogen embitterment.
+B. may cause impaired corrosion resistance if left in prolonged contact.
+C. causes rapid and severe corrosion that is very difficult to control. .[CA]
+
+
+67. What force is exerted on the piston in a hydraulic cylinder if the area of the piston is 1.2 square inches and the fluid pressure is 850 PSI?
+A. 1, 020 pounds. .[CA]
+B. 960 pounds.
+C. 850 pounds.
+
+
+
+68. If work performed on an aircraft has been done satisfactorily, the signature of an authorized person on the maintenance records for maintenance or alterations performed constitutes
+A. approval of the aircraft for return to service.
+B. approval for return to service only for the work performed .[CA]
+C. only verification that the maintenance or alterations were performed referencing maintenance data
+
+
+69. What is the means by which the CAAV notifies aircraft owners and other interested persons of unsafe conditions and prescribes the condition under which the product may continue to be operated?
+A. Airworthiness Directives. .[CA]
+B. Aviation Maintenance Alerts.
+C. Aviation Safety Data
+
+70. Who is responsible for upkeep of the required maintenance records for an aircraft?
+A. The maintaining repair station or authorized inspector.
+B. The maintaining certificated mechanic
+C. The aircraft owner. .[CA]
+
+
+71.An aircraft was not approved for return to service after an annual inspection and the owner wanted to fly the aircraft to another maintenance base. Which statement is correct?
+A. The owner must obtain a special flight permit. .[CA]
+B. The aircraft may be flown without restriction up to 10 hours to reach another maintenance base.
+C. The aircraft becomes a restricted category type until it is approved for return to service.
+
+
+72. After a mechanic holding an airframe and powerplant rating completes a 100-hour inspection, what action is required before the aircraft is returned to service?
+A. Make the proper entries in the aircraft’s maintenance record .[CA]
+B. An operational check of all systems.
+C. A mechanic with an inspection authorization must approve the inspection.
+
+
+73. The force that can be produced by an actuating cylinder whose piston has a cross-sectional area of a square inches operating in a 1,000 PSI hydraulic system is most nearly
+A. 3,000 pounds. .[CA]
+B. 1,5 pounds.
+C. 1,000 pounds.
+
+74. The boiling point of a given liquid varies
+A. directly with pressure. .[CA]
+B. inversely with pressure.
+C. directly with volume.
+
+
+75. The speed of sound in the atmosphere
+A. varies according to the frequency of the sound
+B. changes with a change in temperature. .[CA]
+C. changes with a change in pressure.
+
+
+76. If the volume of a confined gas is doubled (without the addition of more gas), the pressure will (assume the temperature remains constant).
+A. increase in direct proportion to the volume increase.
+B. remain the same.
+C. be reduced to one-half its original value. .[CA]
+
+
+77. If the temperature of a confined liquid is held constant and its pressure is tripled, the volume will
+A. triple.
+B. be reduced to one-third its original volume.
+C. remain the same. .[CA]
+
+
+78. If the fluid pressure is 800 PSI in a 1/2- inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
+A. 4,000 pounds.
+B. 8,000 pounds.
+C. 800 pounds. .[CA]
+
+79. How many, if any, factors are necessary to determine power? 1. Force exerted 2. Distance the force moves. 3. Time required to do the work.
+A. One.
+B. Two.
+C. Three. .[CA]
+
+80. Which statement concerning heat and/or temperature is true?
+A. There is an inverse relationship between temperature and heat.
+B. Temperature is a measure of the kinetic energy of the molecules of any substance. .[CA]
+C. Temperature is a measure of the potential energy of the molecules of any substance.
+
+81. An airplane wing is designed to produce lift resulting from
+A. positive air pressure below and above the wing’s surface along with the downward deflection of air.
+B. positive air pressure below the wing’s surface and negative air pressure above the wing’s surface along with the downward deflection of air. .[CA]
+C. negative air pressure below the wing’s surface and positive air pressure above the wing’s surface along with the downward deflection of air.
+
+82. The purpose of aircraft wing dihedral is to
+A. increase lateral stability. .[CA]
+B. increase longitudinal stability.
+C. increase lift coefficient of the wing.
+
+83. Airworthiness Directives are issued primarily to
+A. provide information about malfunction or defecttrends.
+B. present recommended maintenance procedures for correcting potentially hazardous defects.
+C. correct an unsafe condition. .[CA]
+
+84. Primary responsibility for compliance with Airworthiness Directives lies with the
+
+A. aircraft owner or operator. .[CA]
+B. certificated mechanic holding an Inspection Authorization who conducts appropriate inspections.
+C. certificated mechanic who maintains the aircraft.
+
+85. An aircraft Type Certificate Data Sheet contains
+A. maximum fuel grade to be used
+B. control surface adjustment points.
+C. location of the datum. .[CA]
+
+
+86. Suitability for use of a specific propeller with a particular engine-airplane combination can be determined by reference to what informational source?
+A. Propeller Specifications or Propeller Type Certificate Data Sheet.
+B. Aircraft Specifications or Aircraft Type Certificate Data Sheet. .[CA]
+C. Alphabetical Index of Current Propeller Type Certificate Data Sheets, Specifications, and Listings.
+
+
+87. Where are technical descriptions of certificated propellers found?
+A. Applicable Airworthiness Directives.
+B. Aircraft Specifications.
+C. Propeller Type Certificate Data Sheets. .[CA]
+
+88. What information is generally contained in Aircraft Specifications or Type Certificate Data Sheets?
+A. Empty weight of the aircraft.
+B. Useful load of aircraft.
+C. Control surface movements. .[CA]
+
+
+89. What is the maintenance recording responsibility of the person who complies with an Airworthiness Directive?
+A. Advise the aircraft owner/operator of the work performed
+B. Make up entry in the maintenance record of that equipment. .[CA]
+C. Advise the CAAV of the work performed, by submitting an REPORT.
+
+
+90. A repair, as performed on an airframe, shall mean
+A. the upkeep and preservation of the airframe including the component parts thereof.
+B. the restoration of the airframe to a condition for safe operation after damage or deterioration. .[CA]
+C. simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations.

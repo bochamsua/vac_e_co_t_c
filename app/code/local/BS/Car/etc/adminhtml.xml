@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Car extension
+ * 
+ * @category       BS
+ * @package        BS_Car
+ * @copyright      Copyright (c) 2016
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_car translate="title" module="bs_car">
+                                        <title>Car</title>
+                                    </bs_car>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_car translate="title" module="bs_car">
+                        <title>CAR</title>
+                        <children>
+                            <qacar translate="title" module="bs_car">
+                                <title>QA Car</title>
+                                <sort_order>0</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </qacar>
+                            <cardoc translate="title" module="bs_car">
+                                <title>CAR Document</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </cardoc>
+
+                        </children>
+                    </bs_car>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_car translate="title" module="bs_car">
+            <title>CAR</title>
+            <sort_order>72</sort_order>
+            <children>
+                <qacar translate="title" module="bs_car">
+                    <title>QA Car</title>
+                    <action>adminhtml/car_qacar</action>
+                    <sort_order>0</sort_order>
+                </qacar>
+                <cardoc translate="title" module="bs_car">
+                    <title>CAR Document</title>
+                    <action>adminhtml/car_cardoc</action>
+                    <sort_order>10</sort_order>
+                </cardoc>
+
+            </children>
+        </bs_car>
+    </menu>
+</config>

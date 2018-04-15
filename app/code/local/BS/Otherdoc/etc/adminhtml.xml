@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Otherdoc extension
+ * 
+ * @category       BS
+ * @package        BS_Otherdoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_otherdoc translate="title" module="bs_otherdoc">
+                                        <title>Otherdoc</title>
+                                    </bs_otherdoc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material>
+                        <children>
+                            <otherdoc translate="title" module="bs_otherdoc">
+                                <title>Other's Course Document</title>
+                                <sort_order>15</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </otherdoc>
+                        </children>
+                    </bs_material>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material>
+            <children>
+                <otherdoc translate="title" module="bs_otherdoc">
+                    <title>Other's Course Document</title>
+                    <action>adminhtml/otherdoc_otherdoc</action>
+                    <sort_order>15</sort_order>
+                </otherdoc>
+            </children>
+        </bs_material>
+
+    </menu>
+</config>

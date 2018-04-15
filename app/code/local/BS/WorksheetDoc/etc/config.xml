@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_WorksheetDoc extension
+ * 
+ * @category       BS
+ * @package        BS_WorksheetDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_WorksheetDoc>
+            <version>1.0.0</version>
+        </BS_WorksheetDoc>
+    </modules>
+    <global>
+        <resources>
+            <bs_worksheetdoc_setup>
+                <setup>
+                    <module>BS_WorksheetDoc</module>
+                    <class>BS_WorksheetDoc_Model_Resource_Setup</class>
+                </setup>
+            </bs_worksheetdoc_setup>
+        </resources>
+        <blocks>
+            <bs_worksheetdoc>
+                <class>BS_WorksheetDoc_Block</class>
+            </bs_worksheetdoc>
+        </blocks>
+        <helpers>
+            <bs_worksheetdoc>
+                <class>BS_WorksheetDoc_Helper</class>
+            </bs_worksheetdoc>
+        </helpers>
+        <models>
+            <bs_worksheetdoc>
+                <class>BS_WorksheetDoc_Model</class>
+                <resourceModel>bs_worksheetdoc_resource</resourceModel>
+            </bs_worksheetdoc>
+            <bs_worksheetdoc_resource>
+                <class>BS_WorksheetDoc_Model_Resource</class>
+                <entities>
+                    <worksheetdoc>
+                        <table>bs_worksheetdoc_worksheetdoc</table>
+                    </worksheetdoc>
+                    <worksheetdoc_worksheet>
+                        <table>bs_worksheetdoc_worksheetdoc_worksheet</table>
+                    </worksheetdoc_worksheet>
+                </entities>
+            </bs_worksheetdoc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_worksheetdoc>
+                    <file>bs_worksheetdoc.xml</file>
+                </bs_worksheetdoc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_WorksheetDoc>
+                    <files>
+                        <default>BS_WorksheetDoc.csv</default>
+                    </files>
+                </BS_WorksheetDoc>
+            </modules>
+        </translate>
+        <events>
+            <!--<core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_worksheetdoc_worksheetdoc_worksheet>
+                        <type>singleton</type>
+                        <class>bs_worksheetdoc/adminhtml_observer</class>
+                        <method>addWorksheetWorksheetdocBlock</method>
+                    </bs_worksheetdoc_worksheetdoc_worksheet>
+                </observers>
+            </core_block_abstract_prepare_layout_after>-->
+            <bs_worksheet_worksheet_save_after>
+                <observers>
+                    <bs_worksheetdoc_worksheetdoc_worksheet>
+                        <type>singleton</type>
+                        <class>bs_worksheetdoc/adminhtml_observer</class>
+                        <method>saveWorksheetWorksheetdocData</method>
+                    </bs_worksheetdoc_worksheetdoc_worksheet>
+                </observers>
+            </bs_worksheet_worksheet_save_after>
+        </events>
+        <!--<global_search>
+            <worksheetdoc>
+                <class>bs_worksheetdoc/adminhtml_search_worksheetdoc</class>
+                <acl>bs_worksheetdoc</acl>
+            </worksheetdoc>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_WorksheetDoc before="Mage_Adminhtml">BS_WorksheetDoc_Adminhtml</BS_WorksheetDoc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

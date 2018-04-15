@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Docwise extension
+ * 
+ * @category       BS
+ * @package        BS_Docwise
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<layout>
+    <adminhtml_docwise_score_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/bs_docwise/score</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_docwise/adminhtml_score" name="score"/>
+
+        </reference>
+    </adminhtml_docwise_score_index>
+    <adminhtml_docwise_score_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_score_grid" name="score_grid"/>
+        </block>
+    </adminhtml_docwise_score_grid>
+    <!-- Score add/edit action -->
+    <adminhtml_docwise_score_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/bs_docwise/score</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_docwise/adminhtml_score_edit" name="score_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_docwise/adminhtml_score_edit_tabs" name="score_tabs"></block>
+        </reference>
+    </adminhtml_docwise_score_edit>
+
+    <adminhtml_docwise_exam_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/bs_docwise/exam</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_docwise/adminhtml_exam" name="exam"/>
+
+        </reference>
+    </adminhtml_docwise_exam_index>
+    <adminhtml_docwise_exam_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_grid" name="exam_grid"/>
+        </block>
+    </adminhtml_docwise_exam_grid>
+    <!-- Exam add/edit action -->
+    <adminhtml_docwise_exam_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/bs_docwise/exam</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_docwise/adminhtml_exam_edit" name="exam_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_docwise/adminhtml_exam_edit_tabs" name="exam_tabs"></block>
+        </reference>
+    </adminhtml_docwise_exam_edit>
+
+    <adminhtml_docwise_trainee_index>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/bs_docwise/trainee</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_docwise/adminhtml_trainee" name="trainee"/>
+
+
+        </reference>
+
+    </adminhtml_docwise_trainee_index>
+
+    <adminhtml_docwise_trainee_grid>
+
+        <block type="core/text_list" name="root" output="toHtml">
+
+            <block type="bs_docwise/adminhtml_trainee_grid" name="trainee_grid"/>
+
+        </block>
+
+    </adminhtml_docwise_trainee_grid>
+
+    <!-- Trainee add/edit action -->
+
+    <adminhtml_docwise_trainee_edit>
+
+        <update handle="editor"/>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/bs_docwise/trainee</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_docwise/adminhtml_trainee_edit" name="trainee_edit"></block>
+
+        </reference>
+
+        <reference name="left">
+
+            <block type="bs_docwise/adminhtml_trainee_edit_tabs" name="trainee_tabs"></block>
+
+        </reference>
+
+    </adminhtml_docwise_trainee_edit>
+
+    <adminhtml_docwise_scores_index>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/bs_docwise/scores</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_docwise/adminhtml_scores" name="scores" />
+
+
+        </reference>
+
+    </adminhtml_docwise_scores_index>
+
+    <adminhtml_docwise_scores_grid>
+
+        <block type="core/text_list" name="root" output="toHtml">
+
+            <block type="bs_docwise/adminhtml_scores_grid" name="scores_grid"/>
+
+        </block>
+
+    </adminhtml_docwise_scores_grid>
+
+    <!-- Scores add/edit action -->
+
+    <adminhtml_docwise_scores_edit>
+
+        <update handle="editor"/>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/bs_docwise/scores</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_docwise/adminhtml_scores_edit" name="scores_edit"></block>
+
+        </reference>
+
+        <reference name="left">
+
+            <block type="bs_docwise/adminhtml_scores_edit_tabs" name="scores_tabs"></block>
+
+        </reference>
+
+    </adminhtml_docwise_scores_edit>
+
+    <adminhtml_docwise_importtrainee_index>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/bs_docwise/importtrainee</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_docwise/adminhtml_importtrainee" name="importtrainee" />
+
+
+        </reference>
+
+    </adminhtml_docwise_importtrainee_index>
+
+    <adminhtml_docwise_importtrainee_grid>
+
+        <block type="core/text_list" name="root" output="toHtml">
+
+            <block type="bs_docwise/adminhtml_importtrainee_grid" name="importtrainee_grid"/>
+
+        </block>
+
+    </adminhtml_docwise_importtrainee_grid>
+
+    <!-- Importtrainee add/edit action -->
+
+    <adminhtml_docwise_importtrainee_edit>
+
+        <update handle="editor"/>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/bs_docwise/importtrainee</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_docwise/adminhtml_importtrainee_edit" name="importtrainee_edit"></block>
+
+        </reference>
+
+        <reference name="left">
+
+            <block type="bs_docwise/adminhtml_importtrainee_edit_tabs" name="importtrainee_tabs"></block>
+
+        </reference>
+
+    </adminhtml_docwise_importtrainee_edit>
+
+    <adminhtml_docwise_exam_trainees>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_trainee" name="exam.edit.tab.trainee"/>
+        </block>
+    </adminhtml_docwise_exam_trainees>
+
+    <adminhtml_docwise_exam_traineesgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_trainee" name="exam.edit.tab.trainee"/>
+        </block>
+    </adminhtml_docwise_exam_traineesgrid>
+
+
+    <adminhtml_docwise_trainee_exams>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_trainee_exam" name="trainee.edit.tab.exam"/>
+        </block>
+    </adminhtml_docwise_trainee_exams>
+
+    <adminhtml_docwise_trainee_examsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_trainee_exam" name="trainee.edit.tab.exam"/>
+        </block>
+    </adminhtml_docwise_trainee_examsgrid>
+
+    <adminhtml_docwise_docwisement_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/bs_docwise/docwisement</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_docwise/adminhtml_docwisement" name="docwisement" />
+
+        </reference>
+    </adminhtml_docwise_docwisement_index>
+    <adminhtml_docwise_docwisement_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_docwisement_grid" name="docwisement_grid"/>
+        </block>
+    </adminhtml_docwise_docwisement_grid>
+    <!-- Docwisement add/edit action -->
+    <adminhtml_docwise_docwisement_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/bs_docwise/docwisement</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_docwise/adminhtml_docwisement_edit" name="docwisement_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_docwise/adminhtml_docwisement_edit_tabs" name="docwisement_tabs"></block>
+        </reference>
+    </adminhtml_docwise_docwisement_edit>
+
+    <adminhtml_docwise_exam_docwisement_exams>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_docwisement_edit_tab_exam" name="docwisement.edit.tab.exam"/>
+            <block type="adminhtml/widget_grid_serializer" name="exam_grid_serializer">
+                <reference name="exam_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>docwisement.edit.tab.exam</grid_block_name>
+                        <data_callback>getSelectedExams</data_callback>
+                        <hidden_input_name>exams</hidden_input_name>
+                        <reload_param_name>docwisement_exams</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_docwise_exam_docwisement_exams>
+    <adminhtml_docwise_exam_docwisement_examsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_docwisement_edit_tab_exam" name="docwisement.edit.tab.exam"/>
+        </block>
+    </adminhtml_docwise_exam_docwisement_examsgrid>
+    <adminhtml_docwise_exam_docwisements>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_edit_tab_docwisement" name="exam.edit.tab.docwisement"/>
+            <block type="adminhtml/widget_grid_serializer" name="docwisement_grid_serializer">
+                <reference name="docwisement_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>exam.edit.tab.docwisement</grid_block_name>
+                        <data_callback>getSelectedDocwisements</data_callback>
+                        <hidden_input_name>docwisements</hidden_input_name>
+                        <reload_param_name>exam_docwisements</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_docwise_exam_docwisements>
+    <adminhtml_docwise_exam_docwisementsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_edit_tab_docwisement" name="exam.edit.tab.docwisement"/>
+        </block>
+    </adminhtml_docwise_exam_docwisementsgrid>
+
+
+    <adminhtml_docwise_exam_filefolders>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_edit_tab_filefolder" name="exam.edit.tab.filefolder"/>
+            <block type="adminhtml/widget_grid_serializer" name="filefolder_grid_serializer">
+                <reference name="filefolder_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>exam.edit.tab.filefolder</grid_block_name>
+                        <data_callback>getSelectedFilefolders</data_callback>
+                        <hidden_input_name>filefolders</hidden_input_name>
+                        <reload_param_name>exam_filefolders</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_docwise_exam_filefolders>
+    <adminhtml_docwise_exam_filefoldersgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_docwise/adminhtml_exam_edit_tab_filefolder" name="exam.edit.tab.filefolder"/>
+        </block>
+    </adminhtml_docwise_exam_filefoldersgrid>
+
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_TraineeDoc extension
+ * 
+ * @category       BS
+ * @package        BS_TraineeDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_traineedoc translate="title" module="bs_traineedoc">
+                                        <title>TraineeDoc</title>
+                                    </bs_traineedoc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material>
+                        <children>
+                            <traineedoc translate="title" module="bs_traineedoc">
+                                <title>Trainee Document</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </traineedoc>
+                        </children>
+                    </bs_material>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material>
+            <children>
+                <traineedoc translate="title" module="bs_traineedoc">
+                    <title>Trainee Document</title>
+                    <action>adminhtml/traineedoc_traineedoc</action>
+                    <sort_order>50</sort_order>
+                </traineedoc>
+            </children>
+        </bs_material>
+
+    </menu>
+</config>

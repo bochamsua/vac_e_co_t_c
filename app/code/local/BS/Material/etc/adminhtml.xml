@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Material extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_Material
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_material translate="title" module="bs_material">
+                                        <title>Material</title>
+                                    </bs_material>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material translate="title" module="bs_material">
+                        <title>Manage Materials</title>
+                        <sort_order>60</sort_order>
+                        <children>
+                            <instructordoc translate="title" module="bs_material">
+                                <title>Instructor Document</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </instructordoc>
+                        </children>
+                    </bs_material>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material translate="title" module="bs_material">
+            <title>Document</title>
+            <sort_order>20</sort_order>
+            <children>
+                <instructordoc translate="title" module="bs_material">
+                    <title>Instructor Document</title>
+                    <action>adminhtml/material_instructordoc</action>
+                    <sort_order>30</sort_order>
+                </instructordoc>
+            </children>
+        </bs_material>
+    </menu>
+</config>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_TraineeDoc extension
+ * 
+ * @category       BS
+ * @package        BS_TraineeDoc
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_traineedoc_traineedoc_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_traineedoc/traineedoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_traineedoc/adminhtml_traineedoc" name="traineedoc" />
+
+        </reference>
+    </adminhtml_traineedoc_traineedoc_index>
+    <adminhtml_traineedoc_traineedoc_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traineedoc/adminhtml_traineedoc_grid" name="traineedoc_grid"/>
+        </block>
+    </adminhtml_traineedoc_traineedoc_grid>
+    <!-- Traineedoc add/edit action -->
+    <adminhtml_traineedoc_traineedoc_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_traineedoc/traineedoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_traineedoc/adminhtml_traineedoc_edit" name="traineedoc_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_traineedoc/adminhtml_traineedoc_edit_tabs" name="traineedoc_tabs"></block>
+        </reference>
+    </adminhtml_traineedoc_traineedoc_edit>
+
+    <adminhtml_traineedoc_traineedoc_trainee_trainee_traineedocs>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traineedoc/adminhtml_trainee_trainee_edit_tab_traineedoc" name="trainee.edit.tab.traineedoc"/>
+            <block type="adminhtml/widget_grid_serializer" name="traineedoc_grid_serializer">
+                <reference name="traineedoc_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>trainee.edit.tab.traineedoc</grid_block_name>
+                        <data_callback>getSelectedTraineedocs</data_callback>
+                        <hidden_input_name>traineedocs</hidden_input_name>
+                        <reload_param_name>trainee_traineedocs</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_traineedoc_traineedoc_trainee_trainee_traineedocs>
+    <adminhtml_traineedoc_traineedoc_trainee_trainee_traineedocsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traineedoc/adminhtml_trainee_trainee_edit_tab_traineedoc" name="trainee.edit.tab.traineedoc"/>
+        </block>
+    </adminhtml_traineedoc_traineedoc_trainee_trainee_traineedocsgrid>
+    <adminhtml_traineedoc_traineedoc_trainees>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traineedoc/adminhtml_traineedoc_edit_tab_trainee" name="traineedoc.edit.tab.trainee"/>
+            <block type="adminhtml/widget_grid_serializer" name="trainee_grid_serializer">
+                <reference name="trainee_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>traineedoc.edit.tab.trainee</grid_block_name>
+                            <data_callback>getSelectedTrainees</data_callback>
+                            <hidden_input_name>trainees</hidden_input_name>
+                            <reload_param_name>traineedoc_trainees</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_traineedoc_traineedoc_trainees>
+    <adminhtml_traineedoc_traineedoc_traineesgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traineedoc/adminhtml_traineedoc_edit_tab_trainee" name="traineedoc.edit.tab.trainee"/>
+        </block>
+    </adminhtml_traineedoc_traineedoc_traineesgrid>
+</layout>

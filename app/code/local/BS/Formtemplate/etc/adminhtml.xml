@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Formtemplate extension
+ * 
+ * @category       BS
+ * @package        BS_Formtemplate
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_formtemplate translate="title" module="bs_formtemplate">
+                                        <title>Formtemplate</title>
+                                    </bs_formtemplate>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <system>
+                        <children>
+                            <formtemplate translate="title" module="bs_formtemplate">
+                                <title>FORMS Template</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </formtemplate>
+                        </children>
+                    </system>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <system>
+            <children>
+                <formtemplate translate="title" module="bs_formtemplate">
+                    <title>FORMS Template</title>
+                    <action>adminhtml/formtemplate_formtemplate</action>
+                    <sort_order>30</sort_order>
+                </formtemplate>
+            </children>
+        </system>
+
+    </menu>
+</config>

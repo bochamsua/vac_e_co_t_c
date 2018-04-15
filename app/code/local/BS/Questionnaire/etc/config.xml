@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Questionnaire extension
+ * 
+ * @category       BS
+ * @package        BS_Questionnaire
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Questionnaire>
+            <version>1.0.3</version>
+        </BS_Questionnaire>
+    </modules>
+    <global>
+        <resources>
+            <bs_questionnaire_setup>
+                <setup>
+                    <module>BS_Questionnaire</module>
+                    <class>BS_Questionnaire_Model_Resource_Setup</class>
+                </setup>
+            </bs_questionnaire_setup>
+        </resources>
+        <blocks>
+            <bs_questionnaire>
+                <class>BS_Questionnaire_Block</class>
+            </bs_questionnaire>
+        </blocks>
+        <helpers>
+            <bs_questionnaire>
+                <class>BS_Questionnaire_Helper</class>
+            </bs_questionnaire>
+        </helpers>
+        <models>
+            <bs_questionnaire>
+                <class>BS_Questionnaire_Model</class>
+                <resourceModel>bs_questionnaire_resource</resourceModel>
+            </bs_questionnaire>
+            <bs_questionnaire_resource>
+                <class>BS_Questionnaire_Model_Resource</class>
+                <entities>
+                    <questionnaire>
+                        <table>bs_questionnaire_questionnaire</table>
+                    </questionnaire>
+                </entities>
+            </bs_questionnaire_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_questionnaire>
+                    <file>bs_questionnaire.xml</file>
+                </bs_questionnaire>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Questionnaire>
+                    <files>
+                        <default>BS_Questionnaire.csv</default>
+                    </files>
+                </BS_Questionnaire>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <questionnaire>
+                <class>bs_questionnaire/adminhtml_search_questionnaire</class>
+                <acl>bs_questionnaire</acl>
+            </questionnaire>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Questionnaire before="Mage_Adminhtml">BS_Questionnaire_Adminhtml</BS_Questionnaire>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

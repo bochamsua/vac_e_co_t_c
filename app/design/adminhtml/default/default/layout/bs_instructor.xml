@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Instructor extension
+ * 
+ * @category       BS
+ * @package        BS_Instructor
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_instructor_instructor_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_instructor/instructor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructor/adminhtml_instructor" name="instructor">
+                <block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+                    <action method="setUseConfirm"><params>0</params></action>
+                </block>
+            </block>
+
+        </reference>
+    </adminhtml_instructor_instructor_index>
+    <adminhtml_instructor_instructor_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructor_grid" name="instructor_grid"/>
+        </block>
+    </adminhtml_instructor_instructor_grid>
+    <!-- Instructor add/edit action -->
+    <adminhtml_instructor_instructor_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_instructor/instructor</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructor/adminhtml_instructor_edit" name="instructor_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
+            <block type="bs_instructor/adminhtml_instructor_edit_tabs" name="instructor_tabs"></block>
+        </reference>
+        <reference name="head">
+            <action method="setCanLoadTinyMce"><load>1</load></action>
+        </reference>
+        <reference name="js">
+            <block type="core/template" name="catalog.wysiwyg.js" template="catalog/wysiwyg/js.phtml"/>
+        </reference>
+    </adminhtml_instructor_instructor_edit>
+
+    <adminhtml_instructor_instructor_catalog_product_instructors>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_catalog_product_edit_tab_instructor" name="product.edit.tab.instructor"/>
+            <block type="adminhtml/widget_grid_serializer" name="instructor_grid_serializer">
+                <reference name="instructor_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.instructor</grid_block_name>
+                        <data_callback>getSelectedInstructors</data_callback>
+                        <hidden_input_name>instructors</hidden_input_name>
+                        <reload_param_name>product_instructors</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_instructor_instructor_catalog_product_instructors>
+    <adminhtml_instructor_instructor_catalog_product_instructorsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_catalog_product_edit_tab_instructor" name="product.edit.tab.instructor"/>
+        </block>
+    </adminhtml_instructor_instructor_catalog_product_instructorsgrid>
+    <adminhtml_instructor_instructor_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructor_edit_tab_product" name="instructor.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>instructor.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>instructor_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_instructor_instructor_products>
+    <adminhtml_instructor_instructor_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructor_edit_tab_product" name="instructor.edit.tab.product"/>
+        </block>
+    </adminhtml_instructor_instructor_productsgrid>
+
+
+
+
+    <adminhtml_instructor_instructor_traininglist_curriculum_instructors>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_traininglist_curriculum_edit_tab_instructor" name="curriculum.edit.tab.instructor"/>
+            <block type="adminhtml/widget_grid_serializer" name="instructor_grid_serializer">
+                <reference name="instructor_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>curriculum.edit.tab.instructor</grid_block_name>
+                        <data_callback>getSelectedInstructors</data_callback>
+                        <hidden_input_name>instructors</hidden_input_name>
+                        <reload_param_name>curriculum_instructors</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_instructor_instructor_traininglist_curriculum_instructors>
+    <adminhtml_instructor_instructor_traininglist_curriculum_instructorsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_traininglist_curriculum_edit_tab_instructor" name="curriculum.edit.tab.instructor"/>
+        </block>
+    </adminhtml_instructor_instructor_traininglist_curriculum_instructorsgrid>
+    <adminhtml_instructor_instructor_curriculums>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructor_edit_tab_curriculum" name="instructor.edit.tab.curriculum"/>
+            <block type="adminhtml/widget_grid_serializer" name="curriculum_grid_serializer">
+                <reference name="curriculum_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>instructor.edit.tab.curriculum</grid_block_name>
+                        <data_callback>getSelectedCurriculums</data_callback>
+                        <hidden_input_name>curriculums</hidden_input_name>
+                        <reload_param_name>instructor_curriculums</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_instructor_instructor_curriculums>
+    <adminhtml_instructor_instructor_curriculumsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructor_edit_tab_curriculum" name="instructor.edit.tab.curriculum"/>
+        </block>
+    </adminhtml_instructor_instructor_curriculumsgrid>
+
+
+
+
+    <adminhtml_instructor_instructor_categories>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructor_edit_tab_categories" name="instructor.edit.tab.categories"/>
+        </block>
+    </adminhtml_instructor_instructor_categories>
+    <adminhtml_instructor_instructor_catalog_category_instructorsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_catalog_category_tab_instructor" name="category.edit.tab.instructor"/>
+        </block>
+    </adminhtml_instructor_instructor_catalog_category_instructorsgrid>
+    <adminhtml_instructor_instructor_attribute_index>
+        <reference name="content">
+            <block type="bs_instructor/adminhtml_instructor_attribute" name="attribute_grid"></block>
+        </reference>
+    </adminhtml_instructor_instructor_attribute_index>
+    <adminhtml_instructor_instructor_attribute_edit>
+        <reference name="left">
+            <block type="bs_instructor/adminhtml_instructor_attribute_edit_tabs" name="attribute_edit_tabs"></block>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructor/adminhtml_instructor_attribute_edit" name="attribute_edit_content"></block>
+        </reference>
+        <reference name="js">
+            <block type="adminhtml/template" name="attribute_edit_js" template="bs_instructor/attribute/js.phtml">
+                <action method="setMainEntityName"><name>instructor</name></action>
+            </block>
+        </reference>
+    </adminhtml_instructor_instructor_attribute_edit>
+
+    <adminhtml_instructor_instructorfunction_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_instructor/instructorfunction</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructor/adminhtml_instructorfunction" name="instructorfunction" />
+
+        </reference>
+    </adminhtml_instructor_instructorfunction_index>
+    <adminhtml_instructor_instructorfunction_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructor/adminhtml_instructorfunction_grid" name="instructorfunction_grid"/>
+        </block>
+    </adminhtml_instructor_instructorfunction_grid>
+    <!-- Instructorfunction add/edit action -->
+    <adminhtml_instructor_instructorfunction_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_instructor/instructorfunction</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructor/adminhtml_instructorfunction_edit" name="instructorfunction_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_instructor/adminhtml_instructorfunction_edit_tabs" name="instructorfunction_tabs"></block>
+        </reference>
+    </adminhtml_instructor_instructorfunction_edit>
+
+</layout>

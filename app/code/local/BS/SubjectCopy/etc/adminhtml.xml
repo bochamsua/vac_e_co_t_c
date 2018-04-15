@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_SubjectCopy extension
+ * 
+ * @category       BS
+ * @package        BS_SubjectCopy
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_subjectcopy translate="title" module="bs_subjectcopy">
+                                        <title>SubjectCopy</title>
+                                    </bs_subjectcopy>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <subject>
+                                <children>
+                                    <subjectcopy translate="title" module="bs_subjectcopy">
+                                        <title>Subject Copy</title>
+                                        <sort_order>0</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </subjectcopy>
+                                </children>
+                            </subject>
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <!--<menu>
+        <bs_traininglist>
+            <children>
+                <subject>
+                    <children>
+                        <subjectcopy translate="title" module="bs_subjectcopy">
+                            <title>Subject Copy</title>
+                            <action>adminhtml/subjectcopy_subjectcopy</action>
+                            <sort_order>0</sort_order>
+                        </subjectcopy>
+                    </children>
+                </subject>
+            </children>
+        </bs_traininglist>
+
+    </menu>-->
+</config>

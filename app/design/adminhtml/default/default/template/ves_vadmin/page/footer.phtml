@@ -1,0 +1,195 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php echo $this->renderFooterHtml() ?>
+
+<?php
+    $newProduct = false;
+    $currentUrl = Mage::helper('core/url')->getCurrentUrl();
+
+    $from = '';
+
+    $popup = false;
+
+
+    if(strpos($currentUrl, "catalog_product/new/set/4/type/simple")){
+        $newProduct = true;
+    }
+
+    if(strpos($currentUrl, "catalog_product/new/set/4/type/simple/from/coming")){
+        $from = 'coming';
+    }
+
+    if(strpos($currentUrl, "/popup/")){
+        $popup = true;
+    }
+
+?>
+
+
+<script type="text/javascript">
+
+
+    if($('hidden_from') != undefined) {
+        <?php if($from != ''){ ?>
+        $('hidden_from').setValue('coming');
+        <?php } ?>
+
+        $('hidden_from').up('tr').setStyle({'display':'none'});
+    }
+
+
+    
+
+    <?php $random = mt_rand(); ?>
+
+    <?php if($newProduct){ ?>
+    if($('course_requested_name') != undefined){
+        $('course_requested_name').observe('keyup', function(el){
+            $('sku').setValue('VIRTUAL CODE<?php echo $random ?>');
+            $('name').setValue('VIRTUAL NAME - WILL BE REMOVED WHEN HAVING A VALID COURSE PLAN');
+
+
+        });
+
+
+    }
+
+    <?php } ?>
+
+    
+
+    <?php if(!Mage::registry('register_trainee_id')){ ?>
+    Event.observe(document, "dom:loaded", function(e) {
+
+        if($('attendance_course_id') != undefined){
+            updateTraineeByCourse($('attendance_course_id').value);
+        }
+    });
+
+    if($('attendance_course_id') != undefined){
+        Event.observe('attendance_course_id', 'change', function(evt){
+            updateTraineeByCourse($('attendance_course_id').value);
+        });
+    }
+
+    <?php } ?>
+
+
+    <?php if(!Mage::registry('register_instructor_id') && !Mage::registry('register_subject_id') && !Mage::registry('register_room_id')){ ?>
+    Event.observe(document, "dom:loaded", function(e) {
+
+        if($('schedule_course_id') != undefined){
+            //updateSubInsRoomByCourse($('schedule_course_id').value);
+        }
+    });
+
+    if($('schedule_course_id') != undefined){
+        Event.observe('schedule_course_id', 'change', function(evt){
+            //updateSubInsRoomByCourse($('schedule_course_id').value);
+        });
+    }
+
+    <?php } ?>
+
+
+    if($('examresult_current_examresult') != undefined){
+        $('examresult_current_examresult').up('tr').setStyle({'display':'none'});
+    }
+
+    <?php if(!Mage::registry('current_examresult')){ ?>
+    Event.observe(document, "dom:loaded", function(e) {
+
+        if($('examresult_course_id') != undefined){
+            updateTraineeSubjectByCourse($('examresult_course_id').value, $('examresult_subject_id').value, $('examresult_marks').value, $('examresult_current_examresult').value);
+        }
+    });
+
+    <?php } ?>
+
+
+
+
+
+    <?php
+    $currentExam = 0;
+    if(Mage::registry('current_exam') ){
+        $currentExam = Mage::registry('current_exam')->getId();
+
+    }
+    if($currentExam == null){
+        $currentExam = 0;
+    }
+    ?>
+    Event.observe(document, "dom:loaded", function(e) {
+
+        if($('exam_course_id') != undefined){
+            updateSubjectByCourse($('exam_course_id').value, <?php echo $currentExam ?>);
+        }
+    });
+
+    if($('exam_course_id') != undefined){
+        Event.observe('exam_course_id', 'change', function(evt){
+            updateSubjectByCourse($('exam_course_id').value, <?php echo $currentExam ?>);
+        });
+    }
+
+
+
+
+
+
+    
+</script>
+
+<?php if($popup) { ?>
+<style>
+    <!--
+    .vnecoms-cp .header {
+        display: none;
+    }
+    .vnecoms-cp .footer {
+        display: none;
+    }
+    .notification-global {
+        display: none;
+
+    }
+    #friechtahtml {
+        display: none;
+    }
+    div.side-col {
+        display: none;
+    }
+    div.main-col {
+        margin-left: 0;
+    }
+
+
+
+    //-->
+</style>
+<?php } ?>

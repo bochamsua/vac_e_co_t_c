@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Assessment extension
+ * 
+ * @category       BS
+ * @package        BS_Assessment
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_assessment_assessment_index>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/assessment</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_assessment/adminhtml_assessment" name="assessment" />
+
+
+        </reference>
+
+    </adminhtml_assessment_assessment_index>
+
+    <adminhtml_assessment_assessment_grid>
+
+        <block type="core/text_list" name="root" output="toHtml">
+
+            <block type="bs_assessment/adminhtml_assessment_grid" name="assessment_grid"/>
+
+        </block>
+
+    </adminhtml_assessment_assessment_grid>
+
+    <!-- Assessment add/edit action -->
+
+    <adminhtml_assessment_assessment_edit>
+
+        <update handle="editor"/>
+
+        <reference name="menu">
+
+            <action method="setActive">
+
+                <menupath>bs_exam/assessment</menupath>
+
+            </action>
+
+        </reference>
+
+        <reference name="content">
+
+            <block type="bs_assessment/adminhtml_assessment_edit" name="assessment_edit"></block>
+
+        </reference>
+
+        <reference name="left">
+
+            <block type="bs_assessment/adminhtml_assessment_edit_tabs" name="assessment_tabs"></block>
+
+        </reference>
+
+    </adminhtml_assessment_assessment_edit>
+
+
+
+</layout>
+

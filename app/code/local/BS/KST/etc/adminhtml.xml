@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_KST extension
+ * 
+ * @category       BS
+ * @package        BS_KST
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_kst translate="title" module="bs_kst">
+                                        <title>KST</title>
+                                    </bs_kst>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_kst translate="title" module="bs_kst">
+                        <title>KST</title>
+                        <children>
+                            <kstsubject translate="title" module="bs_kst">
+                                <title>Subject</title>
+                                <sort_order>0</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </kstsubject>
+                            <kstitem translate="title" module="bs_kst">
+                                <title>Item</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </kstitem>
+                            <kstprogress translate="title" module="bs_kst">
+                                <title>Progress</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <view translate="title"><title>View</title></view>
+                                </children>
+                            </kstprogress>
+                            <!--<fillout translate="title" module="bs_kst">
+                                <title>Fill Out</title>
+                                <sort_order>30</sort_order>
+                            </fillout>-->
+                            <report translate="title" module="bs_kst">
+                                <title>Progress Report</title>
+                                <sort_order>40</sort_order>
+                            </report>
+                            <tfeedback translate="title" module="bs_kst">
+                                <title>Trainee Feedback</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </tfeedback>
+                            <ifeedback translate="title" module="bs_kst">
+                                <title>Instructor Feedback</title>
+                                <sort_order>60</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </ifeedback>
+                           <!-- <kstgroup translate="title" module="bs_kst">
+                                <title>Group</title>
+                                <sort_order>70</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </kstgroup>
+                            <kstmember translate="title" module="bs_kst">
+                                <title>Member</title>
+                                <sort_order>80</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </kstmember>-->
+
+                        </children>
+                    </bs_kst>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_kst translate="title" module="bs_kst">
+            <title>KST</title>
+            <sort_order>75</sort_order>
+            <children>
+                <kstsubject translate="title" module="bs_kst">
+                    <title>Subject</title>
+                    <action>adminhtml/kst_kstsubject</action>
+                    <sort_order>0</sort_order>
+                </kstsubject>
+                <kstitem translate="title" module="bs_kst">
+                    <title>Item</title>
+                    <action>adminhtml/kst_kstitem</action>
+                    <sort_order>10</sort_order>
+                </kstitem>
+                <fillout translate="title" module="bs_kst">
+                    <title>Fill Out</title>
+                    <action>adminhtml/kst_kstprogress/new</action>
+                    <sort_order>20</sort_order>
+                </fillout>
+                <report translate="title" module="bs_kst">
+                    <title>Progress Report</title>
+                    <action>adminhtml/kst_kstprogress/view</action>
+                    <sort_order>40</sort_order>
+                </report>
+                <tfeedback translate="title" module="bs_kst">
+                    <title>Trainee Feedback</title>
+                    <action>adminhtml/kst_tfeedback</action>
+                    <sort_order>50</sort_order>
+                </tfeedback>
+                <ifeedback translate="title" module="bs_kst">
+                    <title>Instructor Feedback</title>
+                    <action>adminhtml/kst_ifeedback</action>
+                    <sort_order>60</sort_order>
+                </ifeedback>
+                <kstgroup translate="title" module="bs_kst">
+                    <title>Group</title>
+                    <action>adminhtml/kst_kstgroup</action>
+                    <sort_order>70</sort_order>
+                </kstgroup>
+                <kstmember translate="title" module="bs_kst">
+                    <title>Member</title>
+                    <action>adminhtml/kst_kstmember</action>
+                    <sort_order>80</sort_order>
+                </kstmember>
+            </children>
+        </bs_kst>
+    </menu>
+</config>

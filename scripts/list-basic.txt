@@ -1,0 +1,2863 @@
+﻿VAE00001	"K/s VTĐ, Tiến sỹ kỹ thuật"	Tổng Giám đốc
+VAE00004	"Kỹ sư cơ giới, Thạc sỹ kỹ thuật"	"Phó Tổng Giám đốc, Giám đốc TTBD Nội Thất"
+VAE00003	K/s đặc thiết; Tiến sỹ kỹ thuật	Phó Tổng Giám đốc
+VAE00005	K/s cơ giới	Phó Tổng Giám đốc
+VAE00008	Cử nhân KT-KTLĐ	Trưởng phòng
+VAE00009	"CNKT- QTKD,K/s BHLĐ"	Phó trưởng phòng
+VAE00010	Cao đẳng Kế toán	Cán sự
+VAE00011	Cử nhân KT-KTLĐ	"Phó trưởng ban, Trưởng phòng"
+VAE00013	Cử nhân kinh tế - Kinh tế	Phó trưởng phòng
+VAE00015	T/c KT-KH	Cán sự
+VAE00017	Cử nhân KT-QTKD	Cán sự
+VAE00014	Cử nhân KT-KTLĐ	Chuyên viên
+VAE00018	"Kỹ sư cơ giới, Thạc sĩ Kỹ thuật"	"Phó Trưởng ban, Trưởng phòng"
+VAE00021	Cử nhân kinh tế	Chuyên viên
+VAE00025	CNKT-Kế toán CN; Thạc sỹ QTKD	Kế toán trưởng - Trưởng ban TC-KT
+VAE00027	Cử nhân KT-Kế toán CN	Phó trưởng ban
+VAE00028	Cử nhân KT-Kế toán	Trưởng phòng
+VAE00029	K/s xây dựng	Tổ trưởng
+VAE00030	"K/s xây dựng, CNKT-Kế toán"	Chuyên viên
+VAE00031	Cử nhân kinh tế - Kế toán	Phó Trưởng phòng
+VAE00032	CN kinh tế  - ngành Tài chính	Chuyên viên
+VAE00034	Cử nhân KT-Kế toán; Cử nhân Luật	Trưởng phòng
+VAE00035	Cử nhân kinh tế -TC-KT	Phó Trưởng phòng
+VAE00036	Cử nhân kinh tế -Kế toán	Chuyên viên
+VAE00037	Cử nhân kinh tế -Kế toán	Chuyên viên
+VAE00038	Cử nhân kinh tế -Kế toán	Chuyên viên
+VAE00039	Cử nhân kinh tế -TC-KT	Chuyên viên
+VAE00040	T/c TC-KT; Cử nhân kinh tế	Chuyên viên
+VAE00041	Cử nhân KT-Kế toán	Chuyên viên
+VAE00042	T/c TC-KT; Cử nhân kinh tế	Tổ trưởng
+VAE00043	Cử nhân KT-Kế toán	Chuyên viên
+VAE00045	K/s Vô tuyến điện; Thạc sỹ KH kỹ thuật	Phó Tổng Giám đốc
+VAE00046	Kỹ sư Đặc thiết	Phó trưởng ban
+VAE00047	Kỹ sư cơ giới	Giám đốc
+VAE00048	Kỹ sư cơ giới	Trưởng ban
+VAE00049	Kỹ sư cơ giới	Trưởng phòng
+VAE00051	"K/s điện, điện tử"	Trực ban trưởng
+VAE00052	Kỹ sư cơ giới	Trưởng phòng
+VAE00053	K/s cơ giới	Tổ trưởng
+VAE00054	K/s cơ giới; Thạc sỹ QTKD	Trưởng phòng
+VAE00056	"Kỹ sư điện, điện tử"	Chuyên viên
+VAE00057	Kỹ sư cơ giới	Chuyên viên
+VAE00058	"K/s điện, điện tử, thạc sỹ kỹ thuật"	Chuyên viên
+VAE00059	Kỹ sư thiết bị HK	Phó trưởng phòng
+VAE00060	"Kỹ sư điện, điện tử"	Phó trưởng phòng
+VAE00061	"Kỹ sư điện, điện tử"	Chuyên viên
+VAE00062	K/s điện hóa	Chuyên viên
+VAE00071	Kỹ sư cơ giới	Tổ trưởng
+VAE00063	Kỹ sư Cơ giới	Phó Trưởng ban
+VAE00064	Kỹ sư cơ giới	Giáo viên
+VAE00065	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE00066	Thạc sỹ cơ giới; Thạc sỹ kỹ thuật	Kỹ sư
+VAE00067	K/s cơ giới; Thạc sỹ kỹ thuật	Kỹ sư máy bay
+VAE00072	K/s cơ khí động lực	Chuyên viên
+VAE00073	K/s cơ khí	Chuyên viên
+VAE00070	Kỹ sư cơ giới	Chuyên viên
+VAE00076	"Kỹ sư điện, điện tử"	Kỹ sư
+VAE00079	"K/s điện, điện tử"	Chuyên viên
+VAE00080	"K/s điện, điện tử"	Tổ trưởng
+VAE00082	T/c cơ giới	Tổ trưởng
+VAE00084	T/c đặc thiết	Nhân viên
+VAE00085	S/c thống kê; CNTK-QTKD	Nhân viên
+VAE00086	Kỹ sư VTĐ	Trưởng phòng
+VAE00087	Kỹ sư cơ giới	Phó trưởng phòng
+VAE00088	Kỹ sư cơ giới	Kỹ sư
+VAE00089	Kỹ sư cơ giới	Chuyên viên
+VAE00090	Kỹ sư cơ giới	Chuyên viên
+VAE00093	Kỹ sư cơ giới	Chuyên viên
+VAE00097	Kỹ sư VTĐ	Chuyên viên
+VAE00098	Kỹ sư bộ môn	Chuyên viên
+VAE00099	S/c thư viện; CNKT-Tài chính KT các DN	Nhân viên
+VAE00100	Kỹ sư vô tuyến điện	Trưởng ban
+VAE00101	K/s cơ giới; K/s KT Quản trị DN	Phó Trưởng ban
+VAE00102	Kỹ sư cơ giới	Đội phó
+VAE00104	K/s đặc thiết	Chuyên viên
+VAE00106	Kỹ sư cơ giới	Tổ trưởng
+VAE00109	Kỹ sư cơ giới	Phó trưởng phòng
+VAE00110	K/s cơ giới	Tổ trưởng
+VAE00111	K/s cơ giới	Chuyên viên
+VAE00113	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE00115	Kỹ sư cơ giới	Chuyên viên
+VAE00116	K/s cơ giới	Phó trưởng phòng
+VAE00117	K/s cơ giới	Chuyên viên
+VAE00118	K/s cơ giới	Chuyên viên
+VAE00119	Kỹ sư  cơ giới	Tổ trưởng
+VAE00120	Kỹ sư cơ giới	Phó Trưởng phòng
+VAE00122	Kỹ sư cơ giới	Tổ trưởng
+VAE00123	"Kỹ sư điện, điện tử"	Tổ trưởng
+VAE00124	"K/s điện, điện tử"	Tổ trưởng
+VAE00125	"K/s điện, điện tử"	Chuyên viên
+VAE00747	Kỹ sư bộ môn	Chuyên viên
+VAE00126	K/s VTĐ	Trưởng phòng
+VAE00127	K/s cơ giới	Phó trưởng phòng
+VAE00128	"K/s điện, điện tử"	Tổ trưởng
+VAE00129	K/s cơ giới	Chuyên viên
+VAE00131	K/s cơ khí 	Chuyên viên
+VAE00133	Cử nhân khoa học-Tin học; CNKT-QTKD	Trưởng phòng
+VAE00135	K/s tin học	Tổ trưởng
+VAE00137	Cử nhân KT máy tính	Cán sự
+VAE00138	"CN văn hóa ngành Thư viện-Thông tin, CN ngoại ngữ"	Tổ trưởng
+VAE00140	Cử nhân văn hóa-Thư viện-Thông tin; Cử nhân tiếng Anh	Chuyên viên
+VAE00141	T/c vận tải HK	Nhân viên
+VAE00142	T/c vận tải HK	Nhân viên
+VAE00143	Cử nhân kinh tế -QTKD	Nhân viên
+VAE00144	T/c kế toán	Nhân viên
+VAE00145	Cử nhân KH-CNTT; CN Ngoại ngữ-TA	Tổ trưởng
+VAE00146	Cử nhân khoa học-Tin học	Chuyên viên
+VAE00147	Cử nhân kinh tế - Tin học quản lý	Nhân viên
+VAE00149	S/c thư viện; CĐ kế toán	Tổ trưởng
+VAE00150	"S/c thư viện, CNKT-Ngoại thương"	Nhân viên
+VAE00151	"S/c thư viện, CN ngoại ngữ-Tiếng Nhật"	Nhân viên
+VAE00152	Kỹ sư cơ giới	Trưởng ban
+VAE00216	Kỹ sư vận tải hàng không	Phó trưởng ban
+VAE00153	Cử nhân kinh tế - Kinh tế đối ngoại	Đội trưởng
+VAE00154	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE00155	K/s cơ giới	Chuyên viên
+VAE00156	S/c thống kê; CN kinh tế	Tổ trưởng
+VAE00157	K/s cơ giới	Chuyên viên
+VAE00158	Cử nhân kinh tế - QTKD	Chuyên viên
+VAE00159	T/c Kế toán	Nhân viên
+VAE00160	CĐ xăng dầu	Thủ kho
+VAE00161	T/c Kế toán	Nhân viên
+VAE00163	S/c bảo quản khí tài	Tổ trưởng
+VAE00164	T/c thống kê	Tổ phó
+VAE00165	Cử nhân Nga văn	Tổ phó
+VAE00166	"T/c điện tử, viễn thông"	Thủ kho TBVL mb
+VAE00167	Cử nhân kinh tế-Luật	Thủ kho TBVL mb
+VAE00168	Cử nhân kinh tế- QTKD	Thủ kho TBVL mb
+VAE00169	S/c hậu cần	Thủ kho TBVL mb
+VAE00170	Tốt nghiệp PTTH	Thủ kho TBVL mb
+VAE00172	Thợ điện	Tổ phó
+VAE00173	CN ngoại ngữ -Tiếng Anh	Thủ kho TBVL mb
+VAE00174	Cử nhân KT-QTKD	Thủ kho TBVL mb
+VAE00175	S/c săng dầu	Thủ kho x.dầu-hoá chất
+VAE00176	T/c đặc thiết	Thủ kho x.dầu-hoá chất
+VAE00177	S/c bảo quản giao nhận XD	Thủ kho x.dầu-hoá chất
+VAE00178	K/s nông học	Thủ kho tạp phẩm
+VAE00179	S/c bảo quản khí tài	Thủ kho VTPTMB
+VAE00180	S/c thống kê	Thủ kho VTPTMB
+VAE00181	Thợ cơ giới	Tổ trưởng
+VAE00182	Thợ điện dân dụng và XN	Thủ kho VTPTMB
+VAE00183	T/c hạch toán kế toán	Thủ kho VTPTMB
+VAE00184	Kỹ sư Công nghệ kỹ thuật điện	Nhân viên
+VAE00189	K/s cơ giới	Đội phó
+VAE00190	Cử nhân kinh tế	Nhân viên
+VAE00191	Tốt nghiệp PTTH	Nhân viên
+VAE00192	"T/c xây dựng cầu, đường bộ "	Nhân viên
+VAE00193	K/s công nghệ thông tin	Nhân viên
+VAE00194	K/s cơ giới	Trưởng phòng
+VAE00195	Cử nhân KT-KTTM	Trưởng phòng
+VAE00196	CĐ công nghệ thông tin	Nhân viên
+VAE00197	CN ngoại ngữ -Tiếng Anh	Phó Trưởng phòng
+VAE00198	CNKT - Luật kinh tế	Nhân viên
+VAE00200	T/c QLKT	Nhân viên
+VAE00201	CNKT - Thương mại quốc tế	Tổ trưởng
+VAE00202	CNKT - Quản trị KDTM	Chuyên viên
+VAE00203	CNKT - KT ngoại thương	Chuyên viên
+VAE00204	K/s k.tế năng lượng; K/s Điện tử viễn thông	Trưởng phòng
+VAE00205	CNKT - Kinh doanh TM; Thạc sỹ QTKD	Phó Trưởng phòng
+VAE00206	T/c cơ khí	Tổ phó
+VAE00207	K/s thiết bị điện	Chuyên viên
+VAE00208	T/c vận tải Hàng không	Nhân viên
+VAE00209	K/s kinh tế vận tải và du lịch	Nhân viên
+VAE00211	Thợ điện CN	Nhân viên
+VAE00212	N/v vật tư	Tổ trưởng
+VAE00213	Cử nhân kinh tế	Nhân viên
+VAE00215	Cử nhân NN -Anh văn	Nhân viên
+VAE00217	K/s cơ giới máy bay	Trưởng phòng
+VAE00220	"K/s điện, điện tử MB; Thạc sĩ QTKD"	Phó trưởng phòng
+VAE00221	Cử nhân kinh tế-Kinh tế đối ngoại	Chuyên viên
+VAE00222	Cử nhân kinh tế - kế toán	Chuyên viên
+VAE00223	Cử nhân KT ngành Kinh tế bảo hiểm	Chuyên viên
+VAE00226	S/c thống kê	Nhân viên
+VAE00227	S/c thống kê	Tổ phó
+VAE00230	T/c Hạch toán Kế toán	Nhân viên
+VAE00232	Thợ cơ giới máy bay	Tổ trưởng
+VAE00233	T/c Vận tải hàng không	Nhân viên
+VAE00234	T/c Vận tải hàng không	Nhân viên
+VAE00235	T/c kế toán	Nhân viên
+VAE00237	CNKT-QTKD	Tổ trưởng
+VAE00239	N/v vật tư	Phó Trưởng phòng
+VAE00240	N/v vật tư	N/v xuất khẩu
+VAE00241	N/v vật tư	N/v nhập khẩu
+VAE00242	N/v vật tư	N/v nhập khẩu
+VAE00243	N/v vật tư	N/v giao nhận nội địa
+VAE00244	N/v vật tư	Tổ phó
+VAE00245	N/v vật tư	N/v giao nhận nội địa
+VAE00246	N/v vật tư	N/v giao nhận nội địa
+VAE00265	T/c XD	Nhân viên
+VAE00249	Thủ kho TBVL MB	Thủ kho
+VAE00251	Thợ tiện	Thủ kho
+VAE00247	C.Đ ngành Cơ khí chế tạo	Tổ trưởng
+VAE00252	Thủ kho TBVL MB	Thủ kho
+VAE00253	CĐ điện lạnh	Thủ kho
+VAE00254	Thợ điện	Thủ kho
+VAE00256	Thợ bộ môn	Nhân viên
+VAE00257	CĐ công nghệ ngành hóa	Tổ phó
+VAE00258	Thủ kho TBVL MB	Nhân viên
+VAE00260	Thợ cơ khí; thanh tra kho	Tổ trưởng
+VAE00261	Kỹ thuật Hàng không - K/s cơ giới	Chuyên viên
+VAE00263	TC Vô tuyến điện	Nhân viên
+VAE00264	Thợ KT máy bay	Nhân viên
+VAE00266	Kỹ sư vô tuyến điện; Thạc sỹ KH kỹ thuật	Trưởng ban
+VAE00267	Kỹ sư đặc thiết	Trưởng ban
+VAE00268	K/s Kinh tế tổ chức và vận tải HK	Phó Trưởng ban
+VAE00269	CNKT- Kinh doanh TM	Phó trưởng phòng
+VAE00270	Cử nhân kinh tế-KTKH	Tổ trưởng
+VAE00271	Cử nhân KT Thủy Lợi	Chuyên viên
+VAE00272	CNKT- Quản lý kinh doanh	Chuyên viên
+VAE00273	K/s thiết bị điện	Chuyên viên
+VAE00274	Cử nhân Luật-Luật KT	Chuyên viên
+VAE00277	K/s cơ giới; Cử nhân QTKD quốc tế; CN Ngoại ngữ - Anh văn	Trưởng phòng
+VAE00278	K/s thiết bị HK; Cử nhân QTKD	Trưởng phòng
+VAE00280	"K/s điện, điện tử"	Tổ trưởng
+VAE00281	"K/s điện, điện tử"	Tổ phó
+VAE00282	K/s cơ giới	Tổ trưởng
+VAE00286	K/s cơ giới	Chuyên viên
+VAE00287	K/s cơ giới	Kỹ sư
+VAE00288	"K/s điện, điện tử"	Chuyên viên
+VAE00290	"K/s điện, điện tử"	Trưởng phòng
+VAE00291	"K/s điện, điện tử"	Phó Trưởng ban
+VAE00293	Cử nhân cao đẳng tín dụng	Trưởng phòng
+VAE00294	CNKT - KT ngoại thương	Trưởng phòng
+VAE00298	Cử nhân Luật	Phó trưởng phòng
+VAE00299	K/s Cơ khí HK; Thạc sỹ QTKD	Phó trưởng ban
+VAE00304	Bác sỹ Đa khoa	Chuyên viên
+VAE00308	Nhân viên Hành chính	Nhân viên
+VAE00310	CĐ công nghệ thông tin	N/v hành chính
+VAE00311	Cao đẳng tin học	Nhân viên
+VAE00312	T/c điện nước	Nhân viên
+VAE00314	T/c văn thư lưu trữ	"N/v VT, lưu trữ"
+VAE00315	T/c văn thư lưu trữ	"N/v VT, lưu trữ"
+VAE00316	T/c văn thư lưu trữ	"N/v VT, lưu trữ"
+VAE00317	Tốt nghiệp PTTH	Nhân viên
+VAE00318	Tốt nghiệp PTTH	N/v phục vụ
+VAE00320	Thạc sỹ kỹ thuật	Chuyên viên
+VAE00321	"Kỹ sư xây dựng, Cử nhân kinh tế"	Trưởng ban
+VAE00322	Kỹ sư xây dựng	Chuyên viên
+VAE00323	K/s xây dựng	Chuyên viên
+VAE00325	"K/s XD đường ô tô, Th.sỹ QTKD"	Chuyên viên
+VAE00329	"N/v bảo vệ, an ninh"	Tổ trưởng
+VAE00330	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00331	"N/v bảo vệ, an ninh"	Nhân viên vận hành HT PCCC
+VAE00332	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00333	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00334	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00335	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00336	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00337	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00338	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00339	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00342	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00343	"N/v bảo vệ, an ninh"	Tổ trưởng
+VAE00344	"N/v bảo vệ, an ninh"	Tổ trưởng
+VAE00345	"N/v bảo vệ, an ninh"	Tổ trưởng
+VAE00346	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00347	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00349	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00350	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00351	"N/v bảo vệ, an ninh"	Nhân viên
+VAE00352	Thợ điện công nghiệp	Nhân viên
+VAE00353	T/c xây dựng Dân dụng và Công nghiệp	Nhân viên
+VAE00355	"N/v bảo vệ, an ninh; CNKT"	Nhân viên
+VAE00356	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE00358	CNKT - Kế toán	Chuyên viên
+VAE00359	Lái xe	N/v lái xe
+VAE00360	Lái xe	N/v lái xe
+VAE00361	Lái xe	N/v lái xe
+VAE00362	Lái xe 	N/v lái xe
+VAE00363	Lái xe	N/v lái xe
+VAE00364	Lái xe	N/v lái xe
+VAE00365	Lái xe	N/v lái xe
+VAE00366	Lái xe	N/v lái xe
+VAE00367	Lái xe	N/v lái xe
+VAE00368	Lái xe	N/v lái xe
+VAE00369	Lái xe	N/v lái xe
+VAE00370	Lái xe 	N/v lái xe
+VAE00372	Lái xe	"N/v lái, vận hành TTBMĐ"
+VAE00373	Lái xe	N/v lái xe
+VAE00374	Lái xe	N/v lái xe
+VAE00375	Lái xe	N/v lái xe
+VAE00376	Lái xe	N/v lái xe
+VAE00377	Lái xe; CNKT ngành Tài chính	Đội trưởng
+VAE00379	Lái xe 	N/v lái xe
+VAE00380	Lái xe 	Đội phó
+VAE00381	Lái xe	N/v lái xe
+VAE00384	K/s kinh tế và quản lý DN	Chuyên viên
+VAE00386	Cử nhân KT-Kế toán	Chuyên viên công tác Công đoàn
+VAE00387	"Cử nhân KT-Kế toán, T/c hạch toán kế toán"	Chuyên viên
+VAE00390	Cử nhân KT-Kế toán	Chánh Văn phòng
+VAE00392	Cử nhân KT- Xã hội học; Cử nhân Luật	Phó chủ nhiệm chuyên trách Ủy ban kiểm tra Đảng ủy Công ty
+VAE00393	Cử nhân KT- QTKD	Chuyên viên
+VAE00394	"C/b Chính trị, thợ MB, Kỹ sư  QTrị Doanh nghiệp ngành kinh tế kỹ thuật"	Chuyên viên
+VAE00395	CN kinh tế - QTKD và CĐ	Cán sự
+VAE00398	N/v nấu ăn	Nhân viên
+VAE00400	K/s cơ giới	Phó giám đốc
+VAE00401	K/s VTĐ	Phó giám đốc
+VAE00404	Cử nhân Ktế-TCKT	Cán sự
+VAE00405	CĐ kinh tế -TCKT	N/v thống kê
+VAE00406	K/s Cơ giới	Phó Trưởng phòng
+VAE00407	K/s thiết bị HK	Đội phó
+VAE00408	Kỹ sư Cơ khí HK	Phó trưởng phòng
+VAE00409	K/s Cơ giới	Tổ phó
+VAE00410	Kỹ sư Cơ giới	Tổ trưởng
+VAE00412	"K/s điện, điện tử"	Kỹ sư
+VAE00413	"K/s điện, điện tử"	Tổ phó
+VAE00416	Kỹ sư cơ giới	Tổ phó
+VAE00415	Kỹ sư cơ giới	Kỹ sư
+VAE00417	"K/s điện, điện tử"	Kỹ sư
+VAE00418	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE00420	K/s cơ giới	Chuyên viên
+VAE00422	Thạc sỹ cơ giới	Kỹ sư
+VAE00423	K/s cơ giới	Kỹ sư
+VAE00425	Kỹ sư cơ giới	Tổ phó
+VAE00426	K/s cơ giới	Tổ trưởng
+VAE00424	K/s cơ giới	Kỹ sư
+VAE00427	"K/s điện, điện tử"	Tổ trưởng
+VAE00428	K/s cơ giới	Chuyên viên
+VAE00429	Kỹ sư bộ môn	Chuyên viên
+VAE00437	Thợ VTĐ	Tổ trưởng
+VAE00438	K/s Cơ khí HK	Tổ phó
+VAE00439	Kỹ sư cơ giới	Tổ trưởng
+VAE00440	Thạc sỹ cơ giới 	Tổ phó
+VAE00441	"K/s điện, điện tử"	Kỹ sư
+VAE00442	Thợ cơ giới	Tổ phó
+VAE00443	Thợ cơ giới	Nhân viên
+VAE00444	Thợ cơ giới	Nhân viên
+VAE00445	Thợ cơ giới	Nhân viên
+VAE00446	Thợ cơ giới	Tổ phó
+VAE00447	Thợ cơ giới	Nhân viên
+VAE00448	Thợ cơ giới	Nhân viên
+VAE00449	Thợ cơ giới	Nhân viên
+VAE00450	Thợ cơ giới	Nhân viên
+VAE00451	"Thợ điện, điện tử"	Nhân viên
+VAE00452	"Thợ điện, điện tử"	Tổ phó
+VAE00453	Thợ cơ giới	Nhân viên
+VAE00454	"Thợ điện, điện tử"	Nhân viên
+VAE00455	"Thợ điện, điện tử"	Tổ phó
+VAE00456	Thợ cơ giới	Nhân viên
+VAE00457	Thợ cơ giới	Nhân viên
+VAE00459	T/c cơ giới	Tổ trưởng
+VAE00460	Kỹ sư cơ giới	Đội phó
+VAE00461	Thạc sỹ cơ giới 	Kỹ sư
+VAE00462	T/c cơ giới	Tổ phó
+VAE00463	Thợ cơ giới	Nhân viên
+VAE00464	Thợ cơ giới	Nhân viên
+VAE00465	Thợ cơ giới	Nhân viên
+VAE00466	Thợ cơ giới	Nhân viên
+VAE00467	Thợ cơ giới	Nhân viên
+VAE00468	Thợ cơ giới	Nhân viên
+VAE00469	Thợ cơ giới	Nhân viên
+VAE00470	Thợ cơ giới	Nhân viên
+VAE00471	Thợ cơ giới	Nhân viên
+VAE00472	Thợ cơ giới	Nhân viên
+VAE00473	Thợ cơ giới	Nhân viên
+VAE00474	Thợ cơ giới	Nhân viên
+VAE00476	"Thợ điện, điện tử"	Nhân viên
+VAE00477	"Thợ điện, điện tử"	Nhân viên
+VAE00478	"Thợ điện, điện tử"	Nhân viên
+VAE00479	"Thợ điện, điện tử"	Nhân viên
+VAE00480	"Thợ điện, điện tử"	Nhân viên
+VAE00482	Kỹ sư cơ giới	Đội phó
+VAE00483	Kỹ sư Cơ khí HK	Chuyên viên
+VAE00484	Kỹ sư cơ giới	Tổ trưởng
+VAE00485	T/c cơ giới	Nhân viên
+VAE00486	Thợ cơ giới	Nhân viên
+VAE00487	Thợ cơ giới	Nhân viên
+VAE00488	Thợ cơ giới	Nhân viên
+VAE00489	Thợ cơ giới	Nhân viên
+VAE00490	Thợ cơ giới	Nhân viên
+VAE00492	Thợ cơ giới	Nhân viên
+VAE00493	Thợ cơ giới	Nhân viên
+VAE00494	Thợ cơ giới	Nhân viên
+VAE00495	Thợ cơ giới	Nhân viên
+VAE00497	Thợ cơ giới	Nhân viên
+VAE00498	Thợ cơ giới	Nhân viên
+VAE00499	Thợ VTĐ	Tổ phó
+VAE00500	"Thợ điện, điện tử"	Nhân viên
+VAE00501	"Thợ điện, điện tử"	Tổ trưởng
+VAE00503	"Kỹ sư điện, điện tử"	Đội trưởng
+VAE00504	"Kỹ sư điện, điện tử"	Trưởng phòng
+VAE00505	"Kỹ sư điện, điện tử"	Kỹ sư
+VAE00506	"K/s điện, điện tử"	Kỹ sư
+VAE00507	T/c đặc thiết	Tổ phó
+VAE00508	"Thợ điện, điện tử"	Tổ phó
+VAE00509	"Thợ điện, điện tử"	Tổ phó
+VAE00511	"Thợ điện, điện tử"	Nhân viên
+VAE00512	"Thợ điện, điện tử"	Nhân viên
+VAE00514	T/c cơ giới	Đội trưởng
+VAE00515	Kỹ sư cơ giới	Kỹ sư
+VAE00516	Kỹ sư cơ giới máy bay	Đội trưởng
+VAE00517	K/s cơ giới máy bay	Tổ phó
+VAE00519	Thợ cơ giới	Nhân viên
+VAE00520	Thợ cơ giới	Nhân viên
+VAE00521	Thợ cơ giới	Nhân viên
+VAE00522	"Thợ điện, điện tử "	Nhân viên
+VAE00523	T/c cơ giới	Nhân viên
+VAE00524	"Thợ điện, điện tử"	Nhân viên
+VAE00525	Thợ cơ giới	Nhân viên
+VAE00528	"Thợ điện, điện tử "	Nhân viên
+VAE00529	"Thợ điện, điện tử"	Nhân viên
+VAE00530	"Thợ điện, điện tử "	Nhân viên
+VAE00531	"Thợ điện, điện tử"	Nhân viên
+VAE00533	Kỹ sư cơ giới	Đội trưởng
+VAE00534	K/s cơ giới	Tổ trưởng
+VAE00535	Thợ cơ giới	Nhân viên
+VAE00536	Thợ cơ giới	Nhân viên
+VAE00537	Thợ cơ giới	Nhân viên
+VAE00538	Thợ cơ giới	Nhân viên
+VAE00539	Thợ cơ giới	Nhân viên
+VAE00540	Thợ cơ giới	Tổ trưởng
+VAE00541	Thợ cơ giới	Nhân viên
+VAE00542	Thợ cơ giới 	Nhân viên
+VAE00543	Thợ cơ giới	Nhân viên
+VAE00544	Thợ cơ giới	Nhân viên
+VAE00545	Kỹ sư cơ giới	Kỹ sư
+VAE00546	T/c cơ giới	Tổ phó
+VAE00547	K/s cơ giới	Kỹ sư máy bay
+VAE00548	Kỹ sư cơ giới	Kỹ sư
+VAE00549	T/c cơ giới	Nhân viên
+VAE00550	Thợ cơ giới	Nhân viên
+VAE00551	Thợ cơ giới	Nhân viên
+VAE00552	Thợ cơ giới	Nhân viên
+VAE00553	Thợ cơ giới	Nhân viên
+VAE00554	Thợ cơ giới 	Nhân viên
+VAE00555	Thợ cơ giới 	Nhân viên
+VAE00556	Thợ cơ giới	Nhân viên
+VAE00557	Thợ cơ giới	Nhân viên
+VAE00558	Thợ đặc thiết	Tổ trưởng
+VAE00559	"Kỹ sư điện, điện tử"	Phó trưởng phòng
+VAE00560	"K/s điện, điện tử"	Kỹ sư
+VAE00561	"K/s điện, điện tử"	Kỹ sư
+VAE00562	Kỹ sư bộ môn máy bay	Tổ trưởng
+VAE00563	"Thợ điện, điện tử "	Nhân viên
+VAE00564	"Thợ điện, điện tử"	Nhân viên
+VAE00565	"Thợ điện, điện tử"	Nhân viên
+VAE00566	Kỹ sư Cơ giới; CNKT-QTKD CN và XDCB	Đội trưởng
+VAE00569	"Thợ gò, tán"	Tổ trưởng
+VAE00570	K/s cơ giới	Tổ phó
+VAE00571	Thợ nguội 	Nhân viên
+VAE00573	Thợ cơ giới	Nhân viên
+VAE00574	Thợ gò	Nhân viên
+VAE00575	"Thợ gò, tán"	Nhân viên
+VAE00576	"Thợ gò, tán"	Nhân viên
+VAE00578	Thợ nguội	Nhân viên
+VAE00579	Thợ nguội	Nhân viên
+VAE00580	Thợ tiện	Nhân viên
+VAE00582	Thợ nguội 	Nhân viên
+VAE00583	Thợ nguội 	Nhân viên
+VAE00584	"Thợ gò, hàn "	Nhân viên
+VAE00585	"Thợ hàn, gò "	Nhân viên
+VAE00586	Thợ nguội 	Nhân viên
+VAE00587	Thợ nguội 	Nhân viên
+VAE00588	"Thợ gò, hàn "	Nhân viên
+VAE00589	Kỹ sư cơ khí	Đội phó
+VAE00591	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE00592	"Thợ gò, tán"	Tổ trưởng
+VAE00593	Thợ khung sườn	Nhân viên
+VAE00594	Thợ khung sườn	Nhân viên
+VAE00595	CĐ cơ tin kỹ thuật	Kỹ sư
+VAE00596	CĐ cơ khí	Nhân viên
+VAE00597	Thợ nguội 	Nhân viên
+VAE00598	Thợ nguội 	Nhân viên
+VAE00599	"Thợ hàn, gò "	Nhân viên
+VAE00602	Thợ cơ giới	Đội phó
+VAE00609	Thợ cơ giới	Nhân viên
+VAE00610	Thợ cơ giới	Nhân viên
+VAE00611	Thợ TBMĐ	Nhân viên
+VAE00612	Thợ TBMĐ	Nhân viên
+VAE00613	Thợ cơ giới	Nhân viên
+VAE00614	T/c cơ giới	Nhân viên
+VAE00615	T/c cơ giới	Nhân viên
+VAE00616	T/c Cơ khí chế tạo máy	Tổ phó
+VAE00617	"Thợ gò, hàn"	Nhân viên
+VAE00618	T/c điện tự động hoá	Nhân viên
+VAE00619	Thợ hàn điện 	Nhân viên
+VAE00620	Thợ cắt gọt kim loại 	Nhân viên
+VAE00622	Thợ điện	Tổ trưởng
+VAE00624	T/c cơ yếu	Nhân viên
+VAE00625	Thợ điện	Nhân viên
+VAE00626	Thợ điện	Nhân viên
+VAE00627	Thợ điện	Nhân viên
+VAE00628	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE00629	Thợ điện	Nhân viên
+VAE00630	Thợ điện	Nhân viên
+VAE00631	Thợ điện	Nhân viên
+VAE00632	T/c điện	Nhân viên
+VAE00633	Thợ điện	Nhân viên
+VAE00634	Thợ điện	Nhân viên
+VAE00635	Thợ điện lạnh	Tổ phó
+VAE00636	K/s hệ thống điện	Nhân viên
+VAE00637	T/c hệ thống điện	Nhân viên
+VAE00638	Thợ điện dân dụng và công nghiệp	Nhân viên
+VAE00639	S/c v/h ht khí nén	Nhân viên
+VAE00640	S/c v/h ht khí nén	Nhân viên
+VAE00641	S/c v/h ht khí nén	Nhân viên
+VAE00642	Thợ s/c điện lạnh	Nhân viên
+VAE00643	Thợ cơ giới	Tổ trưởng
+VAE00645	Vệ sinh	Nhân viên
+VAE00649	Vệ sinh	Nhân viên
+VAE00650	Thợ cơ giới	Nhân viên
+VAE00651	Vệ sinh	Nhân viên
+VAE00652	Vệ sinh	Nhân viên
+VAE00653	Vệ sinh	Nhân viên
+VAE00654	Vệ sinh	Tổ phó
+VAE00655	Vệ sinh	Nhân viên
+VAE00656	Vệ sinh	Nhân viên
+VAE00657	Thợ cơ giới	Nhân viên
+VAE00658	Vệ sinh	Nhân viên
+VAE00659	S/c kế  toán	Nhân viên
+VAE00660	Vệ sinh	Nhân viên
+VAE00661	Cử nhân Kế toán - K.toán tổng hợp	Nhân viên
+VAE00662	Cử nhân KT - Ngành Thuế	Nhân viên
+VAE00663	T/c kế toán	Nhân viên
+VAE00664	Vệ sinh	Nhân viên
+VAE00665	T/c Kế toán	Nhân viên
+VAE00666	Cử nhân CĐ - Kế toán DN	Nhân viên
+VAE00668	N/v v/h HT PCCC	Tổ trưởng
+VAE00669	N/v v/h HT PCCC	Nhân viên
+VAE00670	N/v v/h HT PCCC	Nhân viên
+VAE00671	N/v v/h HT PCCC	Nhân viên
+VAE00672	T/c kế toán	Nhân viên
+VAE00673	T/c tin học	Nhân viên
+VAE00674	T/c kế toán	Nhân viên
+VAE00675	Cử nhân kinh tế	Nhân viên thống kê
+VAE00676	Vệ sinh	Nhân viên
+VAE00677	Vệ sinh	Nhân viên
+VAE00678	Vệ sinh	Nhân viên
+VAE00680	Kỹ sư cơ giới	Giám đốc
+VAE00681	CNCĐ mb đ.cơ; K/s Công nghệ-cơ khí động lực	Phó giám đốc
+VAE00682	Kỹ sư cơ giới	Phó giám đốc
+VAE00683	Kỹ sư cơ giới	Trưởng phòng
+VAE01890	Kỹ sư cơ giới	Giáo viên
+VAE00685	Kỹ sư cơ giới	Kỹ sư
+VAE00686	Kỹ sư cơ giới	Kỹ sư
+VAE00690	Cử nhân khoa học - CNTT	Tổ trưởng
+VAE00696	Kỹ sư quản lý kinh tế	Chuyên viên
+VAE00697	Nhân viên thống kê	Nhân viên
+VAE00698	S/c thống kế	Nhân viên
+VAE00701	Trung cấp cơ giới	Đội trưởng
+VAE00702	Thợ cơ giới	Nhân viên
+VAE00704	Kỹ sư cơ giới	Đội phó
+VAE00706	Kỹ sư cơ giới; Thạc sỹ kỹ thuật	Kỹ sư máy bay
+VAE00707	Thợ cơ giới	Nhân viên
+VAE00708	Thợ cơ giới	Tổ trưởng
+VAE00709	Thợ cơ giới	Thợ cơ giới máy bay
+VAE00532	Thợ cơ giới	Nhân viên
+VAE00710	Trung cấp cơ giới	Nhân viên
+VAE00729	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE00752	Thợ bộ môn	Nhân viên
+VAE00753	Thợ bộ môn	Nhân viên
+VAE00756	Thợ bộ môn	Nhân viên
+VAE00757	Thợ bộ môn	Nhân viên
+VAE00713	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE00714	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE00716	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE00717	Kỹ sư cơ giới	Tổ trưởng
+VAE00718	Trung cấp cơ giới	Nhân viên
+VAE00719	Thợ cơ giới	Nhân viên
+VAE00720	Thợ cơ giới	Nhân viên
+VAE00721	Thợ cơ giới	Nhân viên
+VAE00722	Thợ cơ giới	Nhân viên
+VAE00723	Thợ cơ giới	Tổ phó
+VAE00725	Kỹ sư cơ giới	Kỹ sư
+VAE00705	Kỹ sư cơ giới	Tổ phó
+VAE00727	Thợ cơ giới	Nhân viên
+VAE00728	Thợ cơ giới máy bay	Thợ cơ giới máy bay
+VAE00730	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE00731	Thợ cơ giới	Nhân viên
+VAE00732	Thợ cơ giới	Nhân viên
+VAE00733	Thợ cơ giới	Nhân viên
+VAE00734	Thợ cơ giới	Tổ trưởng
+VAE00736	Thợ cơ giới	Nhân viên
+VAE00749	Thợ bộ môn	Nhân viên
+VAE00737	Thợ bộ môn	Đội trưởng
+VAE00739	Kỹ sư bộ môn	Kỹ sư
+VAE00740	Kỹ sư bộ môn; Thạc sỹ kỹ thuật	Kỹ sư
+VAE00741	Kỹ sư bộ môn	Kỹ sư
+VAE00742	Kỹ sư bộ môn	Kỹ sư
+VAE00743	Kỹ sư bộ môn	Kỹ sư
+VAE00744	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE00745	Kỹ sư bộ môn	Tổ trưởng
+VAE00748	Thợ bộ môn	Nhân viên
+VAE00750	Thợ bộ môn	Đội phó
+VAE00751	Thợ bộ môn	Nhân viên
+VAE00758	Thợ bộ môn	Nhân viên
+VAE00759	Trung cấp bộ môn	Nhân viên
+VAE00760	Thợ bộ môn	Nhân viên
+VAE00762	Thợ bộ môn	Nhân viên
+VAE00763	Thợ bộ môn	Nhân viên
+VAE00764	Kỹ sư hóa	Đội trưởng
+VAE00765	Kỹ sư giáo dục-chế tạo máy	Đội phó
+VAE00766	Thợ cơ khí	Tổ trưởng
+VAE00767	Kỹ sư hóa	Tổ trưởng
+VAE00768	Thợ cơ khí	Nhân viên
+VAE00769	Thợ cơ khí	Nhân viên
+VAE00770	Thợ cơ khí	Nhân viên
+VAE00771	Thợ cơ khí	Nhân viên
+VAE00772	Thợ cơ khí	Nhân viên
+VAE00773	Thợ cơ khí	Nhân viên
+VAE00774	Thợ cơ khí	Nhân viên
+VAE00776	Thợ cơ khí	Nhân viên
+VAE00777	Thợ cơ khí	Nhân viên
+VAE00778	Thợ cơ khí	Nhân viên
+VAE00779	Thợ cơ khí	Nhân viên
+VAE00780	Thợ composite	Nhân viên
+VAE00781	Thợ composite	Nhân viên
+VAE00782	Thợ composite	Nhân viên
+VAE00783	Thợ sơn	Nhân viên
+VAE00784	Thợ sơn	Tổ phó
+VAE00785	Thợ nguội- cấu trúc	Nhân viên
+VAE00786	Nhân viên vệ sinh MB	Tổ trưởng
+VAE00787	Nhân viên vệ sinh MB	Nhân viên
+VAE00788	Nhân viên vệ sinh MB	Nhân viên
+VAE00789	Nhân viên vệ sinh MB	Nhân viên
+VAE00790	CĐ cơ khí	Nhân viên
+VAE00791	T/c khai thác và S/c TB cơ khí	Tổ phó
+VAE00792	Thợ hàn	Nhân viên
+VAE00793	Thợ hàn	Nhân viên
+VAE00794	T/c điện tử VT hàng không	Nhân viên
+VAE00795	CĐ cơ điện tử	Nhân viên
+VAE00796	CĐ Kỹ thuật điện	Nhân viên
+VAE00797	Nhân viên vệ sinh MB	Tổ phó
+VAE00798	Nhân viên vệ sinh MB	Nhân viên
+VAE00799	Nhân viên vệ sinh MB	Nhân viên
+VAE00800	Cử nhân kinh tế-Kế toán	Nhân viên
+VAE00801	Thợ may 	Nhân viên
+VAE00802	Thợ may	Nhân viên
+VAE00807	Kỹ sư đặc thiết	Giám đốc
+VAE00808	Kỹ sư VTĐ	Giám đốc
+VAE00809	Kỹ sư cơ giới	Giám đốc
+VAE00810	T/c cơ giới	Phó giám đốc
+VAE00811	Cử nhân kinh tế - TCKT	Cán sự
+VAE00812	Cử nhân kinh tế - TCKT	Tổ trưởng
+VAE00813	T/c kế toán	N/v thống kê
+VAE00815	Thợ KT máy bay	Tổ trưởng
+VAE00816	Thợ KT máy bay	Nhân viên
+VAE00817	"Thợ điện, điện tử"	Nhân viên
+VAE00818	T/c cơ giới	Tổ trưởng
+VAE00819	Thợ KT máy bay	Tổ trưởng
+VAE00820	Thợ cơ giới 	Nhân viên
+VAE00821	"Thợ điện, điện tử "	Nhân viên
+VAE00513	Thợ đặc thiết	Tổ trưởng
+VAE00822	T/c cơ giới	Nhân viên
+VAE00823	Thợ VTĐ	Nhân viên
+VAE00850	K/s Cơ khí HK	Kỹ sư máy bay
+VAE00824	T/c đặc thiết	Nhân viên kỹ thuật máy bay
+VAE00825	T/c đặc thiết	Nhân viên
+VAE00826	Thợ cơ giới	Nhân viên
+VAE01080	Thợ cơ giới	Nhân viên
+VAE00827	Kỹ sư cơ giới	Phó Giám đốc
+VAE00828	"Kỹ sư điện, điện tử"	Trưởng phòng
+VAE00829	"K/s điện, điện tử"	Tổ trưởng
+VAE00830	K/s cơ giới	Tổ trưởng
+VAE00831	"K/s điện, điện tử"	Tổ trưởng
+VAE00832	"K/s điện, điện tử; Thạc sỹ kỹ thuật"	Tổ trưởng
+VAE00833	K/s cơ giới	Chuyên viên
+VAE00834	"K/s điện, điện tử"	Chuyên viên
+VAE00835	Cử nhân kỹ thuật điện tử; K/s bộ môn	Kỹ sư
+VAE00837	K/s Cơ khí HK	Trưởng phòng
+VAE00839	"Kỹ sư điện, điện tử"	Phó trưởng phòng
+VAE00840	"Kỹ sư điện, điện tử"	Kỹ sư
+VAE00842	"K/s điện, điện tử"	Phó trưởng phòng
+VAE00845	K/s cơ giới	Trực ban trưởng
+VAE00847	T/c cơ giới	Nhân viên
+VAE00864	T/c cơ giới	Nhân viên
+VAE00851	Kỹ sư cơ giới	Đội phó
+VAE00853	K/s cơ giới	Tổ trưởng
+VAE00854	K/s cơ giới	Kỹ sư
+VAE00855	Kỹ sư cơ giới	Trưởng phòng
+VAE00856	Kỹ sư cơ giới; Thạc sỹ kỹ thuật	Phó trưởng phòng
+VAE00857	K/s cơ giới	Kỹ sư
+VAE00858	K/s cơ giới	Kỹ sư
+VAE00862	Thợ cơ giới	Tổ trưởng
+VAE00863	T/c cơ giới	Nhân viên
+VAE00859	K/s cơ giới	Phó Trưởng phòng
+VAE00865	"Kỹ sư điện, điện tử"	Đội trưởng
+VAE00867	"K/s điện, điện tử"	Tổ trưởng
+VAE00868	"K/s điện, điện tử"	Tổ phó
+VAE00869	"K/s điện, điện tử"	Trực ban trưởng
+VAE00870	"K/s điện, điện tử"	Kỹ sư máy bay
+VAE00871	"K/s điện, điện tử"	Trợ lý Tổng Giám đốc
+VAE00876	Thợ VTĐ	Tổ phó
+VAE00877	T/c VTĐ	Nhân viên
+VAE00878	Thợ VTĐ	Nhân viên
+VAE00872	"Kỹ sư điện, điện tử"	Đội phó
+VAE00879	Lái xe	Tổ trưởng
+VAE00881	Lái xe	Nhân viên
+VAE00882	Lái xe	Nhân viên
+VAE00883	Lái xe	Nhân viên
+VAE00884	Lái xe	Nhân viên
+VAE00885	Lái xe	Nhân viên
+VAE00886	Lái xe	Nhân viên
+VAE00887	Lái xe	Nhân viên
+VAE00888	Lái xe	Nhân viên
+VAE00889	Lái xe	Nhân viên
+VAE00890	Lái xe	Nhân viên
+VAE00891	Lái xe 	Nhân viên
+VAE00893	Lái xe 	Nhân viên
+VAE00894	Thợ VTĐ	Tổ trưởng
+VAE00895	Thợ đặc thiết	Nhân viên
+VAE00897	Tốt nghiệp PTTH	Nhân viên
+VAE00898	K/s tin học	Nhân viên
+VAE00899	T/c VTĐ; CNKT; K/s Điện tử viễn thông	Phó giám đốc
+VAE00900	Thợ cơ giới	Đội trưởng
+VAE00901	K/s cơ giới	Tổ trưởng
+VAE00902	T/c đặc thiết	Tổ phó
+VAE00903	Thợ cơ giới	Nhân viên
+VAE00904	Thợ VTĐ	Nhân viên
+VAE00905	"Thợ điện, điện tử "	Nhân viên
+VAE00906	"Thợ điện, điện tử "	Nhân viên
+VAE00907	Thợ cơ giới	Nhân viên
+VAE00908	"K/s điện, điện tử"	Kỹ sư
+VAE00910	Thợ cơ giới	Nhân viên
+VAE00912	Thợ cơ giới	Nhân viên
+VAE00913	"Thợ điện, điện tử"	Nhân viên
+VAE00914	Thợ cơ giới	Nhân viên
+VAE00915	Thợ đặc thiết	Tổ trưởng
+VAE00916	T/c VTĐ	Nhân viên
+VAE00918	T/c Cơ giới	Nhân viên
+VAE00919	Thợ đặc thiết	Nhân viên
+VAE00920	Thợ cơ giới	Nhân viên
+VAE00921	"K/s điện, điện tử"	Kỹ sư
+VAE00922	Thợ cơ giới	Nhân viên
+VAE00923	"Kỹ sư điện, điện tử"	Kỹ sư máy bay
+VAE00925	Thợ cơ giới	Nhân viên
+VAE00926	"Thợ điện, điện tử"	Nhân viên
+VAE00927	Thợ cơ giới	Nhân viên
+VAE00928	"Thợ điện, điện tử"	Nhân viên
+VAE00929	Thợ cơ giới	Nhân viên
+VAE00930	Thợ cơ giới	Nhân viên
+VAE00932	"Thợ điện, điện tử "	Nhân viên
+VAE00933	Thợ cơ giới	Nhân viên
+VAE00934	Thợ cơ giới	Nhân viên
+VAE00935	"Kỹ sư điện, điện tử"	Phó Trưởng phòng
+VAE00936	"Thợ điện, điện tử"	Nhân viên
+VAE00937	"Kỹ sư điện, điện tử; Thạc sỹ kỹ thuật"	Tổ trưởng
+VAE00938	Thợ cơ giới	Nhân viên
+VAE00939	"Thợ điện, điện tử"	Nhân viên
+VAE00943	Thợ cơ giới	Nhân viên
+VAE00944	Thợ cơ giới	Nhân viên
+VAE00945	T/c cơ giới	Nhân viên
+VAE00946	Thợ VTĐ	Nhân viên
+VAE00947	T/c cơ giới	Nhân viên
+VAE00948	"Thợ điện, điện tử"	Nhân viên
+VAE00949	Thợ cơ giới máy bay	Nhân viên
+VAE00950	"Thợ điện, điện tử"	Nhân viên
+VAE00951	Thợ bộ môn	Phó Giám đốc
+VAE00952	Thợ đặc thiết	Tổ trưởng
+VAE00954	"Thợ điện, điện tử"	Nhân viên
+VAE00955	K/s cơ giới	Tổ trưởng
+VAE00957	"K/s điện, điện tử"	Chuyên viên
+VAE00958	Thợ cơ giới	Nhân viên
+VAE00959	"Thợ điện, điện tử"	Nhân viên
+VAE00960	"Thợ điện, điện tử "	Nhân viên
+VAE00961	"Thợ điện, điện tử "	Nhân viên
+VAE00962	Thợ cơ giới 	Nhân viên
+VAE00963	Thợ cơ giới 	Nhân viên
+VAE00964	"Thợ điện, điện tử"	Nhân viên
+VAE00965	Thợ đặc thiết	Nhân viên
+VAE00966	Thợ cơ giới	Nhân viên
+VAE00967	Thợ đặc thiết	Tổ trưởng
+VAE00968	Thợ cơ giới	Tổ phó
+VAE00846	K/s cơ giới	Kỹ sư máy bay
+VAE00969	"Thợ điện, điện tử"	Nhân viên
+VAE00284	"K/s điện, điện tử"	Phó trưởng phòng
+VAE00971	K/s cơ giới	Kỹ sư
+VAE00972	Kỹ sư cơ giới	Kỹ sư
+VAE00973	Thợ VTĐ	Nhân viên
+VAE00974	Thợ đặc thiết	Nhân viên
+VAE00975	"Thợ điện, điện tử"	Nhân viên
+VAE00976	Thợ cơ giới	Nhân viên
+VAE00977	Thợ cơ giới	Nhân viên
+VAE00978	Thợ cơ giới	Nhân viên
+VAE00979	Thợ cơ giới	Nhân viên
+VAE00980	Thợ cơ giới	Nhân viên
+VAE00981	Thợ cơ giới	Nhân viên
+VAE00982	Thợ cơ giới	Nhân viên
+VAE00983	Thợ cơ giới 	Nhân viên
+VAE00984	"Thợ điện, điện tử "	Nhân viên
+VAE00985	"Thợ điện, điện tử"	Nhân viên
+VAE00986	"Kỹ sư điện, điện tử"	Tổ trưởng
+VAE00987	Thợ cơ giới	Nhân viên
+VAE00988	"Thợ điện, điện tử "	Nhân viên
+VAE00989	Thợ cơ giới	Nhân viên
+VAE00990	"Thợ điện, điện tử"	Nhân viên
+VAE00995	"K/s điện, điện tử"	Kỹ sư máy bay
+VAE00998	"Thợ điện, điện tử"	Nhân viên
+VAE00999	Thợ cơ giới	Nhân viên
+VAE01000	Thợ cơ giới	Nhân viên
+VAE01001	Thợ cơ giới	Nhân viên
+VAE01002	"K/s điện, điện tử"	Kỹ sư máy bay
+VAE01003	Thợ KT máy bay	Nhân viên
+VAE01004	K/s cơ giới	Kỹ sư
+VAE01005	Thợ đặc thiết	Đội trưởng
+VAE01006	T/c đặc thiết	Đội phó
+VAE01007	Kỹ sư Cơ khí HK	Tổ trưởng
+VAE01008	T/c cơ giới	Nhân viên
+VAE01010	"K/s điện, điện tử"	Kỹ sư
+VAE01012	T/c cơ giới	Nhân viên
+VAE01013	Thợ cơ giới	Nhân viên
+VAE01014	Thợ cơ giới	Nhân viên
+VAE01015	"Thợ điện, điện tử"	Nhân viên
+VAE01016	"Thợ điện, điện tử"	Nhân viên
+VAE01017	"Thợ điện, điện tử "	Nhân viên
+VAE01018	"Thợ điện, điện tử "	Nhân viên
+VAE01019	Thợ cơ giới	Nhân viên
+VAE01020	Thợ cơ giới	Nhân viên
+VAE01021	Thợ cơ giới	Tổ trưởng
+VAE01022	T/c VTĐ; Cử nhân Công nghệ điện tử viễn thông	Nhân viên
+VAE01023	Thợ VTĐ	Nhân viên
+VAE01025	"Thợ điện, điện tử"	Nhân viên
+VAE01026	"Thợ điện, điện tử"	Thợ kỹ thuật máy bay
+VAE01027	"Thợ điện, điện tử"	Nhân viên
+VAE01028	"Thợ điện, điện tử"	Nhân viên
+VAE01029	Kỹ sư cơ giới	Kỹ sư
+VAE01030	K/s cơ giới	Tổ phó
+VAE01032	"Thợ điện, điện tử"	Nhân viên
+VAE01033	Thợ cơ giới	Nhân viên
+VAE01034	Thợ cơ giới	Nhân viên
+VAE01035	Thợ cơ giới	Nhân viên
+VAE01036	Thợ cơ giới	Nhân viên
+VAE01037	Thợ cơ giới	Nhân viên
+VAE01038	"K/s điện, điện tử"	Kỹ sư
+VAE01039	Thợ cơ giới	Nhân viên
+VAE01040	T/c cơ giới	Nhân viên
+VAE01041	Thợ cơ giới	Nhân viên
+VAE01043	Thợ cơ giới	Nhân viên
+VAE00313	Thợ cơ giới	Nhân viên
+VAE01044	"Thợ điện, điện tử"	Nhân viên
+VAE01048	T/c VTĐ	Nhân viên
+VAE01049	T/c đặc thiết	Nhân viên
+VAE01051	Thợ cơ giới	Nhân viên
+VAE01052	"Thợ điện, điện tử "	Nhân viên
+VAE01053	K/s cơ giới	Kỹ sư
+VAE01054	T/c đặc thiết	Nhân viên
+VAE01055	T/c cơ giới	Nhân viên
+VAE01056	Thợ cơ giới	Đội trưởng
+VAE01057	Thợ đặc thiết	Tổ trưởng
+VAE01059	Thợ cơ giới	Nhân viên
+VAE01060	Thợ cơ giới	Tổ phó
+VAE01874	Kỹ sư cơ giới	Tổ trưởng
+VAE01061	"Thợ điện, điện tử"	Nhân viên
+VAE01062	Thợ cơ giới	Nhân viên
+VAE01063	"Thợ điện, điện tử "	Nhân viên
+VAE01064	Thợ cơ giới	Nhân viên
+VAE01065	"Thợ điện, điện tử"	Nhân viên
+VAE01066	"Thợ điện, điện tử"	Nhân viên
+VAE01067	"Thợ điện, điện tử"	Nhân viên
+VAE01068	"Thợ điện, điện tử "	Nhân viên
+VAE01069	Thợ cơ giới	Nhân viên
+VAE01072	"Kỹ sư điện, điện tử"	Đội phó
+VAE01073	T/c VTĐ	Nhân viên
+VAE01074	T/c đặc thiết	Tổ trưởng
+VAE01075	Thợ cơ giới	Nhân viên
+VAE01076	Thợ cơ giới	Nhân viên
+VAE01078	Thợ cơ giới	Nhân viên
+VAE00285	"K/s điện, điện tử"	Tổ trưởng
+VAE01096	T/c cơ giới	Nhân viên
+VAE01082	"Thợ điện, điện tử"	Nhân viên
+VAE01083	Thợ cơ giới	Nhân viên
+VAE01084	Thợ cơ giới	Nhân viên
+VAE01085	Thợ cơ giới	Nhân viên
+VAE01086	Thợ cơ giới	Nhân viên
+VAE01087	Thợ cơ giới	Nhân viên
+VAE01088	Thợ cơ giới	Nhân viên
+VAE01089	Thợ cơ giới	Nhân viên
+VAE01091	"Thợ điện, điện tử"	Nhân viên
+VAE01092	Kỹ sư cơ giới	Tổ trưởng
+VAE01093	Kỹ sư cơ giới	Đội phó
+VAE01094	Thợ cơ giới	Nhân viên
+VAE01095	"Thợ điện, điện tử"	Nhân viên
+VAE01100	Thợ cơ giới	Nhân viên
+VAE01102	Thợ cơ giới	Nhân viên
+VAE01104	"Thợ điện, điện tử "	Nhân viên
+VAE01106	Thợ cơ giới máy bay	Nhân viên
+VAE01108	Thợ cơ giới	Nhân viên
+VAE01109	Kỹ sư đặc thiết; Thạc sỹ kỹ thuật	Phó Tổng Giám đốc
+VAE01110	Trung cấp cơ giới; Cử nhân hành chính-Hành chính học	Giám đốc
+VAE01111	Kỹ sư bộ môn	Phó giám đốc
+VAE01112	Kỹ sư bộ môn; Thạc sỹ kỹ thuật	Phó giám đốc
+VAE01114	Kỹ sư cơ giới	Kỹ sư
+VAE01115	Kỹ sư cơ giới	Đội trưởng
+VAE01116	Kỹ sư cơ giới	Đội trưởng
+VAE01117	Kỹ sư bộ môn	Kỹ sư
+VAE01118	Thợ cơ giới	Nhân viên
+VAE01119	Kỹ sư bộ môn	Đội phó
+VAE01120	Kỹ sư bộ môn	Kỹ sư
+VAE01122	Thợ bộ môn	Tổ trưởng
+VAE01123	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE01124	Thợ bộ môn	Nhân viên
+VAE01126	Kỹ sư bộ môn	Kỹ sư
+VAE01127	Thợ cơ giới	Tổ phó
+VAE01128	Thợ bộ môn	Nhân viên
+VAE01130	Kỹ sư cơ giới	Kỹ sư
+VAE01131	Kỹ sư cơ giới; Thạc sỹ kỹ thuật	Phụ trách phòng
+VAE01132	Thợ cơ giới	Nhân viên
+VAE01133	Thợ cơ giới	Đội phó
+VAE01134	Thợ cơ giới	Nhân viên
+VAE01135	Thợ bộ môn	Đội phó
+VAE01136	Kỹ sư cơ giới	Kỹ sư
+VAE01138	Kỹ sư bộ môn	Trưởng ca
+VAE01139	Kỹ sư bộ môn	Kỹ sư
+VAE01140	Kỹ sư bộ môn	Kỹ sư
+VAE01142	Kỹ sư bộ môn	Trưởng ca
+VAE01143	Kỹ sư cơ giới	Kỹ sư
+VAE01145	Kỹ sư cơ giới	Kỹ sư
+VAE01146	Kỹ sư cơ giới	Tổ trưởng kiêm trưởng ca
+VAE01147	Kỹ sư bộ môn	Kỹ sư
+VAE01148	Kỹ sư bộ môn	Trưởng ca D
+VAE01149	Kỹ sư cơ giới	Kỹ sư
+VAE01150	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE01151	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE01152	Kỹ sư bộ môn	Kỹ sư
+VAE01154	Thợ tiện	Tổ trưởng
+VAE01155	Nhân viên điều độ	Nhân viên
+VAE01156	Nhân viên hành chính	Nhân viên
+VAE01158	CĐ tài chính	Nhân viên
+VAE01159	Lái xe	Tổ trưởng
+VAE01160	Lái xe	Tổ phó
+VAE01161	Lái xe	Nhân viên
+VAE01162	Lái xe	Nhân viên
+VAE01163	Lái xe	Nhân viên
+VAE01164	Lái xe	Nhân viên
+VAE01165	Lái xe	Nhân viên
+VAE01166	Lái xe	Nhân viên
+VAE01167	Lái xe	Nhân viên
+VAE01168	Lái xe	Nhân viên
+VAE01169	Lái xe	Nhân viên
+VAE01170	Lái xe	Nhân viên
+VAE01171	Lái xe	Nhân viên
+VAE01173	Thợ bộ môn	Nhân viên
+VAE01174	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE01177	NV hành chính	Nhân viên
+VAE01178	Kỹ sư bộ môn	Kỹ sư
+VAE01180	Thợ cơ giới	Phụ trách nhóm
+VAE01181	Thợ cơ giới	Nhân viên
+VAE01182	Thợ cơ giới	Tổ trưởng
+VAE01183	Thợ cơ giới	Nhân viên
+VAE01184	Thợ cơ giới	Tổ phó
+VAE01185	Thợ cơ giới	Phụ trách nhóm
+VAE01186	Thợ cơ giới	Nhân viên
+VAE01187	Thợ bộ môn	Nhân viên
+VAE01188	Kỹ sư bộ môn	Đội trưởng
+VAE01189	Thợ cơ giới	Tổ trưởng
+VAE01190	Kỹ sư bộ môn	Kỹ sư
+VAE01191	Kỹ sư cơ giới	Kỹ sư
+VAE01192	Thợ bộ môn	Nhân viên
+VAE01193	Thợ bộ môn	Nhân viên
+VAE01194	Thợ cơ giới	Nhân viên
+VAE01195	Thợ cơ giới	Nhân viên
+VAE01196	Thợ cơ giới	Nhân viên
+VAE01197	Kỹ sư bộ môn	Tổ trưởng
+VAE01198	Thợ cơ giới	Nhân viên
+VAE01201	Thợ bộ môn	Nhân viên
+VAE01202	Kỹ sư cơ giới; Thạc sỹ kỹ thuật	Kỹ sư
+VAE01203	Kỹ sư cơ giới	Kỹ sư
+VAE01204	Thợ cơ giới	Nhân viên
+VAE01205	Kỹ sư cơ giới	Phó trưởng phòng
+VAE01206	Thợ cơ giới	Tổ trưởng
+VAE01207	Thợ cơ giới	Nhân viên
+VAE01210	Thợ cơ giới	Nhân viên
+VAE01211	Thợ cơ giới	Nhân viên
+VAE01212	Thợ cơ giới	Nhân viên
+VAE01213	Thợ bộ môn	Nhân viên
+VAE01216	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE01217	Thợ cơ giới	Nhân viên
+VAE01218	Kỹ sư bộ môn	Kỹ sư
+VAE01221	Thợ bộ môn	Thợ kỹ thuật máy bay
+VAE01223	Thợ bộ môn	Nhân viên
+VAE01224	Thợ cơ giới	Tổ phó
+VAE01225	Thợ cơ giới	Nhân viên
+VAE01046	Thợ bộ môn	Nhân viên
+VAE01226	Thợ cơ giới	Nhân viên
+VAE01227	Thợ cơ giới	Nhân viên
+VAE01045	Thợ cơ giới	Nhân viên
+VAE01229	Thợ bộ môn	Nhân viên
+VAE01230	Thợ bộ môn	Tổ trưởng
+VAE01231	Thợ bộ môn	Nhân viên
+VAE01232	Kỹ sư cơ giới	Kỹ sư
+VAE01233	Thợ bộ môn	Nhân viên
+VAE01234	Thợ bộ môn	Nhân viên
+VAE01235	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE01236	Thợ bộ môn	Nhân viên
+VAE01238	Thợ cơ giới	Nhân viên
+VAE01239	Thợ cơ giới	Nhân viên
+VAE01240	T/c cơ giới	Nhân viên
+VAE01241	Kỹ sư cơ giới	Tổ trưởng
+VAE01243	Thợ cơ giới	Nhân viên
+VAE01244	Kỹ sư bộ môn	Kỹ sư
+VAE01245	Kỹ sư cơ giới	Kỹ sư
+VAE01246	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE01247	Thợ cơ giới	Nhân viên
+VAE01248	Thợ cơ giới	Nhân viên
+VAE01250	Thợ cơ giới	Nhân viên
+VAE01252	Thợ bộ môn	Tổ trưởng
+VAE01253	Thợ cơ giới	Nhân viên
+VAE01254	Kỹ sư cơ giới	Tổ trưởng
+VAE01255	Kỹ sư bộ môn	Tổ trưởng
+VAE01256	Thợ bộ môn	Nhân viên
+VAE01257	Kỹ sư bộ môn	Kỹ sư
+VAE01258	Thợ bộ môn	Nhân viên
+VAE01259	Thợ cơ giới	Nhân viên
+VAE01261	Kỹ sư bộ môn	Kỹ sư
+VAE01262	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE01264	Thợ bộ môn	Nhân viên
+VAE01266	Kỹ sư bộ môn	Kỹ sư
+VAE01267	Kỹ sư cơ giới	Kỹ sư
+VAE01269	Thợ cơ giới	Nhân viên
+VAE01270	Thợ bộ môn	Nhân viên
+VAE01271	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE01272	Thợ bộ môn	Nhân viên
+VAE01273	Thợ bộ môn	Nhân viên
+VAE01274	Thợ bộ môn	Nhân viên
+VAE01275	Thợ cơ giới	Nhân viên
+VAE01279	Thợ bộ môn	Nhân viên
+VAE01280	Thợ bộ môn	Nhân viên
+VAE01282	Thợ cơ giới	Nhân viên
+VAE01283	Thợ cơ giới	Tổ trưởng
+VAE01268	Kỹ sư bộ môn	Kỹ sư
+VAE01285	Thợ cơ giới	Nhân viên
+VAE01286	Thợ cơ giới	Nhân viên
+VAE01287	Thợ bộ môn	Thợ kỹ thuật máy bay
+VAE01288	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE01289	Thợ cơ giới	Nhân viên
+VAE01290	Kỹ sư cơ giới; CNKT- K.tế Công nghiệp	Đội trưởng
+VAE01291	Thợ cơ giới	Nhân viên
+VAE01292	Thợ bộ môn	Nhân viên
+VAE01294	Thợ bộ môn	Tổ phó
+VAE01295	Thợ bộ môn	Nhân viên
+VAE01296	Thợ bộ môn	Nhân viên
+VAE01297	Thợ cơ giới	Nhân viên
+VAE01298	Thợ cơ giới	Nhân viên
+VAE01299	Thợ cơ giới	Nhân viên
+VAE01300	Thợ cơ giới	Nhân viên
+VAE01301	Thợ bộ môn	Nhân viên
+VAE01302	Kỹ sư bộ môn	Kỹ sư
+VAE01303	Kỹ sư bộ môn; Thạc sỹ Hệ thống tự động hóa và kiểm soát	Tổ trưởng
+VAE01305	Thợ cơ giới	Nhân viên
+VAE01070	Thợ cơ giới	Nhân viên
+VAE01306	Thợ cơ giới	Nhân viên
+VAE01307	Thợ cơ giới	Nhân viên
+VAE01309	Thợ bộ môn	Nhân viên
+VAE01312	Kỹ sư cơ giới	Kỹ sư
+VAE01313	Thợ cơ giới	Nhân viên
+VAE01314	Kỹ sư bộ môn	Tổ trưởng
+VAE01316	Kỹ sư bộ môn	Đội phó
+VAE01318	Thợ bộ môn	Nhân viên
+VAE01320	Thợ bộ môn	Nhân viên
+VAE01321	Thợ cơ giới	Nhân viên
+VAE01322	Thợ cơ giới	Nhân viên
+VAE01325	Thợ bộ môn	Nhân viên
+VAE01317	Kỹ sư cơ giới	Phó Trưởng phòng
+VAE01327	Thợ bộ môn	Nhân viên
+VAE01328	Thợ bộ môn	Nhân viên
+VAE01329	Kỹ sư  bộ môn máy bay	Tổ trưởng
+VAE01330	Thợ cơ giới	Nhân viên
+VAE01331	Thợ cơ giới	Tổ trưởng
+VAE01097	Thợ bộ môn	Nhân viên
+VAE01332	Thợ cơ giới	Nhân viên
+VAE01333	Thợ cơ giới	Nhân viên
+VAE00991	Thợ cơ giới	Nhân viên
+VAE01334	Thợ cơ giới	Nhân viên
+VAE01335	Kỹ sư bộ môn; Cử nhân QTKD	Phó giám đốc
+VAE01337	Kỹ sư bộ môn	Kỹ sư
+VAE01338	Kỹ sư cơ giới	Tổ phó
+VAE01339	Kỹ sư cơ giới	Kỹ sư
+VAE01340	Thợ bộ môn	Nhân viên
+VAE01341	Thợ cơ giới	Nhân viên
+VAE01342	Thợ cơ giới	Nhân viên
+VAE01343	Thợ bộ môn	Tổ phó
+VAE01344	Thợ cơ giới	Nhân viên
+VAE01345	Thợ cơ giới	Nhân viên
+VAE01346	Thợ bộ môn	Nhân viên
+VAE01347	Kỹ sư bộ môn	Kỹ sư
+VAE01348	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE01349	Thợ bộ môn	Nhân viên
+VAE01350	Thợ bộ môn	Tổ trưởng
+VAE01351	Thợ bộ môn	Nhân viên
+VAE01352	Thợ bộ môn	Nhân viên
+VAE01353	Thợ cơ giới	Nhân viên
+VAE01354	Thợ cơ giới	Nhân viên
+VAE01355	Thợ cơ giới	Nhân viên
+VAE01356	Thợ cơ giới máy bay	Thợ kỹ thuật máy bay
+VAE01357	Thợ bộ môn	Đội phó
+VAE01358	Thợ bộ môn	Nhân viên
+VAE01364	Thợ bộ môn	Tổ phó
+VAE01365	Thợ bộ môn	Nhân viên
+VAE01368	Thợ cơ giới	Nhân viên
+VAE01369	Thợ cơ giới	Nhân viên
+VAE01370	Thợ cơ giới	Nhân viên
+VAE01371	Thợ bộ môn	Nhân viên
+VAE01362	Kỹ sư bộ môn	Kỹ sư
+VAE01363	Kỹ sư cơ giới	Đội trưởng
+VAE01374	Thợ bộ môn	Nhân viên
+VAE01375	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE01376	Thợ cơ giới	Tổ phó
+VAE01377	Thợ cơ giới	Nhân viên
+VAE01378	Thợ bộ môn	Nhân viên
+VAE01380	Thợ cơ giới	Tổ trưởng
+VAE01381	Thợ bộ môn	Nhân viên
+VAE01382	Thợ bộ môn	Thợ kỹ thuật máy bay
+VAE01383	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE01385	Thợ cơ giới	Nhân viên
+VAE01387	"Kỹ sư cơ giới, CNKT-QTKD"	Phó Giám đốc
+VAE01388	KS Cơ giới; Th.s kỹ thuật -CN chế tạo máy	Phó giám đốc
+VAE01389	Kỹ sư Bộ môn	Kỹ sư
+VAE01390	Kỹ sư Cơ giới	Trưởng ca
+VAE01391	Trung học phổ thông	N/v thống kê KT
+VAE01392	KS Bộ môn	Tổ trưởng
+VAE01393	Kỹ sư Bộ môn	Tổ trưởng
+VAE01394	KS Cơ giới	Phụ trách ca
+VAE01396	Kỹ sư Bộ môn	Trưởng phòng
+VAE01397	KS Cơ giới	Đội trưởng
+VAE01398	Kỹ sư Cơ giới	Kỹ sư
+VAE01400	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE01401	KS Bộ môn	Kỹ sư
+VAE01402	KS Bộ môn	Kỹ sư
+VAE01403	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE01404	KS Bộ môn	Kỹ sư
+VAE01405	KS Bộ môn	Kỹ sư máy bay
+VAE01406	Kỹ sư Cơ giới	Trưởng ca
+VAE01407	KS Bộ môn	Kỹ sư
+VAE01408	KS Bộ môn	Kỹ sư
+VAE01410	Thợ Cơ giới	Nhân viên
+VAE01411	Cao đẳng Cơ giới	Nhân viên
+VAE01412	Thợ Cơ giới	Nhân viên
+VAE01413	Thợ Cơ giới	Nhân viên
+VAE01414	Thợ Cơ giới	Nhân viên
+VAE01415	Thợ Cơ giới	Nhân viên
+VAE01416	Thợ Cơ giới	Nhân viên
+VAE01417	Thợ Cơ giới	Nhân viên
+VAE01418	Thợ Cơ giới	Nhân viên
+VAE01419	Thợ bộ môn	Nhân viên
+VAE01420	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01421	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01424	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01425	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01426	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01427	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01428	"Thợ điện, điện tử máy bay"	Nhân viên
+VAE01429	Thợ Cơ giới	Nhân viên
+VAE01430	Thợ Cơ giới	Nhân viên
+VAE01431	"Thợ điện, điện tử"	Nhân viên
+VAE01434	Lái xe sân đỗ	Nhân viên lái xe
+VAE01435	Thợ Cơ giới	Nhân viên
+VAE01436	K/s cơ giới máy bay; Cử nhân KT-QTKD	Kỹ sư máy bay
+VAE01438	"Thợ bộ môn, KS nhiệt máy lạnh"	Nhân viên
+VAE01439	Thợ Cơ giới	Thợ kỹ thuật máy bay
+VAE01440	Thợ Cơ giới	Nhân viên
+VAE01441	KS Cơ giới 	Tổ trưởng
+VAE01442	"Thợ Bộ môn, Cử nhân KH vật lý"	Phụ trách Tổ
+VAE01443	Thợ Cơ giới	Nhân viên
+VAE01444	Thợ Cơ giới	Nhân viên
+VAE01446	Thợ Bộ môn	Nhân viên
+VAE01447	Thợ Cơ giới	Nhân viên
+VAE01448	Thợ Bộ môn	Nhân viên
+VAE01449	Ks bộ môn	Phó trưởng phòng
+VAE01450	Cao đẳng Cơ giới	Nhân viên
+VAE01451	Cao đẳng Cơ giới	Nhân viên
+VAE01452	"Thợ Cơ giới, KS cơ khí tàu thuyền thủy sản"	Nhân viên
+VAE01453	"Thợ Bộ môn, KS cơ khí tàu thuyền thủy sản"	Nhân viên
+VAE01454	"Thợ Cơ giới, KS khai thác hàng hải"	Tổ trưởng
+VAE01455	Thợ Bộ môn	Nhân viên
+VAE01456	Thợ Bộ môn	Nhân viên
+VAE01457	Thợ Bộ môn	Nhân viên
+VAE01458	Thợ Cơ giới	Tổ trưởng
+VAE01459	Thợ Cơ giới	Nhân viên
+VAE01460	Thợ Bộ môn	Nhân viên
+VAE01461	Thợ Cơ giới	Tổ trưởng
+VAE01464	Thợ Cơ giới	Nhân viên
+VAE01465	Thợ Cơ giới	Tổ trưởng
+VAE01466	Thợ Bộ môn	Nhân viên
+VAE01468	Thợ bộ môn	Nhân viên
+VAE01470	Thợ Bộ môn	Nhân viên
+VAE01471	Kỹ sư đặc thiết	Trưởng ban
+VAE01472	K/s đặc thiết; Thạc sỹ kỹ thuật	Phó Trưởng ban
+VAE01473	CNKT-QTKD	Phó giám đốc
+VAE01474	Kỹ sư cơ giới	Phó giám đốc
+VAE01475	K/s TTBMĐ; CNKT ngành Ngân hàng TC	Phó trưởng phòng
+VAE01477	Kỹ sư cơ giới	Tổ trưởng
+VAE01478	K/s cơ khí 	Kỹ sư
+VAE01479	K/s cơ khí	Kỹ sư
+VAE01480	"K/s điện, điện tử"	Kỹ sư
+VAE01481	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE01482	Kỹ sư cơ giới	Tổ trưởng
+VAE01483	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE01484	Kỹ sư điều khiển tự động	Tổ trưởng
+VAE01485	"K/s điện, điện tử"	Kỹ sư
+VAE01486	K/s cơ giới	Tổ trưởng
+VAE01487	S/c thống kê	Nhân viên
+VAE01488	Cử nhân Kinh tế-Kế toán	Nhân viên
+VAE01489	CNKT ngành kế toán; Cử nhân Tiếng Anh	Nhân viên
+VAE01490	"K/s Đo lường, điều khiển"	Quản đốc
+VAE01491	K/s điều khiển học kỹ thuật	Chuyên viên
+VAE01492	K/s đo lường	Kỹ sư
+VAE01493	K/s cơ điện tử	Tổ trưởng
+VAE01494	CĐ điện tử viễn thông	Nhân viên
+VAE01496	"K/s Đo lường, điều khiển"	Chuyên viên
+VAE01497	T/c VTĐ	Nhân viên
+VAE01498	K/s tín hiệu giao thông	Tổ trưởng
+VAE01499	Kỹ sư cơ giới	Kỹ sư
+VAE01500	"Kỹ sư Đo lường, điều khiển; Thạc sỹ kỹ thuật"	Tổ trưởng
+VAE01501	T/c VTĐ	Đội phó
+VAE01502	Kỹ sư cơ khí	Kỹ sư
+VAE01503	Trung cấp cơ giới	Nhân viên
+VAE01504	Kỹ sư đặc thiết; Thạc sỹ kỹ thuật	Quản đốc
+VAE01505	Thợ đặc thiết; Kỹ sư tin học	Phó giám đốc
+VAE01506	Thợ VTĐ	Tổ trưởng
+VAE01507	Thợ đặc thiết	Nhân viên
+VAE01509	T/c đặc thiết	Nhân viên
+VAE01510	Thợ đặc thiết	Nhân viên
+VAE01512	"K/s điện, điện tử"	Tổ trưởng
+VAE01513	"K/s điện, điện tử"	Chuyên viên
+VAE01514	"K/s điện, điện tử"	Kỹ sư
+VAE01515	"K/s điện, điện tử"	Kỹ sư máy bay
+VAE01517	"Thợ điện, điện tử"	Nhân viên
+VAE01519	"Kỹ sư điện, điện tử"	Tổ trưởng
+VAE01520	Thợ VTĐ	Tổ trưởng
+VAE01522	"Thợ điện, điện tử"	Nhân viên
+VAE01523	"Thợ điện, điện tử"	Nhân viên
+VAE01524	"Thợ điện, điện tử"	Nhân viên
+VAE01525	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE01526	"Thợ điện, điện tử"	Nhân viên
+VAE01527	"T/c điện, điện tử"	Tổ phó
+VAE01528	"Thợ điện, điện tử "	Nhân viên
+VAE01529	"Thợ điện, điện tử"	Nhân viên
+VAE01530	"Thợ điện, điện tử "	Nhân viên
+VAE01531	"Thợ điện, điện tử"	Tổ phó
+VAE01532	"Thợ điện, điện tử"	Nhân viên
+VAE01533	"Thợ điện, điện tử"	Nhân viên
+VAE01534	T/c đặc thiết	Nhân viên
+VAE01536	"Kỹ sư điện, điện tử"	Tổ trưởng
+VAE01537	"Thợ điện, điện tử"	Tổ trưởng
+VAE01539	Thợ VTĐ	Nhân viên
+VAE01542	T/c cơ khí	Tổ trưởng
+VAE01543	"Thợ gò, tán"	Nhân viên
+VAE01544	Thợ cơ giới	Nhân viên
+VAE01545	Thợ tiện	Nhân viên
+VAE01546	Thợ nguội sửa chữa	Tổ phó
+VAE01547	Thợ cơ giới	Nhân viên
+VAE01548	"Thợ điện lạnh, thợ cơ khí"	Nhân viên
+VAE01549	T/c cơ giới	Tổ trưởng
+VAE01550	Thợ cơ giới	Tổ phó
+VAE01551	Thợ cơ giới	Nhân viên
+VAE01552	Thợ cơ giới	Nhân viên
+VAE01553	Thợ cơ giới	Nhân viên
+VAE01554	T/c cơ giới	Nhân viên
+VAE01555	K/s cơ giới	Kỹ sư
+VAE01556	Thợ cơ giới	Nhân viên
+VAE01557	Thợ cơ giới	Nhân viên
+VAE01558	Thợ cơ giới	Nhân viên
+VAE01560	Kỹ sư Cơ khí HK	Trưởng phòng
+VAE01561	"Cử nhân SPKT, CĐ cơ khí"	Phó quản đốc
+VAE01562	Kỹ sư cơ giới	Quản đốc
+VAE01563	K/s Trắc địa công trình; Thợ đặc thiết	Đội phó
+VAE01564	K/s cơ giới	Tổ trưởng
+VAE01565	"Thợ điện, điện tử"	Nhân viên
+VAE01566	"Thợ điện, điện tử"	Nhân viên
+VAE01567	"Thợ điện, điện tử"	Nhân viên
+VAE01568	"Thợ điện, điện tử"	Nhân viên
+VAE01569	Thợ cơ giới	Nhân viên
+VAE01570	Thợ cơ giới	Nhân viên
+VAE01571	"K/s điện, điện tử"	Kỹ sư máy bay
+VAE01572	K/s cơ giới	Tổ trưởng
+VAE01573	Thợ VTĐ	Nhân viên
+VAE01574	Thợ cơ giới	Nhân viên
+VAE01575	Thợ cơ giới	Nhân viên
+VAE01576	T/c cơ giới	Nhân viên
+VAE01577	Thợ cơ giới	Nhân viên
+VAE01578	Thợ cơ giới	Nhân viên
+VAE01579	Thợ cơ giới	Nhân viên
+VAE01580	"Kỹ sư điện, điện tử"	Kỹ sư máy bay
+VAE01581	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE01582	Thợ VTĐ	Nhân viên
+VAE01583	"Thợ điện, điện tử"	Nhân viên
+VAE01584	"Thợ điện, điện tử"	Nhân viên
+VAE01585	Thợ cơ giới	Nhân viên
+VAE01586	Thợ cơ giới	Nhân viên
+VAE01587	Thợ cơ giới	Nhân viên
+VAE01588	K/s Cơ khí HK	Kỹ sư
+VAE01590	Thợ đặc thiết	Tổ trưởng
+VAE01591	T/c cơ giới	Nhân viên
+VAE01592	Thợ VTĐ	Nhân viên
+VAE01593	"Thợ điện, điện tử"	Nhân viên
+VAE01594	Thợ cơ giới	Nhân viên
+VAE01595	"Thợ điện, điện tử"	Nhân viên
+VAE01596	K/s cơ giới	Kỹ sư máy bay
+VAE01597	Thợ cơ giới	Nhân viên
+VAE01598	"K/s điện, điện tử"	Kỹ sư
+VAE01600	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE01603	Thợ cơ giới	Nhân viên
+VAE01604	Thợ cơ giới	Nhân viên
+VAE01605	T/c cơ giới	Nhân viên
+VAE01606	Thợ VTĐ	Nhân viên
+VAE01607	Thợ cơ giới	Nhân viên
+VAE01608	"Thợ điện, điện tử"	Nhân viên
+VAE01609	Thợ cơ giới	Nhân viên
+VAE01610	Thợ cơ giới	Nhân viên
+VAE01611	Thợ cơ giới	Nhân viên
+VAE01612	Thợ cơ giới	Nhân viên
+VAE01613	Thợ cơ giới	Nhân viên
+VAE01599	Kỹ sư cơ giới	Kỹ sư
+VAE01614	K/s cơ khí chế tạo	Tổ trưởng
+VAE01615	Thợ cơ giới	Nhân viên
+VAE01616	Thợ cơ giới	Tổ phó
+VAE01617	Thợ tiện	Nhân viên
+VAE01618	Thợ nguội	Nhân viên
+VAE01620	Thợ VTĐ	Nhân viên
+VAE01621	Thợ sơn	Tổ trưởng
+VAE01622	Thợ sơn	Tổ phó
+VAE01623	Thợ sơn	Nhân viên
+VAE01624	Thợ sơn	Nhân viên
+VAE01626	Thợ sơn	Nhân viên
+VAE01628	Thợ sơn	Nhân viên
+VAE01629	Thợ may	Tổ trưởng
+VAE01630	T/c kỹ thuật may	Nhân viên
+VAE01631	Thợ may	Nhân viên
+VAE01632	Thợ may; Cử nhân nghệ thuật ngành Mỹ thuật CN - Thời trang	Nhân viên
+VAE01633	Thợ cắt may 	Nhân viên
+VAE01634	Thợ may	Nhân viên
+VAE01636	Thợ mạ	Tổ trưởng
+VAE01637	Thợ cơ giới	Nhân viên
+VAE01638	Thợ cơ giới	Nhân viên
+VAE01639	Thợ tiện 	Nhân viên
+VAE01640	Thợ cắt gọt	Nhân viên
+VAE01641	K/s cơ khí ô tô	Trưởng phòng
+VAE01642	K/s Đo lường	Phó quản đốc
+VAE01645	S/c y tế 	Tổ phó
+VAE01646	K/sư Điện tử viễn thông	Nhân viên
+VAE01647	CĐ điện tử viễn thông	Tổ trưởng
+VAE01648	Thợ cơ giới	Nhân viên
+VAE01649	Thợ hàn	Nhân viên
+VAE01650	Thợ đặc thiết	Nhân viên
+VAE01651	K/s cơ khí ô tô	Quản đốc
+VAE01652	"Lái, vận hành TTBMĐ"	Tổ trưởng
+VAE01653	"Lái, vận hành TTBMĐ"	Tổ phó
+VAE01654	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01655	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01656	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01657	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01659	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01661	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01662	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01663	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01664	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01666	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01667	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01668	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01669	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01670	"Lái, vận hành TTBMĐ"	Tổ phó
+VAE01671	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01672	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01673	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01674	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01675	K/s cơ khí chế tạo máy	Quản đốc
+VAE01676	K/s cơ khí ô tô	Phó quản đốc
+VAE01677	Thợ s/c ô tô &TTBMĐ; Lái xe; CN K.tế	Phó chánh văn phòng
+VAE01678	K/s máy XD và TBTL	Tổ trưởng
+VAE01679	K/s ô tô	Tổ phó
+VAE01680	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01681	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01682	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01683	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01684	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01685	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01686	K/s cơ khí ô tô	Kỹ sư hàng không
+VAE01688	Thợ s/c ô tô &TTBMĐ	Nhân viên
+VAE01689	Thợ sửa chữa ô tô	Nhân viên
+VAE01691	Thợ  ắc quy	Nhân viên
+VAE01693	K/s cơ khí	Tổ trưởng
+VAE01694	Thợ hàn	Tổ phó
+VAE01695	Thợ tiện	Nhân viên
+VAE01697	T/c cơ khí chế tạo	Nhân viên
+VAE01698	Thợ nguội	Nhân viên
+VAE01699	Thợ rèn	Nhân viên
+VAE01700	Thợ hàn	Nhân viên
+VAE01701	Thợ hàn	Nhân viên
+VAE01702	Thợ mạ	Nhân viên
+VAE01703	Thợ sửa chữa máy công cụ	Nhân viên
+VAE01704	Thợ nguội	Nhân viên
+VAE01705	Kỹ sư đặc thiết; cử nhân QTKD	Giám đốc
+VAE01706	Kỹ sư Cơ khí	Phó giám đốc
+VAE01707	Kỹ sư Máy bay CG	Trưởng phòng
+VAE01708	"Kỹ sư điện, điện tử; Cử nhân QTKD"	Phó trưởng phòng
+VAE01709	Kỹ sư cấu trúc	Kỹ sư
+VAE01710	Kỹ sư cơ khí	Tổ phó
+VAE01711	Kỹ sư Công nghệ hàn ngành Cơ khí	Kỹ sư
+VAE01712	Kỹ sư TTB mặt đất	Phó Quản đốc
+VAE01713	Kỹ sư cơ giới	Phụ trách đội
+VAE01714	Kỹ sư hóa	Tổ phó
+VAE01715	K/s cơ giới	Kỹ sư
+VAE01716	Kỹ sư bộ môn	Quản đốc
+VAE01717	K/s cơ giới	Tổ trưởng
+VAE01718	K/s cơ giới	Tổ trưởng
+VAE01719	K/s cơ giới	Phó trưởng phòng
+VAE01720	Nhân viên thống kê	Nhân viên
+VAE01721	"Cử nhân KT, ngành Kế toán"	Tổ trưởng
+VAE01722	Cử nhân KT	Chuyên viên
+VAE01723	Nhân viên thống kê	Nhân viên
+VAE01725	Kỹ sư cơ giới	Kỹ sư
+VAE01726	K/s cơ khí; k/s máy bay động cơ	Kỹ sư
+VAE01727	Thợ sơn MB	Tổ trưởng
+VAE01728	Thợ sơn MB	Nhân viên
+VAE01730	Thợ sơn MB	Nhân viên
+VAE01731	Thợ sơn MB	Tổ trưởng
+VAE01732	Thợ sơn MB	Nhân viên
+VAE01734	Thợ nguội- cấu trúc	Tổ trưởng
+VAE01736	Thợ nguội- cấu trúc	Nhân viên
+VAE01737	Thợ gò tán- cấu trúc	Nhân viên
+VAE01738	Thợ phay-bào	Nhân viên
+VAE01740	Thợ phay CNC	Nhân viên
+VAE01739	Thợ tiện	Nhân viên
+VAE01741	Thợ tiện	Nhân viên
+VAE01742	Thợ hàn	Tổ phó
+VAE01743	Thợ hàn	Nhân viên
+VAE01744	Thợ hàn	Nhân viên
+VAE01745	Thợ gò tán- cấu trúc	Nhân viên
+VAE01746	Thợ gò tán- cấu trúc	Nhân viên
+VAE01747	Thợ gò tán- cấu trúc	Nhân viên
+VAE01748	Thợ gò tán- cấu trúc	Nhân viên
+VAE01749	Thợ gò tán- cấu trúc	Nhân viên
+VAE01750	Thợ gò tán- cấu trúc	Nhân viên
+VAE01752	Thợ gò tán- cấu trúc	Nhân viên
+VAE01753	Thợ gò tán- cấu trúc	Nhân viên
+VAE01754	Thợ gò tán- cấu trúc	Nhân viên
+VAE01755	Thợ gò tán- cấu trúc	Nhân viên
+VAE01756	Thợ may	Tổ trưởng
+VAE01757	Thợ may	Nhân viên
+VAE01758	Thợ may	Nhân viên
+VAE01759	Thợ may	Nhân viên
+VAE01760	Thợ composite	Tổ trưởng
+VAE01761	Thợ composite	Nhân viên
+VAE01762	Thợ composite	Nhân viên
+VAE01763	Thợ composite	Nhân viên
+VAE01764	Thợ composite	Nhân viên
+VAE01766	Kỹ sư bộ môn	Phụ trách phân xưởng
+VAE01767	Thợ cơ giới	Tổ trưởng
+VAE01768	Thợ bộ môn	Tổ trưởng
+VAE01771	Thợ bộ môn	Nhân viên
+VAE01772	Thợ cơ giới	Nhân viên
+VAE01773	Thợ cơ giới	Tổ trưởng
+VAE01774	Thợ bộ môn	Nhân viên
+VAE01775	Thợ bộ môn	Nhân viên
+VAE01776	Thợ bộ môn	Nhân viên
+VAE01777	Thợ bộ môn	Nhân viên
+VAE01778	Thợ bộ môn	Nhân viên
+VAE01779	Thợ bộ môn	Nhân viên
+VAE01780	Thợ bộ môn	Nhân viên
+VAE01781	Thợ bộ môn	Tổ trưởng
+VAE01782	Thợ bộ môn	Nhân viên
+VAE01783	Thợ bộ môn	Nhân viên
+VAE01784	Thợ cơ giới	Nhân viên
+VAE01785	Thợ cơ giới	Nhân viên
+VAE01786	Kỹ sư Cơ giới	Quản đốc
+VAE01789	Kỹ sư bộ môn	Tổ trưởng
+VAE01790	Thợ ắc quy	Nhân viên
+VAE01791	Thợ ắc quy	Nhân viên
+VAE01792	Thợ ắc quy	Nhân viên
+VAE01793	Thợ bộ môn	Tổ phó
+VAE01794	Thợ bộ môn	Nhân viên
+VAE01795	Thợ bộ môn	Tổ phó
+VAE01796	Thợ máy phát	Tổ trưởng
+VAE01797	Thợ BD cụm phanh bánh xe	Tổ trưởng
+VAE01798	Thợ BD cụm phanh bánh xe	Tổ phó
+VAE01799	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01800	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01801	"C.Đ kỹ thuật, ngành cơ điện"	Nhân viên
+VAE01802	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01803	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01804	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01805	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01807	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01808	"C.Đ kỹ thuật, ngành cơ điện"	Nhân viên
+VAE01809	Thợ BD cụm phanh bánh xe	Tổ phó
+VAE01810	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01811	"C.Đ kỹ thuật, ngành cơ khí"	Nhân viên
+VAE01812	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01813	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01814	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01815	"Lái xe, thợ vận hành"	Tổ trưởng
+VAE01816	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE01817	Thợ BD cụm phanh bánh xe	Nhân viên
+VAE01818	Thợ cơ giới	Nhân viên
+VAE01819	Thợ vận hành BD TTBMĐ	Nhân viên
+VAE01820	Kỹ sư cơ khí sân bay	Quản đốc
+VAE01821	"Lái xe, K/s ô tô"	Đội trưởng
+VAE01822	"Lái xe, thợ vận hành"	Tổ trưởng
+VAE01823	"Lái xe, thợ vận hành"	Tổ phó
+VAE01824	"Lái xe, thợ vận hành"	Nhân viên
+VAE01826	"Lái xe, thợ vận hành"	Nhân viên
+VAE01827	"Lái xe, thợ vận hành"	Nhân viên
+VAE01828	"Lái xe, thợ vận hành"	Nhân viên
+VAE01829	"Lái xe, thợ vận hành"	Nhân viên
+VAE01830	"Lái xe, thợ vận hành"	Nhân viên
+VAE01831	"Lái xe, thợ vận hành"	Nhân viên
+VAE01832	T/c sửa chữa ô tô	Nhân viên
+VAE01833	"Lái xe, thợ vận hành"	Nhân viên
+VAE01834	"Lái xe, thợ vận hành"	Nhân viên
+VAE01835	"Lái xe, thợ vận hành"	Nhân viên
+VAE01836	"Lái xe, thợ vận hành"	Nhân viên
+VAE01837	"Lái xe, thợ vận hành"	Nhân viên
+VAE01838	"Lái xe, thợ vận hành"	Nhân viên
+VAE01839	"Lái xe, thợ vận hành"	Nhân viên
+VAE01840	Lái vận hành xe đặc chủng	Tổ trưởng
+VAE01842	Thợ sửa chữa ôtô	Nhân viên
+VAE01843	Thợ sửa chữa ôtô	Nhân viên
+VAE01845	Thợ sửa chữa ôtô	Nhân viên
+VAE01846	Thợ sửa chữa ôtô	Nhân viên
+VAE01847	K/s Công nghệ kỹ thuật ôtô	Tổ phó
+VAE01848	Cao đẳng kinh tế	Tổ trưởng
+VAE01849	T/c kỹ thuật điện-Điện DD và điện XN	Nhân viên
+VAE01850	CĐ Công nghệ kỹ thuật cơ điện	Nhân viên
+VAE01852	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01853	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01854	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01855	"Lái, vận hành TTBMĐ"	Nhân viên
+VAE01857	Kỹ sư máy đo	Đội phó
+VAE01858	Thợ đồng hồ	Tổ trưởng
+VAE01859	CĐ kỹ thuật điện công nghiệp	Nhân viên
+VAE01860	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE01862	K/s cơ khí	Kỹ sư
+VAE01863	Kỹ sư VTĐ hàng hải	Tổ trưởng
+VAE01864	Kỹ sư cơ giới máy bay	Tổ phó
+VAE01866	Kỹ sư tự động hóa	Kỹ sư
+VAE01867	K/s Vô tuyến điện; Thạc sỹ KH kỹ thuật	Chánh Văn phòng
+VAE01868	Kỹ sư đặc thiết; Thạc sỹ kỹ thuật	Phó giám đốc
+VAE01869	Kỹ sư cơ giới; Cử nhân QTKD	Giám đốc
+VAE01871	"Kỹ sư điện, điện tử"	Giáo viên
+VAE01872	"Kỹ sư điện, điện tử"	"Phó Giám đốc, Trưởng phòng"
+VAE01873	Kỹ sư cơ giới	Giáo viên
+VAE01875	"Kỹ sư điện, điện tử"	Trưởng phòng
+VAE01876	"Kỹ sư điện, điện tử"	Tổ trưởng
+VAE01878	CĐ Quân sự ngành Thiết bị Hàng không; Cử nhân kinh tế ngành Kinh tế	Trưởng phòng
+VAE01879	Kỹ sư cơ giới	Trưởng phòng
+VAE01882	Cử nhân tiếng Anh sư phạm 	Giáo viên
+VAE01885	K/s cơ giới; Thạc sỹ kỹ thuật	Trưởng phòng
+VAE01886	Kỹ sư cơ giới	Phó phòng
+VAE01888	Kỹ sư cơ giới	Giáo viên
+VAE01893	Kỹ sư bộ môn; Cử nhân kinh tế	Phó Giám đốc
+VAE01894	Cử nhân Hành chính ngành Hành chính học	Trưởng phòng
+VAE01895	Kỹ sư máy bay	Tổ trưởng
+VAE01896	Cử nhân luật	Chuyên viên
+VAE01899	Cử nhân KT	Đội phó
+VAE01900	Nhân viên văn thư	Tổ trưởng
+VAE01901	T/c kế toán	Cán sự
+VAE01902	Nhân viên lễ tân	Nhân viên
+VAE01904	Nhân viên VSCN	Nhân viên
+VAE01907	Nhân viên vệ sinh MB	Nhân viên
+VAE01909	Nhân viên VSCN	Nhân viên
+VAE01910	T/c Dược sỹ	Nhân viên
+VAE01911	S/c Ytế	Nhân viên
+VAE01912	Nhân viên VSCN	Nhân viên
+VAE01914	Nhân viên lái xe	Tổ trưởng
+VAE01915	Nhân viên lái xe	Nhân viên
+VAE01916	Nhân viên lái xe	Nhân viên
+VAE01918	Cử nhân kinh tế-Kế toán tổng hợp; Thạc sỹ kinh tế	"Phó Giám đốc, phụ trách Chi nhánh"
+VAE01919	Cử nhân KT - Kế toán;C/N Anh văn	Tổ trưởng
+VAE01921	"Cử nhân KT, ngành kế toán"	"Phó trưởng phòng, phụ trách phòng"
+VAE01922	Cử nhân KT - Kế toán	Tổ trưởng
+VAE01923	T/c Hạch toán kế toán-KTDN	Cán sự
+VAE01925	T/c Tài chính - Kế toán	Cán sự
+VAE01926	T/c Kinh tế kế hoạch	Cán sự
+VAE01927	Cử nhân KTCN; ĐH An ninh-Trinh sát; Luật sư	Trưởng phòng
+VAE01928	Cử nhân KTXD	Tổ trưởng
+VAE01929	Kỹ sư máy bay	Phó Giám đốc
+VAE01930	Kỹ sư máy tính	Chuyên viên
+VAE01931	Kỹ sư xây dựng; Cử nhân kinh tế	Chuyên viên
+VAE01932	"Nhân viên điện, nước"	Nhân viên
+VAE01933	T/c Xây dựng dân dụng và Công nghiệp	Nhân viên
+VAE01936	Thợ Điện lạnh	Tổ trưởng
+VAE01937	Thợ Điện	Nhân viên
+VAE01938	Thợ Điện	Nhân viên
+VAE01939	CĐ Điện lạnh	Nhân viên
+VAE01940	Thợ Điện	Nhân viên
+VAE01941	Thợ Điện	Nhân viên
+VAE01942	Thợ Điện	Nhân viên
+VAE01943	Thợ Điện	Nhân viên
+VAE01944	CĐ Điện CN	Nhân viên
+VAE01945	Sỹ quân lục quân	Đội trưởng
+VAE01946	CN hành chính ngành Hành chính học	Phó trưởng phòng
+VAE01947	Nhân viên bảo vệ - an ninh	Tổ trưởng
+VAE01948	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01949	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01950	Trung cấp Quân y	Nhân viên
+VAE01951	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01952	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01953	Sơ cấp điện lạnh cơ bản	Nhân viên kho
+VAE01954	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01955	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01956	Nhân viên bảo vệ - an ninh; T/c QLKT	Nhân viên
+VAE01957	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01958	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01961	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01962	Nhân viên bảo vệ - an ninh	Tổ trưởng
+VAE01963	Nhân viên bảo vệ - an ninh; T/c KT	Nhân viên
+VAE01964	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE01386	Kỹ sư vô tuyến điện; CNKT-QTKD	GĐ TTBD NgT Đà nẵng kiêm GĐ CN Đà Nẵng
+VAE01965	"Thợ Cơ giới, CNKT- QTKD"	Trưởng phòng
+VAE01966	Cử nhân Kinh tế-Kế toán	Phó trưởng phòng
+VAE01967	"Cử nhân KT, ngành kế toán"	Chuyên viên
+VAE01968	"CĐ CK động lực, CNKT-QTKD"	N/v HC TH kiêm thủ kho
+VAE00306	Cử nhân luật	Chuyên viên
+VAE00814	T/c kinh tế vật giá	Nhân viên
+VAE00024	CN kinh tế - ngành Kế toán	Chuyên viên
+VAE00276	CN kinh tế - ngành QTKD CN & XDCB	Chuyên viên
+VAE00604	Kỹ sư xây dựng - ngành Kiến trúc	Kỹ sư
+VAE01643	Nhân viên hành chính	Nhân viên
+VAE00075	Kỹ sư máy bay	Cử nhân kỹ thuật
+VAE00081	Kỹ sư máy bay	Chuyên viên
+VAE00185	Thợ điện điện tử máy bay	Nhân viên
+VAE00187	Thợ điện điện tử máy bay	Nhân viên
+VAE00259	Thợ điện điện tử máy bay	Nhân viên
+VAE00430	Kỹ sư máy bay	Chuyên viên
+VAE00432	Kỹ sư máy bay	Kỹ sư máy bay
+VAE00433	Kỹ sư máy bay	Kỹ sư
+VAE00434	Kỹ sư máy bay	Kỹ sư
+VAE00458	Kỹ sư máy bay	Tổ trưởng
+VAE00481	Kỹ sư máy bay	Kỹ sư
+VAE00502	Kỹ sư máy bay	Kỹ sư
+VAE00693	Kỹ sư máy bay	Cử nhân kỹ thuật
+VAE00694	Kỹ sư máy bay	Tổ trưởng
+VAE00695	Kỹ sư máy bay	Tổ phó
+VAE00836	Kỹ sư máy bay	Kỹ sư
+VAE00860	Kỹ sư máy bay	Cử nhân kỹ thuật
+VAE00873	Kỹ sư máy bay	Trực ban trưởng
+VAE00940	Kỹ sư máy bay	Tổ trưởng
+VAE00994	Kỹ sư máy bay	Kỹ sư máy bay
+VAE01047	Kỹ sư máy bay	Cử nhân kỹ thuật
+VAE01098	Kỹ sư máy bay	Kỹ sư
+VAE01199	Kỹ sư máy bay	Cử nhân kỹ thuật
+VAE01278	Kỹ sư máy bay	Giáo viên
+VAE01373	Kỹ sư máy bay	Kỹ sư máy bay
+VAE01379	Kỹ sư máy bay	Kỹ sư
+VAE01409	Kỹ sư máy bay	Cử nhân kỹ thuật
+VAE01535	Thợ điện điện tử máy bay	Nhân viên
+VAE01541	Thợ điện tử viễn thông hàng không	Nhân viên
+VAE01980	Cử nhân kinh tế - phiên dịch ngoại thương	Tổ trưởng
+VAE01979	Nhân viên	Nhân viên 
+VAE00132	K/s cơ giới	Tổ phó
+VAE01974	K/s cơ giới	Kỹ sư
+VAE01977	T/c Vận tải hàng không	Nhân viên
+VAE01976	Thợ điện CN và dân dụng	Thủ kho
+VAE02023	Cử nhân kinh tế-KDTM	Chuyên viên
+VAE02003	K/s bộ môn	Chuyên viên
+VAE01981	Thạc sỹ Quốc tế học	Chuyên viên
+VAE01978	Lái xe	Nhân viên
+VAE02024	CĐ Thiết bị Hàng không	Tổ phó
+VAE01973	Thợ may mộc CN	Cán sự
+VAE02025	Kỹ sư cơ giới	Kỹ sư
+VAE01991	K/s cơ giới	Tổ trưởng
+VAE01992	K/s cơ giới	Kỹ sư
+VAE01993	Kỹ sư cơ giới	Kỹ sư
+VAE01998	K/s cơ giới	Kỹ sư
+VAE02005	K/s bộ môn	Kỹ sư
+VAE02006	K/s bộ môn	Kỹ sư
+VAE02007	K/s bộ môn	Kỹ sư
+VAE02008	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE01983	K/s cơ giới	Kỹ sư
+VAE01984	K/s cơ giới	Kỹ sư
+VAE01987	K/s cơ giới	Kỹ sư
+VAE01989	Kỹ sư cơ giới	Tổ trưởng
+VAE01999	K/s bộ môn; Thạc sỹ kỹ thuật	Kỹ sư
+VAE02001	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02010	K/s bộ môn	Tổ trưởng
+VAE01982	Kỹ sư cơ giới	Kỹ sư
+VAE01985	K/s cơ giới	Kỹ sư
+VAE01986	Kỹ sư cơ giới	Tổ phó
+VAE01988	K/s cơ giới	Kỹ sư
+VAE01994	K/s cơ giới	Kỹ sư
+VAE01995	K/s cơ giới	Kỹ sư
+VAE01997	K/s cơ giới	Tổ phó
+VAE02000	Kỹ sư bộ môn	Chuyên viên
+VAE02004	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02009	K/s bộ môn	Kỹ sư máy bay
+VAE02012	K/s cơ giới	Kỹ sư
+VAE02013	K/s cơ giới	Kỹ sư
+VAE02017	Kỹ sư bộ môn	Kỹ sư
+VAE02018	Kỹ sư bộ môn	Kỹ sư
+VAE02019	K/s bộ môn	Kỹ sư
+VAE02020	Kỹ sư bộ môn	Kỹ sư
+VAE02021	K/s bộ môn	Kỹ sư
+VAE02045	CNKT - Quản trị kinh doanh	Chuyên viên
+VAE02043	CNKT - Kế toán tổng hợp	Chuyên viên
+VAE02033	CNKT ngành Tài chính - Kế toán	Nhân viên
+VAE02050	CNKT - Kinh tế đối ngoại	Chuyên viên
+VAE02035	Cử nhân cao đẳng-ngành Hệ thống điện	Thủ kho VTPTMB
+VAE02034	T/c Vận tải hàng không	Nhân viên
+VAE02039	T/c Vận tải hàng không	Nhân viên
+VAE02046	CNKT - Quản trị kinh doanh	Chuyên viên
+VAE02053	CNKT - Quản trị kinh doanh - Quảng cáo	Chuyên viên
+VAE02037	CN Khoa học - SP GD tiểu học	NV văn thư kiêm thủ quỹ
+VAE02047	K/s Kinh tế nông nghiệp	Chuyên viên
+VAE02030	T/c Tin học	Thủ kho VTPTMB
+VAE02028	CĐ Kế toán	Nhân viên
+VAE02041	Cử nhân KT - Kinh tế lao động	Chuyên viên
+VAE02051	CNKT - Kinh tế thương mại	Chuyên viên
+VAE02040	Cử nhân KT - Kinh tế lao động	Chuyên viên
+VAE02027	Cử nhân KT - Kinh tế lao động	Chuyên viên
+VAE02038	T/c Kỹ thuật đồ họa	Nhân viên
+VAE02055	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02031	CNKT - Kinh tế thương mại	Chuyên viên
+VAE02036	CNKT - Kế toán	Chuyên viên TCKT
+VAE02044	CNKT - Kế toán - tài chính doanh nghiệp TM	Chuyên viên
+VAE02029	"T/c Kế toán, Hành chính văn thư"	Thủ kho VTPTMB
+VAE02048	CNKT - Kinh tế phát triển	Chuyên viên
+VAE02042	CNKT - Tài chính Kế toán	Chuyên viên
+VAE02056	T/c Kế toán	Nhân viên
+VAE02057	T/c văn thư lưu trữ	Nhân viên văn thư
+VAE02059	Lái xe	Nhân viên
+VAE02070	CNCĐ-Công nghệ kỹ thuật cơ khí	Nhân viên
+VAE02071	Thợ nguội cơ khí	Nhân viên
+VAE02072	Thợ vỏ tàu thủy	Nhân viên
+VAE02063	Kỹ sư cơ khí động lực	Kỹ sư
+VAE02061	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02066	Thợ cơ giới máy bay	Nhân viên
+VAE02060	T/c LĐTL-Bảo trợ XH; CN Hành chính - Hành chính học	Phó Trưởng phòng
+VAE02062	T/c Kế toán thống kê	Thủ quỹ
+VAE02065	Kỹ sư cơ khí động lực	Kỹ sư
+VAE02067	Lái xe	Nhân viên
+VAE02068	Lái xe 	Nhân viên
+VAE02069	"Thợ điện, điện tử"	Nhân viên
+VAE02148	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02149	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE02114	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE02116	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02117	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02118	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02119	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02120	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02121	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE02122	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02123	Kỹ sư cơ giới	Kỹ sư
+VAE02124	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE02125	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02126	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02127	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02128	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02129	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02130	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02131	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02132	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02134	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02135	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02137	Kỹ sư cơ giới máy bay; Thạc sỹ kỹ thuật	Kỹ sư
+VAE02138	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02139	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02140	Kỹ sư cơ giới	Kỹ sư
+VAE02141	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02142	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02143	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE02144	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02145	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02146	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02150	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02151	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02153	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02154	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02147	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02073	Kỹ sư bộ môn máy bay	Tổ trưởng
+VAE02074	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02075	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02076	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02077	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02078	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02079	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02081	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02082	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02083	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02085	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02086	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02087	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02088	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02089	Kỹ sư bộ môn máy bay	Tổ trưởng
+VAE02090	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02091	Kỹ sư bộ môn máy bay	Tổ phó
+VAE02093	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02094	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02095	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02096	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02097	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02098	Kỹ sư bộ môn máy bay	Tổ trưởng
+VAE02099	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02100	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02101	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02102	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02103	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02104	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02105	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02107	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02108	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02109	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02111	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02112	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02197	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02198	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02199	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02200	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02202	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02203	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02204	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02205	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02206	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02207	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02208	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02209	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02210	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02211	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02212	Kỹ sư cơ giới	Kỹ sư
+VAE02214	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02215	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02216	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02217	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02218	Kỹ sư cơ giới máy bay	Tổ phó
+VAE02219	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02220	Kỹ sư cơ giới máy bay; Thạc sĩ kỹ thuật	Kỹ sư
+VAE02221	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02222	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02223	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02224	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02225	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02226	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02227	Kỹ sư cơ giới	Tổ trưởng
+VAE02229	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02230	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02231	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02232	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02233	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02234	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02235	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02236	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02237	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02238	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02239	Kỹ sư bộ môn máy bay; Thạc sĩ kỹ thuật	Kỹ sư máy bay
+VAE02240	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02241	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02243	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02244	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02245	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02246	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02247	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02248	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02249	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02250	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02251	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02253	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02254	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02255	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02257	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02258	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02259	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02260	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02261	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02262	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02263	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02276	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02270	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02265	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02264	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02266	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02271	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02267	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02269	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02273	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02274	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02272	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02275	Kỹ sư bộ môn máy bay	Tổ trưởng
+VAE02155	Cử nhân Khoa học-Ngữ văn	Chuyên viên
+VAE02156	Cử nhân ngoại ngữ-TA KHKT và Công nghệ	Cử nhân ngoại ngữ
+VAE02157	Cử nhân ngoại ngữ-Tiếng anh	Tổ trưởng
+VAE02165	Kỹ sư máy bay	Kỹ sư
+VAE02166	Kỹ sư máy bay	Kỹ sư
+VAE02158	Kỹ sư máy bay	Chuyên viên
+VAE02159	Kỹ sư máy bay	Kỹ sư
+VAE02160	Kỹ sư máy bay	Kỹ sư máy bay
+VAE02161	Kỹ sư máy bay	Kỹ sư
+VAE02162	Kỹ sư máy bay	Kỹ sư
+VAE02163	Kỹ sư máy bay	Kỹ sư máy bay
+VAE02164	Kỹ sư máy bay	Kỹ sư
+VAE02175	Cử nhân Quốc tế học - Quốc tế học	N/v thống kê
+VAE02176	Vệ sinh	Nhân viên
+VAE02173	CNCĐ-Công nghệ hóa vô cơ	Nhân viên vật tư
+VAE02174	CĐ Công nghệ thông tin	Nhân viên 
+VAE02172	Cao đẳng kế toán	Cán sự
+VAE02169	Lái xe	N/v lái xe 
+VAE02170	Lái xe	N/v lái xe 
+VAE02171	Lái xe	N/v lái xe 
+VAE02167	Lái xe	Nhân viên lái xe
+VAE02168	Lái xe	Nhân viên lái xe
+VAE02177	Lái xe	Nhân viên
+VAE02178	Lái xe	Nhân viên
+VAE02179	Lái xe	Nhân viên
+VAE02180	Lái xe	Nhân viên
+VAE02181	Cao đẳng kế toán	Tổ trưởng
+VAE02182	Cử nhân Luật-Luật học	Nhân viên
+VAE02183	Cử nhân kinh tế - QTKD	Chuyên viên
+VAE02184	Trung cấp kinh tế vận tải thủy	Nhân viên vật tư
+VAE02333	Thợ cơ giới máy bay	Nhân viên
+VAE02304	Thợ cơ giới máy bay	Nhân viên
+VAE02341	Thợ cơ giới máy bay	Nhân viên
+VAE02325	Thợ cơ giới máy bay	Nhân viên
+VAE02326	Thợ cơ giới máy bay	Nhân viên
+VAE02312	Thợ cơ giới máy bay	Nhân viên
+VAE02319	Thợ cơ giới máy bay	Nhân viên
+VAE02313	Thợ cơ giới máy bay	Nhân viên
+VAE02351	Kỹ sư cơ giới máy bay	Tổ trưởng
+VAE02331	Thợ cơ giới máy bay	Nhân viên
+VAE02309	Thợ cơ giới máy bay	Nhân viên
+VAE02394	Thợ cơ giới	Nhân viên
+VAE02300	Thợ cơ giới máy bay	Nhân viên
+VAE02344	Thợ cơ giới máy bay	Nhân viên
+VAE02345	Thợ cơ giới máy bay	Nhân viên
+VAE02342	Thợ cơ giới máy bay	Nhân viên
+VAE02320	Thợ cơ giới máy bay	Nhân viên
+VAE02339	Thợ cơ giới máy bay	Nhân viên
+VAE02343	Thợ cơ giới máy bay	Nhân viên
+VAE02395	Thợ cơ giới	Nhân viên
+VAE02327	Thợ cơ giới máy bay	Nhân viên
+VAE02335	Thợ cơ giới máy bay	Nhân viên
+VAE02396	Thợ cơ giới	Nhân viên
+VAE02340	Thợ cơ giới máy bay	Nhân viên
+VAE02334	Thợ cơ giới máy bay	Nhân viên
+VAE02397	Thợ cơ giới	Nhân viên
+VAE02374	Thợ cơ giới máy bay	Nhân viên
+VAE02376	Thợ cơ giới máy bay	Nhân viên
+VAE02377	Thợ cơ giới máy bay	Nhân viên
+VAE02383	Thợ cơ giới máy bay	Nhân viên
+VAE02378	Thợ cơ giới máy bay	Nhân viên
+VAE02353	Thợ cơ giới máy bay	Nhân viên
+VAE02379	Thợ cơ giới máy bay	Nhân viên
+VAE02402	Thợ cơ giới	Thủ kho VTPT máy bay
+VAE02387	Thợ cơ giới máy bay	Nhân viên
+VAE02384	Thợ cơ giới máy bay	Nhân viên
+VAE02372	Thợ cơ giới máy bay	Nhân viên
+VAE02362	Thợ cơ giới máy bay	Nhân viên
+VAE02371	Thợ cơ giới máy bay	Nhân viên
+VAE02367	Thợ cơ giới	Nhân viên
+VAE02380	Thợ cơ giới máy bay	Nhân viên
+VAE02385	Thợ cơ giới máy bay	Nhân viên
+VAE02370	Thợ cơ giới máy bay	Nhân viên
+VAE02375	Thợ cơ giới máy bay	Nhân viên
+VAE02357	Thợ cơ giới máy bay	Nhân viên
+VAE02373	Thợ cơ giới máy bay	Nhân viên
+VAE02386	Thợ cơ giới máy bay	Nhân viên
+VAE02350	Thợ bộ môn máy bay	Thủ kho VTPTMB
+VAE02348	Thợ bộ môn máy bay	Nhân viên
+VAE02302	Thợ bộ môn máy bay	Nhân viên
+VAE02305	Thợ bộ môn máy bay	Nhân viên
+VAE02346	Thợ bộ môn máy bay	Nhân viên
+VAE02299	Thợ bộ môn máy bay	Nhân viên
+VAE02316	Thợ bộ môn máy bay	Nhân viên
+VAE02307	Thợ bộ môn máy bay	Nhân viên
+VAE02336	Thợ bộ môn máy bay	Nhân viên
+VAE02324	Thợ bộ môn máy bay	Nhân viên
+VAE02314	Thợ bộ môn máy bay	Nhân viên
+VAE02329	Thợ bộ môn máy bay	Nhân viên
+VAE02338	Thợ bộ môn máy bay	Nhân viên
+VAE02310	Thợ bộ môn máy bay	Nhân viên
+VAE02306	Thợ bộ môn máy bay	Nhân viên
+VAE02303	Thợ bộ môn máy bay	Nhân viên
+VAE02311	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE02317	Thợ bộ môn máy bay	Nhân viên
+VAE02315	Thợ bộ môn máy bay	Nhân viên
+VAE02418	Thợ bộ môn	Nhân viên
+VAE02417	Thợ bộ môn	Thợ kỹ thuật máy bay
+VAE02308	Thợ bộ môn máy bay	Nhân viên
+VAE02323	Thợ bộ môn máy bay	Nhân viên
+VAE02414	Thợ bộ môn	Nhân viên
+VAE02416	Thợ bộ môn	Nhân viên
+VAE02321	Thợ bộ môn máy bay	Nhân viên
+VAE02411	Thợ bộ môn	Thủ kho
+VAE02318	Thợ bộ môn máy bay	Nhân viên
+VAE02328	Thợ bộ môn máy bay	Nhân viên
+VAE02412	Thợ bộ môn	Nhân viên
+VAE02330	Thợ bộ môn máy bay	Nhân viên
+VAE02301	Thợ bộ môn máy bay	Nhân viên
+VAE02337	Thợ bộ môn máy bay	Nhân viên
+VAE02322	Thợ bộ môn máy bay	Nhân viên
+VAE02332	Thợ bộ môn máy bay	Nhân viên
+VAE02415	Thợ bộ môn	Nhân viên
+VAE02413	Thợ bộ môn	Nhân viên
+VAE02349	Thợ bộ môn máy bay	Thủ kho VTPTMB
+VAE02347	Thợ bộ môn máy bay	Nhân viên
+VAE02354	Thợ bộ môn máy bay	Nhân viên
+VAE02390	Thợ bộ môn máy bay	Nhân viên
+VAE02365	Thợ bộ môn máy bay	Nhân viên
+VAE02366	Thợ bộ môn máy bay	Nhân viên
+VAE02356	Thợ bộ môn máy bay	Nhân viên
+VAE02355	Thợ bộ môn máy bay	Nhân viên
+VAE02358	Thợ bộ môn máy bay	Nhân viên
+VAE02388	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE02359	Thợ bộ môn máy bay	Nhân viên
+VAE02360	Thợ bộ môn máy bay	Nhân viên
+VAE02363	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE02389	Thợ bộ môn máy bay	Nhân viên
+VAE02382	Thợ bộ môn máy bay	Nhân viên
+VAE02352	Thợ bộ môn máy bay	Nhân viên
+VAE02361	Thợ bộ môn máy bay	Nhân viên
+VAE02364	Thợ bộ môn máy bay	Nhân viên
+VAE02381	Thợ bộ môn máy bay	Nhân viên
+VAE02391	Thợ bộ môn máy bay	Nhân viên
+VAE02399	Thợ bộ môn	Nhân viên
+VAE02400	Thợ bộ môn	Nhân viên
+VAE02401	Thợ bộ môn	Thủ kho VTPT máy bay
+VAE02398	Thợ bộ môn	Nhân viên
+VAE02368	Thợ bộ môn máy bay	Nhân viên
+VAE02369	Thợ bộ môn máy bay	Thợ kỹ thuật máy bay
+VAE02190	Kỹ sư Cơ khí động lực	Kỹ sư
+VAE02191	Kỹ sư bộ môn	Kỹ sư
+VAE02187	Cử nhân Tài chính Kế toán	Tổ trưởng
+VAE02188	Lái xe	N/v lái xe 
+VAE02189	Lái xe	N/v lái xe 
+VAE02186	Cử nhân Quản trị nhân lực	Chuyên viên
+VAE02185	Cử nhân Quản lý nhân sự	Chuyên viên
+VAE02192	Cử nhân kinh tế - Kế toán 	Chuyên viên
+VAE02193	Trung cấp kỹ thuật-Mật mã	Đội phó
+VAE02194	Trung cấp kế toán	Nhân viên
+VAE02195	CNKT-Quản trị du lịch văn phòng	Nhân viên
+VAE02196	Cao đẳng Công nghệ thông tin	Nhân viên
+VAE02903	Thạc sỹ kỹ thuật Hàng không	Kỹ sư
+VAE02443	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02446	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02444	Kỹ sư cơ giới máy bay	Tổ phó
+VAE02447	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02451	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02455	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02456	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02442	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02503	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02504	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02445	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02453	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02502	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02449	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02448	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02489	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02493	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02480	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02485	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02482	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02496	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02487	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02486	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02484	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02483	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02492	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02450	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02481	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02490	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02491	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02468	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02494	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02495	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02460	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02462	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02461	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02427	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02430	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02424	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02426	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02423	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02440	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02435	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02428	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02433	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02431	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02434	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02425	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02436	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02420	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02437	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02439	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02429	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02438	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02422	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02421	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02476	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02474	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02473	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02475	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02472	Kỹ sư bộ môn máy bay	Tổ trưởng
+VAE02467	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02471	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02469	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02470	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02479	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02464	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02463	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02477	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02465	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02458	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02457	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02497	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02432	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02277	Cử nhân Luật	Chuyên viên
+VAE02278	CN kinh tế ngành Tài chính	Chuyên viên
+VAE02279	Thạc sỹ kỹ thuật ngành tự động hóa	Chuyên viên
+VAE02280	CNKT ngành Kinh tế thương mại	Chuyên viên
+VAE02281	Kỹ sư Công nghệ thông tin	Nhân viên
+VAE02282	Cử nhân kinh tế ngành Tài chính - tín dụng	Nhân viên
+VAE02283	Cử nhân kinh tế ngành Kế toán	Nhân viên
+CGNN-028		Chuyên gia nước ngoài
+VAE02284	K/s cơ khí ngành HK và vũ trụ	Kỹ sư
+VAE02285	Kỹ sư cơ giới	Chuyên viên
+CGNN-030		Chuyên gia nước ngoài
+VAE02286	K/s Công nghệ chế tạo máy - Cơ khí	Chuyên viên
+VAE02287	Cử nhân Quản trị nhân lực	Chuyên viên
+VAE02288	Kỹ sư cơ giới	Kỹ sư
+VAE02289	Cử nhân Xã hội học	Chuyên viên
+VAE02290	Lái xe	Nhân viên
+VAE02291	Lái xe	Nhân viên
+VAE02293	T/c Hành chính văn phòng	Nhân viên
+VAE02294	K/s T.bị HK và các tổ hợp đo lường tính toán; Th.s kỹ thuật	Chuyên viên
+VAE02295	Kỹ sư bộ môn	Chuyên viên
+VAE02298	Kỹ sư cơ khí ô tô-Cơ khí chuyên dùng	Kỹ sư
+VAE02296	Kỹ sư Cơ khí ô tô	Chuyên viên
+VAE02297	Kỹ sư Máy động lực	Chuyên viên
+VAE02392	Cử nhân Khoa học XH và Nhân văn	Chuyên viên
+VAE02393	Kỹ sư bộ môn	Chuyên viên
+VAE02404	Kỹ sư kỹ thuật HK	Kỹ sư cơ khí
+VAE02407	Lái xe	"NV lái, vận hành TTBMĐ"
+VAE02408	CĐ công nghệ KT CK	Thợ cơ khí
+VAE02409	TC nghề cắt gọt kim loại	Thợ cơ khí
+VAE02403	Cử nhân kinh tế	Chuyên viên
+VAE02410	Kỹ sư hệ thống điện	Tổ trưởng
+VAE02525	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02526	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02527	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02528	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02529	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02530	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02531	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02533	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02534	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02535	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02536	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02537	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02538	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02539	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02540	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02541	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02542	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02543	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02544	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02575	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02576	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02577	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02578	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02579	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02580	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02581	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02582	Kỹ sư cơ giới máy bay	Tổ phó
+VAE02583	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02584	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02585	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02586	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02587	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02588	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02589	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02590	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02591	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02593	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02569	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02570	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02545	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02546	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02547	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02548	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02549	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02550	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02551	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02552	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02553	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02554	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02555	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02556	Kỹ sư bộ môn máy bay	Kỹ sư
+VAE02557	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02558	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02559	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02560	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02561	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02562	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02563	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02564	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02565	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02566	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02567	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02568	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02594	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02595	Kỹ sư bộ môn máy bay	Chuyên viên
+VAE02596	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02597	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02605	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02599	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02600	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02601	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02602	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02603	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02598	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02592	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02604	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02571	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02572	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02573	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02419	KS kthuật đo và Tin học CN	Kỹ sư
+VAE02498	KS CN Chế tạo máy	Kỹ sư
+VAE02499	"KS kinh tế, TC kế toán"	Nhân viên
+VAE02500	"KS tin học, CN kế toán"	Nhân viên
+VAE02501	"TC tài chính, ngân hàng"	Nhân viên thống kê
+VAE02505	Quản trị viên ngành Quản trị tổ chức	Chuyên viên
+VAE02506	Cử nhân kinh tế ngành Kế toán	Chuyên viên
+VAE02508	Cử nhân kinh tế ngành Kinh tế	Chuyên viên
+VAE02509	Lái xe	Nhân viên lái xe
+VAE02510	Cao đẳng Kỹ thuật cơ khí	"Thợ sửa chữa, bảo dưỡng TTBMĐ"
+VAE02511	Cử nhân Kế toán - KT doanh nghiệp	Chuyên viên
+VAE02608	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02609	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02512	Lái xe	Nhân viên lái xe
+VAE02610	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02611	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02612	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02613	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02614	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02513	Lái xe	Nhân viên lái xe
+VAE02626	Kỹ sư cơ giới máy bay	Kỹ sư
+VAE02615	Kỹ sư cơ giới máy bay	Chuyên viên
+VAE02616	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02617	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02618	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02619	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02514	Lái xe	Nhân viên lái xe
+VAE02620	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02621	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02622	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02627	Kỹ sư cơ giới máy bay	Kỹ sư cơ giới
+VAE02623	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02624	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02628	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02625	Kỹ sư bộ môn máy bay	Kỹ sư máy bay
+VAE02515	Kỹ sư Vận tải	Chuyên viên
+VAE02516	Cử nhân Quản lý kinh doanh	Chuyên viên
+VAE02518	CĐ nghề Công nghệ ô tô	"Thợ sửa chữa, BD TTBMĐ"
+VAE02519	Tốt nghiệp THPT	Nhân viên
+VAE02520	Thợ vận hành máy xúc	Nhân viên
+VAE02521	Thợ vận hành máy xúc	Nhân viên
+VAE02522	Nhân viên bảo vệ - an ninh	Nhân viên
+VAE02523	Lái xe	Nhân viên lái xe
+VAE02524	Cử nhân Kế toán	Chuyên viên
+VAE02606	Cử nhân kinh tế	Chuyên viên kế hoạch kinh doanh
+VAE02607	Cử nhân kế toán	Nhân viên thống kê kỹ thuật
+VAE02635	Nhân viên vệ sinh MB	Nhân viên
+VAE02634	Nhân viên vệ sinh MB	Nhân viên
+VAE02633	Lái xe	Nhân viên lái xe
+VAE02632	Lái xe	Nhân viên lái xe
+VAE02631	Lái xe	Nhân viên lái xe
+VAE02630	Thợ sửa chữa ô tô	Nhân viên
+VAE02629	Tốt nghiệp PTTH	Nhân viên bảo vệ - an ninh
+VAE02639	Lái xe	Nhân viên lái xe
+VAE02636	T/c Tài chính Ngân hàng	Thủ kho vật tư phụ tùng máy bay
+VAE02637	Thợ sơn	Nhân viên
+VAE02638	Nhân viên vệ sinh MB	Nhân viên vệ sinh máy bay
+VAE02640	Cao đẳng kế toán	Cán sự
+VAE02641	Kỹ sư công nghệ thông tin	Chuyên viên
+VAE02642	Cử nhân hành chính; Cử nhân kinh tế đối ngoại	Chuyên viên
+VAE02643	Cử nhân Tài chính - Ngân hàng	Chuyên viên
+VAE02645	Trung cấp Thiết bị may	Nhân viên
+VAE02646	Cử nhân kinh tế đối ngoại	Chuyên viên
+VAE02647	T/c Kinh doanh thương mại và dịch vụ	Nhân viên
+VAE02754	Thợ cơ giới	Nhân viên
+VAE02755	Thợ cơ giới	Nhân viên
+VAE02756	Thợ cơ giới	Nhân viên
+VAE02757	Thợ cơ giới	Nhân viên
+VAE02758	Thợ cơ giới	Nhân viên
+VAE02759	Thợ cơ giới	Nhân viên
+VAE02760	Thợ cơ giới	Nhân viên
+VAE02761	Thợ cơ giới	Nhân viên
+VAE02762	Thợ cơ giới	Nhân viên
+VAE02763	Thợ cơ giới	Nhân viên
+VAE02764	Thợ cơ giới	Nhân viên
+VAE02765	Thợ cơ giới	Nhân viên
+VAE02766	Thợ cơ giới	Nhân viên
+VAE02767	Thợ cơ giới	Nhân viên
+VAE02768	Thợ cơ giới	Nhân viên
+VAE02769	Thợ cơ giới	Nhân viên
+VAE02770	Thợ cơ giới	Nhân viên
+VAE02771	Thợ cơ giới	Nhân viên
+VAE02772	Thợ cơ giới	Nhân viên
+VAE02773	Thợ cơ giới	Nhân viên
+VAE02774	Thợ cơ giới	Nhân viên
+VAE02775	Thợ cơ giới	Nhân viên
+VAE02776	Thợ cơ giới	Nhân viên
+VAE02777	Thợ cơ giới	Nhân viên
+VAE02778	Thợ cơ giới	Nhân viên
+VAE02779	Thợ cơ giới	Nhân viên
+VAE02780	Thợ cơ giới	Nhân viên
+VAE02781	Thợ cơ giới	Nhân viên
+VAE02782	Thợ cơ giới	Nhân viên
+VAE02783	Thợ cơ giới	Nhân viên
+VAE02784	Thợ cơ giới	Nhân viên
+VAE02785	Thợ cơ giới	Nhân viên
+VAE02786	Thợ cơ giới	Nhân viên
+VAE02787	Thợ cơ giới	Nhân viên
+VAE02788	Thợ cơ giới	Nhân viên
+VAE02789	Thợ bộ môn	Nhân viên
+VAE02790	Thợ bộ môn	Nhân viên
+VAE02791	Thợ bộ môn	Nhân viên
+VAE02792	Thợ bộ môn	Nhân viên
+VAE02793	Thợ bộ môn	Nhân viên
+VAE02794	Thợ bộ môn	Nhân viên
+VAE02795	Thợ bộ môn	Nhân viên
+VAE02796	Thợ bộ môn	Nhân viên
+VAE02797	Thợ bộ môn	Nhân viên
+VAE02798	Thợ bộ môn	Nhân viên
+VAE02799	Thợ bộ môn	Nhân viên
+VAE02800	Thợ bộ môn	Nhân viên
+VAE02801	Thợ bộ môn	Nhân viên
+VAE02802	Thợ bộ môn	Nhân viên
+VAE02803	Thợ bộ môn	Nhân viên
+VAE02804	Thợ bộ môn	Nhân viên
+VAE02805	Thợ bộ môn	Nhân viên
+VAE02806	Thợ bộ môn	Nhân viên
+VAE02807	Thợ bộ môn	Nhân viên
+VAE02808	Thợ bộ môn	Nhân viên
+VAE02809	Thợ bộ môn	Nhân viên
+VAE02810	Thợ bộ môn	Nhân viên
+VAE02811	Thợ bộ môn	Nhân viên
+VAE02812	Thợ bộ môn	Nhân viên
+VAE02813	Thợ bộ môn	Nhân viên
+VAE02814	Thợ cơ giới	Nhân viên
+VAE02839	Thợ cơ giới	Nhân viên
+VAE02815	Thợ cơ giới	Nhân viên
+VAE02840	Thợ cơ giới	Nhân viên
+VAE02841	Thợ cơ giới	Nhân viên
+VAE02842	Thợ cơ giới	Thợ kỹ thuật máy bay
+VAE02843	Thợ cơ giới	Nhân viên
+VAE02816	Thợ cơ giới	Nhân viên
+VAE02817	Thợ cơ giới	Nhân viên
+VAE02818	Thợ cơ giới	Nhân viên
+VAE02819	Thợ cơ giới	Nhân viên
+VAE02820	Thợ cơ giới	Nhân viên
+VAE02844	Thợ cơ giới	Nhân viên
+VAE02821	Thợ cơ giới	Thủ kho
+VAE02845	Thợ cơ giới	Nhân viên
+VAE02822	Thợ cơ giới	Nhân viên
+VAE02823	Thợ cơ giới	Nhân viên
+VAE02824	Thợ cơ giới	Nhân viên
+VAE02825	Thợ cơ giới	Nhân viên
+VAE02826	Thợ cơ giới	Nhân viên
+VAE02827	Thợ cơ giới	Nhân viên
+VAE02828	Thợ cơ giới	Nhân viên
+VAE02846	Thợ cơ giới	Nhân viên
+VAE02829	Thợ cơ giới	Nhân viên
+VAE02847	Thợ cơ giới	Tổ phó
+VAE02830	Thợ cơ giới	Nhân viên
+VAE02831	Thợ cơ giới	Nhân viên
+VAE02832	Thợ cơ giới	Nhân viên
+VAE02848	Thợ cơ giới	Nhân viên
+VAE02837	Thợ cơ giới	Nhân viên
+VAE02849	Thợ cơ giới	Nhân viên
+VAE02833	Thợ cơ giới	Nhân viên
+VAE02834	Thợ cơ giới	Nhân viên
+VAE02835	Thợ cơ giới	Nhân viên
+VAE02836	Thợ cơ giới	Nhân viên
+VAE02850	Thợ cơ giới	Nhân viên
+VAE02851	Thợ cơ giới	Nhân viên
+VAE02852	Thợ cơ giới	Nhân viên
+VAE02838	Thợ cơ giới	Nhân viên
+VAE02853	Thợ cơ giới	Nhân viên
+VAE02854	Thợ cơ giới	Nhân viên
+VAE02655	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02656	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02657	Kỹ sư cơ giới	Chuyên viên
+VAE02658	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02659	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02660	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02661	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02662	Kỹ sư cơ giới	Chuyên viên
+VAE02663	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02664	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02665	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02666	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02667	Kỹ sư cơ giới	Kỹ sư
+VAE02668	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02669	Kỹ sư cơ giới	Kỹ sư
+VAE02670	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02671	Kỹ sư cơ giới	Chuyên viên
+VAE02672	Kỹ sư cơ giới	Kỹ sư
+VAE02673	Kỹ sư cơ giới	Chuyên viên
+VAE02674	Kỹ sư cơ giới	Chuyên viên
+VAE02675	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02676	Kỹ sư cơ giới	Chuyên viên
+VAE02677	Kỹ sư cơ giới	Chuyên viên
+VAE02678	Kỹ sư bộ môn	Chuyên viên
+VAE02679	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02680	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02681	Kỹ sư bộ môn	Chuyên viên
+VAE02682	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02683	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02684	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02685	Kỹ sư bộ môn	Chuyên viên
+VAE02686	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02687	Kỹ sư bộ môn	Chuyên viên
+VAE02688	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02689	Kỹ sư bộ môn	Chuyên viên
+VAE02690	Kỹ sư bộ môn	Chuyên viên
+VAE02691	Kỹ sư bộ môn	Chuyên viên
+VAE02692	Kỹ sư bộ môn	Chuyên viên
+VAE02693	Kỹ sư bộ môn	Chuyên viên
+VAE02694	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02695	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02696	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02697	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02698	Kỹ sư bộ môn	Chuyên viên
+VAE02699	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02700	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02701	Kỹ sư bộ môn	Chuyên viên
+VAE02702	Kỹ sư bộ môn	Chuyên viên
+VAE02703	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02704	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02705	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02706	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02707	Kỹ sư cơ giới	Chuyên viên
+VAE02708	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02709	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02710	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02711	Kỹ sư cơ giới	Chuyên viên
+VAE02712	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02713	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02714	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02715	Kỹ sư cơ giới	Chuyên viên
+VAE02716	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02717	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02718	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02720	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02721	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02723	Kỹ sư cơ giới	Kỹ sư máy bay
+VAE02724	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02725	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02727	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02728	Kỹ sư bộ môn	Chuyên viên
+VAE02729	Kỹ sư bộ môn	Chuyên viên
+VAE02730	Kỹ sư bộ môn	Chuyên viên
+VAE02731	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02732	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02733	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02734	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02735	Kỹ sư bộ môn	Chuyên viên
+VAE02736	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02737	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02738	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02739	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02740	Kỹ sư bộ môn	Kỹ sư máy bay
+VAE02648	Kỹ sư cơ giới máy bay	Kỹ sư máy bay
+VAE02649	"Cử nhân Ngoại thương, Chuyên nghành Kế toán"	Chuyên viên
+VAE02650	Kỹ sư tin học	Kỹ sư
+VAE02651	T/c Điện Công nghiệp và dân dụng	Thợ điện
+VAE02652	T/c chuyên ngành Quản trị kinh doanh	Nhân viên
+VAE02653	Kỹ sư cơ kỹ thuật	Tổ phó
+VAE02654	Kỹ sư cơ khí kỹ thuật chế tạo	Tổ trưởng
+VAE02741	T/c kế toán	Nhân viên
+VAE02745	Lái xe	Nhân viên lái xe
+VAE02742	Cử nhân Quản trị kinh doanh bảo hiểm	Chuyên viên
+VAE02743	T/c nghiệp vụ kinh doanh	Nhân viên
+VAE02744	Kỹ sư kỹ thuật hàng không	Kỹ sư máy bay
+VAE02746	Kỹ sư xây dựng	Chuyên viên
+VAE02747	Kỹ sư xây dựng	Chuyên viên
+VAE02748	Kỹ sư xây dựng	Chuyên viên xây dựng
+VAE02749	Bác sỹ	Chuyên viên
+VAE02750	CĐ nghề Cắt gọt kim loại	Nhân viên
+VAE02751	Thợ nguội sửa chữa	Thợ nguội
+VAE02752	Thợ vô tuyến điện	Nhân viên
+VAE02753	Lái xe	Nhân viên lái xe
+VAE02855	Kỹ sư xây dựng	Chuyên viên
+CGNN-044		Chuyên gia
+VAE02858	"Cử nhân luật, CN cao đẳng thông tin"	Chuyên viên
+VAE02859	Kỹ sư kinh tế xây dựng	Nhân viên
+VAE02857	Kỹ sư điện CN	Kỹ sư
+VAE02860	Cử nhân tài chính doanh nghiệp	Chuyên viên
+VAE02861	Cử nhân kế toán	Chuyên viên
+VAE02862	Thạc sỹ QTKD	Chuyên viên
+VAE02863	Cử nhân luật	Chuyên viên
+VAE02864	Cử nhân kinh tế	Chuyên viên
+VAE02865	Cao đẳng may và thiết kế thời trang	Nhân viên
+VAE02866	Cử nhân Anh văn	Chuyên viên
+VAE02867	Trung cấp kế toán	Cán sự
+VAE02868	Kỹ sư tổ chức chuyên chở và quản lý ngành vận tải	Chuyên viên
+VAE02869	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02870	Lái xe	Nhân viên
+VAE02871	Lái xe	Nhân viên
+VAE02872	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02873	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02874	Cao đẳng Điện công nghiệp	Nhân viên
+VAE02875	Cao đẳng Điện công nghiệp	Nhân viên
+VAE02876	Tốt nghiệp THPT	Nhân viên
+VAE02877	Tốt nghiệp THPT	Nhân viên
+VAE02878	Tốt nghiệp THPT	Nhân viên
+VAE02879	Tốt nghiệp THPT	Nhân viên
+VAE02880	Trung cấp Kế toán	Nhân viên
+VAE02881	Cử nhân kinh tế	Nhân viên
+VAE02882	T/c Phòng cháy chữa cháy	Nhân viên
+VAE02883	Kỹ sư Điện công nghiệp	Nhân viên
+VAE02884	Kỹ sư điện tử viễn thông	Nhân viên
+VAE02885	Cao đẳng Công nghệ ô tô	Nhân viên
+VAE02886	T/c Công nghệ ô tô	Nhân viên
+VAE02887	Kỹ sư Công nghệ cơ khí	Nhân viên
+VAE02916	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02951	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02943	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02917	Kỹ sư hàng không	Chuyên viên
+VAE02918	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02971	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02931	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02944	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02932	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02910	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02958	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02933	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02919	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02920	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02934	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02952	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02970	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02945	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02959	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02973	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02921	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02935	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02946	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02922	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02911	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02972	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02960	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02906	Kỹ sư hàng không	Chuyên viên
+VAE02961	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02912	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02953	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02997	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02976	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02983	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02977	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02978	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02998	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02979	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02980	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03018	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03019	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02984	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02999	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03025	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02985	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02986	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03012	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03000	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02987	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02981	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03013	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02988	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03028	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03029	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03030	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03027	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02947	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02962	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02948	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02963	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02949	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02936	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02907	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02923	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02954	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02924	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02925	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02926	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02964	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02915	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02937	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02941	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02950	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02965	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02913	Kỹ sư hàng không	Kỹ sư
+VAE02927	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02938	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02928	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02939	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02955	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02914	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02966	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02929	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02908	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02930	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02940	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02942	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02975	Kỹ sư hàng không	Chuyên viên
+VAE02967	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02956	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02909	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02968	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02969	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02957	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02904	Kỹ sư hàng không	Chuyên viên
+VAE02905	Kỹ sư hàng không	Chuyên viên
+VAE03020	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03001	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03002	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03003	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03021	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03014	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03022	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02989	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03004	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02990	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03015	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03023	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02991	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03005	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03006	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03016	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03017	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03007	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02974	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03008	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03009	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02992	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03010	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02993	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02994	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02995	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02996	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03011	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03024	Kỹ sư hàng không	Kỹ sư hàng không
+VAE02982	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03031	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03032	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03033	Kỹ sư hàng không	Kỹ sư hàng không
+VAE03048	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03041	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03047	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03051	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03045	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03034	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03035	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03053	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03054	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03036	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03037	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03046	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03050	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03049	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03052	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03055	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03044	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03038	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03043	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03039	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03042	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03040	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03088	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03079	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03080	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03081	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03082	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03083	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03084	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03085	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03086	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03089	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03087	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03090	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03109	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03110	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03056	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03057	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03058	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03059	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03060	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03061	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03062	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03063	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03064	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03065	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03066	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03067	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03068	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03069	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03070	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03071	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03072	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03073	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03074	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03075	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03076	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03077	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03078	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03091	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03092	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03093	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03094	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03095	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03096	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03097	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03098	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03099	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03100	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03108	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03101	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03102	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03103	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03104	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03105	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03106	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03107	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03111	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE02888	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02889	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02890	Cử nhân kế toán	Chuyên viên
+VAE02891	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE02892	Cử nhân quản trị nhân lực	Chuyên viên
+VAE02893	Lái xe	Nhân viên
+VAE02894	Cử nhân kế toán	Cán sự
+VAE02895	Cao đẳng kế toán	Nhân viên
+VAE02896	T/c Công nghệ nhiệt lạnh	Nhân viên
+VAE02901	Cao đẳng công nghệ cơ khí	Nhân viên
+VAE02900	Kỹ sư Điện tử viễn thông	Nhân viên
+VAE02899	Kỹ sư công nghệ thông tin	Nhân viên
+VAE02898	T/c Công nghệ cơ khí	Nhân viên
+VAE02897	T/c Công nghệ cơ khí	Nhân viên
+VAE02902	Kỹ sư Vật lý kỹ thuật	Kỹ sư NDT
+VAE03112	Thợ kỹ thuật hàng không	Thợ kỹ thuật hàng không
+VAE03113	Tốt nghiệp THPT	Nhân viên
+VAE03114	Cao đẳng Quản trị khách sạn	Nhân viên
+VAE03115	T/c Điện dân dụng	Nhân viên
+VAE03116	Tốt nghiệp THPT	Nhân viên
+VAE03117	Cao đẳng Công nghệ kỹ thuật Điện tử - Viễn thông	Nhân viên
+VAE03118	Tốt nghiệp THPT	Nhân viên
+VAE03119	T/c hệ thống điện	Nhân viên
+VAE03120	Cao đẳng Quản trị kinh doanh	Nhân viên
+VAE03121	Cao đẳng Quản trị kinh danh công nghiệp	Nhân viên
+VAE03122	Tốt nghiệp THPT	Nhân viên
+VAE03123	Tốt nghiệp THPT	Nhân viên
+VAE03124	Trung cấp nghề hàn	Nhân viên
+VAE03125	Cử nhân Tài chính - Ngân hàng	Nhân viên
+VAE03126	Cao đẳng Cơ khí chế tạo máy	Nhân viên
+VAE03127	T/c Nghề công nghệ cơ khí	Nhân viên
+VAE03128	CĐ công nghệ kỹ thuật cơ điện tử	Thợ kỹ thuật
+VAE03129	T/c cơ khí	Thợ kỹ thuật
+VAE03130	Kỹ sư cơ khí	Thợ kỹ thuật hàng không
+VAE03131	Kỹ sư công nghệ thông tin	Thợ kỹ thuật hàng không
+VAE03132	T/c công nghệ thông tin	Thợ kỹ thuật hàng không
+VAE03133	CĐ cơ khí chế tạo	Thợ kỹ thuật hàng không
+VAE03134	K/s ngành lọc - hóa dầu	Thợ kỹ thuật hàng không
+VAE03135	K/s khoa học máy tính	Thợ kỹ thuật hàng không
+VAE03136	CĐ công nghệ nhiệt - lạnh	Thợ kỹ thuật hàng không
+VAE03137	T/c công nghệ thông tin	Thợ kỹ thuật hàng không
+VAE03138	Cử nhân khoa học máy tính	Thợ kỹ thuật hàng không
+VAE03139	CĐ tin học ứng dụng	Thợ kỹ thuật hàng không
+VAE03140	Cử nhân tin học	Thợ kỹ thuật hàng không
+VAE03141	K/s điện tử - viễn thông	Thợ kỹ thuật hàng không
+VAE03142	CĐ công nghệ kỹ thuật điện	Thợ kỹ thuật hàng không
+VAE03143	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE03144	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE03145	Cử nhân kinh tế	Chuyên viên
+VAE03146	Cử nhân Quản trị kinh doanh	Chuyên viên
+VAE03147	T/c y sỹ đa khoa	Cán sự y tế
+VAE03148		Phó Tổng Giám đốc
+VAE03149	Cử nhân cao đẳng Quản trị doanh nghiệp	Cán sự
+VAE03150	Cử nhân Quản trị nhân lực	Chuyên viên
+VAE03151	Cử nhân kỹ thuật quản lý sửa chữa máy bay; Thạc sỹ khoa học kỹ thuật và công nghệ	Kỹ sư hàng không
+HV15-001	Kỹ sư	Học viên
+HV15-002	Kỹ sư	Học viên
+HV15-003	Kỹ sư	Học viên
+HV15-004	Kỹ sư	Học viên
+HV15-005	Kỹ sư	Học viên
+HV15-006	Kỹ sư	Học viên
+HV15-007	Kỹ sư	Học viên
+HV15-008	Kỹ sư	Học viên
+HV15-009	Kỹ sư	Học viên
+HV15-010	Kỹ sư	Học viên
+HV15-011	Kỹ sư	Học viên
+HV15-012	Kỹ sư	Học viên
+HV15-013	Kỹ sư	Học viên
+HV15-014	Kỹ sư	Học viên
+HV15-015	Kỹ sư	Học viên
+HV15-016	Kỹ sư	Học viên
+HV15-017	Kỹ sư	Học viên
+HV15-018	Kỹ sư	Học viên
+HV15-019	Kỹ sư	Học viên
+HV15-020	Kỹ sư	Học viên
+HV15-021	Kỹ sư	Học viên
+HV15-022	Kỹ sư	Học viên
+HV15-023	Kỹ sư	Học viên
+HV15-024	Kỹ sư	Học viên
+HV15-025	Kỹ sư	Học viên
+HV15-026	Kỹ sư	Học viên
+HV15-027	Kỹ sư	Học viên
+HV15-028	Kỹ sư	Học viên
+HV15-029	Kỹ sư	Học viên
+HV15-030	Kỹ sư	Học viên
+HV15-031	Kỹ sư	Học viên
+HV15-032	Kỹ sư	Học viên
+HV15-033	Kỹ sư	Học viên
+HV15-034	Kỹ sư	Học viên
+HV15-035	Kỹ sư	Học viên
+HV15-036	Kỹ sư	Học viên
+HV15-037	Kỹ sư	Học viên
+HV15-038	Kỹ sư	Học viên
+HV15-039	Kỹ sư	Học viên
+HV15-040	Kỹ sư	Học viên
+HV15-041	Kỹ sư	Học viên
+HV15-042	Kỹ sư	Học viên
+HV15-043	Kỹ sư	Học viên
+HV15-044	Kỹ sư	Học viên
+HV15-045	Kỹ sư	Học viên
+HV15-046	Kỹ sư	Học viên
+HV15-047	Kỹ sư	Học viên
+HV15-048	Kỹ sư	Học viên
+HV15-049	Kỹ sư	Học viên
+HV15-050	Kỹ sư	Học viên
+HV15-051	Kỹ sư	Học viên
+HV15-052	Kỹ sư	Học viên
+HV15-054	Kỹ sư	Học viên
+HV15-055	Kỹ sư	Học viên
+HV15-056	Kỹ sư	Học viên
+HV15-057	Kỹ sư	Học viên
+HV15-058	Kỹ sư	Học viên
+HV15-059	Kỹ sư	Học viên
+HV15-060	Kỹ sư	Học viên
+HV15-061	Kỹ sư	Học viên
+HV15-062	Kỹ sư	Học viên
+HV15-063	Kỹ sư	Học viên
+HV15-064	Kỹ sư	Học viên
+HV15-065	Kỹ sư	Học viên
+HV15-066	Kỹ sư	Học viên
+HV15-067	Kỹ sư	Học viên
+HV15-068	Kỹ sư	Học viên
+HV15-069	Kỹ sư	Học viên
+HV15-070	Kỹ sư	Học viên
+HV15-071	Kỹ sư	Học viên
+HV15-073	Kỹ sư	Học viên
+HV15-074	Kỹ sư	Học viên
+HV15-075	Kỹ sư	Học viên
+HV15-076	Kỹ sư	Học viên
+HV15-077	Kỹ sư	Học viên
+HV15-078	Kỹ sư	Học viên
+HV15-079	Kỹ sư	Học viên
+HV15-080	Kỹ sư	Học viên
+HV15-081	Kỹ sư	Học viên
+HV15-082	Kỹ sư	Học viên
+HV15-083	Kỹ sư	Học viên
+HV15-084	Kỹ sư	Học viên
+HV15-085	Kỹ sư	Học viên
+HV15-086	Kỹ sư	Học viên
+HV15-087	Kỹ sư	Học viên
+HV15-088	Kỹ sư	Học viên
+HV15-089	Kỹ sư	Học viên
+HV15-090	Kỹ sư	Học viên
+HV15-091	Kỹ sư	Học viên
+HV15-092	Kỹ sư	Học viên
+HV15-093	Kỹ sư	Học viên
+HV15-094	Kỹ sư	Học viên
+HV15-095	Kỹ sư	Học viên
+HV15-096	Kỹ sư	Học viên
+VAE03152	Lái xe	Nhân viên
+VAE03153	Cao đẳng hàn	Nhân viên

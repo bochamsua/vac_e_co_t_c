@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Certificate extension
+ * 
+ * @category       BS
+ * @package        BS_Certificate
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_certificate_certificate_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/certificate</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_certificate/adminhtml_certificate" name="certificate" />
+
+        </reference>
+    </adminhtml_certificate_certificate_index>
+    <adminhtml_certificate_certificate_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_certificate/adminhtml_certificate_grid" name="certificate_grid"/>
+        </block>
+    </adminhtml_certificate_certificate_grid>
+    <!-- Certificate add/edit action -->
+    <adminhtml_certificate_certificate_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/certificate</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_certificate/adminhtml_certificate_edit" name="certificate_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_certificate/adminhtml_certificate_edit_tabs" name="certificate_tabs"></block>
+        </reference>
+    </adminhtml_certificate_certificate_edit>
+    <adminhtml_certificate_crs_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/bs_certificate/crs</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_certificate/adminhtml_crs" name="crs" />
+
+        </reference>
+    </adminhtml_certificate_crs_index>
+    <adminhtml_certificate_crs_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_certificate/adminhtml_crs_grid" name="crs_grid"/>
+        </block>
+    </adminhtml_certificate_crs_grid>
+    <!-- Crs add/edit action -->
+    <adminhtml_certificate_crs_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/bs_certificate/crs</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_certificate/adminhtml_crs_edit" name="crs_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_certificate/adminhtml_crs_edit_tabs" name="crs_tabs"></block>
+        </reference>
+    </adminhtml_certificate_crs_edit>
+</layout>

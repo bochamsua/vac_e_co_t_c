@@ -1,0 +1,99 @@
+<?php
+$new = Mage::getModel('bs_news/news')->getAllNews(true);
+
+?>
+<?php if($new){
+
+    $content = $new->getContent();
+    $markRead = true;
+    $closeText = 'Mark as read';
+    if($new->getShortDescription() != ''){
+        $content = $new->getShortDescription();
+        $markRead = false;
+        $closeText = 'Read more';
+    }
+
+    if($new->getCloseText()){
+        $closeText = $new->getCloseText();
+    }
+
+    ?>
+
+
+<script type="text/javascript">
+    //<![CDATA[
+    var messagePopupClosed = false;
+    function openMessagePopup() {
+        var height = $('html-body').getHeight();
+        $('message-popup-window-mask').setStyle({'height':height+'px'});
+        toggleSelectsUnderBlock($('message-popup-window-mask'), false);
+        Element.show('message-popup-window-mask');
+        $('message-popup-window').addClassName('show');
+    }
+
+    function closeMessagePopup() {
+        toggleSelectsUnderBlock($('message-popup-window-mask'), true);
+        Element.hide('message-popup-window-mask');
+        $('message-popup-window').removeClassName('show');
+        messagePopupClosed = true;
+    }
+
+    function markAsRead(news_id){
+        new Ajax.Request('<?php echo $this->getUrl('*/kst_public/read') ?>', {
+            method : 'post',
+            parameters: {
+                'id'   : news_id
+            },
+            onSuccess : function(transport){
+                try{
+                    closeMessagePopup();
+
+                    response = eval('(' + transport.responseText + ')');
+
+                } catch (e) {
+                    response = {};
+                }
+
+            },
+            onFailure : function(transport) {
+                alert('An unknown error occurred!')
+            }
+        });
+    }
+
+    Event.observe(window, 'load', openMessagePopup);
+    Event.observe(window, 'keyup', function(evt) {
+        if(messagePopupClosed) return;
+        var code;
+        if (evt.keyCode) code = evt.keyCode;
+        else if (evt.which) code = evt.which;
+        if (code == Event.KEY_ESC) {
+            closeMessagePopup();
+        }
+    });
+    //]]>
+</script>
+<div id="message-popup-window-mask" style="display:none;"></div>
+<div id="message-popup-window" class="message-popup">
+    <div class="message-popup-head">
+        <a href="#" onclick="closeMessagePopup(); return false;" title="Close"><span>Close</span></a>
+        <a href="#" onclick="markAsRead($('news_id').value)"><?php echo $closeText?></a>
+        <h2><?php echo $new->getTitle() ?></h2>
+    </div>
+    <div class="message-popup-content">
+        <div class="message">
+            <input type="hidden" id="news_id" value="<?php echo $new->getId()?>">
+            <p class="message-text"><?php echo $content ?></p>
+        </div>
+        <p class="read-more">
+            <?php if(!$markRead){ ?>
+                <a href="<?php echo $this->getUrl('*/news_news/view', array('id'=>$new->getId())); ?>" onclick="this.target='_blank';"><?php echo $closeText?></a>
+            <?php }else { ?>
+                <a href="#" onclick="markAsRead($('news_id').value)"><?php echo $closeText?></a>
+            <?php } ?>
+
+        </p>
+    </div>
+</div>
+
+<?php } ?>

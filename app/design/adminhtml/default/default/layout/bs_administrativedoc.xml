@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_AdministrativeDoc extension
+ * 
+ * @category       BS
+ * @package        BS_AdministrativeDoc
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_administrativedoc_administrativedocument_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/administrativedocument</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_administrativedoc/adminhtml_administrativedocument" name="administrativedocument" />
+
+        </reference>
+    </adminhtml_administrativedoc_administrativedocument_index>
+    <adminhtml_administrativedoc_administrativedocument_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_administrativedoc/adminhtml_administrativedocument_grid" name="administrativedocument_grid"/>
+        </block>
+    </adminhtml_administrativedoc_administrativedocument_grid>
+    <!-- Administrativedocument add/edit action -->
+    <adminhtml_administrativedoc_administrativedocument_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/administrativedocument</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_administrativedoc/adminhtml_administrativedocument_edit" name="administrativedocument_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_administrativedoc/adminhtml_administrativedocument_edit_tabs" name="administrativedocument_tabs"></block>
+        </reference>
+    </adminhtml_administrativedoc_administrativedocument_edit>
+
+    <adminhtml_administrativedoc_administrativedocument_catalog_product_administrativedocuments>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_administrativedoc/adminhtml_catalog_product_edit_tab_administrativedocument" name="product.edit.tab.administrativedocument"/>
+            <block type="adminhtml/widget_grid_serializer" name="administrativedocument_grid_serializer">
+                <reference name="administrativedocument_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.administrativedocument</grid_block_name>
+                        <data_callback>getSelectedAdministrativedocuments</data_callback>
+                        <hidden_input_name>administrativedocuments</hidden_input_name>
+                        <reload_param_name>product_administrativedocuments</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_administrativedoc_administrativedocument_catalog_product_administrativedocuments>
+    <adminhtml_administrativedoc_administrativedocument_catalog_product_administrativedocumentsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_administrativedoc/adminhtml_catalog_product_edit_tab_administrativedocument" name="product.edit.tab.administrativedocument"/>
+        </block>
+    </adminhtml_administrativedoc_administrativedocument_catalog_product_administrativedocumentsgrid>
+    <adminhtml_administrativedoc_administrativedocument_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_administrativedoc/adminhtml_administrativedocument_edit_tab_product" name="administrativedocument.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>administrativedocument.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>administrativedocument_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_administrativedoc_administrativedocument_products>
+    <adminhtml_administrativedoc_administrativedocument_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_administrativedoc/adminhtml_administrativedocument_edit_tab_product" name="administrativedocument.edit.tab.product"/>
+        </block>
+    </adminhtml_administrativedoc_administrativedocument_productsgrid>
+</layout>

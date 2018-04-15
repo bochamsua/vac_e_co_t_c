@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_News extension
+ * 
+ * @category       BS
+ * @package        BS_News
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <default>
+        <reference name="notifications">
+            <block type="bs_news/adminhtml_news" name="news_notifications"
+                   template="bs_news/notifications.phtml"></block>
+        </reference>
+    </default>
+
+    <adminhtml_news_news_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>cms/news</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_news/adminhtml_news" name="news" />
+
+        </reference>
+    </adminhtml_news_news_index>
+    <adminhtml_news_news_view>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>cms/news</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_news/adminhtml_news_view" name="news.view" template="bs_news/views.phtml"/>
+
+        </reference>
+    </adminhtml_news_news_view>
+    <adminhtml_news_news_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_news/adminhtml_news_grid" name="news_grid"/>
+        </block>
+    </adminhtml_news_news_grid>
+    <!-- News add/edit action -->
+    <adminhtml_news_news_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>cms/news</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_news/adminhtml_news_edit" name="news_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_news/adminhtml_news_edit_tabs" name="news_tabs"></block>
+        </reference>
+    </adminhtml_news_news_edit>
+
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CourseDoc extension
+ * 
+ * @category       BS
+ * @package        BS_CourseDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_coursedoc translate="title" module="bs_coursedoc">
+                                        <title>CourseDoc</title>
+                                    </bs_coursedoc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material>
+                        <children>
+                            <coursedoc translate="title" module="bs_coursedoc">
+                                <title>Course Document</title>
+                                <sort_order>0</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </coursedoc>
+                        </children>
+                    </bs_material>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material>
+            <children>
+                <coursedoc translate="title" module="bs_coursedoc">
+                    <title>Course Document</title>
+                    <action>adminhtml/coursedoc_coursedoc</action>
+                    <sort_order>0</sort_order>
+                </coursedoc>
+            </children>
+        </bs_material>
+
+    </menu>
+</config>

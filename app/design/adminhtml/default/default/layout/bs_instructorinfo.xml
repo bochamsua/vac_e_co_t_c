@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_InstructorInfo extension
+ * 
+ * @category       BS
+ * @package        BS_InstructorInfo
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_instructorinfo_info_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/info</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorinfo/adminhtml_info" name="info" />
+
+        </reference>
+    </adminhtml_instructorinfo_info_index>
+    <adminhtml_instructorinfo_info_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorinfo/adminhtml_info_grid" name="info_grid"/>
+        </block>
+    </adminhtml_instructorinfo_info_grid>
+    <!-- Info add/edit action -->
+    <adminhtml_instructorinfo_info_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/info</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorinfo/adminhtml_info_edit" name="info_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_instructorinfo/adminhtml_info_edit_tabs" name="info_tabs"></block>
+        </reference>
+    </adminhtml_instructorinfo_info_edit>
+
+    <adminhtml_instructorinfo_otherinfo_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_instructorinfo/otherinfo</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorinfo/adminhtml_otherinfo" name="otherinfo" />
+
+        </reference>
+    </adminhtml_instructorinfo_otherinfo_index>
+    <adminhtml_instructorinfo_otherinfo_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorinfo/adminhtml_otherinfo_grid" name="otherinfo_grid"/>
+        </block>
+    </adminhtml_instructorinfo_otherinfo_grid>
+    <!-- Otherinfo add/edit action -->
+    <adminhtml_instructorinfo_otherinfo_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/bs_instructorinfo/otherinfo</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorinfo/adminhtml_otherinfo_edit" name="otherinfo_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_instructorinfo/adminhtml_otherinfo_edit_tabs" name="otherinfo_tabs"></block>
+        </reference>
+    </adminhtml_instructorinfo_otherinfo_edit>
+
+    <adminhtml_instructorinfo_instructor_infos>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorinfo/adminhtml_instructor_edit_tab_infor" name="instructor.edit.tab.infor"/>
+        </block>
+    </adminhtml_instructorinfo_instructor_infos>
+    <adminhtml_instructorinfo_instructor_infosgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorinfo/adminhtml_instructor_edit_tab_infor" name="instructor.edit.tab.infor"/>
+        </block>
+    </adminhtml_instructorinfo_instructor_infosgrid>
+
+    <adminhtml_instructorinfo_instructor_otherinfos>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorinfo/adminhtml_instructor_edit_tab_otherinfor" name="instructor.edit.tab.otherinfor"/>
+        </block>
+    </adminhtml_instructorinfo_instructor_otherinfos>
+    <adminhtml_instructorinfo_instructor_otherinfosgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorinfo/adminhtml_instructor_edit_tab_otherinfor" name="instructor.edit.tab.otherinfor"/>
+        </block>
+    </adminhtml_instructorinfo_instructor_otherinfosgrid>
+
+
+</layout>

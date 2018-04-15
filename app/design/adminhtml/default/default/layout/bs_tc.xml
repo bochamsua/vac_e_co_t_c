@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tc extension
+ * 
+ * @category       BS
+ * @package        BS_Tc
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_tc_employee_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tc/employee</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_employee" name="employee">
+                <block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+                    <action method="setUseConfirm"><params>0</params></action>
+                </block>
+            </block>
+
+        </reference>
+    </adminhtml_tc_employee_index>
+    <adminhtml_tc_employee_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tc/adminhtml_employee_grid" name="employee_grid"/>
+        </block>
+    </adminhtml_tc_employee_grid>
+    <!-- Employee add/edit action -->
+    <adminhtml_tc_employee_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tc/employee</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_employee_edit" name="employee_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
+            <block type="bs_tc/adminhtml_employee_edit_tabs" name="employee_tabs"></block>
+        </reference>
+        <reference name="head">
+            <action method="setCanLoadTinyMce"><load>1</load></action>
+        </reference>
+        <reference name="js">
+            <block type="core/template" name="catalog.wysiwyg.js" template="catalog/wysiwyg/js.phtml"/>
+        </reference>
+    </adminhtml_tc_employee_edit>
+
+    <adminhtml_tc_family_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tc/family</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_family" name="family">
+                <block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+                    <action method="setUseConfirm"><params>0</params></action>
+                </block>
+            </block>
+
+        </reference>
+    </adminhtml_tc_family_index>
+    <adminhtml_tc_family_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_tc/adminhtml_family_grid" name="family_grid"/>
+        </block>
+    </adminhtml_tc_family_grid>
+    <!-- Family add/edit action -->
+    <adminhtml_tc_family_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_tc/family</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_family_edit" name="family_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
+            <block type="bs_tc/adminhtml_family_edit_tabs" name="family_tabs"></block>
+        </reference>
+        <reference name="head">
+            <action method="setCanLoadTinyMce"><load>1</load></action>
+        </reference>
+        <reference name="js">
+            <block type="core/template" name="catalog.wysiwyg.js" template="catalog/wysiwyg/js.phtml"/>
+        </reference>
+    </adminhtml_tc_family_edit>
+
+    <adminhtml_tc_employee_attribute_index>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_employee_attribute" name="attribute_grid"></block>
+        </reference>
+    </adminhtml_tc_employee_attribute_index>
+    <adminhtml_tc_employee_attribute_edit>
+        <reference name="left">
+            <block type="bs_tc/adminhtml_employee_attribute_edit_tabs" name="attribute_edit_tabs"></block>
+        </reference>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_employee_attribute_edit" name="attribute_edit_content"></block>
+        </reference>
+        <reference name="js">
+            <block type="adminhtml/template" name="attribute_edit_js" template="bs_tc/attribute/js.phtml">
+                <action method="setMainEntityName"><name>employee</name></action>
+            </block>
+        </reference>
+    </adminhtml_tc_employee_attribute_edit>
+    <adminhtml_tc_family_attribute_index>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_family_attribute" name="attribute_grid"></block>
+        </reference>
+    </adminhtml_tc_family_attribute_index>
+    <adminhtml_tc_family_attribute_edit>
+        <reference name="left">
+            <block type="bs_tc/adminhtml_family_attribute_edit_tabs" name="attribute_edit_tabs"></block>
+        </reference>
+        <reference name="content">
+            <block type="bs_tc/adminhtml_family_attribute_edit" name="attribute_edit_content"></block>
+        </reference>
+        <reference name="js">
+            <block type="adminhtml/template" name="attribute_edit_js" template="bs_tc/attribute/js.phtml">
+                <action method="setMainEntityName"><name>family</name></action>
+            </block>
+        </reference>
+    </adminhtml_tc_family_attribute_edit>
+</layout>

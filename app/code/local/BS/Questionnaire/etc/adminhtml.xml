@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Questionnaire extension
+ * 
+ * @category       BS
+ * @package        BS_Questionnaire
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_questionnaire translate="title" module="bs_questionnaire">
+                                        <title>Questionnaire</title>
+                                    </bs_questionnaire>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_exam>
+                        <children>
+                            <questionnaire translate="title" module="bs_questionnaire">
+                                <title>Instant Questionnaire</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </questionnaire>
+                        </children>
+                    </bs_exam>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_exam>
+            <children>
+                <questionnaire translate="title" module="bs_questionnaire">
+                    <title>Instant Questionnaire</title>
+                    <action>adminhtml/questionnaire_questionnaire</action>
+                    <sort_order>50</sort_order>
+                </questionnaire>
+            </children>
+        </bs_exam>
+
+    </menu>
+</config>

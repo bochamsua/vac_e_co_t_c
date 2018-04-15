@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CourseCost extension
+ * 
+ * @category       BS
+ * @package        BS_CourseCost
+ * @copyright      Copyright (c) 2016
+ */
+-->
+<config>
+    <modules>
+        <BS_CourseCost>
+            <version>1.0.3</version>
+        </BS_CourseCost>
+    </modules>
+    <global>
+        <resources>
+            <bs_coursecost_setup>
+                <setup>
+                    <module>BS_CourseCost</module>
+                    <class>BS_CourseCost_Model_Resource_Setup</class>
+                </setup>
+            </bs_coursecost_setup>
+        </resources>
+        <blocks>
+            <bs_coursecost>
+                <class>BS_CourseCost_Block</class>
+            </bs_coursecost>
+        </blocks>
+        <helpers>
+            <bs_coursecost>
+                <class>BS_CourseCost_Helper</class>
+            </bs_coursecost>
+        </helpers>
+        <models>
+            <bs_coursecost>
+                <class>BS_CourseCost_Model</class>
+                <resourceModel>bs_coursecost_resource</resourceModel>
+            </bs_coursecost>
+            <bs_coursecost_resource>
+                <class>BS_CourseCost_Model_Resource</class>
+                <entities>
+                    <costgroup>
+                        <table>bs_coursecost_costgroup</table>
+                    </costgroup>
+                    <costitem>
+                        <table>bs_coursecost_costitem</table>
+                    </costitem>
+                    <coursecost>
+                        <table>bs_coursecost_coursecost</table>
+                    </coursecost>
+                </entities>
+            </bs_coursecost_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_coursecost>
+                    <file>bs_coursecost.xml</file>
+                </bs_coursecost>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_CourseCost>
+                    <files>
+                        <default>BS_CourseCost.csv</default>
+                    </files>
+                </BS_CourseCost>
+            </modules>
+        </translate>
+        <events>
+            <catalog_product_save_after>
+                <observers>
+                    <bs_coursecost_product>
+                        <type>singleton</type>
+                        <class>bs_coursecost/adminhtml_observer</class>
+                        <method>saveCoursecostPosition</method>
+                    </bs_coursecost_product>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_CourseCost before="Mage_Adminhtml">BS_CourseCost_Adminhtml</BS_CourseCost>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

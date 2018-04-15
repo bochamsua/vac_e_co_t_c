@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Certificate extension
+ * 
+ * @category       BS
+ * @package        BS_Certificate
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Certificate>
+            <version>1.0.2</version>
+        </BS_Certificate>
+    </modules>
+    <global>
+        <resources>
+            <bs_certificate_setup>
+                <setup>
+                    <module>BS_Certificate</module>
+                    <class>BS_Certificate_Model_Resource_Setup</class>
+                </setup>
+            </bs_certificate_setup>
+        </resources>
+        <blocks>
+            <bs_certificate>
+                <class>BS_Certificate_Block</class>
+            </bs_certificate>
+        </blocks>
+        <helpers>
+            <bs_certificate>
+                <class>BS_Certificate_Helper</class>
+            </bs_certificate>
+        </helpers>
+        <models>
+            <bs_certificate>
+                <class>BS_Certificate_Model</class>
+                <resourceModel>bs_certificate_resource</resourceModel>
+            </bs_certificate>
+            <bs_certificate_resource>
+                <class>BS_Certificate_Model_Resource</class>
+                <entities>
+                    <certificate>
+                        <table>bs_certificate_certificate</table>
+                    </certificate>
+                    <crs>
+                        <table>bs_certificate_crs</table>
+                    </crs>
+                </entities>
+            </bs_certificate_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_certificate>
+                    <file>bs_certificate.xml</file>
+                </bs_certificate>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Certificate>
+                    <files>
+                        <default>BS_Certificate.csv</default>
+                    </files>
+                </BS_Certificate>
+            </modules>
+        </translate>
+        <global_search>
+            <certificate>
+                <class>bs_certificate/adminhtml_search_certificate</class>
+                <acl>bs_certificate</acl>
+            </certificate>
+           <!-- <crs>
+                <class>bs_certificate/adminhtml_search_crs</class>
+                <acl>bs_certificate</acl>
+            </crs>-->
+        </global_search>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Certificate before="Mage_Adminhtml">BS_Certificate_Adminhtml</BS_Certificate>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

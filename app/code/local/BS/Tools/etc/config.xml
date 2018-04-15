@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tools extension
+ * 
+ * @category       BS
+ * @package        BS_Tools
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Tools>
+            <version>1.0.1</version>
+        </BS_Tools>
+    </modules>
+    <global>
+        <resources>
+            <bs_tools_setup>
+                <setup>
+                    <module>BS_Tools</module>
+                    <class>BS_Tools_Model_Resource_Setup</class>
+                </setup>
+            </bs_tools_setup>
+        </resources>
+        <blocks>
+            <bs_tools>
+                <class>BS_Tools_Block</class>
+            </bs_tools>
+        </blocks>
+        <helpers>
+            <bs_tools>
+                <class>BS_Tools_Helper</class>
+            </bs_tools>
+        </helpers>
+        <models>
+            <bs_tools>
+                <class>BS_Tools_Model</class>
+                <resourceModel>bs_tools_resource</resourceModel>
+            </bs_tools>
+            <bs_tools_resource>
+                <class>BS_Tools_Model_Resource</class>
+                <entities>
+                    <getinfo>
+                        <table>bs_tools_getinfo</table>
+                    </getinfo>
+                </entities>
+            </bs_tools_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_tools>
+                    <file>bs_tools.xml</file>
+                </bs_tools>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Tools>
+                    <files>
+                        <default>BS_Tools.csv</default>
+                    </files>
+                </BS_Tools>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Tools before="Mage_Adminhtml">BS_Tools_Adminhtml</BS_Tools>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

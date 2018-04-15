@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Traininglist extension
+ * 
+ * @category       BS
+ * @package        BS_Traininglist
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_traininglist_curriculum_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/curriculum</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum" name="curriculum">
+                <block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+                    <action method="setUseConfirm"><params>0</params></action>
+                </block>
+            </block>
+
+        </reference>
+    </adminhtml_traininglist_curriculum_index>
+    <adminhtml_traininglist_curriculum_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_grid" name="curriculum_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_grid>
+    <!-- Curriculum add/edit action -->
+    <adminhtml_traininglist_curriculum_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/curriculum</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_edit" name="curriculum_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
+            <block type="bs_traininglist/adminhtml_curriculum_edit_tabs" name="curriculum_tabs"></block>
+        </reference>
+        <reference name="head">
+            <action method="setCanLoadTinyMce"><load>1</load></action>
+        </reference>
+        <reference name="js">
+            <block type="core/template" name="catalog.wysiwyg.js" template="catalog/wysiwyg/js.phtml"/>
+        </reference>
+    </adminhtml_traininglist_curriculum_edit>
+
+    <adminhtml_traininglist_curriculum_catalog_product_curriculums>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_catalog_product_edit_tab_curriculum" name="product.edit.tab.curriculum"/>
+            <block type="adminhtml/widget_grid_serializer" name="curriculum_grid_serializer">
+                <reference name="curriculum_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.curriculum</grid_block_name>
+                        <data_callback>getSelectedCurriculums</data_callback>
+                        <hidden_input_name>curriculums</hidden_input_name>
+                        <reload_param_name>product_curriculums</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_traininglist_curriculum_catalog_product_curriculums>
+    <adminhtml_traininglist_curriculum_catalog_product_curriculumsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_catalog_product_edit_tab_curriculum" name="product.edit.tab.curriculum"/>
+        </block>
+    </adminhtml_traininglist_curriculum_catalog_product_curriculumsgrid>
+    <adminhtml_traininglist_curriculum_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_edit_tab_product" name="curriculum.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>curriculum.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>curriculum_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_traininglist_curriculum_products>
+    <adminhtml_traininglist_curriculum_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_edit_tab_product" name="curriculum.edit.tab.product"/>
+        </block>
+    </adminhtml_traininglist_curriculum_productsgrid>
+    <adminhtml_traininglist_curriculum_categories>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_edit_tab_categories" name="curriculum.edit.tab.categories"/>
+        </block>
+    </adminhtml_traininglist_curriculum_categories>
+    <adminhtml_traininglist_curriculum_catalog_category_curriculumsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_catalog_category_tab_curriculum" name="category.edit.tab.curriculum"/>
+        </block>
+    </adminhtml_traininglist_curriculum_catalog_category_curriculumsgrid>
+    <adminhtml_traininglist_curriculum_attribute_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_attribute" name="attribute_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_attribute_index>
+    <adminhtml_traininglist_curriculum_history_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_history" name="history_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_history_index>
+    <adminhtml_traininglist_curriculum_history_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_history_grid" name="history_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_history_grid>
+
+
+    <adminhtml_traininglist_curriculum_new_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_new" name="new_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_new_index>
+    <adminhtml_traininglist_curriculum_new_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_new_grid" name="new_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_new_grid>
+
+
+    <adminhtml_traininglist_curriculum_productplan_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_productplan" name="productplan_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_productplan_index>
+    <adminhtml_traininglist_curriculum_productplan_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_productplan_grid" name="productplan_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_productplan_grid>
+
+
+    <adminhtml_traininglist_curriculum_comingcourse_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_comingcourse" name="comingcourse_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_comingcourse_index>
+    <adminhtml_traininglist_curriculum_comingcourse_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_comingcourse_grid" name="comingcourse_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_comingcourse_grid>
+
+    <adminhtml_traininglist_curriculum_currentcourse_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_currentcourse" name="currentcourse_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_currentcourse_index>
+    <adminhtml_traininglist_curriculum_currentcourse_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_currentcourse_grid" name="currentcourse_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_currentcourse_grid>
+
+
+    <adminhtml_traininglist_curriculum_completecourse_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_completecourse" name="completecourse_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_completecourse_index>
+    <adminhtml_traininglist_curriculum_completecourse_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_completecourse_grid" name="completecourse_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_completecourse_grid>
+
+    <adminhtml_traininglist_curriculum_cancelcourse_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_cancelcourse" name="cancelcourse_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_cancelcourse_index>
+    <adminhtml_traininglist_curriculum_cancelcourse_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_cancelcourse_grid" name="cancelcourse_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_cancelcourse_grid>
+
+
+    <adminhtml_traininglist_curriculum_reportcourse_index>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_reportcourse" name="reportcourse_grid"></block>
+        </reference>
+    </adminhtml_traininglist_curriculum_reportcourse_index>
+    <adminhtml_traininglist_curriculum_reportcourse_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_traininglist/adminhtml_curriculum_reportcourse" name="reportcourse_grid"/>
+        </block>
+    </adminhtml_traininglist_curriculum_reportcourse_grid>
+
+
+
+    <adminhtml_traininglist_curriculum_attribute_edit>
+        <reference name="left">
+            <block type="bs_traininglist/adminhtml_curriculum_attribute_edit_tabs" name="attribute_edit_tabs"></block>
+        </reference>
+        <reference name="content">
+            <block type="bs_traininglist/adminhtml_curriculum_attribute_edit" name="attribute_edit_content"></block>
+        </reference>
+        <reference name="js">
+            <block type="adminhtml/template" name="attribute_edit_js" template="bs_traininglist/attribute/js.phtml">
+                <action method="setMainEntityName"><name>curriculum</name></action>
+            </block>
+        </reference>
+        <!--<reference name="js">
+            <block type="adminhtml/template" name="clarion_customerattribute_edit_js" template="clarion_customerattribute/attribute/js.phtml"></block>
+        </reference>-->
+    </adminhtml_traininglist_curriculum_attribute_edit>
+</layout>

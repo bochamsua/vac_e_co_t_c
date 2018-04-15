@@ -1,0 +1,121 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tr>
+            <td><h3><?php echo 'KST Courses Report' ?></h3></td>
+            <td class="form-buttons">
+                <?php echo $this->getButtonsHtml() ?>
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+
+<?php
+
+
+?>
+<div class="recentNews">
+
+    <?php
+
+
+    //$date = Mage::getModel('core/date')->date("d/m/Y", $date);
+
+
+
+    if($userId){
+        $user = Mage::getModel('admin/user')->load($userId);
+        $by = $user->getName();
+    }
+
+    $allowedCourseIds = array();
+
+    $report = $this->getReport($allowedCourseIds);
+    if($report){
+
+
+        foreach ($report as $courseId => $groupIds) {
+
+            $info = $groupIds[key($groupIds)];
+    ?>
+        <div class="primaryContent leftDate">
+            <h2 class="subHeading">
+                <a href="<?php echo $this->getUrl('*/kst_kstprogress/', array('course_id'=>$info['id']))?>" target="_blank" class="newsTitle" style="color: #eb5e00;">Course: <?php echo $info['sku']?></a>
+                (<?php echo $info['duration']?>)
+            </h2>
+            <div class="messageContent baseHtml">
+
+                <div class="newsText">
+                    <table width="100%" style="border-collapse:collapse;">
+
+                        <?php $i=1; foreach ($groupIds as $key => $item) {
+
+                            $leader = $this->getLeader($key);
+                            $trainees = $this->getMembers($key);
+                            $color = 'green';
+                            if($item['prog'] == 'Behind Schedule'){
+                                $color = 'red';
+                            }elseif($item['prog'] == 'Ahead of Schedule'){
+                                $color = 'orange';
+                            }
+                         ?>
+                            <tr style="border-bottom: 2px solid; padding-bottom: 10px;">
+                                <td width="70%" style="padding-bottom: 10px;">
+                                    <span style="text-decoration: underline; font-weight: bold;">Group <?php echo $i?>: Reported by "<?php echo $leader?>" </span>. <?php if($trainees){ ?><span style="font-style: italic; font-weight: normal;">Trainees: <?php echo implode(", ", $trainees)?> </span><?php } ?><br>
+
+
+
+                                    <?php if(isset($item['subjects'])){ ?>
+                                        <?php foreach ($item['subjects'] as $subject) {
+                                            $style = "";
+                                            if($subject['percent'] == 100){
+                                                $style = " style='color: green; font-weight: bold;'";
+                                            }
+                                            echo "<span {$style}>{$subject['name']}: <strong> {$subject['percent']}%</strong> completed </span><br>";
+
+                                        }
+                                        echo "<hr style='border: 1px solid #ccc;'>";
+                                        echo "<strong>Total: {$item['total']}% completed</strong>";
+                                        ?>
+                                    <?php }else {
+                                        $style = "";
+                                        if($item['percent'] == 100){
+                                            $style = " style='color: green;'";
+                                        }
+                                        echo "<span {$style}><strong>{$item['percent']}%</strong> completed </span><br>";
+                                    } ?>
+                                </td>
+                                <td width="30%" style="border-left: 1px solid #ccc; padding-left: 15px; padding-bottom: 10px;">
+                                    Training days: <?php echo $item['days']?> <br>
+                                    Passed days: <?php echo $item['pass']?> <br>
+                                    Total tasks: <?php echo $item['task']?> <br>
+                                    Expected completing tasks per day: <?php echo $item['expectedperday']?> <br>
+                                    Expected completing tasks until today: <?php echo $item['expected']?> <br>
+                                    Actual completed tasks: <?php echo $item['complete']?> <br>
+
+                                    Progress: <span style="font-weight: bold;font-size: 20px;color: <?php echo $color ?>"><?php echo $item['prog']?> </span><br>
+
+                                    <?php if(count($item['feedback'])) {
+
+                                        echo 'There are feedback in: <br>';
+                                        foreach ($item['feedback'] as $row) {
+                                            echo '- Subject "'.$row['subject'].'", items: "';
+                                            echo implode(", ", $row['feedback']).'"<br>';
+                                        }
+                                    } ?>
+                                </td>
+                            </tr>
+                        <?php $i++; } ?>
+                    </table>
+
+                </div>
+
+            </div>
+            <div class="clearFix"></div>
+
+        </div>
+    <?php }
+    } ?>
+
+</div>

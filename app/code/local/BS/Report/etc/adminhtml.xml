@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Report extension
+ * 
+ * @category       BS
+ * @package        BS_Report
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_report translate="title" module="bs_report">
+                                        <title>Report</title>
+                                    </bs_report>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_report translate="title" module="bs_report">
+                        <title>Report</title>
+                        <children>
+                            <report translate="title" module="bs_report">
+                                <title>Create Daily Report</title>
+                                <sort_order>0</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </report>
+                            <supervisor translate="title" module="bs_report">
+                                <title>Supervisor View</title>
+                                <sort_order>5</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </supervisor>
+                            <manage translate="title" module="bs_report">
+                                <title>Manage All</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </manage>
+                            <tctask translate="title" module="bs_report">
+                                <title>TC Task</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </tctask>
+                        </children>
+                    </bs_report>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_report translate="title" module="bs_report">
+            <title>Report</title>
+            <sort_order>50</sort_order>
+            <children>
+                <report translate="title" module="bs_report">
+                    <title>Create Daily Report</title>
+                    <action>adminhtml/report_report/new/v2/true</action>
+                    <sort_order>0</sort_order>
+                </report>
+                <supervisor translate="title" module="bs_report">
+                    <title>Supervisor Rating</title>
+                    <action>adminhtml/report_supervisor/new</action>
+                    <sort_order>5</sort_order>
+                </supervisor>
+                <manage translate="title" module="bs_report">
+                    <title>Manage All</title>
+                    <action>adminhtml/report_manage</action>
+                    <sort_order>10</sort_order>
+                </manage>
+                <tctask translate="title" module="bs_report">
+                    <title>TC Task</title>
+                    <action>adminhtml/report_tctask</action>
+                    <sort_order>20</sort_order>
+                </tctask>
+            </children>
+        </bs_report>
+    </menu>
+</config>

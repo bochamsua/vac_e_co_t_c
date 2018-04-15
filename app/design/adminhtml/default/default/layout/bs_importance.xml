@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Importance extension
+ * 
+ * @category       BS
+ * @package        BS_Importance
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_importance_importantfile_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/importantfile</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_importance/adminhtml_importantfile" name="importantfile" />
+
+        </reference>
+    </adminhtml_importance_importantfile_index>
+    <adminhtml_importance_importantfile_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_importance/adminhtml_importantfile_grid" name="importantfile_grid"/>
+        </block>
+    </adminhtml_importance_importantfile_grid>
+    <!-- Importantfile add/edit action -->
+    <adminhtml_importance_importantfile_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/importantfile</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_importance/adminhtml_importantfile_edit" name="importantfile_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_importance/adminhtml_importantfile_edit_tabs" name="importantfile_tabs"></block>
+        </reference>
+    </adminhtml_importance_importantfile_edit>
+
+</layout>

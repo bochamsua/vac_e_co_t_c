@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tc extension
+ * 
+ * @category       BS
+ * @package        BS_Tc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_tc translate="title" module="bs_tc">
+                                        <title>Tc</title>
+                                    </bs_tc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_tc translate="title" module="bs_tc">
+                        <title>TC</title>
+                        <children>
+                            <employee translate="title" module="bs_tc">
+                                <title>Employee</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </employee>
+                            <family translate="title" module="bs_tc">
+                                <title>Family Member</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </family>
+
+                            <!--<employee_attributes translate="title" module="bs_tc">
+                                <title>Manage Employee attributes</title>
+                                <sort_order>30</sort_order>
+                            </employee_attributes>
+
+                            <family_attributes translate="title" module="bs_tc">
+                                <title>Manage Family attributes</title>
+                                <sort_order>40</sort_order>
+                            </family_attributes>-->
+                        </children>
+                    </bs_tc>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_tc translate="title" module="bs_tc">
+            <title>TC</title>
+            <sort_order>60</sort_order>
+            <children>
+                <employee translate="title" module="bs_tc">
+                    <title>Employee</title>
+                    <action>adminhtml/tc_employee</action>
+                    <sort_order>0</sort_order>
+                </employee>
+                <family translate="title" module="bs_tc">
+                    <title>Family Members</title>
+                    <action>adminhtml/tc_family</action>
+                    <sort_order>10</sort_order>
+                </family>
+                <employee_attributes translate="title" module="bs_tc">
+                    <title>Employee Attributes</title>
+                    <action>adminhtml/tc_employee_attribute</action>
+                    <sort_order>20</sort_order>
+                </employee_attributes>
+                <family_attributes translate="title" module="bs_tc">
+                    <title>Family Attributes</title>
+                    <action>adminhtml/tc_family_attribute</action>
+                    <sort_order>30</sort_order>
+                </family_attributes>
+            </children>
+        </bs_tc>
+    </menu>
+</config>

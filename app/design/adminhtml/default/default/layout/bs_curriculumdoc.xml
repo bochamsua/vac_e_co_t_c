@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CurriculumDoc extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_CurriculumDoc
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+--> 
+<layout>
+    <adminhtml_curriculumdoc_curriculumdoc_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/curriculumdoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_curriculumdoc/adminhtml_curriculumdoc" name="curriculumdoc" />
+
+        </reference>
+    </adminhtml_curriculumdoc_curriculumdoc_index>
+    <adminhtml_curriculumdoc_curriculumdoc_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_curriculumdoc/adminhtml_curriculumdoc_grid" name="curriculumdoc_grid"/>
+        </block>
+    </adminhtml_curriculumdoc_curriculumdoc_grid>
+    <!-- Curriculumdoc add/edit action -->
+    <adminhtml_curriculumdoc_curriculumdoc_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/curriculumdoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_curriculumdoc/adminhtml_curriculumdoc_edit" name="curriculumdoc_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_curriculumdoc/adminhtml_curriculumdoc_edit_tabs" name="curriculumdoc_tabs"></block>
+        </reference>
+    </adminhtml_curriculumdoc_curriculumdoc_edit>
+
+    <adminhtml_curriculumdoc_curriculumdoc_traininglist_curriculum_curriculumdocs>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_curriculumdoc/adminhtml_traininglist_curriculum_edit_tab_curriculumdoc" name="curriculum.edit.tab.curriculumdoc"/>
+            <block type="adminhtml/widget_grid_serializer" name="curriculumdoc_grid_serializer">
+                <reference name="curriculumdoc_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>curriculum.edit.tab.curriculumdoc</grid_block_name>
+                        <data_callback>getSelectedCurriculumdocs</data_callback>
+                        <hidden_input_name>curriculumdocs</hidden_input_name>
+                        <reload_param_name>curriculum_curriculumdocs</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_curriculumdoc_curriculumdoc_traininglist_curriculum_curriculumdocs>
+    <adminhtml_curriculumdoc_curriculumdoc_traininglist_curriculum_curriculumdocsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_curriculumdoc/adminhtml_traininglist_curriculum_edit_tab_curriculumdoc" name="curriculum.edit.tab.curriculumdoc"/>
+        </block>
+    </adminhtml_curriculumdoc_curriculumdoc_traininglist_curriculum_curriculumdocsgrid>
+    <adminhtml_curriculumdoc_curriculumdoc_curriculums>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_curriculumdoc/adminhtml_curriculumdoc_edit_tab_curriculum" name="curriculumdoc.edit.tab.curriculum"/>
+            <block type="adminhtml/widget_grid_serializer" name="curriculum_grid_serializer">
+                <reference name="curriculum_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>curriculumdoc.edit.tab.curriculum</grid_block_name>
+                            <data_callback>getSelectedCurriculums</data_callback>
+                            <hidden_input_name>curriculums</hidden_input_name>
+                            <reload_param_name>curriculumdoc_curriculums</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_curriculumdoc_curriculumdoc_curriculums>
+    <adminhtml_curriculumdoc_curriculumdoc_curriculumsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_curriculumdoc/adminhtml_curriculumdoc_edit_tab_curriculum" name="curriculumdoc.edit.tab.curriculum"/>
+        </block>
+    </adminhtml_curriculumdoc_curriculumdoc_curriculumsgrid>
+</layout>

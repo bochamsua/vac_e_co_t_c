@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CurriculumDoc extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_CurriculumDoc
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <BS_CurriculumDoc>
+            <version>1.0.2</version>
+        </BS_CurriculumDoc>
+    </modules>
+    <global>
+        <resources>
+            <bs_curriculumdoc_setup>
+                <setup>
+                    <module>BS_CurriculumDoc</module>
+                    <class>BS_CurriculumDoc_Model_Resource_Setup</class>
+                </setup>
+            </bs_curriculumdoc_setup>
+        </resources>
+        <blocks>
+            <bs_curriculumdoc>
+                <class>BS_CurriculumDoc_Block</class>
+            </bs_curriculumdoc>
+        </blocks>
+        <helpers>
+            <bs_curriculumdoc>
+                <class>BS_CurriculumDoc_Helper</class>
+            </bs_curriculumdoc>
+        </helpers>
+        <models>
+            <bs_curriculumdoc>
+                <class>BS_CurriculumDoc_Model</class>
+                <resourceModel>bs_curriculumdoc_resource</resourceModel>
+            </bs_curriculumdoc>
+            <bs_curriculumdoc_resource>
+                <class>BS_CurriculumDoc_Model_Resource</class>
+                <entities>
+                    <curriculumdoc>
+                        <table>bs_curriculumdoc_curriculumdoc</table>
+                    </curriculumdoc>
+                    <curriculumdoc_curriculum>
+                        <table>bs_curriculumdoc_curriculumdoc_curriculum</table>
+                    </curriculumdoc_curriculum>
+                </entities>
+            </bs_curriculumdoc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_curriculumdoc>
+                    <file>bs_curriculumdoc.xml</file>
+                </bs_curriculumdoc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_CurriculumDoc>
+                    <files>
+                        <default>BS_CurriculumDoc.csv</default>
+                    </files>
+                </BS_CurriculumDoc>
+            </modules>
+        </translate>
+        <events>
+            <!--<core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_curriculumdoc_curriculumdoc_curriculum>
+                        <type>singleton</type>
+                        <class>bs_curriculumdoc/adminhtml_observer</class>
+                        <method>addCurriculumCurriculumdocBlock</method>
+                    </bs_curriculumdoc_curriculumdoc_curriculum>
+                </observers>
+            </core_block_abstract_prepare_layout_after>-->
+            <bs_traininglist_curriculum_save_after>
+                <observers>
+                    <bs_curriculumdoc_curriculumdoc_curriculum>
+                        <type>singleton</type>
+                        <class>bs_curriculumdoc/adminhtml_observer</class>
+                        <method>saveCurriculumCurriculumdocData</method>
+                    </bs_curriculumdoc_curriculumdoc_curriculum>
+                </observers>
+            </bs_traininglist_curriculum_save_after>
+        </events>
+        <!--<global_search>
+            <curriculumdoc>
+                <class>bs_curriculumdoc/adminhtml_search_curriculumdoc</class>
+                <acl>bs_curriculumdoc</acl>
+            </curriculumdoc>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_CurriculumDoc before="Mage_Adminhtml">BS_CurriculumDoc_Adminhtml</BS_CurriculumDoc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

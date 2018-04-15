@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_StaffInfo extension
+ * 
+ * @category       BS
+ * @package        BS_StaffInfo
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_StaffInfo>
+            <version>1.0.2</version>
+        </BS_StaffInfo>
+    </modules>
+    <global>
+        <resources>
+            <bs_staffinfo_setup>
+                <setup>
+                    <module>BS_StaffInfo</module>
+                    <class>BS_StaffInfo_Model_Resource_Setup</class>
+                </setup>
+            </bs_staffinfo_setup>
+        </resources>
+        <blocks>
+            <bs_staffinfo>
+                <class>BS_StaffInfo_Block</class>
+            </bs_staffinfo>
+        </blocks>
+        <helpers>
+            <bs_staffinfo>
+                <class>BS_StaffInfo_Helper</class>
+            </bs_staffinfo>
+        </helpers>
+        <models>
+            <bs_staffinfo>
+                <class>BS_StaffInfo_Model</class>
+                <resourceModel>bs_staffinfo_resource</resourceModel>
+            </bs_staffinfo>
+            <bs_staffinfo_resource>
+                <class>BS_StaffInfo_Model_Resource</class>
+                <entities>
+                    <training>
+                        <table>bs_staffinfo_training</table>
+                    </training>
+                    <working>
+                        <table>bs_staffinfo_working</table>
+                    </working>
+                </entities>
+            </bs_staffinfo_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_staffinfo>
+                    <file>bs_staffinfo.xml</file>
+                </bs_staffinfo>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_StaffInfo>
+                    <files>
+                        <default>BS_StaffInfo.csv</default>
+                    </files>
+                </BS_StaffInfo>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <training>
+                <class>bs_staffinfo/adminhtml_search_training</class>
+                <acl>bs_staffinfo</acl>
+            </training>
+            <working>
+                <class>bs_staffinfo/adminhtml_search_working</class>
+                <acl>bs_staffinfo</acl>
+            </working>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_StaffInfo before="Mage_Adminhtml">BS_StaffInfo_Adminhtml</BS_StaffInfo>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

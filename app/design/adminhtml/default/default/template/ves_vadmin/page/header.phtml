@@ -1,0 +1,124 @@
+<?php
+/** @var $this Mage_Adminhtml_Block_Page_Header */
+?>
+<div class="header-top">
+	<?php $logoUrl = Mage::getStoreConfig('vadmin/header/logo')?Mage::getBaseUrl('media').'ves_vadmin/'.Mage::getStoreConfig('vadmin/header/logo'):$this->getSkinUrl('images/logo.png')?>
+    <a href="<?php echo $this->getHomeLink() ?>"><img src="<?php echo $logoUrl?>" alt="<?php echo $this->__('Admin Logo') ?>" class="logo"/></a>
+    
+    <div class="header-right">
+        <p class="super">
+            <?php $user = $this->getUser(); ?>
+            <?php $link = $this->getUrl('adminhtml/system_account'); ?>
+            <?php echo $this->__("Logged in as <a href='%s'> %s </a>", $link, $this->escapeHtml($user->getFirstname().' '.$user->getLastname())) ?><span class="separator">|</span><?php echo $this->formatDate(null, 'full') ?><span class="separator">|</span><a href="<?php echo $this->getLogoutLink() ?>" class="link-logout"><?php echo $this->__('Log Out') ?></a>
+            <br>
+            <?php if(Mage::getSingleton('admin/session')->getUser()->getId() == 1){ ?>
+                Login as:
+                <input type="text" id="login-as-username" class="input-text" value="">
+                <input type="submit" id="login-as-button" value="Login" class="form-button">
+
+            <?php }  ?>
+        </p>
+        <?php if ( Mage::getSingleton('admin/session')->isAllowed('admin/global_search') ): ?>
+        <fieldset>
+            <legend>Search</legend>
+            <span id="global_search_indicator" class="autocomplete-indicator" style="display: none">
+                <img src="<?php echo $this->getSkinUrl('images/ajax-loader.gif') ?>" alt="<?php echo $this->__('Loading...') ?>" class="v-middle"/>
+            </span>
+            <?php $defSearch = $this->__('Search everything here...') ?>
+            <input id="global_search" name="query" type="text" class="input-text" value="<?php if(!empty($query)): ?><?php echo $query ?><?php else: ?><?php echo $defSearch ?><?php endif ?>" onfocus="if(this.value=='<?php echo $defSearch ?>')this.value=''; " onblur="if(this.value=='')this.value='<?php echo $defSearch ?>';" />
+            <div id="global_search_autocomplete" class="autocomplete"></div>
+            <script type="text/javascript">
+                new Ajax.Autocompleter(
+                    'global_search',
+                    'global_search_autocomplete',
+                    '<?php echo $this->getUrl('adminhtml/index/globalSearch') ?>',
+                    {
+                        paramName:"query",
+                        minChars:2,
+                        indicator:"global_search_indicator",
+                        updateElement:getSelectionId,
+                        evalJSON:'force'
+                    }
+                );
+                function getSelectionId(li) {
+                    location.href = li.getAttribute('url');
+                }
+                Event.observe('login-as-button', 'click', function(evt){
+
+                    new Ajax.Request('<?php echo $this->getUrl('adminhtml/index/loginAsOther') ?>', {
+                        method : 'post',
+                        parameters: {
+                            'username'   : $('login-as-username').getValue(),
+                            'password'   : 'olalala',
+                            'bypass'        : 'true'
+                        },
+                        onSuccess : function(transport){
+                            try{
+                                response = eval('(' + transport.responseText + ')');
+                                if(response.error){
+                                    alert(response.error);
+
+                                }
+                                window.location.reload();
+
+                            } catch (e) {
+                                response = {};
+                                alert('The page will now be reloaded');
+                                window.location.reload();
+                            }
+
+
+                        },
+                        onFailure : function(transport) {
+                            alert('Put username please!')
+                        }
+                    });
+                });
+            </script>
+        </fieldset>
+        <?php endif; ?>
+    </div>
+</div>
+
+<?php echo $this->getChildHtml('topContainer'); ?>
+
+<?php
+$baseUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+
+if(!strpos("moke".$baseUrl, "localhost") && !strpos("moke".$baseUrl, "dev") && !strpos("moke".$baseUrl, "local")){
+
+$ses = $user->getId(); //tell freichat the userid of the current user
+
+setcookie("freichat_user", "LOGGED_IN", time()+3600, "/"); // *do not change -> freichat code
+
+if(!function_exists("freichatx_get_hash")){
+    function freichatx_get_hash($ses){
+
+        $baseDir = Mage::getBaseDir();
+
+        if(is_file($baseDir."/freichat/hardcode.php")){
+
+            require $baseDir."/freichat/hardcode.php";
+
+            $temp_id =  $ses . $uid;
+
+            return md5($temp_id);
+
+        }
+        else
+        {
+            echo "<script>alert('module freichatx says: hardcode.php file not found!');</script>";
+        }
+
+        return 0;
+    }
+}
+?>
+<script type="text/javascript" language="javascipt" src="<?php echo $baseUrl ?>freichat/client/main.php?id=<?php echo $ses;?>&xhash=<?php echo freichatx_get_hash($ses); ?>"></script>
+<link rel="stylesheet" href="<?php echo $baseUrl ?>freichat/client/jquery/freichat_themes/freichatcss.php" type="text/css">
+
+<?php }  ?>
+
+
+
+

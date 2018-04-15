@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Worksheet extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_Worksheet
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Worksheet>
+            <version>1.0.3</version>
+        </BS_Worksheet>
+    </modules>
+    <global>
+        <resources>
+            <bs_worksheet_setup>
+                <setup>
+                    <module>BS_Worksheet</module>
+                    <class>BS_Worksheet_Model_Resource_Setup</class>
+                </setup>
+            </bs_worksheet_setup>
+        </resources>
+        <blocks>
+            <bs_worksheet>
+                <class>BS_Worksheet_Block</class>
+            </bs_worksheet>
+        </blocks>
+        <helpers>
+            <bs_worksheet>
+                <class>BS_Worksheet_Helper</class>
+            </bs_worksheet>
+        </helpers>
+        <models>
+            <bs_worksheet>
+                <class>BS_Worksheet_Model</class>
+                <resourceModel>bs_worksheet_resource</resourceModel>
+            </bs_worksheet>
+            <bs_worksheet_resource>
+                <class>BS_Worksheet_Model_Resource</class>
+                <entities>
+                    <worksheet>
+                        <table>bs_worksheet_worksheet</table>
+                    </worksheet>
+                    <worksheet_curriculum>
+                        <table>bs_worksheet_worksheet_curriculum</table>
+                    </worksheet_curriculum>
+                </entities>
+            </bs_worksheet_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_worksheet>
+                    <file>bs_worksheet.xml</file>
+                </bs_worksheet>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Worksheet>
+                    <files>
+                        <default>BS_Worksheet.csv</default>
+                    </files>
+                </BS_Worksheet>
+            </modules>
+        </translate>
+        <events>
+            <!--<core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_worksheet_worksheet_curriculum>
+                        <type>singleton</type>
+                        <class>bs_worksheet/adminhtml_observer</class>
+                        <method>addCurriculumWorksheetBlock</method>
+                    </bs_worksheet_worksheet_curriculum>
+                </observers>
+            </core_block_abstract_prepare_layout_after>-->
+            <bs_traininglist_curriculum_save_after>
+                <observers>
+                    <bs_worksheet_worksheet_curriculum>
+                        <type>singleton</type>
+                        <class>bs_worksheet/adminhtml_observer</class>
+                        <method>saveCurriculumWorksheetData</method>
+                    </bs_worksheet_worksheet_curriculum>
+                </observers>
+            </bs_traininglist_curriculum_save_after>
+        </events>
+        <global_search>
+            <worksheet>
+                <class>bs_worksheet/adminhtml_search_worksheet</class>
+                <acl>bs_worksheet</acl>
+            </worksheet>
+        </global_search>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Worksheet before="Mage_Adminhtml">BS_Worksheet_Adminhtml</BS_Worksheet>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

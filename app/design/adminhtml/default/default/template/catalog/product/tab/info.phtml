@@ -1,0 +1,183 @@
+<?php $product = $this->getProduct() ?>
+
+<?php
+if($product->getId()){
+
+
+    $curriculums = Mage::getModel('bs_traininglist/curriculum')->getCollection()->addProductFilter($product->getId());
+    $curUrl = '';
+    $hasCur = false;
+    $curName = '';
+
+    if ($cu = $curriculums->getFirstItem()) {
+
+
+
+        $curriculum = Mage::getModel('bs_traininglist/curriculum')->load($cu->getId());
+
+        if($curriculum->getId()){
+            $hasCur = true;
+            $curUrl = $this->getUrl('*/traininglist_curriculum/edit', array('id'=>$cu->getId()));
+        }
+
+
+
+    }
+
+    $startDate = Mage::getModel('core/date')->timestamp(strtotime($product->getCourseStartDate()));
+    $startDate = date('l, d/m/Y', $startDate);
+
+    $finishDate = Mage::getModel('core/date')->timestamp(strtotime($product->getCourseFinishDate()));
+    $finishDate = date('l, d/m/Y', $finishDate);
+
+    $courename = $product->getName();
+    if(strpos("moke".strtolower($courename), "virtual")){
+        $courename = $product->getCourseRequestedName();
+    }
+
+    $code = $product->getSku();
+    if(strpos("moke".$code, "VIRTUAL")){
+        $code = 'NOT YET PLANNED';
+    }
+
+    $standby = $product->getStandbyInstructor();
+    $standby = explode("\r\n", $standby);
+    $standbyIns = array();
+    if(count($standby)){
+        foreach ($standby as $id) {
+            $id = trim($id);
+            if(strlen($id) == 5){
+                $id = "VAE".$id;
+            }elseif (strlen($id) == 4){
+                $id = "VAE0".$id;
+            }
+            $id = strtoupper($id);
+
+            $customer = Mage::getModel('customer/customer')->getCollection()->addAttributeToFilter('vaeco_id', $id)->getFirstItem();
+            if($customer->getId()) {
+                $cus = Mage::getModel('customer/customer')->load($customer->getId());
+                $name = $cus->getName();
+
+                $standbyIns[] = array(
+                    'vaeco_id' => $id,
+                    'name'      => $name
+                );
+            }
+        }
+
+    }
+
+?>
+<div class="entry-edit product-general-info">
+    <div class="entry-edit-head">
+        <h4 class="icon-head head-edit-form fieldset-legend"><?php echo Mage::helper('catalog')->__('General Information') ?></h4>
+    </div>
+    <fieldset>
+
+        <legend><?php echo Mage::helper('catalog')->__('General Information') ?></legend>
+        <table cellspacing="0" class="form-list" id="table_general">
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Course Name') ?></label></td>
+                <td class="value">
+                    <?php if($hasCur) { ?>
+                    <a href="<?php echo $curUrl ?>" target="_blank"><?php echo $courename ?></a>
+                    <?php } else { ?>
+                        <?php echo $courename ?>
+                    <?php } ?>
+                </td>
+            </tr>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Course Code') ?></label></td>
+                <td class="value"><?php echo $code ?></td>
+            </tr>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('From Date') ?></label></td>
+                <td class="value"><?php echo $startDate ?></td>
+            </tr>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('To Date') ?></label></td>
+                <td class="value"><?php echo $finishDate ?></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Number of Trainees') ?></label></td>
+                <td class="value"><?php echo intval(count($this->getTrainees())) ?></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Instructors') ?></label></td>
+                <td class="value"><?php
+                    $ins = $this->getInstructors();
+                    $j=0;
+                    if(count($ins)){
+                        foreach ($ins as $i) {
+
+                            echo $i['name'];
+                            if($j < count($ins)-1){
+                                echo ', ';
+                            }
+                            $j++;
+                        }
+
+                    }
+                    ?></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Standby Instructors') ?></label></td>
+                <td class="value"><?php
+                    if(count($standbyIns)){
+                        $j=0;
+                        foreach ($standbyIns as $i) {
+
+                            echo $i['name'].' ('.$i['vaeco_id'].')' ;
+                            if($j < count($standbyIns)-1){
+                                echo ', ';
+                            }
+                            $j++;
+                        }
+
+                    }
+                    ?></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Room') ?></label></td>
+                <td class="value"><?php
+                    $rooms = $this->getRooms();
+                    if(count($rooms)){
+                        foreach ($rooms as $r) {
+                            echo $r->getClassroomName().'<br>';
+                        }
+
+                    }
+                    ?></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('File Folder Location') ?></label></td>
+                <td class="value"><?php
+                        $fileFolders = $this->getFilefolders();
+                       if(count($fileFolders)){
+                           foreach ($fileFolders as $f) {
+                               echo $f->getFilefolderCode().' ('.$f->getFilefolderName().') <br>';
+                           }
+
+                       }
+                    ?></td>
+            </tr>
+
+        </table>
+    </fieldset>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+
+
+    Event.observe(window, 'load', function() {
+        //Event.observe($('inventory_manage_stock'), 'change', changeManageStockOption);
+        //Event.observe($('inventory_use_config_manage_stock'), 'change', changeManageStockOption);
+    });
+//]]>
+</script>
+<?php } ?>

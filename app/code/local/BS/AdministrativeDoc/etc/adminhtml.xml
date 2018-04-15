@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_AdministrativeDoc extension
+ * 
+ * @category       BS
+ * @package        BS_AdministrativeDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_administrativedoc translate="title" module="bs_administrativedoc">
+                                        <title>AdministrativeDoc</title>
+                                    </bs_administrativedoc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material>
+                        <children>
+                            <administrativedocument translate="title" module="bs_administrativedoc">
+                                <title>Administrative Document</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </administrativedocument>
+                        </children>
+                    </bs_material>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material>
+            <children>
+                <administrativedocument translate="title" module="bs_administrativedoc">
+                    <title>Administrative Document</title>
+                    <action>adminhtml/administrativedoc_administrativedocument</action>
+                    <sort_order>50</sort_order>
+                </administrativedocument>
+            </children>
+        </bs_material>
+
+    </menu>
+</config>

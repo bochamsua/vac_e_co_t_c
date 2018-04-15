@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_InstructorApproval extension
+ * 
+ * @category       BS
+ * @package        BS_InstructorApproval
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_instructorapproval_iapproval_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/iapproval</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorapproval/adminhtml_iapproval" name="iapproval" />
+
+        </reference>
+    </adminhtml_instructorapproval_iapproval_index>
+    <adminhtml_instructorapproval_iapproval_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_instructorapproval/adminhtml_iapproval_grid" name="iapproval_grid"/>
+        </block>
+    </adminhtml_instructorapproval_iapproval_grid>
+    <!-- Iapproval add/edit action -->
+    <adminhtml_instructorapproval_iapproval_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/iapproval</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_instructorapproval/adminhtml_iapproval_edit" name="iapproval_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_instructorapproval/adminhtml_iapproval_edit_tabs" name="iapproval_tabs"></block>
+        </reference>
+    </adminhtml_instructorapproval_iapproval_edit>
+
+</layout>

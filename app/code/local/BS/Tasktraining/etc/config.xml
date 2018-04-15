@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tasktraining extension
+ * 
+ * @category       BS
+ * @package        BS_Tasktraining
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Tasktraining>
+            <version>1.0.5</version>
+        </BS_Tasktraining>
+    </modules>
+    <global>
+        <resources>
+            <bs_tasktraining_setup>
+                <setup>
+                    <module>BS_Tasktraining</module>
+                    <class>BS_Tasktraining_Model_Resource_Setup</class>
+                </setup>
+            </bs_tasktraining_setup>
+        </resources>
+        <blocks>
+            <bs_tasktraining>
+                <class>BS_Tasktraining_Block</class>
+            </bs_tasktraining>
+        </blocks>
+        <helpers>
+            <bs_tasktraining>
+                <class>BS_Tasktraining_Helper</class>
+            </bs_tasktraining>
+        </helpers>
+        <models>
+            <bs_tasktraining>
+                <class>BS_Tasktraining_Model</class>
+                <resourceModel>bs_tasktraining_resource</resourceModel>
+            </bs_tasktraining>
+            <bs_tasktraining_resource>
+                <class>BS_Tasktraining_Model_Resource</class>
+                <entities>
+                    <taskinstructor>
+                        <table>bs_tasktraining_taskinstructor</table>
+                    </taskinstructor>
+                    <taskinstructor_category>
+                        <table>bs_tasktraining_taskinstructor_category</table>
+                    </taskinstructor_category>
+                    <taskfunction>
+                        <table>bs_tasktraining_taskfunction</table>
+                    </taskfunction>
+                </entities>
+            </bs_tasktraining_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_tasktraining>
+                    <file>bs_tasktraining.xml</file>
+                </bs_tasktraining>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Tasktraining>
+                    <files>
+                        <default>BS_Tasktraining.csv</default>
+                    </files>
+                </BS_Tasktraining>
+            </modules>
+        </translate>
+        <!--<events>
+            <core_block_abstract_prepare_layout_after>
+                <observers>
+                </observers>
+            </core_block_abstract_prepare_layout_after>
+            <adminhtml_catalog_category_tabs>
+                <observers>
+                    <bs_tasktraining_taskinstructor_category>
+                        <type>singleton</type>
+                        <class>bs_tasktraining/adminhtml_observer</class>
+                        <method>addCategoryTaskinstructorBlock</method>
+                    </bs_tasktraining_taskinstructor_category>
+                </observers>
+            </adminhtml_catalog_category_tabs>
+            <catalog_category_save_after>
+                <observers>
+                    <bs_tasktraining_taskinstructor_category>
+                        <type>singleton</type>
+                        <class>bs_tasktraining/adminhtml_observer</class>
+                        <method>saveCategoryTaskinstructorData</method>
+                    </bs_tasktraining_taskinstructor_category>
+                </observers>
+            </catalog_category_save_after>
+        </events>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Tasktraining before="Mage_Adminhtml">BS_Tasktraining_Adminhtml</BS_Tasktraining>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

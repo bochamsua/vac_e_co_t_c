@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Bank extension
+ * 
+ * @category       BS
+ * @package        BS_Bank
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_bank translate="title" module="bs_bank">
+                                        <title>Bank</title>
+                                    </bs_bank>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_bank translate="title" module="bs_bank">
+                        <title>Questions Bank</title>
+                        <children>
+                            <subject translate="title" module="bs_bank">
+                                <title>Subject</title>
+                                <sort_order>0</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </subject>
+                            <question translate="title" module="bs_bank">
+                                <title>Question</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </question>
+                            <answer translate="title" module="bs_bank">
+                                <title>Answer</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </answer>
+                        </children>
+                    </bs_bank>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_bank translate="title" module="bs_bank">
+            <title>Questions Bank</title>
+            <sort_order>15</sort_order>
+            <children>
+                <subject translate="title" module="bs_bank">
+                    <title>Subject</title>
+                    <action>adminhtml/bank_subject</action>
+                    <sort_order>0</sort_order>
+                </subject>
+                <question translate="title" module="bs_bank">
+                    <title>Question</title>
+                    <action>adminhtml/bank_question</action>
+                    <sort_order>10</sort_order>
+                </question>
+                <answer translate="title" module="bs_bank">
+                    <title>Answer</title>
+                    <action>adminhtml/bank_answer</action>
+                    <sort_order>20</sort_order>
+                </answer>
+            </children>
+        </bs_bank>
+    </menu>
+</config>

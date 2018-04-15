@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_SubjectCopy extension
+ * 
+ * @category       BS
+ * @package        BS_SubjectCopy
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_subjectcopy_subjectcopy_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/subject/subjectcopy</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_subjectcopy/adminhtml_subjectcopy" name="subjectcopy" />
+
+        </reference>
+    </adminhtml_subjectcopy_subjectcopy_index>
+    <adminhtml_subjectcopy_subjectcopy_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subjectcopy/adminhtml_subjectcopy_grid" name="subjectcopy_grid"/>
+        </block>
+    </adminhtml_subjectcopy_subjectcopy_grid>
+    <!-- Subjectcopy add/edit action -->
+    <adminhtml_subjectcopy_subjectcopy_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/subject/subjectcopy</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_subjectcopy/adminhtml_subjectcopy_edit" name="subjectcopy_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_subjectcopy/adminhtml_subjectcopy_edit_tabs" name="subjectcopy_tabs"></block>
+        </reference>
+    </adminhtml_subjectcopy_subjectcopy_edit>
+
+</layout>

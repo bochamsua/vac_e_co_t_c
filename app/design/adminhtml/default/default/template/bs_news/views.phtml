@@ -1,0 +1,92 @@
+<?php $id = $this->getRequest()->getParam('id', false); ?>
+<?php if($id) { ?>
+<?php
+    $item = Mage::getModel('bs_news/news')->load($id);
+
+    /*$currentUserId = Mage::getSingleton('admin/session')->getUser()->getId();
+
+    $viewUsers = array();
+    if($item->getViewUsers() != ''){
+        $viewUsers = explode(",", $item->getViewUsers());
+        if(!in_array($currentUserId, $viewUsers)){
+            $viewUsers[] = $currentUserId;
+
+        }
+    }else {
+        $viewUsers[] = $currentUserId;
+    }
+    $item->setViewUsers(implode(",",$viewUsers))->save();
+
+    $whos = array();
+    if(count($viewUsers)){
+        foreach ($viewUsers as $viewUser) {
+            $us = Mage::getModel('admin/user')->load($viewUser);
+            $whos[] = $us->getName();
+        }
+    }*/
+
+
+    $for = Mage::getSingleton('bs_news/news_attribute_source_applyfor')->getOptionText($item->getApplyFor());
+    if($for == ''){
+        $for = 'CBCNV Trung tâm Đào tạo';
+    }else {
+        $for = explode(", ", $for);
+        /*foreach ($for as $key=>$value) {
+            if(in_array($value,$whos)){
+                $for[$key] = '<span class="viewed">'.$value.'</span>';
+            }
+        }*/
+    }
+
+    $for = implode(", ", $for);
+
+    ?>
+<div class="content-header">
+    <table cellspacing="0">
+        <tr>
+            <td><h3><?php echo 'Thông báo này được gửi cho: '.$for ?></h3></td>
+            <td class="form-buttons">
+                <?php echo $this->getButtonsHtml() ?>
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+<div class="recentNews">
+
+    <?php
+
+
+    $date = $item->getCreatedAt();
+    $date = Mage::getModel('core/date')->date("d/m/Y", $date);
+
+    $userId = $item->getUserId();
+    $by = '';
+
+    if($userId){
+        $user = Mage::getModel('admin/user')->load($userId);
+        $by = $user->getName();
+    }
+
+
+    ?>
+
+    <div class="primaryContent leftDate">
+        <h2 class="subHeading">
+            <a class="newsTitle"><?php echo $item->getTitle() ?></a>
+        </h2>
+        <div class="messageContent baseHtml">
+            <div class="postedBy">
+                <span class="posted"><div class="sticky"></div>Đăng bởi <?php echo $by ?> <?php echo 'vào ngày '.$date ?></span>
+            </div>
+            <div class="newsText">
+                <?php echo nl2br($item->getContent()) ?>
+            </div>
+            <div class="clearFix"></div>
+        </div>
+    </div>
+
+
+</div>
+<?php } ?>

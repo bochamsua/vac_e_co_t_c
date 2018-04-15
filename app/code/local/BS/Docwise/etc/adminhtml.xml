@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Docwise extension
+ * 
+ * @category       BS
+ * @package        BS_Docwise
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_docwise translate="title" module="bs_docwise">
+                                        <title>Docwise</title>
+                                    </bs_docwise>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_exam>
+                        <children>
+                            <bs_docwise translate="title" module="bs_docwise">
+                                <title>Docwise</title>
+                                <children>
+                                    <score translate="title" module="bs_docwise">
+                                        <title>Score</title>
+                                        <sort_order>0</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </score>
+                                    <exam translate="title" module="bs_docwise">
+                                        <title>Exam</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </exam>
+                                    <trainee translate="title" module="bs_docwise">
+                                        <title>Trainee</title>
+                                        <sort_order>20</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </trainee>
+                                    <importtrainee translate="title" module="bs_docwise">
+                                        <title>ImportTrainee</title>
+                                        <sort_order>25</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </importtrainee>
+                                    <examtrainee translate="title" module="bs_docwise">
+                                        <title>Exam Trainee</title>
+                                        <sort_order>30</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </examtrainee>
+                                    <scores translate="title" module="bs_docwise">
+                                        <title>Score (OLD)</title>
+                                        <sort_order>40</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </scores>
+                                    <docwisement translate="title" module="bs_docwise">
+                                        <title>Docwise Document</title>
+                                        <sort_order>33</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </docwisement>
+
+
+                                </children>
+                            </bs_docwise>                        </children>
+                    </bs_exam>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_exam>
+            <children>
+                <bs_docwise translate="title" module="bs_docwise">
+                    <title>Docwise</title>
+                    <sort_order>5</sort_order>
+                    <children>
+                        <score translate="title" module="bs_docwise">
+                            <title>Score</title>
+                            <action>adminhtml/docwise_score</action>
+                            <sort_order>0</sort_order>
+                        </score>
+                        <exam translate="title" module="bs_docwise">
+                            <title>Exam</title>
+                            <action>adminhtml/docwise_exam</action>
+                            <sort_order>10</sort_order>
+                        </exam>
+                        <trainee translate="title" module="bs_docwise">
+                            <title>Trainee</title>
+                            <action>adminhtml/docwise_trainee</action>
+                            <sort_order>20</sort_order>
+                        </trainee>
+                        <scores translate="title" module="bs_docwise">
+                            <title>Score (OLD)</title>
+                            <action>adminhtml/docwise_scores</action>
+                            <sort_order>40</sort_order>
+                        </scores>
+                        <docwisement translate="title" module="bs_docwise">
+                            <title>Docwise Document</title>
+                            <action>adminhtml/docwise_docwisement</action>
+                            <sort_order>30</sort_order>
+                        </docwisement>
+
+
+                        <!--<examtrainee translate="title" module="bs_docwise">
+                            <title>Exam Trainee</title>
+                            <action>adminhtml/docwise_examtrainee</action>
+                            <sort_order>30</sort_order>
+                        </examtrainee>-->
+                    </children>
+                </bs_docwise>            </children>
+        </bs_exam>
+
+    </menu>
+</config>

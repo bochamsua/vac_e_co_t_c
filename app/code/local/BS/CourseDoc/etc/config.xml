@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CourseDoc extension
+ * 
+ * @category       BS
+ * @package        BS_CourseDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_CourseDoc>
+            <version>1.0.3</version>
+        </BS_CourseDoc>
+    </modules>
+    <global>
+        <resources>
+            <bs_coursedoc_setup>
+                <setup>
+                    <module>BS_CourseDoc</module>
+                    <class>BS_CourseDoc_Model_Resource_Setup</class>
+                </setup>
+            </bs_coursedoc_setup>
+        </resources>
+        <blocks>
+            <bs_coursedoc>
+                <class>BS_CourseDoc_Block</class>
+            </bs_coursedoc>
+        </blocks>
+        <helpers>
+            <bs_coursedoc>
+                <class>BS_CourseDoc_Helper</class>
+            </bs_coursedoc>
+        </helpers>
+        <models>
+            <bs_coursedoc>
+                <class>BS_CourseDoc_Model</class>
+                <resourceModel>bs_coursedoc_resource</resourceModel>
+            </bs_coursedoc>
+            <bs_coursedoc_resource>
+                <class>BS_CourseDoc_Model_Resource</class>
+                <entities>
+                    <coursedoc>
+                        <table>bs_coursedoc_coursedoc</table>
+                    </coursedoc>
+                    <coursedoc_product>
+                        <table>bs_coursedoc_coursedoc_product</table>
+                    </coursedoc_product>
+                </entities>
+            </bs_coursedoc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_coursedoc>
+                    <file>bs_coursedoc.xml</file>
+                </bs_coursedoc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_CourseDoc>
+                    <files>
+                        <default>BS_CourseDoc.csv</default>
+                    </files>
+                </BS_CourseDoc>
+            </modules>
+        </translate>
+        <events>
+            <core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_coursedoc_coursedoc_product>
+                        <type>singleton</type>
+                        <class>bs_coursedoc/adminhtml_observer</class>
+                        <method>addProductCoursedocBlock</method>
+                    </bs_coursedoc_coursedoc_product>
+                </observers>
+            </core_block_abstract_prepare_layout_after>
+            <catalog_product_save_after>
+                <observers>
+                    <bs_coursedoc_coursedoc_product>
+                        <type>singleton</type>
+                        <class>bs_coursedoc/adminhtml_observer</class>
+                        <method>saveProductCoursedocData</method>
+                    </bs_coursedoc_coursedoc_product>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+        <!--<global_search>
+            <coursedoc>
+                <class>bs_coursedoc/adminhtml_search_coursedoc</class>
+                <acl>bs_coursedoc</acl>
+            </coursedoc>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_CourseDoc before="Mage_Adminhtml">BS_CourseDoc_Adminhtml</BS_CourseDoc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

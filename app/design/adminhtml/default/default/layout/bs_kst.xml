@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_KST extension
+ * 
+ * @category       BS
+ * @package        BS_KST
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_kst_kstsubject_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstsubject</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstsubject" name="kstsubject" />
+
+        </reference>
+    </adminhtml_kst_kstsubject_index>
+    <adminhtml_kst_kstsubject_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_kstsubject_grid" name="kstsubject_grid"/>
+        </block>
+    </adminhtml_kst_kstsubject_grid>
+
+
+    <!-- Kstsubject add/edit action -->
+    <adminhtml_kst_kstsubject_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstsubject</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstsubject_edit" name="kstsubject_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_kstsubject_edit_tabs" name="kstsubject_tabs"></block>
+        </reference>
+    </adminhtml_kst_kstsubject_edit>
+
+    <adminhtml_kst_kstitem_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstitem</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstitem" name="kstitem" />
+
+        </reference>
+    </adminhtml_kst_kstitem_index>
+    <adminhtml_kst_kstitem_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_kstitem_grid" name="kstitem_grid"/>
+        </block>
+    </adminhtml_kst_kstitem_grid>
+    <!-- Kstitem add/edit action -->
+    <adminhtml_kst_kstitem_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstitem</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstitem_edit" name="kstitem_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_kstitem_edit_tabs" name="kstitem_tabs"></block>
+        </reference>
+    </adminhtml_kst_kstitem_edit>
+
+    <adminhtml_kst_kstprogress_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstprogress</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstprogress" name="kstprogress" />
+
+        </reference>
+    </adminhtml_kst_kstprogress_index>
+
+    <adminhtml_kst_kstprogress_view>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstprogress</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstprogress_view" name="kst.view" template="bs_kst/views.phtml"/>
+
+        </reference>
+    </adminhtml_kst_kstprogress_view>
+
+    <adminhtml_kst_kstprogress_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_kstprogress_grid" name="kstprogress_grid"/>
+        </block>
+    </adminhtml_kst_kstprogress_grid>
+    <!-- Kstprogress add/edit action -->
+    <adminhtml_kst_kstprogress_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstprogress</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstprogress_edit" name="kstprogress_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_kstprogress_edit_tabs" name="kstprogress_tabs"></block>
+        </reference>
+    </adminhtml_kst_kstprogress_edit>
+
+    <adminhtml_kst_tfeedback_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/tfeedback</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_tfeedback" name="tfeedback" />
+
+        </reference>
+    </adminhtml_kst_tfeedback_index>
+    <adminhtml_kst_tfeedback_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_tfeedback_grid" name="tfeedback_grid"/>
+        </block>
+    </adminhtml_kst_tfeedback_grid>
+    <!-- Tfeedback add/edit action -->
+    <adminhtml_kst_tfeedback_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/tfeedback</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_tfeedback_edit" name="tfeedback_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_tfeedback_edit_tabs" name="tfeedback_tabs"></block>
+        </reference>
+    </adminhtml_kst_tfeedback_edit>
+
+    <adminhtml_kst_ifeedback_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/ifeedback</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_ifeedback" name="ifeedback" />
+
+        </reference>
+    </adminhtml_kst_ifeedback_index>
+    <adminhtml_kst_ifeedback_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_ifeedback_grid" name="ifeedback_grid"/>
+        </block>
+    </adminhtml_kst_ifeedback_grid>
+    <!-- Ifeedback add/edit action -->
+    <adminhtml_kst_ifeedback_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/ifeedback</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_ifeedback_edit" name="ifeedback_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_ifeedback_edit_tabs" name="ifeedback_tabs"></block>
+        </reference>
+    </adminhtml_kst_ifeedback_edit>
+    <adminhtml_kst_kstgroup_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstgroup</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstgroup" name="kstgroup" />
+
+        </reference>
+    </adminhtml_kst_kstgroup_index>
+    <adminhtml_kst_kstgroup_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_kstgroup_grid" name="kstgroup_grid"/>
+        </block>
+    </adminhtml_kst_kstgroup_grid>
+    <!-- Kstgroup add/edit action -->
+    <adminhtml_kst_kstgroup_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstgroup</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstgroup_edit" name="kstgroup_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_kstgroup_edit_tabs" name="kstgroup_tabs"></block>
+        </reference>
+    </adminhtml_kst_kstgroup_edit>
+
+    <adminhtml_kst_kstmember_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstmember</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstmember" name="kstmember" />
+
+        </reference>
+    </adminhtml_kst_kstmember_index>
+    <adminhtml_kst_kstmember_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_kst/adminhtml_kstmember_grid" name="kstmember_grid"/>
+        </block>
+    </adminhtml_kst_kstmember_grid>
+    <!-- Kstmember add/edit action -->
+    <adminhtml_kst_kstmember_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_kst/kstmember</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_kst/adminhtml_kstmember_edit" name="kstmember_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_kst/adminhtml_kstmember_edit_tabs" name="kstmember_tabs"></block>
+        </reference>
+    </adminhtml_kst_kstmember_edit>
+
+
+
+</layout>

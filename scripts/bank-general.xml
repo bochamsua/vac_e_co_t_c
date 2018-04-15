@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wpProQuiz>
+    <header version="0.37" exportVersion="1"/>
+    <data>
+        <quiz>
+            <title titleHidden="false"><![CDATA[General]]></title>
+            <text><![CDATA[General]]></text>
+            <category/>
+            <resultText gradeEnabled="false"><![CDATA[]]></resultText>
+            <btnRestartQuizHidden>false</btnRestartQuizHidden>
+            <btnViewQuestionHidden>false</btnViewQuestionHidden>
+            <questionRandom>false</questionRandom>
+            <answerRandom>false</answerRandom>
+            <timeLimit>0</timeLimit>
+            <showPoints>true</showPoints>
+            <statistic activated="true" ipLock="1440"/>
+            <quizRunOnce type="1" cookie="false" time="0">false</quizRunOnce>
+            <numberedAnswer>true</numberedAnswer>
+            <hideAnswerMessageBox>false</hideAnswerMessageBox>
+            <disabledAnswerMark>false</disabledAnswerMark>
+            <showMaxQuestion showMaxQuestionValue="1" showMaxQuestionPercent="false">false</showMaxQuestion>
+            <toplist activated="false">
+                <toplistDataAddPermissions>1</toplistDataAddPermissions>
+                <toplistDataSort>1</toplistDataSort>
+                <toplistDataAddMultiple>false</toplistDataAddMultiple>
+                <toplistDataAddBlock>1</toplistDataAddBlock>
+                <toplistDataShowLimit>1</toplistDataShowLimit>
+                <toplistDataShowIn>0</toplistDataShowIn>
+                <toplistDataCaptcha>false</toplistDataCaptcha>
+                <toplistDataAddAutomatic>false</toplistDataAddAutomatic>
+            </toplist>
+            <showAverageResult>false</showAverageResult>
+            <prerequisite>false</prerequisite>
+            <showReviewQuestion>true</showReviewQuestion>
+            <quizSummaryHide>false</quizSummaryHide>
+            <skipQuestionDisabled>false</skipQuestionDisabled>
+            <emailNotification>0</emailNotification>
+            <userEmailNotification>false</userEmailNotification>
+            <showCategoryScore>true</showCategoryScore>
+            <hideResultCorrectQuestion>false</hideResultCorrectQuestion>
+            <hideResultQuizTime>false</hideResultQuizTime>
+            <hideResultPoints>false</hideResultPoints>
+            <autostart>false</autostart>
+            <forcingQuestionSolve>false</forcingQuestionSolve>
+            <hideQuestionPositionOverview>false</hideQuestionPositionOverview>
+            <hideQuestionNumbering>false</hideQuestionNumbering>
+            <sortCategories>true</sortCategories>
+            <showCategory>false</showCategory>
+            <quizModus questionsPerPage="0">2</quizModus>
+            <startOnlyRegisteredUser>false</startOnlyRegisteredUser>
+            <adminEmail>
+                <to/>
+                <form/>
+                <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+                <html>false</html>
+                <message><![CDATA[Wp-Pro-Quiz
+
+The user "$username" has completed "$quizname" the quiz.
+
+Points: $points
+Result: $result]]></message>
+            </adminEmail>
+            <userEmail>
+                <to>-1</to>
+                <toUser>false</toUser>
+                <toForm>false</toForm>
+                <form/>
+                <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+                <html>false</html>
+                <message><![CDATA[Wp-Pro-Quiz
+
+You have completed the quiz "$quizname".
+
+Points: $points
+Result: $result]]></message>
+            </userEmail>
+            <forms activated="false" position="0"/>
+            <questions><question answerType="single">
+                    <title><![CDATA[Question: 1]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[In an ac circuit, the effective voltage is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[equal to the maximum instantaneous voltage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[greater than the maximum instantaneous voltage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[less than the maximum instantaneous voltage]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 2]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The amount of electricity a capacitor can store is directly proportional to the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[distance between the plates and inversely proportional to the plate area]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[plate area and is not affected by the distance between the plates.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[plate area and inversely proportional to the distance between the plates.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 3]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When different rated capacitors are connected in parallel in a circuit, the total capacitance is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[less than the capacitance of the lowest rated capacitor.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[equal to the capacitance of the highest rated capacitor.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[equal to the sum of all the capacitances.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 4]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which requires the most electrical power during operation?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A 12-volt motor requiring 8 amperes.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Four 30-watt lamps in a 12-volt parallel circuit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Two lights requiring 3 amperes each in a 24-volt parallel system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 5]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[How much power must a 24-volt generator furnish to a system which contains the following loads?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[402 watts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[385 watts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[450 watts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 6]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A 12-volt electric motor has 1,000 watts input and 1 horsepower output. Maintaining the same efficiency, how much input power will a 24-volt, 1-horsepower electric motor require?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[1,000 watts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[2,000 watts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[500 watts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 7]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The potential difference between two conductors which are in insulated from each other is measured in]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[volts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[amperes.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[coulombs.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 8]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The correct way to connect a test voltmeter in a circuit is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[in series with a unit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[between the source voltage and the load]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[in parallel with a unit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 9]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which term means .001 ampere?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Microampere.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Kiloampere.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Milliampere.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 10]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A cabin entry light of 10 watts and a dome light of 20 watts are connected in parallel to a 30-volt source. If the voltage across the 10-watt light is measured, it will be]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[equal to the voltage across the 20-watt light.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[half the voltage across the 20-2watt light.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[one-third of the input voltage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 11]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[002KV equals]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[20 volts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[2.0 volts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[.2 volt.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 12]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What unit is used to express electrical power?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Volt.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Watt.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Ampere.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 13]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement is correct when made in reference to a parallel circuit?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The current is equal in all portions of the circuit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The total current is equal to the sum of the currents through the individual branches of the circuit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The current in amperes can be found by dividing the EMF in volts by the sum of the resistors in ohms.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 14]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Diodes are used in electrical power circuits primarily as]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[switches.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[rectifiers.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[relays.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 15]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A circuit has an applied voltage of 30 volts and a load consisting of a 10-ohm resistor in series with a 20-ohm resistor. What is the voltage drop across the 10-ohm resistor?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[10 volts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[20 volts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[30 volts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 16]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which is correct concerning a parallel circuit?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Total resistance will be smaller than the smallest resistor.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Total resistance will decrease when one of the resistances is removed]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Total voltage drop is the same as the total resistance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 17]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A thermal switch, as used in an electric motor, is designed to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[close the integral fan circuit to allow cooling of the motor.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[open the circuit in order to allow cooling of the motor.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[reroute the circuit to ground]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 18]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When referring to an electrical circuit diagram, what point is considered to be at zero voltage?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The circuit breaker.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The switch.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The ground reference.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 19]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[(Refer to Figure 24.) Which statement concerning the depicted logic gate is true?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Any input being 1 will produce a 0 output.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Any input being 1 will produce a 1 output.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[All inputs must be 1 to produce a 1 output.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 20]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[(Refer to Figure 25.) In a functional and operation circuit, the depicted logic gate’s output will be 0]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[only when all inputs are 0.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[when all inputs are 1.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[when one or more inputs are 0.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 21]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A specific measured distance from the datum or some other point identified by the manufacturer, to a point in or on the aircraft is called a]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[zone number.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[reference number.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[station number.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 22]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[(1) Schematic diagrams indicate the location of individual components in the aircraft.  (2) Schematic diagrams indicate the location of components with respect to each other within the system.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[only No. 1 is true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[both No. 1 and No. 2 are true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[only No. 2 is true.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 23]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[One purpose for schematic diagrams is to show the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[functional location of components within a system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[physical location of components within a system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[size and shape of components within a system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 24]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A hydraulic system schematic drawing typically indicates the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[specific location of the individual components within the aircraft.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[direction of fluid flow through the system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[amount of pressure in the pressure and return lines, and in system components.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 25]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What type of diagram shows the wire size required for a particular installation?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A block diagram.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A schematic diagram.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[A wiring diagram.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 26]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Schematic diagrams are best suited for which of the following?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Showing the visual details of individual components in a system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Showing the overall location and appearance of components in a system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Troubleshooting system malfunctions.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 27]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What tasks are completed prior to weighing an aircraft to determine its empty weigh?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Remove all items except those on the aircraft equipment list; drain fuel and hydraulic fluid]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Remove all items on the aircraft equipment list; drain fuel, compute oil and hydraulic fluid weight.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Remove all items except those on the aircraft equipment list; drain fuel and fill hydraulic reservoir.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 28]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The useful load of an aircraft consists of the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[crew, usable fuel, passengers, and cargo.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[crew, usable fuel, oil and fixed equipment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[crew, passengers, usable fuel, oil, cargo, and fixed equipment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 29]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[In the theory of weight and balance, what is the name of the distance from the fulcrum to an object?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Level arm.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Balance arm.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Fulcrum arm.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 30]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What determines whether the value of the moment is preceded by a plus (+) or a minus (-) sign in aircraft weight and balance?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The location of the weight in reference to the datum.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The result or a weight being added or removed and its location relative to the datum.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The location of the datum in reference to the aircraft CG.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 31]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The maximum weight of an aircraft is the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[empty weight plus crew, maximum fuel, cargo, and baggage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[empty weight plus crew, passengers, and fixed equipment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[empty weight plus useful load]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 32]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Zero fuel weight is the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[dry weight plus the weight of full crew, passengers, and cargo.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[basis operating weight without crew, fuel, and cargo.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[maximum permissible weight of a loaded aircraft (passengers, crew, and cargo) without fuel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 33]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The useful load of an aircraft is the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[difference between the maximum gross weight and empty weight.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[difference between the net weight and total weight.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[sum of the empty weight and the maximum gross weight.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 34]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The maximum weight as used in weight and balance control of a given aircraft can normally be found]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[by adding the weight of full fuel, pilot, passengers, and maximum allowable baggage to the empty weight.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[in the Aircraft Specification or Type Certificate Data Sheet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[by adding the empty weight and payload]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 35]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Hydraulic tubing, which is damaged in a localized area to such an extent that repair is necessary, may be repaired]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[by cutting out the damaged area and utilizing a swaged tube fitting to join the tube ends.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[only by replacing the entire tubing using the same size and material as the original.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[by cutting out the damaged section and soldering in a replacement section of tubing.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 36]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A certain amount of slack must be left in a flexible hose during installation because, when under pressure, it]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[expands in length and diameter.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[expands in length and contracts in diameter.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[contracts in length and expands in diameter.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 37]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Flexible lines must be installed with]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[a slack of 5 to 8 percent of the length.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[a slack of at least 10 to 12 percent of the length.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[enough slack to allow maximum flexion during operation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 38]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[the maximum distance between end fittings to which a straight hose assembly is to be connected is 50 inches. The minimum hose length to make such a connection should be]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[54-1/2 inches.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[51- 1/2 inches.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[52- 1/2 inches.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 39]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Scratches or nicks on the straight portion of aluminum alloy tubing may be repaired if they are no deeper than]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[20 percent of the wall thickness.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1/32 inch or 20 percent of wall thickness, whichever is less.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[10 percent of the wall thickness.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 40]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement concerning Bernoulli’s principle is true?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The pressure of a fluid increases at points where the velocity of the fluid increases.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The pressure of a fluid decreases at points where the velocity of the fluid increases.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[It applies only to gases and vaporized liquids.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 41]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Magnetic particle inspection is used primarily to detect]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[distortion.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[deep subsurface flaws.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[flaws on or near the surface.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 42]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which of these nondestructive testing methods is suitable for the inspection of most metals, plastics, and ceramics for surface and subsurface defects?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Eddy current inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Magnetic particle inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Ultrasonic inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 43]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What nondestructive testing method requires little or no part preparation, is used to detect surface or near-surface defects in most metals, and may also be used to separate metals or alloys and their heat-treat conditions?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Eddy current inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Ultrasonic inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Magnetic particle inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 44]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Unless otherwise specified, torque values for tight-enting aircraft nuts and bolts relate to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[clean, dry threads.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[clean, lightly oiled threads.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[either dry or lightly oiled threads.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 45]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is generally used in the construction of aircraft engine firewalls?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Stainless steel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Chrome-molybdenum alloy steel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Magnesium-titanium alloy steel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 46]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Unless otherwise specified or required, aircraft bolts should be installed so that the bolthead is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[upward, or in a forward direction.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[downward, or in a forward direction.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[downward, or in a reaward direction.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 47]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Aircraft bolts with a cross or asterisk marked on the bolthead are]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[made of aluminum alloy.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[close tolerance bolts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[standard steel bolts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 48]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement regarding aircraft bolts is correct?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[When tightening castellated nuts on drilled bolts, if the cotter pin holes do not line up, it is permissible to overtighten the nut to permit alignment of the next slot with the cotter pin hole.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[In general, bolt grip lengths should equal the material thickness.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Alloy steel bolts smaller than 1/4-inhch diameter should not be used in primary structure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 49]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Generally speaking, bolt grip lengths should be]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[equal to the thickness of the material which is fastened together, plus approximately one diameter.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[equal to the thickness of the material which is fastened together.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[one and one half times the thickness of the material which is fastened together.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 50]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A particular component is attached to the aircraft structure by the use of an aircraft bolt and a castle tension nut combination. If the cotter pin hole does not align within the recommended torque range, the acceptable practice is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[exceed the recommended torque range by no more than 10 percent.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[tighten below the torque range.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[change washers and try again.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 51]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[During starting of a turbine powerplant using a compressed air stater, a hung start occurred, Select the proper procedure.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Advance power lever to increase RPM.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Re-engage the starter.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Shut the engine down.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 52]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A hung start in a jet engine is often caused by]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[malfunctions in the ignition system.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the starter cutting off too soon.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[an excessively rich fuel/air mixture.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 53]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement below reflects a typical requirement when towing some aircraft?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Discharge all hydraulic pressure to prevent accidental operation of the nosewheel steering mechanism.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Tailwheel aircraft must be towed backward]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[If the aircraft has a steerable nosewheel, the torquelink lock should be set to full swivel.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 54]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When approaching the front of an idling jet engine, the hazard area extends forward of the engine approximately]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[10 feet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[15 feet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[25 feet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 55]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which of the following is the most satisfactory extinguishing agent for use on a carburetor or intake fire?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Dry chemical.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A fine, water mist.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Carbon dioxide.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 56]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The most important condition to be monitored during start after fuel flow begins in a turbine engine is the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[EGT, TIT, or ITT.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[RPM.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[oil pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 57]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When approaching the rear of an idling turbojet engine, the hazard area extends aft of the engine approximately]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[200 feet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[100 feet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[50 feet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 58]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If a hot start occurs during starting of a turbine powerplant, what is the likely cause?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The starting unit overheated]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The ambient air temperature was too high (over 100 degrees F).]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The fuel/air mixture was excessively rich.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 59]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When towing a large aircraft]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[a person should be in the cockpit to watch for obstructions.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[persons should be stationed at the nose, each wingtip, and the empennage at all times.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[a person should be in the cockpit to operate brakes.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 60]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Intergranular corrosion in aluminum alloy parts]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[may be detected by surface pitting, and white, powdery deposit formed on the surface of the metal.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[commonly appears as threadlike filaments of corrosion products under a dense film of paint.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[cannot always be detected by surface indications.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 61]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A primary cause of intergranular corrosion is]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[improper heat treatment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[dissimilar metal contact.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[improper application of primer.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 62]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Why is a plastic surface flushed with fresh water before it is cleaned with soap and water?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[To prevent crazing.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[To prevent scratching.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[To prevent discoloration.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 63]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What should be done to prevent rapid deterioration when oil or grease come in contact with a tire?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Wipe the tire thoroughly with a dry cloth, and then rinse with clean water.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Wipe the tire with a dry cloth followed by a washdown and rinse with soap and water.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Wipe the tire with a cloth dampened with aromatic naphtha and then wipe dry with a clean cloth.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 64]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Galvanic corrosion at the interface of a dissimilar metal part may best be prevented by]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[placing a nonporous dielectric material between the surfaces.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[conducting frequent inspections and keeping all exposed areas of the part clean.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[sealing exposed seam edges with a recommended sealing compound]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 65]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Corrosion caused by galvanic action is the result of]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[excessive anodization.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[contact between two unlike metals.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[excessive etching.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 66]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Spilled mercury on aluminum]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increases susceptibility to hydrogen embitterment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[may cause impaired corrosion resistance if left in prolonged contact.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[causes rapid and severe corrosion that is very difficult to control.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 67]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What force is exerted on the piston in a hydraulic cylinder if the area of the piston is 1.2 square inches and the fluid pressure is 850 PSI?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[1, 020 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[960 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[850 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 68]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If work performed on an aircraft has been done satisfactorily, the signature of an authorized person on the maintenance records for maintenance or alterations performed constitutes]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[approval of the aircraft for return to service.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[approval for return to service only for the work performed]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[only verification that the maintenance or alterations were performed referencing maintenance data]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 69]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is the means by which the CAAV notifies aircraft owners and other interested persons of unsafe conditions and prescribes the condition under which the product may continue to be operated?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Airworthiness Directives.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Aviation Maintenance Alerts.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Aviation Safety Data]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 70]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Who is responsible for upkeep of the required maintenance records for an aircraft?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The maintaining repair station or authorized inspector.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The maintaining certificated mechanic]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The aircraft owner.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 71]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An aircraft was not approved for return to service after an annual inspection and the owner wanted to fly the aircraft to another maintenance base. Which statement is correct?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The owner must obtain a special flight permit.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The aircraft may be flown without restriction up to 10 hours to reach another maintenance base.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The aircraft becomes a restricted category type until it is approved for return to service.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 72]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[After a mechanic holding an airframe and powerplant rating completes a 100-hour inspection, what action is required before the aircraft is returned to service?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Make the proper entries in the aircraft’s maintenance record]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[An operational check of all systems.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A mechanic with an inspection authorization must approve the inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 73]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The force that can be produced by an actuating cylinder whose piston has a cross-sectional area of a square inches operating in a 1,000 PSI hydraulic system is most nearly]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[3,000 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1,5 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[1,000 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 74]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The boiling point of a given liquid varies]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[directly with pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[inversely with pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[directly with volume.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 75]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The speed of sound in the atmosphere]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[varies according to the frequency of the sound]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[changes with a change in temperature.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[changes with a change in pressure.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 76]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If the volume of a confined gas is doubled (without the addition of more gas), the pressure will (assume the temperature remains constant).]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increase in direct proportion to the volume increase.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[remain the same.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[be reduced to one-half its original value.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 77]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If the temperature of a confined liquid is held constant and its pressure is tripled, the volume will]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[triple.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[be reduced to one-third its original volume.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[remain the same.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 78]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If the fluid pressure is 800 PSI in a 1/2- inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[4,000 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[8,000 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[800 pounds.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 79]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[How many, if any, factors are necessary to determine power? 1. Force exerted 2. Distance the force moves. 3. Time required to do the work.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[One.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Two.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Three.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 80]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which statement concerning heat and/or temperature is true?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[There is an inverse relationship between temperature and heat.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Temperature is a measure of the kinetic energy of the molecules of any substance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Temperature is a measure of the potential energy of the molecules of any substance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 81]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An airplane wing is designed to produce lift resulting from]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[positive air pressure below and above the wing’s surface along with the downward deflection of air.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[positive air pressure below the wing’s surface and negative air pressure above the wing’s surface along with the downward deflection of air.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[negative air pressure below the wing’s surface and positive air pressure above the wing’s surface along with the downward deflection of air.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 82]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The purpose of aircraft wing dihedral is to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[increase lateral stability.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increase longitudinal stability.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[increase lift coefficient of the wing.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 83]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Airworthiness Directives are issued primarily to]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[provide information about malfunction or defecttrends.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[present recommended maintenance procedures for correcting potentially hazardous defects.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[correct an unsafe condition.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 84]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Primary responsibility for compliance with Airworthiness Directives lies with the]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[aircraft owner or operator.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[certificated mechanic holding an Inspection Authorization who conducts appropriate inspections.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[certificated mechanic who maintains the aircraft.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 85]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An aircraft Type Certificate Data Sheet contains]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[maximum fuel grade to be used]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[control surface adjustment points.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[location of the datum.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 86]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Suitability for use of a specific propeller with a particular engine-airplane combination can be determined by reference to what informational source?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Propeller Specifications or Propeller Type Certificate Data Sheet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Aircraft Specifications or Aircraft Type Certificate Data Sheet.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Alphabetical Index of Current Propeller Type Certificate Data Sheets, Specifications, and Listings.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 87]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Where are technical descriptions of certificated propellers found?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Applicable Airworthiness Directives.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Aircraft Specifications.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Propeller Type Certificate Data Sheets.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 88]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What information is generally contained in Aircraft Specifications or Type Certificate Data Sheets?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Empty weight of the aircraft.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Useful load of aircraft.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Control surface movements.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 89]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is the maintenance recording responsibility of the person who complies with an Airworthiness Directive?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Advise the aircraft owner/operator of the work performed]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Make up entry in the maintenance record of that equipment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Advise the CAAV of the work performed, by submitting an REPORT.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 90]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A repair, as performed on an airframe, shall mean]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the upkeep and preservation of the airframe including the component parts thereof.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the restoration of the airframe to a condition for safe operation after damage or deterioration.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question></questions>
+        </quiz>
+    </data>
+</wpProQuiz>

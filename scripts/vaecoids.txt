@@ -1,0 +1,201 @@
+1	VAE01505	Thái Hồng Sơn	Lãnh đạo Chi nhánh	Phó Giám đốc	12/4/74	10/1993	Nam
+2	VAE03180	Mai Đình Toàn	Lãnh đạo Chi nhánh	Phó Giám đốc	8/23/71	02/1998	Nam
+3	VAE00038	Nguyễn Mạnh Hùng	Phòng Kế toán - Hành chính	Trưởng phòng	10/28/85	01/2008	Nam
+4	VAE02860	Trần Tiến Thành	Phòng Kế toán - Hành chính	Chuyên viên	8/27/88	1/2/13	Nam
+5	VAE02186	Đỗ Phương Huyền	Phòng Kế toán - Hành chính	Chuyên viên	7/6/88	10/1/10	Nữ
+6	VAE03301	Lê Thị Phương	Phòng Kế toán - Hành chính	Chuyên viên	16/5/1988	26/01/2016	Nữ
+7	VAE03302	Đặng Thu Thảo	Phòng Kế toán - Hành chính	Chuyên viên	16/7/1993	26/01/2016	Nữ
+8	VAE03303	Bùi Thị Hương	Phòng Kế toán - Hành chính	Chuyên viên	2/3/79	26/01/2016	Nữ
+9	VAE03304	Nguyễn Phương Hoa	Phòng Kế toán - Hành chính	Chuyên viên	14/3/1993	26/01/2016	Nữ
+10	VAE03305	Nguyễn Thị Loan	Phòng Kế toán - Hành chính	Chuyên viên	11/9/91	26/01/2016	Nữ
+12	VAE01560	Lê Hồng Phú	Phòng Kỹ thuật - Kế hoạch	Trưởng phòng	5/4/77	11/2001	Nam
+13	VAE01564	Đoàn Minh Tuấn	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	9/18/82	11/2007	Nam
+14	VAE02126	Nguyễn Văn Thọ	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	4/19/86	06/2010	Nam
+15	VAE02669	Hoàng Minh Tuấn	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	9/26/87	06/2012	Nam
+16	VAE02626	Phạm Văn Dũng	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	10/17/87	12/2011	Nam
+17	VAE02073	Nguyễn Văn Thanh	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	12/12/82	06/2010	Nam
+18	VAE01598	Phùng Huy Quang	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	7/3/82	05/2007	Nam
+19	VAE02554	Hồ Quang	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	5/15/85	12/2011	Nam
+20	VAE02469	Nguyễn Cao Cường	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	7/23/84	07/2011	Nam
+21	VAE02271	Trần Quang Vinh	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	7/4/85	12/2010	Nam
+22	VAE01486	Lê Văn Vinh	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	2/6/83	02/2009	Nam
+23	VAE01480	Nguyễn Quang Hưng	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	8/2/78	11/2004	Nam
+24	VAE03181	Nguyễn Minh Châu	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	12/1/90	01/2016	Nam
+25	VAE03182	Trần Bảo Hưng	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	18/8/1990	01/2016	Nam
+26	VAE03183	Lê Thị Thanh Bình	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	9/30/85	01/2016	Nữ
+27	VAE03260	Phan Đình Dũng	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	3/4/79	1/1/16	Nam
+28	VAE00921	Nguyễn Phi Hùng	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	2/29/80	11/1/04	Nam
+29	VAE00106	Hà Quang Vinh	Phòng Kỹ thuật - Kế hoạch	Kỹ sư	11/20/79	5/6/05	Nam
+30	VAE00203	Hoàng Nguyên Duy	Phòng Vật tư	Trưởng phòng	12/15/78	05/2001	Nam
+31	VAE02735	Phan Thanh Hải	Phòng Vật tư	Chuyên viên	2/23/89	06/2012	Nam
+32	VAE01488	Lê Văn Đức	Phòng Vật tư	Nhân viên	6/20/74	09/2007	Nam
+33	VAE02402	Đỗ Thắng	Phòng Vật tư	Nhân viên	5/11/84	7/1/11	Nam
+34	VAE02034	Đỗ Đoàn Thư	Phòng Vật tư	Nhân viên	1/4/85	12/1/09	Nam
+35	VAE00168	Nguyễn Văn Hiệp	Phòng Vật tư	Nhân viên	1/6/79	2/8/02	Nam
+36	VAE02904	Nguyễn Thế Vinh	Phòng Vật tư	Chuyên viên	8/3/90	7/1/14	Nam
+11	VAE03306	Nguyễn Thị Huệ	Phòng Vật tư	Chuyên viên	4/8/89	26/01/2016	Nữ
+37	VAE01562	Nguyễn Trần Duy	Đội Nội thất phía Bắc	Đội trưởng	2/10/80	03/2004	Nam
+38	VAE01563	Nguyễn Trọng Hải	Đội Nội thất phía Bắc	Đội phó	8/10/71	10/1993	Nam
+39	VAE01561	Lương Nguyễn Khánh Tùng	Đội Nội thất phía Bắc	Đội phó	11/18/60	02/1996	Nam
+40	VAE01590	Hoàng Văn Thắng	Đội Nội thất phía Bắc	Nhân viên	11/18/70	05/1994	Nam
+41	VAE02024	Nguyễn Văn Khánh	Đội Nội thất phía Bắc	Nhân viên	9/11/76	10/2009	Nam
+42	VAE01565	Nguyễn Xuân Thưởng	Đội Nội thất phía Bắc	Nhân viên	9/23/81	02/2003	Nam
+43	VAE01566	Trần Văn Hoàn	Đội Nội thất phía Bắc	Nhân viên	7/28/79	08/2005	Nam
+44	VAE01567	Nguyễn Văn Thi	Đội Nội thất phía Bắc	Nhân viên	9/12/81	02/2003	Nam
+45	VAE01568	Nhâm Quang Hải	Đội Nội thất phía Bắc	Nhân viên	6/20/81	02/2003	Nam
+46	VAE01532	Phạm Xuân Trường	Đội Nội thất phía Bắc	Nhân viên	3/26/84	11/2007	Nam
+47	VAE01526	Phạm Hồng Xiêm	Đội Nội thất phía Bắc	Nhân viên	10/8/82	08/2006	Nam
+48	VAE02301	Cao Văn Bình	Đội Nội thất phía Bắc	Nhân viên	5/1/87	06/2011	Nam
+49	VAE02302	Dương Văn Huân	Đội Nội thất phía Bắc	Nhân viên	6/5/87	06/2011	Nam
+50	VAE02413	Nguyễn Ngọc Tân	Đội Nội thất phía Bắc	Nhân viên	7/24/82	07/2011	Nam
+51	VAE01572	Vũ Văn Toàn	Đội Nội thất phía Bắc	Kỹ sư	1/3/82	03/2007	Nam
+52	VAE01527	Phạm Hồng Quân	Đội Nội thất phía Bắc	Nhân viên	11/18/73	10/2006	Nam
+53	VAE01582	Ngô Duy	Đội Nội thất phía Bắc	Nhân viên	6/22/74	03/1992	Nam
+54	VAE01583	Nguyễn Đức Cương	Đội Nội thất phía Bắc	Nhân viên	9/23/83	03/2004	Nam
+55	VAE01584	Nguyễn Hồng Minh	Đội Nội thất phía Bắc	Nhân viên	5/3/83	08/2005	Nam
+56	VAE01585	Nguyễn Đức Hoàng	Đội Nội thất phía Bắc	Nhân viên	10/22/86	05/2007	Nam
+57	VAE01586	Nguyễn Văn Hoan	Đội Nội thất phía Bắc	Nhân viên	12/12/83	12/2003	Nam
+58	VAE01587	Hà Bùi Anh Tuấn	Đội Nội thất phía Bắc	Nhân viên	2/17/82	10/2003	Nam
+59	VAE01524	Phạm Quang Trung	Đội Nội thất phía Bắc	Nhân viên	4/30/82	11/2007	Nam
+60	VAE01529	Bùi Khắc Hùng	Đội Nội thất phía Bắc	Nhân viên	10/18/85	11/2007	Nam
+61	VAE02304	Ngô Bá Quang	Đội Nội thất phía Bắc	Nhân viên	10/21/83	06/2011	Nam
+62	VAE02305	Hà Đức Hùng	Đội Nội thất phía Bắc	Nhân viên	9/22/88	06/2011	Nam
+63	VAE02306	Nguyễn Sơn Tùng	Đội Nội thất phía Bắc	Nhân viên	8/14/85	06/2011	Nam
+64	VAE01519	Trần Tuấn Quang	Đội Nội thất phía Bắc	Kỹ sư	12/5/81	08/2006	Nam
+65	VAE01531	Nguyễn Sỹ Huy	Đội Nội thất phía Bắc	Nhân viên	1/8/81	11/2007	Nam
+66	VAE01591	Nguyễn Tuấn Sơn	Đội Nội thất phía Bắc	Nhân viên	4/4/67	08/1997	Nam
+67	VAE01592	Đặng Thanh Tuấn	Đội Nội thất phía Bắc	Nhân viên	11/10/69	05/1994	Nam
+68	VAE01593	Vũ Hải Thành	Đội Nội thất phía Bắc	Nhân viên	11/3/81	08/2005	Nam
+69	VAE01594	Phùng Văn Bằng	Đội Nội thất phía Bắc	Nhân viên	8/25/86	11/2007	Nam
+70	VAE01595	Cao Văn Đước	Đội Nội thất phía Bắc	Nhân viên	2/20/83	03/2004	Nam
+71	VAE01535	Nguyễn Văn Hùng	Đội Nội thất phía Bắc	Nhân viên	10/1/86	04/2009	Nam
+72	VAE01530	Lương Đình Long	Đội Nội thất phía Bắc	Nhân viên	#VALUE!	07/2007	Nam
+73	VAE02303	Nguyễn Quang Sáng	Đội Nội thất phía Bắc	Nhân viên	6/21/83	06/2011	Nam
+74	VAE02307	Nguyễn Đức Lợi	Đội Nội thất phía Bắc	Nhân viên	8/8/87	06/2011	Nam
+75	VAE02308	Lê Văn Minh	Đội Nội thất phía Bắc	Nhân viên	9/1/87	06/2011	Nam
+76	VAE01520	Nguyễn Mạnh Trường	Đội Nội thất phía Bắc	Nhân viên	3/27/57	12/1976	Nam
+77	VAE01574	Trần Quốc Tuấn	Đội Nội thất phía Bắc	Nhân viên	11/25/65	10/1993	Nam
+78	VAE01575	Ninh Văn Kiên	Đội Nội thất phía Bắc	Nhân viên	2/7/80	05/2003	Nam
+79	VAE01577	Phạm Quốc Đông	Đội Nội thất phía Bắc	Nhân viên	8/17/82	11/2007	Nam
+80	VAE01578	Lê Trường Giang	Đội Nội thất phía Bắc	Nhân viên	5/13/81	05/2003	Nam
+81	VAE01579	Bùi Huy Giáp	Đội Nội thất phía Bắc	Nhân viên	7/2/83	05/2003	Nam
+82	VAE01528	Bế Văn Ngọc	Đội Nội thất phía Bắc	Nhân viên	4/26/86	07/2007	Nam
+83	VAE01533	Đào Duy Linh	Đội Nội thất phía Bắc	Nhân viên	6/1/83	11/2007	Nam
+84	VAE02309	Phạm Đức Hiếu	Đội Nội thất phía Bắc	Nhân viên	9/2/89	06/2011	Nam
+85	VAE02310	Đỗ Hoàng Long	Đội Nội thất phía Bắc	Nhân viên	9/2/87	06/2011	Nam
+86	VAE01604	Nguyễn Xuân Sơn	Đội Nội thất phía Bắc	Nhân viên	6/18/61	03/1978	Nam
+87	VAE01605	Nguyễn Xuân Trinh	Đội Nội thất phía Bắc	Nhân viên	5/15/61	07/1979	Nam
+88	VAE01606	Trần Thế Lợi	Đội Nội thất phía Bắc	Nhân viên	12/28/59	08/1978	Nam
+89	VAE01609	Đào Đức Thắng	Đội Nội thất phía Bắc	Nhân viên	1/22/83	02/2003	Nam
+90	VAE01610	Nguyễn Hữu Anh	Đội Nội thất phía Bắc	Nhân viên	6/2/82	11/2007	Nam
+91	VAE01611	Nguyễn Văn Quang	Đội Nội thất phía Bắc	Nhân viên	7/3/77	05/1998	Nam
+92	VAE01613	Hà Cao Sáng	Đội Nội thất phía Bắc	Nhân viên	9/28/75	08/2006	Nam
+93	VAE01570	Nguyễn Văn Lập	Đội Nội thất phía Bắc	Nhân viên	1/25/83	12/2003	Nam
+94	VAE02396	Trịnh Đình Thi	Đội Nội thất phía Bắc	Nhân viên	11/4/89	07/2011	Nam
+95	VAE02770	Triệu Nhật Trường	Đội Nội thất phía Bắc	Nhân viên	6/23/91	08/2012	Nam
+96	VAE02794	Lê Khả Long	Đội Nội thất phía Bắc	Nhân viên	4/9/89	08/2012	Nam
+97	VAE01603	Vũ Hải Bằng	Đội Nội thất phía Bắc	Nhân viên	10/5/83	12/2003	Nam
+98	VAE02416	Hoàng Văn Giang	Đội Nội thất phía Bắc	Nhân viên	4/24/86	07/2011	Nam
+99	VAE02332	Nguyễn Kim Lĩnh	Đội Nội thất phía Bắc	Nhân viên	2/15/87	06/2011	Nam
+100	VAE01612	Bùi Huy Nam	Đội Nội thất phía Bắc	Nhân viên	7/29/79	04/2004	Nam
+101	VAE00597	Lê Quang Anh	Đội Nội thất phía Bắc	Nhân viên	6/12/83	11/2004	Nam
+102	VAE02637	Lương Văn Lưu	Đội Nội thất phía Bắc	Nhân viên	5/30/68	01/2012	Nam
+103	VAE01614	Nguyễn Văn Thắng	Đội Nội thất phía Bắc	Kỹ sư	10/21/64	06/2000	Nam
+104	VAE01616	Trần Huy Lập	Đội Nội thất phía Bắc	Nhân viên	8/1/58	05/1977	Nam
+105	VAE01615	Hoa Xuân Oánh	Đội Nội thất phía Bắc	Nhân viên	5/26/62	09/1978	Nam
+106	VAE01620	Nguyễn Thanh Tùng	Đội Nội thất phía Bắc	Nhân viên	6/27/60	08/1978	Nam
+107	VAE01569	Phạm Văn Hoàng	Đội Nội thất phía Bắc	Nhân viên	4/1/83	12/2003	Nam
+108	VAE02344	Hoàng Anh Tú	Đội Nội thất phía Bắc	Nhân viên	11/3/86	06/2011	Nam
+109	VAE02345	Đặng Văn Tài	Đội Nội thất phía Bắc	Nhân viên	12/2/87	06/2011	Nam
+110	VAE02418	Đặng Văn Hải	Đội Nội thất phía Bắc	Nhân viên	6/13/88	07/2011	Nam
+111	VAE00912	Nguyễn Văn Hùng	Đội Nội thất phía Bắc	Nhân viên	11/10/59	07/1978	Nam
+112	VAE00949	Đỗ Văn Lai	Đội Nội thất phía Bắc	Nhân viên	8/13/60	08/1978	Nam
+113	VAE01102	Nguyễn Ngọc Chuy	Đội Nội thất phía Bắc	Nhân viên	4/5/63	08/1980	Nam
+114	VAE02338	Vũ Trí Thanh	Đội Nội thất phía Bắc	Nhân viên	1/10/90	06/2011	Nam
+115	VAE02342	Nguyễn Tiến Hiệp	Đội Nội thất phía Bắc	Nhân viên	6/6/86	06/2011	Nam
+116	VAE02779	Nguyễn Tiến Dương	Đội Nội thất phía Bắc	Nhân viên	7/26/90	08/2012	Nam
+117	VAE02780	Nguyễn Văn Hợi	Đội Nội thất phía Bắc	Nhân viên	10/8/87	08/2012	Nam
+118	VAE02805	Nguyễn Trung Kiên	Đội Nội thất phía Bắc	Nhân viên	12/9/89	08/2012	Nam
+119	VAE01617	Nguyễn Vũ Phùng Tuấn	Đội Nội thất phía Bắc	Nhân viên	9/28/67	03/1993	Nam
+120	VAE01618	Nguyễn Văn Viễn	Đội Nội thất phía Bắc	Nhân viên	10/10/79	02/2002	Nam
+121	VAE01536	Trần Thị Thanh Hoa	Đội Nội thất phía Bắc	Kỹ sư	8/29/79	08/2006	Nữ
+122	VAE01539	Bùi Thọ Minh	Đội Nội thất phía Bắc	Nhân viên	4/17/63	12/1978	Nam
+123	VAE01541	Trịnh Tuấn Khải	Đội Nội thất phía Bắc	Nhân viên	12/21/84	04/2009	Nam
+124	VAE01522	Nguyễn Anh Dũng	Đội Nội thất phía Bắc	Nhân viên	12/23/81	08/2005	Nam
+125	VAE01630	Vũ Thị Tám	Đội Nội thất phía Bắc	Nhân viên	8/15/69	10/1997	Nữ
+126	VAE01631	Hoàng Thị Hà	Đội Nội thất phía Bắc	Nhân viên	5/8/78	04/2000	Nữ
+127	VAE01632	Bùi Thị Kim Oanh	Đội Nội thất phía Bắc	Nhân viên	10/31/74	11/2003	Nữ
+128	VAE01633	Lê Thị Thu Hương	Đội Nội thất phía Bắc	Nhân viên	10/15/71	11/2004	Nữ
+129	VAE01634	Phạm Thị Thuỷ	Đội Nội thất phía Bắc	Nhân viên	8/15/81	11/2004	Nữ
+130	VAE02865	Nguyễn Thị Vân	Đội Nội thất phía Bắc	Nhân viên	7/4/91	01/2013	Nữ
+131	VAE02645	Bùi Văn Hà	Đội Nội thất phía Bắc	Nhân viên	12/17/84	01/2012	Nam
+132	VAE02651	Đào Duy Khánh	Đội Nội thất phía Bắc	Nhân viên	9/26/85	4/18/12	Nam
+133	VAE01290	Nguyễn Văn Tân	Đội Nội thất phía Nam	Đội trưởng	11/19/58	11/1986	Nam
+134	VAE01766	Đặng Hồng Võ Hiển	Đội Nội thất phía Nam	Đội phó	3/16/78	08/2003	Nam
+135	VAE01767	Lê Hồng Kỳ	Đội Nội thất phía Nam	Nhân viên	8/2/78	06/1998	Nam
+136	VAE01232	Hồ Thanh Nghĩa	Đội Nội thất phía Nam	Kỹ sư	7/25/81	02/2006	Nam
+137	VAE01211	Phan Xuân Hoàn	Đội Nội thất phía Nam	Nhân viên	4/6/74	05/1998	Nam
+138	VAE01778	Đặng Quốc Hợi	Đội Nội thất phía Nam	Nhân viên	9/10/84	02/2008	Nam
+139	VAE01775	Phạm Thanh Dũng	Đội Nội thất phía Nam	Nhân viên	2/10/84	12/2007	Nam
+140	VAE01783	Mai Trần Xuân Tuấn	Đội Nội thất phía Nam	Nhân viên	2/28/83	11/2007	Nam
+141	VAE02353	Vũ Đức Bằng	Đội Nội thất phía Nam	Nhân viên	8/13/78	06/2011	Nam
+142	VAE02354	Nguyễn Hữu Thắng	Đội Nội thất phía Nam	Nhân viên	10/5/89	06/2011	Nam
+143	VAE02356	Nguyễn Kim Tuấn	Đội Nội thất phía Nam	Nhân viên	3/3/78	06/2011	Nam
+144	VAE02398	Vũ Tiến Lương	Đội Nội thất phía Nam	Nhân viên	8/25/85	07/2011	Nam
+145	VAE02355	Vũ Huy Thông	Đội Nội thất phía Nam	Nhân viên	1/1/86	06/2011	Nam
+146	VAE01773	Phạm Văn Thịnh	Đội Nội thất phía Nam	Nhân viên	5/23/82	12/2003	Nam
+147	VAE01779	Nguyễn Quang Hùng	Đội Nội thất phía Nam	Nhân viên	6/6/86	02/2008	Nam
+148	VAE01777	Đinh Văn Hoàng	Đội Nội thất phía Nam	Nhân viên	4/26/64	12/1991	Nam
+149	VAE01784	Nguyễn Quốc Huân	Đội Nội thất phía Nam	Nhân viên	2/6/83	11/2008	Nam
+150	VAE01282	Phạm Minh Ngọc	Đội Nội thất phía Nam	Nhân viên	5/23/82	05/2003	Nam
+151	VAE02357	Nguyễn Văn Tuấn	Đội Nội thất phía Nam	Nhân viên	10/15/80	06/2011	Nam
+152	VAE02358	Phạm Hữu Thiện	Đội Nội thất phía Nam	Nhân viên	8/16/86	06/2011	Nam
+153	VAE02359	Bùi Nhật Tuấn	Đội Nội thất phía Nam	Nhân viên	7/8/86	06/2011	Nam
+154	VAE01768	Huỳnh Ngọc Thế	Đội Nội thất phía Nam	Nhân viên	8/5/81	12/2003	Nam
+155	VAE01772	Cao Trường Sơn	Đội Nội thất phía Nam	Nhân viên	11/21/81	11/2007	Nam
+156	VAE01330	Nguyễn Trung Kiên	Đội Nội thất phía Nam	Nhân viên	11/19/83	12/2003	Nam
+157	VAE02365	Nguyễn Thế Thuyết	Đội Nội thất phía Nam	Nhân viên	2/10/78	06/2011	Nam
+158	VAE02366	Trịnh Xuân Tùng	Đội Nội thất phía Nam	Nhân viên	1/24/88	06/2011	Nam
+159	VAE00759	Nguyễn Viết Phú	Đội Nội thất phía Nam	Nhân viên	7/8/61	08/1980	Nam
+160	VAE01781	Đặng Văn Ninh	Đội Nội thất phía Nam	Nhân viên	10/11/82	12/2003	Nam
+161	VAE01780	Mai Xuân Hương	Đội Nội thất phía Nam	Nhân viên	6/24/82	12/2003	Nam
+162	VAE01253	Giang Lê Trung	Đội Nội thất phía Nam	Nhân viên	10/30/81	12/2003	Nam
+163	VAE02368	Nguyễn Xuân Linh	Đội Nội thất phía Nam	Nhân viên	4/5/89	06/2011	Nam
+164	VAE02399	Cao Văn Tia	Đội Nội thất phía Nam	Nhân viên	10/18/86	07/2011	Nam
+165	VAE02400	Nguyễn Xuân Đức	Đội Nội thất phía Nam	Nhân viên	3/1/84	07/2011	Nam
+166	VAE01785	Vũ Công Khang	Đội Nội thất phía Nam	Nhân viên	9/23/66	03/1994	Nam
+167	VAE00791	Nguyễn Khắc Thiện	Đội Nội thất phía Nam	Nhân viên	10/20/83	07/2004	Nam
+168	VAE00795	Nguyễn Văn Tâm	Đội Nội thất phía Nam	Nhân viên	8/4/79	09/2005	Nam
+169	VAE00790	Lê Văn Chiến	Đội Nội thất phía Nam	Nhân viên	2/28/77	07/2004	Nam
+170	VAE00792	Hà Sỹ Sáng	Đội Nội thất phía Nam	Nhân viên	9/9/79	07/2004	Nam
+171	VAE00793	Nguyễn Thanh Thoản	Đội Nội thất phía Nam	Nhân viên	8/30/77	07/2004	Nam
+172	VAE00796	Trần Văn Cường	Đội Nội thất phía Nam	Nhân viên	10/22/84	10/2007	Nam
+173	VAE02838	Phan Việt Thắng	Đội Nội thất phía Nam	Nhân viên	5/29/83	08/2012	Nam
+174	VAE02825	Lê Trọng Nhân	Đội Nội thất phía Nam	Nhân viên	10/19/90	08/2012	Nam
+175	VAE02851	Huỳnh Ngọc Thắng	Đội Nội thất phía Nam	Nhân viên	4/30/79	08/2012	Nam
+176	VAE00794	Trần Hữu Quyết	Đội Nội thất phía Nam	Nhân viên	2/20/81	09/2005	Nam
+177	VAE02832	Đặng Văn Đây	Đội Nội thất phía Nam	Nhân viên	2/20/84	08/2012	Nam
+178	VAE00736	Nguyễn Thế Lực	Đội Nội thất phía Nam	Nhân viên	7/17/62	11/1997	Nam
+179	VAE00731	Nguyễn Đại Triển	Đội Nội thất phía Nam	Nhân viên	8/1/59	03/1977	Nam
+180	VAE02816	Lê Văn Tuấn	Đội Nội thất phía Nam	Nhân viên	4/15/87	08/2012	Nam
+181	VAE00801	Võ Thị Tứ	Đội Nội thất phía Nam	Nhân viên	8/20/64	03/1983	Nữ
+182	VAE00802	Hoàng Thu Hường	Đội Nội thất phía Nam	Nhân viên	8/16/73	11/2001	Nữ
+183	VAE01760	Nguyễn Văn Chính	Đội Nội thất phía Nam	Nhân viên	5/10/59	02/1980	Nam
+184	VAE01752	Cù Văn Tuấn	Đội Nội thất phía Nam	Nhân viên	7/1/81	07/2004	Nam
+185	VAE01233	Nguyễn Xuân Thanh	Đội Nội thất phía Nam	Nhân viên	7/1/60	07/1978	Nam
+186	VAE02898	Trịnh Minh Thức	Đội Nội thất phía Nam	Nhân viên	4/11/90	12/2013	Nam
+187	VAE02900	Đặng Thái Anh	Đội Nội thất phía Nam	Nhân viên	5/4/90	12/2013	Nam
+188	VAE02901	Lê Cao Phát	Đội Nội thất phía Nam	Nhân viên	2/15/92	12/2013	Nam
+189	VAE02897	Trần Huy Hoàng	Đội Nội thất phía Nam	Nhân viên	1/14/83	12/2013	Nam
+190	VAE01740	Nguyễn Văn Tú	Đội Nội thất phía Nam	Nhân viên	3/29/77	11/2001	Nam
+191	VAE01756	Lê Bá Kỳ	Đội Nội thất phía Nam	Nhân viên	9/2/61	06/1979	Nam
+192	VAE01757	Huỳnh Thị Mỹ Linh	Đội Nội thất phía Nam	Nhân viên	7/2/66	11/1994	Nữ
+193	VAE01758	Nguyễn Thị Thủy	Đội Nội thất phía Nam	Nhân viên	10/20/65	01/1985	Nữ
+194	VAE01759	Phạm Xuân Uyên	Đội Nội thất phía Nam	Nhân viên	11/15/73	12/2004	Nam
+195	VAE03184	Nguyễn Bá Chỉnh	Đội Nội thất phía Nam	Kỹ sư	5/23/91	01/2016	Nam
+196	VAE03185	Ngô Quang Hiếu	Đội Nội thất phía Nam	Kỹ sư	3/17/91	01/2016	Nam
+197	VAE03186	Lưu Minh Nhựt	Đội Nội thất phía Nam	Kỹ sư	3/12/91	01/2016	Nam
+198	VAE03187	Đinh Mạnh Tuấn	Đội Nội thất phía Nam	Kỹ sư	5/16/91	01/2016	Nam
+199	VAE03188	Lê Huy Cẩn	Đội Nội thất phía Nam	Kỹ sư	7/10/91	01/2016	Nam
+200	VAE02887	Hoàng Văn Hiển	Đội Nội thất phía Nam	Nhân viên	8/5/83	10/2013	Nam
+201	VAE01859	Nguyễn Thanh Tú	Đội Nội thất phía Nam	Nhân viên	6/19/78	11/2001	Nam

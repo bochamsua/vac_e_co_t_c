@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_ImportInstructor extension
+ * 
+ * @category       BS
+ * @package        BS_ImportInstructor
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_ImportInstructor>
+            <version>1.0.0</version>
+        </BS_ImportInstructor>
+    </modules>
+    <global>
+        <resources>
+            <bs_importinstructor_setup>
+                <setup>
+                    <module>BS_ImportInstructor</module>
+                    <class>BS_ImportInstructor_Model_Resource_Setup</class>
+                </setup>
+            </bs_importinstructor_setup>
+        </resources>
+        <blocks>
+            <bs_importinstructor>
+                <class>BS_ImportInstructor_Block</class>
+            </bs_importinstructor>
+        </blocks>
+        <helpers>
+            <bs_importinstructor>
+                <class>BS_ImportInstructor_Helper</class>
+            </bs_importinstructor>
+        </helpers>
+        <models>
+            <bs_importinstructor>
+                <class>BS_ImportInstructor_Model</class>
+                <resourceModel>bs_importinstructor_resource</resourceModel>
+            </bs_importinstructor>
+            <bs_importinstructor_resource>
+                <class>BS_ImportInstructor_Model_Resource</class>
+                <entities>
+                    <importinstructor>
+                        <table>bs_importinstructor_importinstructor</table>
+                    </importinstructor>
+                </entities>
+            </bs_importinstructor_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_importinstructor>
+                    <file>bs_importinstructor.xml</file>
+                </bs_importinstructor>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_ImportInstructor>
+                    <files>
+                        <default>BS_ImportInstructor.csv</default>
+                    </files>
+                </BS_ImportInstructor>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <importinstructor>
+                <class>bs_importinstructor/adminhtml_search_importinstructor</class>
+                <acl>bs_importinstructor</acl>
+            </importinstructor>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_ImportInstructor before="Mage_Adminhtml">BS_ImportInstructor_Adminhtml</BS_ImportInstructor>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

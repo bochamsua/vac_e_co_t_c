@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Shortcut extension
+ * 
+ * @category       BS
+ * @package        BS_Shortcut
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Shortcut>
+            <version>1.0.0</version>
+        </BS_Shortcut>
+    </modules>
+    <global>
+        <resources>
+            <bs_shortcut_setup>
+                <setup>
+                    <module>BS_Shortcut</module>
+                    <class>BS_Shortcut_Model_Resource_Setup</class>
+                </setup>
+            </bs_shortcut_setup>
+        </resources>
+        <blocks>
+            <bs_shortcut>
+                <class>BS_Shortcut_Block</class>
+            </bs_shortcut>
+        </blocks>
+        <helpers>
+            <bs_shortcut>
+                <class>BS_Shortcut_Helper</class>
+            </bs_shortcut>
+        </helpers>
+        <models>
+            <bs_shortcut>
+                <class>BS_Shortcut_Model</class>
+                <resourceModel>bs_shortcut_resource</resourceModel>
+            </bs_shortcut>
+            <bs_shortcut_resource>
+                <class>BS_Shortcut_Model_Resource</class>
+                <entities>
+                    <shortcut>
+                        <table>bs_shortcut_shortcut</table>
+                    </shortcut>
+                </entities>
+            </bs_shortcut_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_shortcut>
+                    <file>bs_shortcut.xml</file>
+                </bs_shortcut>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Shortcut>
+                    <files>
+                        <default>BS_Shortcut.csv</default>
+                    </files>
+                </BS_Shortcut>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <shortcut>
+                <class>bs_shortcut/adminhtml_search_shortcut</class>
+                <acl>bs_shortcut</acl>
+            </shortcut>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Shortcut before="Mage_Adminhtml">BS_Shortcut_Adminhtml</BS_Shortcut>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

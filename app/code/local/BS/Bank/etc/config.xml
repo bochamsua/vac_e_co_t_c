@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Bank extension
+ * 
+ * @category       BS
+ * @package        BS_Bank
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Bank>
+            <version>1.0.0</version>
+        </BS_Bank>
+    </modules>
+    <global>
+        <resources>
+            <bs_bank_setup>
+                <setup>
+                    <module>BS_Bank</module>
+                    <class>BS_Bank_Model_Resource_Setup</class>
+                </setup>
+            </bs_bank_setup>
+        </resources>
+        <blocks>
+            <bs_bank>
+                <class>BS_Bank_Block</class>
+            </bs_bank>
+        </blocks>
+        <helpers>
+            <bs_bank>
+                <class>BS_Bank_Helper</class>
+            </bs_bank>
+        </helpers>
+        <models>
+            <bs_bank>
+                <class>BS_Bank_Model</class>
+                <resourceModel>bs_bank_resource</resourceModel>
+            </bs_bank>
+            <bs_bank_resource>
+                <class>BS_Bank_Model_Resource</class>
+                <entities>
+                    <subject>
+                        <table>bs_bank_subject</table>
+                    </subject>
+                    <question>
+                        <table>bs_bank_question</table>
+                    </question>
+                    <answer>
+                        <table>bs_bank_answer</table>
+                    </answer>
+                </entities>
+            </bs_bank_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_bank>
+                    <file>bs_bank.xml</file>
+                </bs_bank>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Bank>
+                    <files>
+                        <default>BS_Bank.csv</default>
+                    </files>
+                </BS_Bank>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <subject>
+                <class>bs_bank/adminhtml_search_subject</class>
+                <acl>bs_bank</acl>
+            </subject>
+            <question>
+                <class>bs_bank/adminhtml_search_question</class>
+                <acl>bs_bank</acl>
+            </question>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Bank before="Mage_Adminhtml">BS_Bank_Adminhtml</BS_Bank>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

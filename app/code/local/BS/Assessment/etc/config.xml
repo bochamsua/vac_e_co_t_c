@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Assessment extension
+ * 
+ * @category       BS
+ * @package        BS_Assessment
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Assessment>
+            <version>1.0.2</version>
+        </BS_Assessment>
+    </modules>
+    <global>
+        <resources>
+            <bs_assessment_setup>
+                <setup>
+                    <module>BS_Assessment</module>
+                    <class>BS_Assessment_Model_Resource_Setup</class>
+                </setup>
+            </bs_assessment_setup>
+        </resources>
+        <blocks>
+            <bs_assessment>
+                <class>BS_Assessment_Block</class>
+            </bs_assessment>
+        </blocks>
+        <helpers>
+            <bs_assessment>
+                <class>BS_Assessment_Helper</class>
+            </bs_assessment>
+        </helpers>
+        <models>
+            <bs_assessment>
+                <class>BS_Assessment_Model</class>
+                <resourceModel>bs_assessment_resource</resourceModel>
+            </bs_assessment>
+            <bs_assessment_resource>
+                <class>BS_Assessment_Model_Resource</class>
+                <entities>
+                    <assessment>
+                        <table>bs_assessment_assessment</table>
+                    </assessment>
+                </entities>
+            </bs_assessment_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_assessment>
+                    <file>bs_assessment.xml</file>
+                </bs_assessment>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Assessment>
+                    <files>
+                        <default>BS_Assessment.csv</default>
+                    </files>
+                </BS_Assessment>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Assessment before="Mage_Adminhtml">BS_Assessment_Adminhtml</BS_Assessment>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

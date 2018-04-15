@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_InstructorApproval extension
+ * 
+ * @category       BS
+ * @package        BS_InstructorApproval
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_InstructorApproval>
+            <version>1.0.11</version>
+        </BS_InstructorApproval>
+    </modules>
+    <global>
+        <resources>
+            <bs_instructorapproval_setup>
+                <setup>
+                    <module>BS_InstructorApproval</module>
+                    <class>BS_InstructorApproval_Model_Resource_Setup</class>
+                </setup>
+            </bs_instructorapproval_setup>
+        </resources>
+        <blocks>
+            <bs_instructorapproval>
+                <class>BS_InstructorApproval_Block</class>
+            </bs_instructorapproval>
+        </blocks>
+        <helpers>
+            <bs_instructorapproval>
+                <class>BS_InstructorApproval_Helper</class>
+            </bs_instructorapproval>
+        </helpers>
+        <models>
+            <bs_instructorapproval>
+                <class>BS_InstructorApproval_Model</class>
+                <resourceModel>bs_instructorapproval_resource</resourceModel>
+            </bs_instructorapproval>
+            <bs_instructorapproval_resource>
+                <class>BS_InstructorApproval_Model_Resource</class>
+                <entities>
+                    <iapproval>
+                        <table>bs_instructorapproval_iapproval</table>
+                    </iapproval>
+                </entities>
+            </bs_instructorapproval_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_instructorapproval>
+                    <file>bs_instructorapproval.xml</file>
+                </bs_instructorapproval>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_InstructorApproval>
+                    <files>
+                        <default>BS_InstructorApproval.csv</default>
+                    </files>
+                </BS_InstructorApproval>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_InstructorApproval before="Mage_Adminhtml">BS_InstructorApproval_Adminhtml</BS_InstructorApproval>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

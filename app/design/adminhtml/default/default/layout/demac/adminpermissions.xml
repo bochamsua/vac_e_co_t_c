@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+    <!-- add region multiselect to admin roles edit page -->
+    <adminhtml_permissions_role_editrole>
+        <reference name="adminhtml.permissions.tab.rolesedit">
+            <block type="demac_adminpermissions/role_region" as="roleRegion" template="demac/adminpermissions/rolesedit/region.phtml" />
+        </reference>
+    </adminhtml_permissions_role_editrole>
+</layout>

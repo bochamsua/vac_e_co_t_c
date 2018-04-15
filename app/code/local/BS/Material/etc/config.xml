@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Material extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_Material
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Material>
+            <version>1.0.1</version>
+        </BS_Material>
+    </modules>
+    <global>
+        <resources>
+            <bs_material_setup>
+                <setup>
+                    <module>BS_Material</module>
+                    <class>BS_Material_Model_Resource_Setup</class>
+                </setup>
+            </bs_material_setup>
+        </resources>
+        <blocks>
+            <bs_material>
+                <class>BS_Material_Block</class>
+            </bs_material>
+        </blocks>
+        <helpers>
+            <bs_material>
+                <class>BS_Material_Helper</class>
+            </bs_material>
+        </helpers>
+        <models>
+            <bs_material>
+                <class>BS_Material_Model</class>
+                <resourceModel>bs_material_resource</resourceModel>
+            </bs_material>
+            <bs_material_resource>
+                <class>BS_Material_Model_Resource</class>
+                <entities>
+                    <instructordoc>
+                        <table>bs_material_instructordoc</table>
+                    </instructordoc>
+                    <instructordoc_instructor>
+                        <table>bs_material_instructordoc_instructor</table>
+                    </instructordoc_instructor>
+                </entities>
+            </bs_material_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_material>
+                    <file>bs_material.xml</file>
+                </bs_material>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Material>
+                    <files>
+                        <default>BS_Material.csv</default>
+                    </files>
+                </BS_Material>
+            </modules>
+        </translate>
+        <events>
+            <!--<core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_material_instructordoc_instructor>
+                        <type>singleton</type>
+                        <class>bs_material/adminhtml_observer</class>
+                        <method>addInstructorInstructordocBlock</method>
+                    </bs_material_instructordoc_instructor>
+                </observers>
+            </core_block_abstract_prepare_layout_after>-->
+            <instructor_instructor_save_after>
+                <observers>
+                    <bs_material_instructordoc_instructor>
+                        <type>singleton</type>
+                        <class>bs_material/adminhtml_observer</class>
+                        <method>saveInstructorInstructordocData</method>
+                    </bs_material_instructordoc_instructor>
+                </observers>
+            </instructor_instructor_save_after>
+        </events>
+        <!--<global_search>
+            <instructordoc>
+                <class>bs_material/adminhtml_search_instructordoc</class>
+                <acl>bs_material</acl>
+            </instructordoc>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Material before="Mage_Adminhtml">BS_Material_Adminhtml</BS_Material>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

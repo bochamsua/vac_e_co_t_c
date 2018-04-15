@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_SubjectCopy extension
+ * 
+ * @category       BS
+ * @package        BS_SubjectCopy
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_SubjectCopy>
+            <version>1.0.0</version>
+        </BS_SubjectCopy>
+    </modules>
+    <global>
+        <resources>
+            <bs_subjectcopy_setup>
+                <setup>
+                    <module>BS_SubjectCopy</module>
+                    <class>BS_SubjectCopy_Model_Resource_Setup</class>
+                </setup>
+            </bs_subjectcopy_setup>
+        </resources>
+        <blocks>
+            <bs_subjectcopy>
+                <class>BS_SubjectCopy_Block</class>
+            </bs_subjectcopy>
+        </blocks>
+        <helpers>
+            <bs_subjectcopy>
+                <class>BS_SubjectCopy_Helper</class>
+            </bs_subjectcopy>
+        </helpers>
+        <models>
+            <bs_subjectcopy>
+                <class>BS_SubjectCopy_Model</class>
+                <resourceModel>bs_subjectcopy_resource</resourceModel>
+            </bs_subjectcopy>
+            <bs_subjectcopy_resource>
+                <class>BS_SubjectCopy_Model_Resource</class>
+                <entities>
+                    <subjectcopy>
+                        <table>bs_subjectcopy_subjectcopy</table>
+                    </subjectcopy>
+                </entities>
+            </bs_subjectcopy_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_subjectcopy>
+                    <file>bs_subjectcopy.xml</file>
+                </bs_subjectcopy>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_SubjectCopy>
+                    <files>
+                        <default>BS_SubjectCopy.csv</default>
+                    </files>
+                </BS_SubjectCopy>
+            </modules>
+        </translate>
+       <!-- <global_search>
+            <subjectcopy>
+                <class>bs_subjectcopy/adminhtml_search_subjectcopy</class>
+                <acl>bs_subjectcopy</acl>
+            </subjectcopy>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_SubjectCopy before="Mage_Adminhtml">BS_SubjectCopy_Adminhtml</BS_SubjectCopy>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

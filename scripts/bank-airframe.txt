@@ -1,0 +1,463 @@
+1. The cantilever wing uses.
+A. external struts or wire bracing.
+B. no external bracing.[CA]
+C. the skin to carry most of the load to the wing butt.
+
+2. Moisture, mildew, chemicals, and acids have no effect on
+A. glass fabric[CA]
+B. linen fabric
+C. dacron fabric
+
+3. The strength classification of fabrics used in aircraft covering is based on
+A. bearing strength.
+B. shear strength.
+C. tensile strength.[CA]
+
+4. Before spraying any finishing materials on unpainted clean aluminum,
+A. wipe the surface with avgas or kerosene.
+B. remove any conversion coating film.
+C. avoid touching the surface with bare hands.[CA]
+
+5. A well-designed rivet joint will subject the rivets to
+A. Compressive loads.
+B. shear loads.[CA]
+C. tension loads.
+
+6. A main difference between Lockbolt/Huckbolt tension and shear fasteners (other than their application) is in the
+A. number of locking collar grooves.[CA]
+B. shape of the head
+C. method of installation.
+
+7. One of the main advantages of Hi-Lok type fasteners over earlier generations is that
+A. they can be removed and reused again.
+B. the sueezed on collar installation provides a more secure, tighter fit.
+C. they can be installed with ordinary hand tools.[CA]
+
+8. Hole filling fasteners (for example, MS20470 rivets) should not be used in composite structures primarily because of the
+A. possibility of causing delamination.[CA]
+B. increased possibility of fretting corrosion in the fastener.
+C. difficulty in forming a proper shop head
+
+9. Metal fasteners used with carbon/graphite composite structures
+A. may be constructed of any of the metals commonly used in aircraft fasteners.
+B. must be constructed of material such as titanium or corrosion resistant steel.[CA]
+C.must be constructed of high strength aluminumlithium alloy.
+
+10. Sandwich panels made of metal honeycomb construction are used on modern aircraft because this type of construction
+A. has a high strength to weight ratio.[CA]
+B. may be repaired by gluing replacement skin to the inner core material with thermoplastic resin.
+C. is lighter than single sheet skin of the same strength and is more corrosion resistant.
+
+11. (1) When performing a ring (coin tap) test on composite structures, a change in sound may be due to damage or to transition to a different internal structure. (2)The extent of separation damage in composite structures is most accurately measured by a ring (coin tap) test. Regarding the above statements,
+A. both No. 1 and No. 2 are true.
+B. only No.1 is true.[CA]
+C. only No.2 is true.
+
+12. Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water? 1. Acoustic emission monitoring. 2. X-ray. 3. Backlighting.
+A. 1 and 2.
+B. 1 and 3.
+C. 2 and 3.[CA]
+
+13. Composite inspections conducted by means of acoustic emission monitoring
+A. pick up the “noise” of corrosion or other deterioration occurring.[CA]
+B. analyze ultrasonic signals transmitted into the parts being inspected
+C. create sonogram pictures of the areas being inspected
+
+14. What precaution, if any, should be taken to prevent corrosion inside a repaired metal honeycomb structure?
+A. Prime the repair with a corrosion inhibitor and seal from the atmosphere.[CA]
+B. Paint the outside area with several coats of exterior paint.
+C. None. Honeycomb is usually made from a man-made or fibrous material which is not susceptible to corrosion.
+
+15. One method of inspecting a laminated fiberglass structure that has been subjected to damage is to
+A. strip the damaged area of all paint and shine a strong light through the structure.[CA]
+B. use dye-penetrant inspection procedures, exposing the entire damaged area to the penetrant solution.
+C. use an eddy current probe on both sides of the damaged area
+
+16. The classification for high tensile strength fiber-glass used in aircraft structures is
+A. E.
+B. S.[CA]
+C. G.
+
+17. The classification for fiberglass reinforcement material that has high resistivity and is the most common is
+A. E.[CA]
+B. S.
+C.G.
+
+18. An airplane is controlled directionally about its vertical axis by the
+A. rudder.[CA]
+B. elevator(s).
+C. ailerons.
+
+19. The elevators of a conventional airplane are used to provide rotation about the
+A. longitudinal axis.
+B. lateral axis.[CA]
+C. vertical axis.
+
+20. The chord of a wing is measured from
+A. wingtip to wingtip.
+B. wing root to the wingtip.
+C. leading edge to trailing edge.[CA]
+
+21. When the lift of an airfoil increases, the drag will
+A. decrease.
+B. also increase.[CA]
+C. increase while the lift is changing but will return to its original value.
+
+22.The purpose of wing slats is to
+A. reduce stalling speed[CA]
+B. decreases drag.
+C.increase speed on takeoff.
+
+23.When inspecting a control cable turnbuckle for proper installation, determine that
+A. no more than four threads are exposed on either side of the turnbuckle barrel.
+B. the terminal end threads are visible through the safety hole in the barrel.
+C. the safety wire ends are wrapped a minimum of four turns around the terminal end shanks.[CA]
+
+
+24.The purpose of the vertical fin is to provide
+A. directional stability.[CA]
+B. longitudinal stability.
+C. lateral stability.
+
+25. Excessive wear on both of the sides of a control cable pulley groove is evidence of
+A. pulley misalignment.[CA]
+B. cable misalignment.
+C. excessive cable tension.
+
+26. Stability about the axis which runs parallel to the line of flight is referred to as
+A. longitudinal stability.
+B. lateral stability.[CA]
+C. directional stability.
+
+27. A stripe or mark applied to a wheel rim and extending onto the sidewall of a tube- type tire is a
+A. slippage mark.[CA]
+B. wheel-to-tire balance mark.
+C. wheel weight reference mark.
+
+
+28. When bleeding aircraft brakes, one of the indications that the air has been purged from the system is
+A. Partial brake pedal travel.
+B. Full brake pedal travel.
+C. Film brake pedals.[CA]
+
+
+29. Overinflated aircraft tires may cause damage to the
+A. Brake linings.
+B. Wheel hub
+C. Wheel flange.[CA]
+
+30. An embossed letter “H” on an air valve core stem
+A. Is the manufacturer’s trademark.
+B. Indicates hydraulic type.
+C. Indicates high-pressure type.[CA]
+
+
+31. The primary purpose for balancing aircraft wheel assemblies is to
+A. Prevent heavy spots and reduce vibration.[CA]
+B. Distribute the aircraft weight properly.
+C. Reduce excessive wear and turbulence.
+
+32. On all aircraft equipped with retractable landing gear, some means must be provided to
+A. Retract and extend the landing gear if the normal operating mechanism fails.
+B. Extend the landing gear if the normal operating mechanism fails.[CA]
+C. Prevent the throttle from being reduced below a safe power setting while the landing gear is retracted
+
+
+33. What is the purpose of the torque links attached to the cylinder and piston of a landing gear oleo strut?
+A. Limit compression stroke.
+B. Hold the strut in place.
+C. Maintain correct wheel alignment.[CA]
+
+34. Aircraft brakes requiring a large volume of fluid to operate the brakes generally
+A. Use independent master cylinder systems.
+B. Do not use brake system accumulators.
+C. Use power brake control valves.[CA]
+
+
+35. When an air/oil type of landing gear shock strut is used, the initial shock of landing is cushioned by
+A. Compression of the air charge.
+B. The fluid being forced through a metered opening.[CA]
+C. Compression of the fluid
+
+36. A sleeve, spacer, or bumper ring is incorporated in a landing gear oleo shock strut to
+A. Limit the extension of the torque arm.
+B. Limit the extension stroke.[CA]
+C. Reduce the rebound effect.
+
+37. The purpose of a sequence valve in a hydraulic retractable landing gear system is to
+A. Prevent heavy landing gear from falling too rapidly upon extension.
+B. Provide a means of disconnecting the normal source of hydraulic power and connecting the emergency source of power.
+C. Ensure operation of the landing gear and gear doors in the proper order.[CA]
+
+
+38. The pressure source for power brakes is
+A. The main hydraulic system.[CA]
+B. The power brake reservoir.
+C. A master cylinder.
+
+
+39. Which statement is true with respect to an aircraft equipped with hydraulically operated multiple-disk type brake assemblies?
+A. There are no minimum or maximum disk clearance checks required due to the use of self-compensating cylinder assemblies.
+B. Do not set parking brake when brakes are hot.[CA]
+C. No parking brake provisions are possible for this type of brake assembly.
+
+40. What type of valve is used in the brake actuating line to isolate the emergency brake system from the normal power brake control valve system?
+A. A bypass valve.
+B. An orifice check valve.
+C. A shuttle valve.[CA]
+
+41. Instructions concerning the type of fluid and amount of air pressure to be put in a shock strut are found
+A. On the airplane data plate.
+B. In the aircraft operations limitations.
+C. In the aircraft manufacture’s service manual.[CA]
+
+
+42. The purpose of a relief valve in a brake system is to
+A. Reduce pressure for brake application.
+B. Prevent the tire from skidding.
+C. Compensate for thermal expansion.[CA]
+
+
+43. Aircraft tire pressure should be checked
+A. Using only a push on stick-type gauge having 1-pound increments.
+B. At least once a week or more often.[CA]
+C. As soon as possible after each flight.
+
+
+44. What is the purpose of a compensating port or valve in a brake master cylinder of an independent brake system?
+A. Permits the fluid to flow toward or away from the reservoir as temperature changes.[CA]
+B. Assists in the mater cylinder piston return.
+C. Prevents fluid from flowing back to the reservoir.
+
+
+45. If an aircraft shock strut (air/oil type) bottoms upon initial landing contact, but functions correctly during taxi, the most probable cause is
+A. Low fluid[CA]
+B. Low air charge.
+C. A restricted metering pin orifice.
+
+
+46. What is the function of a cam incorporated in a nose gear shock strut?
+A. Provides an internal shimmy damper.
+B. Straightens the nosewheel.[CA]
+C. Provides steering of aircraft during ground operation.
+
+
+47. Extension of an oleo shock strut is measured to determine the
+A. Amount of oil in the strut
+B. Physical condition of the strut itself.
+C. Proper operating position of the strut.[CA]
+
+
+48. If a shock strut bottoms after it has been properly serviced, the
+A. Strut should be disassembled and the metering pin orifice plate replaced
+B. Air pressure should be increased
+C. Strut should be removed, disassembled and inspected[CA]
+
+49. The correct in inflation pressure for an aircraft tire can be obtained from
+A. Tire manufacturer’s specifications.
+B. The aircraft service manual.[CA]
+C. The information stamped on the aircraft wheel.
+
+
+50. What should be checked when a shock strut bottoms during a landing?
+A. Air pressure.
+B. Packing seals for correct installation.
+C. Fluid level.[CA]
+
+
+51. How can it be determined that all air has been purged from a master cylinder brake system?
+A. By operating a hydraulic unit and watching the system pressure gauge for smooth, full-scale deflection.
+B. By noting whether the brake is firm or spongy.[CA]
+C. By noting the amount of fluid return to the master cylinder upon brake release.
+
+
+52. The rubber seals used in a landing gear shock strut
+A. Are generally designed to be compatible with more than one type of fluid
+B. Are kept from direct contact with fluid by teflon or nylon backup rings.
+C. May be used only with a specific type of fluid[CA]
+
+53. When a properly operating fusible plug has allowed a tire to deflate, the tire should be
+A. Replaced[CA]
+B. Externally inspected for damage.
+C. Removed from the wheel and inspected for carcass and tread damage.
+
+54. The fusible plugs installed in some aircraft wheels will
+A. Indicate tire tread separation.
+B. Prevent overinflation.
+C. Melt at a specified elevated temperature.[CA]
+
+55. What action, if any, should be taken when there is a difference of more than 5 pounds of air pressure in tires mounted as duals?
+A. Replace both tires.
+B. Correct the discrepancy and enter in logbook.[CA]
+C. Replace the tire with the lowest pressure.
+
+56. How long should you wait after a flight before checking tire pressure?
+A. At least 2 hours (3 hours in hot weather).[CA]
+B. At least 3 hours (4 hours in hot weather).
+C. At least 4 hours (5 hours in hot weather).
+
+57. Excessive wear in the shoulder area of an aircraft tire is an indication of
+A. Overinflation.
+B. Excessive toe-in.
+C. Underinflation.[CA]
+
+
+58. Excessive wear in the center of the tread of an aircraft tire is an indication of
+A. Incorrect camber.
+B. Excessive toe-out.
+C. Overinflation.[CA]
+
+
+59. When an empty shock strut is filled with fluid, care should be taken to extend and compress the strut completely at least two times to
+A. Thoroughly lubricate the piston rod
+B. Force out any excess fluid
+C. Ensure proper packing ring seating and removal of air bubbles.[CA]
+
+
+60. A pilot reports that the brake pedals have excessive travel. A probable cause is
+A. Brake lining has oil or some foreign matter on the disks and linings.
+B. Lack of fluid in the brake system.
+C. Brake rotors have worn.[CA]
+
+61. Nose gear centering cams are used in many retractable landing gear systems. The primary purpose of the centering device is to
+A. Align the nosewheel prior to touchdown.
+B. Engage the nosewheel steering.
+C. Center the nosewheel before it enters the wheel well.[CA]
+
+62. An O-ring intended for use in a hydraulic system using MIL-H-5606 (mineral base) fluid will be marked with
+A. A blue stripe or dot.[CA]
+B. One or more white dots.
+C. A white and yellow stripe.
+
+63. What condition would most likely cause excessive fluctuation of the pressure gauge when the hydraulic pump is operating?
+A. Accumulator air pressure low.
+B. Inadequate supply of fluid[CA]
+C. System relief valve sticking closed
+
+64. Select the valve used in a hydraulic system that directs pressurized fluid one end of an actuating cylinder and simultaneously directs return fluid to the reservoir from the other end.
+A. Sequence.
+B. Shuttle.
+C. Selector.[CA]
+
+
+65. Relief valve are used in pneumatic systems
+A. For one direction flow control.
+B. To reduce the rate of airflow.
+C. As damage-preventing units.[CA]
+
+
+66. The removal of air from an aircraft hydraulic system is generally accomplished
+A. Through automatic bleed valves on individual components during system operation.
+B. By operating the various hydraulic components through several cycles.[CA]
+C. By allowing the system to remain inoperative for several hours.
+
+67. The component in the hydraulic system that is used to direct the flow of fluid is the
+A. Check valve.
+B. Orifice check valve.
+C. Selector valve.[CA]
+
+
+68. What is the purpose of using backup rings with O-rings in hydraulic systems above 1,500 PSI?
+A. Prevent internal and external leakage of all moving parts within a hydraulic system.
+B. Provide a seal between two parts of a unit which move in relation to each other.
+C. Prevent high pressure from extruding the seal between the moving and stationary part.[CA]
+
+69. The purpose of the pressure regulator in a hydraulic system is to
+A. Maintain system operating pressure  within a predetermined range and to unload the pump.[CA]
+B. Regulate the amount of fluid flow to the actuating cylinders within the system.
+C. Prevent failure of components or rupture of hydraulic lines under excessive pressure.
+
+
+70. A flexible sealing element subject to motion is a
+A. Compound
+B. Packing.[CA]
+C. Gasket.
+
+
+71. Which characteristics apply to aircraft hydraulic systems? 1. Minimum maintenance requirements. 2. Lightweight. 3. About 80 percent operating efficiency (20 percent loss due to fluid friction). 4. Simple to inspect.
+A. 1, 2, 3, 4.
+B. 1, 3, 4.
+C. 1, 2, 4.[CA]
+
+
+
+72. Generally, the first step in removing an accumulator from an aircraft is to
+A. Relieve system pressure.[CA]
+B. Discharge the preload
+C. Drain the reservoir.
+
+73. The internal resistance of a fluid which tends to prevent it from flowing is called
+A. Volatility.
+B. Viscosity.[CA]
+C. Acidity.
+
+.
+
+74. (1) When servicing aircraft hydraulic systems, use the type fluid specified in the aircraft manufacturer’s maintenance manual or on the instruction plate affixed to the reservoir or unit. (2) Hydraulic fluids for aircraft are dyed a specific color for each type of fluid Regarding the above statements,
+A. Only No. 1 is true.
+B. Only No. 2 is true.
+C. Both No. 1 and No. 2 are true[CA]
+
+
+75. Petroleum base hydraulic fluid is which color?
+A. Purple.
+B. Blue.
+C. Red[CA]
+
+
+76. Which of the following is adversely affected by atmospheric humidity if left unprotected? 1. MIL-H-5606 hydraulic fluid 2. Skydrol hydraulic fluid. 3. None of the above.
+A. 1 and 2.
+B. 3.
+C. 2.[CA]
+
+
+77. Which is a characteristic of synthetic base hydraulic fluid?
+A. Low moisture retention.
+B. High flash point.[CA]
+C. Low flash point.
+
+78. Which statement about fluids is correct?
+A. Any fluid will completely fill its container.
+B. All fluids are considered to be highly compressible.
+C. All fluids readily transmit pressure.[CA]
+
+
+79. Three types of hydraulic fluids currently being used in civil aircraft are
+A. Mineral base, vegetable, and phosphate ester base.[CA]
+B. Mineral base, phosphate ester base, and mixed mineral and phosphate ester base.
+C. Mineral base, phosphate ester base, and mixed vegetable and alcohol base.
+
+80. Which of the following lists only desirable properties of a good hydraulic fluid?
+A. High viscosity, low flash point, chemical stability, high fire point.
+B. High flash point, low viscosity, chemical stability, low fire point.
+C. Low viscosity, chemical stability, high flash point, high fire point.[CA]
+
+
+81. Characteristics of MIL-H-8446 (Skydrol 500 A & B) hydraulic fluid are
+A. Blue color, phosphate ester base, fire resistant, butyl rubble seals.
+B. Light purple color, phosphate ester base, fire resistant, butyl rubber seals.[CA]
+C. Light green color, phosphate ester base, fire resistant, butyl rubber seals.
+
+
+82. Characteristics of MIL-H-5606 hydraulic fluid are
+A. Light purple color, phosphate ester base, fire resistant, butyl rubber seals.
+B. Blue color, vegetable base, will burn, natural rubber seals.
+C. Red color, petroleum base, will burn, synthetic rubber seals.[CA]
+
+
+83. How the proper hydraulic fluid to be used in an airplane the determined?
+A. Refer to the aircraft parts manual.
+B. Consult the aircraft Type Certificate Data Sheet.
+C. Consult the aircraft manufacturer’s service manual.[CA]
+
+
+84. Phosphate ester base hydraulic fluid is very susceptible to contamination from
+A. Teflon seal material.
+B. Water in the atmosphere.[CA]
+C. Ethylene- propylene elastomers.
+
+
+85. The hydraulic component that automatically directs fluid from either the normal source to an actuating cylinder is called a
+A. Bypass valve.
+B. Shuttle valve.[CA]
+C. Crossflow valve.

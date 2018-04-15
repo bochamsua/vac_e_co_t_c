@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Worksheet extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_Worksheet
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_worksheet_worksheet_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/worksheet</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_worksheet/adminhtml_worksheet" name="worksheet" />
+
+        </reference>
+    </adminhtml_worksheet_worksheet_index>
+    <adminhtml_worksheet_worksheet_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheet/adminhtml_worksheet_grid" name="worksheet_grid"/>
+        </block>
+    </adminhtml_worksheet_worksheet_grid>
+    <!-- Worksheet add/edit action -->
+    <adminhtml_worksheet_worksheet_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/worksheet</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_worksheet/adminhtml_worksheet_edit" name="worksheet_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_worksheet/adminhtml_worksheet_edit_tabs" name="worksheet_tabs"></block>
+        </reference>
+    </adminhtml_worksheet_worksheet_edit>
+
+    <adminhtml_worksheet_worksheet_traininglist_curriculum_worksheets>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheet/adminhtml_traininglist_curriculum_edit_tab_worksheet" name="curriculum.edit.tab.worksheet"/>
+            <block type="adminhtml/widget_grid_serializer" name="worksheet_grid_serializer">
+                <reference name="worksheet_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>curriculum.edit.tab.worksheet</grid_block_name>
+                        <data_callback>getSelectedWorksheets</data_callback>
+                        <hidden_input_name>worksheets</hidden_input_name>
+                        <reload_param_name>curriculum_worksheets</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_worksheet_worksheet_traininglist_curriculum_worksheets>
+    <adminhtml_worksheet_worksheet_traininglist_curriculum_worksheetsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheet/adminhtml_traininglist_curriculum_edit_tab_worksheet" name="curriculum.edit.tab.worksheet"/>
+        </block>
+    </adminhtml_worksheet_worksheet_traininglist_curriculum_worksheetsgrid>
+    <adminhtml_worksheet_worksheet_curriculums>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheet/adminhtml_worksheet_edit_tab_curriculum" name="worksheet.edit.tab.curriculum"/>
+            <block type="adminhtml/widget_grid_serializer" name="curriculum_grid_serializer">
+                <reference name="curriculum_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>worksheet.edit.tab.curriculum</grid_block_name>
+                            <data_callback>getSelectedCurriculums</data_callback>
+                            <hidden_input_name>curriculums</hidden_input_name>
+                            <reload_param_name>worksheet_curriculums</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_worksheet_worksheet_curriculums>
+    <adminhtml_worksheet_worksheet_curriculumsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_worksheet/adminhtml_worksheet_edit_tab_curriculum" name="worksheet.edit.tab.curriculum"/>
+        </block>
+    </adminhtml_worksheet_worksheet_curriculumsgrid>
+</layout>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Trainee extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       BS
+ * @package        BS_Trainee
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+--> 
+<layout>
+    <adminhtml_trainee_trainee_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/trainee</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_trainee/adminhtml_trainee" name="trainee">
+                <block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+                    <action method="setUseConfirm"><params>0</params></action>
+                </block>
+            </block>
+
+        </reference>
+    </adminhtml_trainee_trainee_index>
+    <adminhtml_trainee_trainee_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_trainee/adminhtml_trainee_grid" name="trainee_grid"/>
+        </block>
+    </adminhtml_trainee_trainee_grid>
+    <!-- Trainee add/edit action -->
+    <adminhtml_trainee_trainee_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/trainee</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_trainee/adminhtml_trainee_edit" name="trainee_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
+            <block type="bs_trainee/adminhtml_trainee_edit_tabs" name="trainee_tabs"></block>
+        </reference>
+        <reference name="head">
+            <action method="setCanLoadTinyMce"><load>1</load></action>
+        </reference>
+        <reference name="js">
+            <block type="core/template" name="catalog.wysiwyg.js" template="catalog/wysiwyg/js.phtml"/>
+        </reference>
+    </adminhtml_trainee_trainee_edit>
+
+    <adminhtml_trainee_trainee_catalog_product_trainees>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_trainee/adminhtml_catalog_product_edit_tab_trainee" name="product.edit.tab.trainee"/>
+            <block type="adminhtml/widget_grid_serializer" name="trainee_grid_serializer">
+                <reference name="trainee_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.trainee</grid_block_name>
+                        <data_callback>getSelectedTrainees</data_callback>
+                        <hidden_input_name>trainees</hidden_input_name>
+                        <reload_param_name>product_trainees</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_trainee_trainee_catalog_product_trainees>
+    <adminhtml_trainee_trainee_catalog_product_traineesgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_trainee/adminhtml_catalog_product_edit_tab_trainee" name="product.edit.tab.trainee"/>
+        </block>
+    </adminhtml_trainee_trainee_catalog_product_traineesgrid>
+    <adminhtml_trainee_trainee_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_trainee/adminhtml_trainee_edit_tab_product" name="trainee.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>trainee.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>trainee_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_trainee_trainee_products>
+    <adminhtml_trainee_trainee_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_trainee/adminhtml_trainee_edit_tab_product" name="trainee.edit.tab.product"/>
+        </block>
+    </adminhtml_trainee_trainee_productsgrid>
+    <adminhtml_trainee_trainee_attribute_index>
+        <reference name="content">
+            <block type="bs_trainee/adminhtml_trainee_attribute" name="attribute_grid"></block>
+        </reference>
+    </adminhtml_trainee_trainee_attribute_index>
+    <adminhtml_trainee_trainee_attribute_edit>
+        <reference name="left">
+            <block type="bs_trainee/adminhtml_trainee_attribute_edit_tabs" name="attribute_edit_tabs"></block>
+        </reference>
+        <reference name="content">
+            <block type="bs_trainee/adminhtml_trainee_attribute_edit" name="attribute_edit_content"></block>
+        </reference>
+        <reference name="js">
+            <block type="adminhtml/template" name="attribute_edit_js" template="bs_trainee/attribute/js.phtml">
+                <action method="setMainEntityName"><name>trainee</name></action>
+            </block>
+        </reference>
+    </adminhtml_trainee_trainee_attribute_edit>
+</layout>

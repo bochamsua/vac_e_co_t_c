@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CourseCost extension
+ * 
+ * @category       BS
+ * @package        BS_CourseCost
+ * @copyright      Copyright (c) 2016
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_coursecost translate="title" module="bs_coursecost">
+                                        <title>CourseCost</title>
+                                    </bs_coursecost>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <catalog>
+                        <children>
+                            <bs_coursecost translate="title" module="bs_coursecost">
+                                <title>Course Cost</title>
+                                <children>
+                                    <costgroup translate="title" module="bs_coursecost">
+                                        <title>Manage Cost Group</title>
+                                        <sort_order>0</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </costgroup>
+                                    <costitem translate="title" module="bs_coursecost">
+                                        <title>Manage Group Items</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </costitem>
+                                    <coursecost translate="title" module="bs_coursecost">
+                                        <title>Course Cost</title>
+                                        <sort_order>20</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </coursecost>
+                                </children>
+                            </bs_coursecost>                        </children>
+                    </catalog>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <catalog>
+            <children>
+                <bs_coursecost translate="title" module="bs_coursecost">
+                    <title>Course Cost</title>
+                    <sort_order>8</sort_order>
+                    <children>
+                        <costgroup translate="title" module="bs_coursecost">
+                            <title>Manage Cost Group</title>
+                            <action>adminhtml/coursecost_costgroup</action>
+                            <sort_order>0</sort_order>
+                        </costgroup>
+                        <costitem translate="title" module="bs_coursecost">
+                            <title>Manage Group Items</title>
+                            <action>adminhtml/coursecost_costitem</action>
+                            <sort_order>10</sort_order>
+                        </costitem>
+                        <coursecost translate="title" module="bs_coursecost">
+                            <title>Course Cost</title>
+                            <action>adminhtml/coursecost_coursecost</action>
+                            <sort_order>20</sort_order>
+                        </coursecost>
+                    </children>
+                </bs_coursecost>            </children>
+        </catalog>
+
+    </menu>
+</config>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Assessment extension
+ * 
+ * @category       BS
+ * @package        BS_Assessment
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_assessment translate="title" module="bs_assessment">
+                                        <title>Assessment</title>
+                                    </bs_assessment>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_exam>
+                        <children>
+                            <assessment translate="title" module="bs_assessment">
+                                <title>Assessment</title>
+                                <sort_order>15</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </assessment>
+                        </children>
+                    </bs_exam>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_exam>
+            <children>
+                <assessment translate="title" module="bs_assessment">
+                    <title>Assessment</title>
+                    <action>adminhtml/assessment_assessment</action>
+                    <sort_order>15</sort_order>
+                </assessment>
+            </children>
+        </bs_exam>
+
+    </menu>
+</config>

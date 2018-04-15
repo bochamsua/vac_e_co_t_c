@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CourseCost extension
+ * 
+ * @category       BS
+ * @package        BS_CourseCost
+ * @copyright      Copyright (c) 2016
+ */
+--> 
+<layout>
+    <adminhtml_coursecost_costgroup_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_coursecost/costgroup</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursecost/adminhtml_costgroup" name="costgroup" />
+
+        </reference>
+    </adminhtml_coursecost_costgroup_index>
+    <adminhtml_coursecost_costgroup_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursecost/adminhtml_costgroup_grid" name="costgroup_grid"/>
+        </block>
+    </adminhtml_coursecost_costgroup_grid>
+    <!-- Costgroup add/edit action -->
+    <adminhtml_coursecost_costgroup_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_coursecost/costgroup</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursecost/adminhtml_costgroup_edit" name="costgroup_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_coursecost/adminhtml_costgroup_edit_tabs" name="costgroup_tabs"></block>
+        </reference>
+    </adminhtml_coursecost_costgroup_edit>
+
+    <adminhtml_coursecost_costitem_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_coursecost/costitem</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursecost/adminhtml_costitem" name="costitem" />
+
+        </reference>
+    </adminhtml_coursecost_costitem_index>
+    <adminhtml_coursecost_costitem_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursecost/adminhtml_costitem_grid" name="costitem_grid"/>
+        </block>
+    </adminhtml_coursecost_costitem_grid>
+    <!-- Costitem add/edit action -->
+    <adminhtml_coursecost_costitem_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_coursecost/costitem</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursecost/adminhtml_costitem_edit" name="costitem_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_coursecost/adminhtml_costitem_edit_tabs" name="costitem_tabs"></block>
+        </reference>
+    </adminhtml_coursecost_costitem_edit>
+
+    <adminhtml_coursecost_coursecost_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_coursecost/coursecost</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursecost/adminhtml_coursecost" name="coursecost" />
+
+        </reference>
+    </adminhtml_coursecost_coursecost_index>
+    <adminhtml_coursecost_coursecost_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursecost/adminhtml_coursecost_grid" name="coursecost_grid"/>
+        </block>
+    </adminhtml_coursecost_coursecost_grid>
+    <!-- Coursecost add/edit action -->
+    <adminhtml_coursecost_coursecost_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_coursecost/coursecost</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_coursecost/adminhtml_coursecost_edit" name="coursecost_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_coursecost/adminhtml_coursecost_edit_tabs" name="coursecost_tabs"></block>
+        </reference>
+    </adminhtml_coursecost_coursecost_edit>
+
+    <adminhtml_coursecost_catalog_product_coursecosts>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursecost/adminhtml_catalog_product_edit_tab_coursecost" name="product.edit.tab.coursecost"/>
+        </block>
+    </adminhtml_coursecost_catalog_product_coursecosts>
+    <adminhtml_coursecost_catalog_product_coursecostsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_coursecost/adminhtml_catalog_product_edit_tab_coursecost" name="product.edit.tab.coursecost"/>
+        </block>
+    </adminhtml_coursecost_catalog_product_coursecostsgrid>
+
+</layout>

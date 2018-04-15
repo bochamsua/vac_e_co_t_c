@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_StaffInfo extension
+ * 
+ * @category       BS
+ * @package        BS_StaffInfo
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_staffinfo_training_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/bs_staffinfo/training</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_staffinfo/adminhtml_training" name="training" />
+
+        </reference>
+    </adminhtml_staffinfo_training_index>
+    <adminhtml_staffinfo_training_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_staffinfo/adminhtml_training_grid" name="training_grid"/>
+        </block>
+    </adminhtml_staffinfo_training_grid>
+    <!-- Training add/edit action -->
+    <adminhtml_staffinfo_training_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/bs_staffinfo/training</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_staffinfo/adminhtml_training_edit" name="training_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_staffinfo/adminhtml_training_edit_tabs" name="training_tabs"></block>
+        </reference>
+    </adminhtml_staffinfo_training_edit>
+
+    <adminhtml_staffinfo_working_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/bs_staffinfo/working</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_staffinfo/adminhtml_working" name="working" />
+
+        </reference>
+    </adminhtml_staffinfo_working_index>
+    <adminhtml_staffinfo_working_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_staffinfo/adminhtml_working_grid" name="working_grid"/>
+        </block>
+    </adminhtml_staffinfo_working_grid>
+    <!-- Working add/edit action -->
+    <adminhtml_staffinfo_working_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>customer/bs_staffinfo/working</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_staffinfo/adminhtml_working_edit" name="working_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_staffinfo/adminhtml_working_edit_tabs" name="working_tabs"></block>
+        </reference>
+    </adminhtml_staffinfo_working_edit>
+
+    <adminhtml_staffinfo_customer_trainings>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_staffinfo/adminhtml_customer_edit_tab_training" name="customer.edit.tab.training"/>
+        </block>
+    </adminhtml_staffinfo_customer_trainings>
+    <adminhtml_staffinfo_customer_trainingsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_staffinfo/adminhtml_customer_edit_tab_training" name="customer.edit.tab.training"/>
+        </block>
+    </adminhtml_staffinfo_customer_trainingsgrid>
+
+    <adminhtml_staffinfo_customer_workings>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_staffinfo/adminhtml_customer_edit_tab_working" name="customer.edit.tab.working"/>
+        </block>
+    </adminhtml_staffinfo_customer_workings>
+    <adminhtml_staffinfo_customer_workingsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_staffinfo/adminhtml_customer_edit_tab_working" name="customer.edit.tab.working"/>
+        </block>
+    </adminhtml_staffinfo_customer_workingsgrid>
+
+</layout>

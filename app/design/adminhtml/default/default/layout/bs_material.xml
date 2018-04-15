@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Material extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_Material
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_material_instructordoc_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/instructordoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_material/adminhtml_instructordoc" name="instructordoc" />
+
+        </reference>
+    </adminhtml_material_instructordoc_index>
+    <adminhtml_material_instructordoc_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_material/adminhtml_instructordoc_grid" name="instructordoc_grid"/>
+        </block>
+    </adminhtml_material_instructordoc_grid>
+    <!-- Instructordoc add/edit action -->
+    <adminhtml_material_instructordoc_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/instructordoc</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_material/adminhtml_instructordoc_edit" name="instructordoc_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_material/adminhtml_instructordoc_edit_tabs" name="instructordoc_tabs"></block>
+        </reference>
+    </adminhtml_material_instructordoc_edit>
+
+    <adminhtml_material_instructordoc_instructor_instructor_instructordocs>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_material/adminhtml_instructor_instructor_edit_tab_instructordoc" name="instructor.edit.tab.instructordoc"/>
+            <block type="adminhtml/widget_grid_serializer" name="instructordoc_grid_serializer">
+                <reference name="instructordoc_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>instructor.edit.tab.instructordoc</grid_block_name>
+                        <data_callback>getSelectedInstructordocs</data_callback>
+                        <hidden_input_name>instructordocs</hidden_input_name>
+                        <reload_param_name>instructor_instructordocs</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_material_instructordoc_instructor_instructor_instructordocs>
+    <adminhtml_material_instructordoc_instructor_instructor_instructordocsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_material/adminhtml_instructor_instructor_edit_tab_instructordoc" name="instructor.edit.tab.instructordoc"/>
+        </block>
+    </adminhtml_material_instructordoc_instructor_instructor_instructordocsgrid>
+    <adminhtml_material_instructordoc_instructors>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_material/adminhtml_instructordoc_edit_tab_instructor" name="instructordoc.edit.tab.instructor"/>
+            <block type="adminhtml/widget_grid_serializer" name="instructor_grid_serializer">
+                <reference name="instructor_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>instructordoc.edit.tab.instructor</grid_block_name>
+                            <data_callback>getSelectedInstructors</data_callback>
+                            <hidden_input_name>instructors</hidden_input_name>
+                            <reload_param_name>instructordoc_instructors</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_material_instructordoc_instructors>
+    <adminhtml_material_instructordoc_instructorsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_material/adminhtml_instructordoc_edit_tab_instructor" name="instructordoc.edit.tab.instructor"/>
+        </block>
+    </adminhtml_material_instructordoc_instructorsgrid>
+</layout>

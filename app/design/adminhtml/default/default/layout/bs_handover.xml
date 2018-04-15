@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Handover extension
+ * 
+ * @category       BS
+ * @package        BS_Handover
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_handover_handoverone_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_handover/handoverone</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_handover/adminhtml_handoverone" name="handoverone" />
+
+        </reference>
+    </adminhtml_handover_handoverone_index>
+    <adminhtml_handover_handoverone_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_handover/adminhtml_handoverone_grid" name="handoverone_grid"/>
+        </block>
+    </adminhtml_handover_handoverone_grid>
+    <!-- Handoverone add/edit action -->
+    <adminhtml_handover_handoverone_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_handover/handoverone</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_handover/adminhtml_handoverone_edit" name="handoverone_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_handover/adminhtml_handoverone_edit_tabs" name="handoverone_tabs"></block>
+        </reference>
+    </adminhtml_handover_handoverone_edit>
+
+    <adminhtml_handover_handovertwo_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_handover/handovertwo</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_handover/adminhtml_handovertwo" name="handovertwo" />
+
+        </reference>
+    </adminhtml_handover_handovertwo_index>
+    <adminhtml_handover_handovertwo_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_handover/adminhtml_handovertwo_grid" name="handovertwo_grid"/>
+        </block>
+    </adminhtml_handover_handovertwo_grid>
+    <!-- Handovertwo add/edit action -->
+    <adminhtml_handover_handovertwo_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_material/bs_handover/handovertwo</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_handover/adminhtml_handovertwo_edit" name="handovertwo_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_handover/adminhtml_handovertwo_edit_tabs" name="handovertwo_tabs"></block>
+        </reference>
+    </adminhtml_handover_handovertwo_edit>
+
+</layout>

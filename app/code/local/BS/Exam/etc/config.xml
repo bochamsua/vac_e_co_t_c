@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Exam extension
+ * 
+ * @category       BS
+ * @package        BS_Exam
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Exam>
+            <version>1.0.7</version>
+        </BS_Exam>
+    </modules>
+    <global>
+        <resources>
+            <bs_exam_setup>
+                <setup>
+                    <module>BS_Exam</module>
+                    <class>BS_Exam_Model_Resource_Setup</class>
+                </setup>
+            </bs_exam_setup>
+        </resources>
+        <blocks>
+            <bs_exam>
+                <class>BS_Exam_Block</class>
+            </bs_exam>
+        </blocks>
+        <helpers>
+            <bs_exam>
+                <class>BS_Exam_Helper</class>
+            </bs_exam>
+        </helpers>
+        <models>
+            <bs_exam>
+                <class>BS_Exam_Model</class>
+                <resourceModel>bs_exam_resource</resourceModel>
+            </bs_exam>
+            <bs_exam_resource>
+                <class>BS_Exam_Model_Resource</class>
+                <entities>
+                    <exam>
+                        <table>bs_exam_exam</table>
+                    </exam>
+                    <question>
+                        <table>bs_exam_question</table>
+                    </question>
+                    <answer>
+                        <table>bs_exam_answer</table>
+                    </answer>
+                    <examresult>
+                        <table>bs_exam_examresult</table>
+                    </examresult>
+                </entities>
+            </bs_exam_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_exam>
+                    <file>bs_exam.xml</file>
+                </bs_exam>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Exam>
+                    <files>
+                        <default>BS_Exam.csv</default>
+                    </files>
+                </BS_Exam>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <exam>
+                <class>bs_exam/adminhtml_search_exam</class>
+                <acl>bs_exam</acl>
+            </exam>
+            <question>
+                <class>bs_exam/adminhtml_search_question</class>
+                <acl>bs_exam</acl>
+            </question>
+            <answer>
+                <class>bs_exam/adminhtml_search_answer</class>
+                <acl>bs_exam</acl>
+            </answer>
+            <examresult>
+                <class>bs_exam/adminhtml_search_examresult</class>
+                <acl>bs_exam</acl>
+            </examresult>
+        </global_search>-->
+
+        <events>
+            <catalog_product_save_after>
+                <observers>
+                    <bs_examresult_mark_product>
+                        <type>singleton</type>
+                        <class>bs_exam/adminhtml_observer</class>
+                        <method>saveExamresultData</method>
+                    </bs_examresult_mark_product>
+                </observers>
+            </catalog_product_save_after>
+
+        </events>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Exam before="Mage_Adminhtml">BS_Exam_Adminhtml</BS_Exam>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

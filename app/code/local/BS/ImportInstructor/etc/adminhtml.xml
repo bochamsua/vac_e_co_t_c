@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_ImportInstructor extension
+ * 
+ * @category       BS
+ * @package        BS_ImportInstructor
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_importinstructor translate="title" module="bs_importinstructor">
+                                        <title>ImportInstructor</title>
+                                    </bs_importinstructor>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <importinstructor translate="title" module="bs_importinstructor">
+                                <title>Import Instructor</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </importinstructor>
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <!--<menu>
+        <bs_traininglist>
+            <children>
+                <importinstructor translate="title" module="bs_importinstructor">
+                    <title>Import Instructor</title>
+                    <action>adminhtml/importinstructor_importinstructor</action>
+                    <sort_order>20</sort_order>
+                </importinstructor>
+            </children>
+        </bs_traininglist>
+
+    </menu>-->
+</config>

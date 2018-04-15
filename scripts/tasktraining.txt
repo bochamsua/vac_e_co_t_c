@@ -1,0 +1,456 @@
+﻿124	VAE00408	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00482	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE00438	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00459	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Powerplant
+124	VAE00442	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00439	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00462	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00446	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00484	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00460	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00410	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00425	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Powerplant
+124	VAE00503	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00513	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00437	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00504	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00478	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00499	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE00505	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00508	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00455	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE02007	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE00463	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00434	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Powerplant
+124	VAE00440	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE00433	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00900	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00862	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00850	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00864	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01021	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01056	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00846	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00922	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00851	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00855	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00972	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01029	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01074	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00967	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00915	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00951	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00865	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00876	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00867	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00868	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00969	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00870	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00872	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE01178	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE02017	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE02020	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE00693	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00706	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE02145	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE02012	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE02020	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Avionic
+124	VAE01228	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01240	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01363	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01315	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01317	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01713	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01860	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE01271	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE01370	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01313	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01216	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01309	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01264	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01279	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01357	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01316	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01223	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01374	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01026	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE02018	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Avionic
+124	VAE01327	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01272	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE00921	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE00869	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00840	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00923	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE00857	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00854	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Powerplant
+124	VAE00853	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00064	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00075	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00063	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01267	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00088	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE00087	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE00076	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE00483	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01387	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01452	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Mechanical+Powerplant
+124	VAE01454	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01388	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Mechanical+Powerplant
+124	VAE01400	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01390	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01406	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE01394	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe
+124	VAE01398	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Powerplant
+124	VAE01441	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+124	VAE02150	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Powerplant
+124	VAE00932	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical
+124	VAE01453	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Avionic
+124	VAE01449	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+124	VAE01396	A320/321 (CFM56/V2500) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00408	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE00442	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe
+125	VAE00409	A330 (PW4000) Cat A (B1) (B2) Task Training	Powerplant
+125	VAE00439	A330 (PW4000) Cat A (B1) (B2) Task Training	Powerplant
+125	VAE00132	A330 (PW4000) Cat A (B1) (B2) Task Training	Powerplant
+125	VAE01989	A330 (PW4000) Cat A (B1) (B2) Task Training	Powerplant
+125	VAE00424	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01984	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe
+125	VAE00503	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00504	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00509	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE02010	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical
+125	VAE00987	A330 (PW4000) Cat A (B1) (B2) Task Training	Powerplant
+125	VAE01039	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01093	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01092	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe
+125	VAE00865	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00876	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01072	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01038	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00935	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01044	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical
+125	VAE00937	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01228	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01376	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe
+125	VAE01283	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01369	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE02138	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01279	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01374	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01327	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01328	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01231	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01280	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00853	A330 (PW4000) Cat A (B1) (B2) Task Training	Powerplant
+125	VAE00986	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00071	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE00063	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE00483	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE00079	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical
+125	VAE00076	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE00064	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+125	VAE01393	A330 (PW4000) Cat A (B1) (B2) Task Training	Electrical+Avionic
+125	VAE01394	A330 (PW4000) Cat A (B1) (B2) Task Training	Airframe
+126	VAE00514	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00533	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00534	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00545	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00558	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+126	VAE00561	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+126	VAE00901	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01007	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01060	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00516	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01006	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01057	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00902	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00952	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01010	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00720	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00704	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01348	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01354	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00092	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00750	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00742	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00740	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00708	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Powerplant
+126	VAE01301	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+126	VAE01351	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+126	VAE01201	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01133	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01115	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00719	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01116	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01254	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01206	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01205	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01123	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE01135	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01122	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01335	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01117	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01252	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01257	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01350	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01255	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+126	VAE01347	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+126	VAE01290	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00517	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00562	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00066	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00090	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00088	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00087	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+126	VAE00559	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE00086	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical+Avionic
+126	VAE01392	B777(PW4000/GE90) Cat A (B1) (B2) Task Training	Electrical
+127	VAE01106	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01004	ATR72 (PW127) Cat A (B1) (B2) Task Training	Powerplant
+127	VAE00067	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00065	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01002	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE00946	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE00700	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00713	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00701	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00729	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00737	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE00739	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE00743	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical
+127	VAE00762	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE00732	ATR72 (PW127) Cat A (B1) (B2) Task Training	Powerplant
+127	VAE00717	ATR72 (PW127) Cat A (B1) (B2) Task Training	Powerplant
+127	VAE00751	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical
+127	VAE01134	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01127	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01291	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01191	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe
+127	VAE01241	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01245	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01339	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01119	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01128	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01188	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01193	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01337	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01244	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01151	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical
+127	VAE01190	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE00093	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00089	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE00090	ATR72 (PW127) Cat A (B1) (B2) Task Training	Powerplant
+127	VAE00097	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical+Avionic
+127	VAE01402	ATR72 (PW127) Cat A (B1) (B2) Task Training	Electrical
+127	VAE01397	ATR72 (PW127) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+127	VAE01405	ATR72 (PW127) Cat A (B1) (B2) Task Training	Avionic
+128	VAE00863	F70 (TAY 620) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+128	VAE01048	F70 (TAY 620) Cat A (B1) (B2) Task Training	Electrical+Avionic
+128	VAE00877	F70 (TAY 620) Cat A (B1) (B2) Task Training	Electrical+Avionic
+128	VAE01005	F70 (TAY 620) Cat A (B1) (B2) Task Training	Electrical+Avionic
+128	VAE01049	F70 (TAY 620) Cat A (B1) (B2) Task Training	Electrical+Avionic
+128	VAE00878	F70 (TAY 620) Cat A (B1) (B2) Task Training	Electrical+Avionic
+128	VAE01301	F70 (TAY 620) Cat A (B1) (B2) Task Training	Avionic
+128	VAE01239	F70 (TAY 620) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+128	VAE01334	F70 (TAY 620) Cat A (B1) (B2) Task Training	Airframe+Powerplant
+128	VAE01381	F70 (TAY 620) Cat A (B1) (B2) Task Training	Electrical
+128	VAE01273	F70 (TAY 620) Cat A (B1) (B2) Task Training	Avionic
+130	VAE01512	A/C Computer– Levev (1) (2) Task Training	SRUs of MESSIER BUGATTI; AIRBUS; THALES-DIEHL; BAE SYSTEMS; THALES
+130	VAE01539	A/C Computer– Levev (1) (2) Task Training	SRUs of MESSIER BUGATTI; AIRBUS; THALES-DIEHL; BAE SYSTEMS; THALES
+131	VAE01505	In Flight Entertainment (IFE) Component– Level (1) (2) Task Training	All
+131	VAE01536	In Flight Entertainment (IFE) Component– Level (1) (2) Task Training	All
+131	VAE01539	In Flight Entertainment (IFE) Component– Level (1) (2) Task Training	All
+132	VAE01550	Aircraf Wheel Maintenance Task Traning	Maintenance of wheel (exept overhaul)
+132	VAE01549	Aircraf Wheel Maintenance Task Traning	Maintenance of wheel (exept overhaul)
+132	VAE01554	Aircraf Wheel Maintenance Task Traning	Maintenance of wheel (exept overhaul)
+132	VAE01552	Aircraf Wheel Maintenance Task Traning	Maintenance of wheel (exept overhaul)
+132	VAE02200	Aircraf Wheel Maintenance Task Traning	Maintenance of wheel (exept overhaul)
+132	VAE01802	Aircraf Wheel Maintenance Task Traning	Maintenance of wheel (exept overhaul)
+132	VAE01786	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+132	VAE01809	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+132	VAE01810	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+132	VAE01811	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+132	VAE01804	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+132	VAE02384	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+132	VAE01797	Aircraf Wheel & Brake Maintenance Task Traning	Maintenance of wheel & brake
+133	VAE01506	Battery Task Training	Maintenance of batteries with work code BA as listed in Chapter 2 - VAECO Caplist
+133	VAE01507	Battery Task Training	Maintenance of batteries with work code BA as listed in Chapter 2 - VAECO Caplist
+133	VAE01788	Battery Task Training	Maintenance of batteries with work code BA as listed in Chapter 3 - VAECO Caplist
+133	VAE01789	Battery Task Training	Maintenance of batteries as listed in Chapter 3 - VAECO Caplist
+133	VAE01796	Battery Task Training	Maintenance of batteries as listed in Chapter 3 - VAECO Caplist
+133	VAE01790	Battery Task Training	Maintenance of batteries as listed in Chapter 3 - VAECO Caplist
+133	VAE01792	Battery Task Training	Maintenance of batteries as listed in Chapter 3 - VAECO Caplist
+133	VAE01794	Battery Task Training	Maintenance of batteries as listed in Chapter 3 - VAECO Caplist
+133	VAE01795	Battery Task Training	Maintenance of batteries as listed in Chapter 3 - VAECO Caplist
+133	VAE01480	Battery Task Training	Maintenance of batteries with work code BA as listed in Chapter 2 - VAECO Caplist
+134	VAE01614	Cabin Component– Level (1) (2) Task Training	Maintenance of cabin items with workcode IN as listed in Chapter 2 - VAECO Caplist
+134	VAE01486	Cabin Component– Level (1) (2) Task Training	Maintenance of cabin items with workcode IN as listed in Chapter 2 - VAECO Caplist
+134	VAE01617	Cabin Component– Level (1) (2) Task Training	Maintenance of cabin items with workcode IN as listed in Chapter 2 - VAECO Caplist
+134	VAE01569	Cabin Component– Level (1) (2) Task Training	Maintenance of cabin items with workcode IN as listed in Chapter 2 - VAECO Caplist
+134	VAE02345	Cabin Component– Level (1) (2) Task Training	Maintenance of cabin items with workcode IN as listed in Chapter 2 - VAECO Caplist
+135	VAE01556	Safety/Emergency equipment Task Training 	Maintenance of Safety/ Emergencry equipments with work code OX  listed in Chapter 2 - VAECO Caplist
+135	VAE01636	Safety/Emergency equipment Task Training 	Maintenance of Safety/ Emergencry equipments with work code OX  listed in Chapter 2 - VAECO Caplist
+135	VAE01546	Safety/Emergency Equipment Task Training 	"1. Maintenance of Life Vest/ Slide & Survival Kit/ Oxygen mask as listed in Chapter 2 – VAECO CAP LIST 2.  Inspection of Fire Extinguisher(s) as listed in Chapter 2 - VAECO CAP LIST"
+135	VAE01482	Safety/Emergency Equipment Task Training 	Maintenance of  Slide/ Survival Kit/ Life vest as list in VAECO CAP LIST
+135	VAE01542	Safety/Emergency Equipment Task Training 	"1. Maintenance of Life Vest/ Slide & Survival Kit/ Oxygen mask as listed in Chapter 2 – VAECO CAP LIST 2.  Inspection of Fire Extinguisher(s) as listed in Chapter 2 - VAECO CAP LIST"
+135	VAE01819	Safety/Emergency Equipment Task Training 	"Perform, inspect and return to service for maintenance of Safety/ Emergencry equipments with work code SA (Fire extinguisher only) and OX as listed in VAECO Capability List Manual - Chapter 3 IAW maintenance data"
+135	VAE01815	Safety/Emergency Equipment Task Training 	"Perform, inspect and return to service for maintenance of Safety/ Emergencry equipments with work code SA (Fire extinguisher only) and OX as listed in VAECO Capability List Manual - Chapter 3 IAW maintenance data"
+136	VAE01537	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 2 - VAECO CAPLIST.
+136	VAE01485	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 2 - VAECO CAPLIST.
+136	VAE01788	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+136	VAE01789	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+136	VAE01796	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+136	VAE01790	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+136	VAE01792	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+136	VAE01794	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+136	VAE01795	Electrical Component Task Training 	Maintenance of Electrical equipments with work code EL as listed in Chapter 3 - VAECO CAPLIST.
+137	VAE00408	Engine Borescope Inspection Task Training	V2500-A5
+137	VAE00482	Engine Borescope Inspection Task Training	V2500-A5
+137	VAE00514	Engine Borescope Inspection Task Training	GE90-90/94
+137	VAE00533	Engine Borescope Inspection Task Training	GE90-90/94; PW4084/4090
+137	VAE00534	Engine Borescope Inspection Task Training	GE90-90/94
+137	VAE00900	Engine Borescope Inspection Task Training	CFM56-5B; V2500-A5
+137	VAE00862	Engine Borescope Inspection Task Training	CFM56-5B; V2500-A5
+137	VAE00864	Engine Borescope Inspection Task Training	CFM56-5B; V2500-A5
+137	VAE01056	Engine Borescope Inspection Task Training	CFM56-5B; V2500-A5
+137	VAE00901	Engine Borescope Inspection Task Training	GE90-90/94; PW4084/4090
+137	VAE00516	Engine Borescope Inspection Task Training	GE90-90/94
+137	VAE01039	Engine Borescope Inspection Task Training	PW4168/4170
+137	VAE00700	Engine Borescope Inspection Task Training	PW127
+137	VAE00704	Engine Borescope Inspection Task Training	GE90-90/94
+137	VAE01240	Engine Borescope Inspection Task Training	CFM56-5B
+137	VAE01228	Engine Borescope Inspection Task Training	PW4168/4170
+137	VAE01134	Engine Borescope Inspection Task Training	PW127
+137	VAE01127	Engine Borescope Inspection Task Training	PW127
+137	VAE01116	Engine Borescope Inspection Task Training	GE90-90/94; PW4084/4090
+137	VAE01115	Engine Borescope Inspection Task Training	PW4084/4090
+137	VAE00416	Engine Borescope Inspection Task Training	V2500-A5; PW4168/4170; GE90-90/94; PW4084/4090;  PW127
+137	VAE02212	Engine Borescope Inspection Task Training	V2500-A5; PW4168/4170; GE90-90/94; PW4084/4090;  PW127
+137	VAE01290	Engine Borescope Inspection Task Training	PW4084/4090
+137	VAE00093	Engine Borescope Inspection Task Training	PW127
+137	VAE00089	Engine Borescope Inspection Task Training	PW127
+137	VAE00087	Engine Borescope Inspection Task Training	PW4084/4090
+137	VAE00064	Engine Borescope Inspection Task Training	V2500-A5
+138	VAE02197	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE02198	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE02204	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE00416	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE02212	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE02214	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE02215	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE02229	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+138	VAE01715	APU Borescope Inspection Task Training	GTCP331-350;  GTCP331-500; GTCP36-300A; GTCP131-9A; APIC APS 3200
+139	VAE00408	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00408	Engine Run-up LO/HI Task Training	A330/PW4000
+139	VAE00514	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00533	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00534	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE00900	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00850	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00864	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE01093	Engine Run-up LO/HI Task Training	A330/PW4000
+139	VAE00065	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01106	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01004	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE00901	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE01007	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00516	Engine Run-up LO/HI Task Training	B777/PW4000
+139	VAE00863	Engine Run-up LO/HI Task Training	F70/TAY620
+139	VAE02012	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00704	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00700	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE00713	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE00701	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE00704	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00720	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE01240	Engine Run-up LO/HI Task Training	A321/V2500
+139	VAE01134	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01127	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01241	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01133	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE01115	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE01254	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE01123	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE01245	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01317	Engine Run-up LO/HI Task Training	A321/V2500
+139	VAE01339	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE01228	Engine Run-up LO/HI Task Training	A330/PW4000
+139	VAE01123	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE00719	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE01116	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE00517	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE01290	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00483	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00483	Engine Run-up LO/HI Task Training	A330/PW4000
+139	VAE00063	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE00063	Engine Run-up LO/HI Task Training	A330/PW4000
+139	VAE00093	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE00089	Engine Run-up LO/HI Task Training	ATR72/PW127
+139	VAE00066	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE00090	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00088	Engine Run-up LO/HI Task Training	B777/GE90; B777/PW4000
+139	VAE00087	Engine Run-up LO/HI Task Training	B777/GE90
+139	VAE00064	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE01387	Engine Run-up LO/HI Task Training	A321/V2500
+139	VAE01388	Engine Run-up LO/HI Task Training	A320/CFM56; A321/V2500
+139	VAE01390	Engine Run-up LO/HI Task Training	A321/V2500
+139	VAE01441	Engine Run-up LO/HI Task Training	A321/V2500
+139	VAE01397	Engine Run-up LO/HI Task Training	ATR72/PW127
+140	VAE00566	Structure Repair - Level (1) (2) (3) Task Training	Metallic+Composite (A320/A321/A330/B777/F70)
+140	VAE00589	Structure Repair - Level (1) (2) (3) Task Training	Metallic+Composite (A320/A321/A330/B777/F70)
+140	VAE00570	Structure Repair - Level (1) (2) (3) Task Training	Metallic+Composite (A320/A321/A330/B777/F70)
+140	VAE01985	Structure Repair - Level (1) (2) (3) Task Training	Metallic+Composite (A320/A321/A330/B777/F70)
+140	VAE01998	Structure Repair - Level (1) (2) (3) Task Training	Metallic+Composite (A320/A321/A330/B777/F70)
+140	VAE00591	Structure Repair - Level (1) (2) (3) Task Training	Metallic+Composite (A320/A321/A330/B777/F70)
+140	VAE00573	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/F70)
+140	VAE00109	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/F70)
+140	VAE00598	Structure Repair - Level (1) (2) (3) Task Training	Composite (A320/A321/A330/B777/F70)
+140	VAE01745	Structure Repair - Level (1) (2) (3) Task Training	Metallic (B777/ATR72)
+140	VAE01709	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/ATR72)
+140	VAE00770	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/B777/ATR72)
+140	VAE00774	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/ATR72)
+140	VAE00769	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/ATR72)
+140	VAE01710	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/ATR72)
+140	VAE01711	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/B777/ATR72)
+140	VAE00766	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/B777/ATR72)
+140	VAE00767	Structure Repair - Level (1) (2) (3) Task Training	Composite (A320/A321/A330/B777/ATR72)
+140	VAE01714	Structure Repair - Level (1) (2) (3) Task Training	Composite (A320/A321/A330/B777/ATR72)
+140	VAE00764	Structure Repair - Level (1) (2) (3) Task Training	"Composite  (B777, ATR72)"
+140	VAE00131	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/F70)
+140	VAE00106	Structure Repair - Level (1) (2) (3) Task Training	Metallic (A320/A321/A330/B777/F70)
+141	VAE01621	 Painting Task Training 	Painting work
+141	VAE01727	 Painting Task Training 	Painting work
+141	VAE00783	 Painting Task Training 	Painting work
+141	VAE00784	 Painting Task Training 	Painting work
+142	VAE02306	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2051
+142	VAE00087	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2052
+142	VAE01578	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2052
+142	VAE02304	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2053
+142	VAE01590	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2053
+142	VAE01572	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2053
+142	VAE01563	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2053
+142	VAE01560	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2053
+142	VAE01767	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2058
+142	VAE01330	Cabin Maintenance - Level (1) (2) Task Training 	Maintenance of cabin items listed in Appendix 3 of Authorisation certificate form VAECO 2059
+143	VAE01519	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE01766	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE01768	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE01781	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE02024	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE01527	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE01528	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+143	VAE01531	In Flight Entertainment (IFE) Maintenance – Level (1) (2) Task Training	All
+149	VAE00195	Part and Material Incoming Inspection Task Training	Part and Material Incoming Inspection
+149	VAE00189	Part and Material Incoming Inspection Task Training	Part and Material Incoming Inspection
+149	VAE02272	Part and Material Incoming Inspection Task Training	Part and Material Incoming Inspection
+150	VAE00060	Auditor Task Training	Auditor
+150	VAE00052	Auditor Task Training	Auditor
+150	VAE00049	Auditor Task Training	Auditor
+150	VAE00059	Auditor Task Training	Auditor
+150	VAE00061	Auditor Task Training	Auditor
+150	VAE00056	Auditor Task Training	Auditor
+150	VAE00058	Auditor Task Training	Auditor
+150	VAE00070	Auditor Task Training	Auditor
+150	VAE00086	Auditor Task Training	Auditor
+150	VAE00090	Auditor Task Training	Auditor
+150	VAE00089	Auditor Task Training	Auditor

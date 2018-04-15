@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Certificate extension
+ * 
+ * @category       BS
+ * @package        BS_Certificate
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_certificate translate="title" module="bs_certificate">
+                                        <title>Certificate</title>
+                                    </bs_certificate>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <customer>
+                        <children>
+                            <certificate translate="title" module="bs_certificate">
+                                <title>Certificate</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </certificate>
+                            <crs translate="title" module="bs_certificate">
+                                <title>CRS Authorization</title>
+                                <sort_order>35</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </crs>
+
+                        </children>
+                    </customer>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <customer>
+            <children>
+                <certificate translate="title" module="bs_certificate">
+                    <title>CAAV Certificate</title>
+                    <action>adminhtml/certificate_certificate</action>
+                    <sort_order>30</sort_order>
+                </certificate>
+                <crs translate="title" module="bs_certificate">
+                    <title>CRS Authorization</title>
+                    <action>adminhtml/certificate_crs</action>
+                    <sort_order>35</sort_order>
+                </crs>
+            </children>
+        </customer>
+
+    </menu>
+</config>

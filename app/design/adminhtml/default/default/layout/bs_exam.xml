@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Exam extension
+ * 
+ * @category       BS
+ * @package        BS_Exam
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_exam_exam_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/exam</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_exam" name="exam" />
+
+        </reference>
+    </adminhtml_exam_exam_index>
+    <adminhtml_exam_exam_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_exam/adminhtml_exam_grid" name="exam_grid"/>
+        </block>
+    </adminhtml_exam_exam_grid>
+    <!-- Exam add/edit action -->
+    <adminhtml_exam_exam_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/exam</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_exam_edit" name="exam_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_exam/adminhtml_exam_edit_tabs" name="exam_tabs"></block>
+        </reference>
+    </adminhtml_exam_exam_edit>
+
+    <adminhtml_exam_question_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/question</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_question" name="question" />
+
+        </reference>
+    </adminhtml_exam_question_index>
+    <adminhtml_exam_question_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_exam/adminhtml_question_grid" name="question_grid"/>
+        </block>
+    </adminhtml_exam_question_grid>
+    <!-- Question add/edit action -->
+    <adminhtml_exam_question_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/question</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_question_edit" name="question_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_exam/adminhtml_question_edit_tabs" name="question_tabs"></block>
+        </reference>
+    </adminhtml_exam_question_edit>
+
+    <adminhtml_exam_answer_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/answer</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_answer" name="answer" />
+
+        </reference>
+    </adminhtml_exam_answer_index>
+    <adminhtml_exam_answer_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_exam/adminhtml_answer_grid" name="answer_grid"/>
+        </block>
+    </adminhtml_exam_answer_grid>
+    <!-- Answer add/edit action -->
+    <adminhtml_exam_answer_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/answer</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_answer_edit" name="answer_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_exam/adminhtml_answer_edit_tabs" name="answer_tabs"></block>
+        </reference>
+    </adminhtml_exam_answer_edit>
+
+    <adminhtml_exam_examresult_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/examresult</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_examresult" name="examresult" />
+
+        </reference>
+    </adminhtml_exam_examresult_index>
+    <adminhtml_exam_examresult_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_exam/adminhtml_examresult_grid" name="examresult_grid"/>
+        </block>
+    </adminhtml_exam_examresult_grid>
+    <!-- Examresult add/edit action -->
+    <adminhtml_exam_examresult_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_exam/examresult</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_exam/adminhtml_examresult_edit" name="examresult_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_exam/adminhtml_examresult_edit_tabs" name="examresult_tabs"></block>
+        </reference>
+    </adminhtml_exam_examresult_edit>
+
+
+    <adminhtml_exam_examresult_catalog_product_examresults>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_exam/adminhtml_catalog_product_edit_tab_examresult" name="product.edit.tab.examresult"/>
+        </block>
+    </adminhtml_exam_examresult_catalog_product_examresults>
+    <adminhtml_exam_examresult_catalog_product_examresultsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_exam/adminhtml_catalog_product_edit_tab_examresult" name="product.edit.tab.examresult"/>
+        </block>
+    </adminhtml_exam_examresult_catalog_product_examresultsgrid>
+
+
+</layout>

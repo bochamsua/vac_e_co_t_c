@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Traininglist extension
+ * 
+ * @category       BS
+ * @package        BS_Traininglist
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_traininglist translate="title" module="bs_traininglist">
+                                        <title>Traininglist</title>
+                                    </bs_traininglist>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist translate="title" module="bs_traininglist">
+                        <title>Training List</title>
+                        <sort_order>10</sort_order>
+                        <children>
+                            <curriculum translate="title" module="bs_traininglist">
+                                <title>Training Curriculum</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <curriculum translate="title" module="bs_traininglist">
+                                        <title>Approved Curriculum</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title">
+                                                <title>New</title>
+                                            </new>
+                                            <edit translate="title">
+                                                <title>Edit</title>
+                                            </edit>
+                                            <delete translate="title">
+                                                <title>Delete</title>
+                                            </delete>
+                                        </children>
+                                    </curriculum>
+                                    <newapp translate="title">
+                                        <sort_order>20</sort_order>
+                                        <title>Approving Curriculum </title>
+                                    </newapp>
+                                    <history translate="title">
+                                        <sort_order>30</sort_order>
+                                        <title>History Curriculum </title>
+                                    </history>
+                                </children>
+                            </curriculum>
+
+                            <categories translate="title">
+                                <title>Manage Ratings</title>
+                            </categories>
+
+                            <!--<curriculum_attributes translate="title" module="bs_traininglist">
+                                <title>Manage Training Curriculum attributes</title>
+                                <sort_order>100</sort_order>
+                            </curriculum_attributes>-->
+                        </children>
+                    </bs_traininglist>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_traininglist translate="title" module="bs_traininglist">
+            <title>Courseware</title>
+            <sort_order>15</sort_order>
+            <children>
+                <curriculum translate="title" module="bs_traininglist">
+                    <title>Curriculum</title>
+                    <action>adminhtml/traininglist_curriculum</action>
+                    <sort_order>0</sort_order>
+                    <children>
+                        <curriculum translate="title" module="bs_traininglist">
+                            <title>Approved Curriculum</title>
+                            <action>adminhtml/traininglist_curriculum</action>
+                            <sort_order>10</sort_order>
+
+                        </curriculum>
+                        <newapp translate="title" module="bs_traininglist">
+                            <title>Approving Curriculum</title>
+                            <action>adminhtml/traininglist_curriculum_new/</action>
+                            <sort_order>20</sort_order>
+                        </newapp>
+                        <history translate="title" module="bs_traininglist">
+                            <title>History Curriculum</title>
+                            <action>adminhtml/traininglist_curriculum_history/</action>
+                            <sort_order>30</sort_order>
+                        </history>
+                    </children>
+                </curriculum>
+                <categories translate="title" module="catalog">
+                    <title>Manage Ratings</title>
+                    <action>adminhtml/catalog_category/</action>
+                    <sort_order>65</sort_order>
+                </categories>
+                <curriculum_attributes translate="title" module="bs_traininglist">
+                    <title>Curriculum Attributes</title>
+                    <action>adminhtml/traininglist_curriculum_attribute</action>
+                    <sort_order>100</sort_order>
+                </curriculum_attributes>
+            </children>
+        </bs_traininglist>
+    </menu>
+</config>

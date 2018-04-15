@@ -1,0 +1,572 @@
+POWER PLANT - ENGINE
+
+1.Which condition would be the least likely to be caused by failed or failing engine bearing?
+A. Excessive oil consumption.
+B. High oil temperatures.
+C. Low oil temperatures.[CA]
+
+2. At what point in an axial-flow turbojet engine will the highest gas pressures occur?
+A. At the turbine entrance.
+B. Within the burner section.
+C. At the compressor outlet. [CA]
+
+3.The fan rotational speed of a dual axial compressor forward fan engine is the same as the
+A. low-pressure compressor. [CA]
+B. forward turbine wheel.
+C. high-pressure compressor.
+
+
+4. The abbreviation “P” with subscript t7 used in turbine engine terminology means
+A. the total inlet pressure.
+B. pressure and temperature at station No.7.
+C. the total pressure at station No.7. [CA]
+
+
+5. What turbine engine section provides for proper mixing of the fuel and air?
+A. Combustion section. [CA]
+B. Compressor section.
+C. Diffuser section.
+
+
+6. In a gas turbine engine, combustion occurs at a constant
+A. volume
+B. pressure. [CA]
+C. density.
+
+7. Which statement is true regarding jet engines?
+A. At the lower engine speeds, thrust increases rapidly with small increases in RPM.
+B. At the higher engine speeds, thrust increases rapidly with small increases in RPM. [CA]
+C. The thrust delivered per pound of air consumed is less at high altitude than at low altitude.
+
+
+8. Where is the highest gas pressure in  a turbojet engine?
+A. At the outlet of the tailpipe section.
+B. At the entrance of the turbine section.
+C. In the entrance of the burner section. [CA]
+
+9. What is the function of the stator vane assembly at the discharge end of a typical axial-flow compressor?
+A. To straighten airflow to eliminate turbulence. [CA]
+B. To direct the flow of gases into the combustion chambers.
+C. To increase air swirling motion into the combustion chambers.
+
+
+10.The turbine section of a jet engine
+A. increases air velocity to generate thrust forces.
+B. utilizes heat energy to expand and accelerate the incoming gas flow.
+C. drives the compressor section. [CA]
+
+11.When starting a turbine engine,
+A. a hot start is indicated if the exhaust gas temperature exceeds specified limits. [CA]
+B. an excessively lean mixture is likely to cause a hot start.
+C. release the starter switch as soon as indication of light-off occurs.
+
+
+12.In the dual axial-flow or twin spool compressor system, the first stage turbine dries the
+A. N1 and N2 compressors.
+B. N2 compressor. [CA]
+C. N1 compressor.
+
+
+13. During inspection, turbine engine components exposed to high temperatures may only be marked with such materials as allowed by the manufacturer. These materials generally include 1. layout dye. 2. commercial felt tip marker.3. wax or grease pencil.4. chalk.5. graphite lead pencil.
+A. 1, 2 and 4. [CA]
+B. 1, 3 and 4.
+C. 2, 4 and 5.
+
+
+14.When starting a turbine engine, a hung start is indicated if the engine
+A. exhaust gas temperature exceeds specified limits.
+B. fails to reach idle RPM. [CA]
+C. RPM exceeds specified operating speed
+
+15.What are the two basic elements of the turbine section in a turbine engine?
+A. Impeller and diffuser.
+B. Hot and cold
+C. Stator and rotor. [CA]
+
+
+16. What are the two functional elements in a centrifugal compressor?
+A. Turbine and compressor.
+B. Bucket and expander.
+C. Impeller and diffuser. [CA]
+
+
+17. What is the first engine instrument indication of a successful start of a turbine engine?
+A. A rise in the engine fuel flow.
+B. A rise in oil pressure.
+C. A rise in the exhaust gas temperature. [CA]
+
+
+18. The basic gas turbine engine is divided into two main sections: the cold section and the hot section. (1) The cold section includes the engine inlet, compressor, and turbine sections. (2) The hot section includes the combustor, diffuser, and exhaust sections.
+Regarding the above statements,
+A. only No. 1 in true.
+B. only No. 2 true.
+C. neither No. 1 nor No. 2 is true. [CA]
+
+
+19. Who establishes mandatory replacement times for critical components for turbine engines?
+A. The CAAV.
+B. The operator working in conjunction with the CAAV.
+C. The engine manufacturer. [CA]
+
+20. Main bearing oil seals used with turbine engines air usually what type(s)?
+A. Labyrinth and/or carbon rubbing. [CA]
+B. Teflon and synthetic rubber.
+C. Labyrinth and/or silicone rubber.
+
+
+21. How does a dual axial-flow compressor improve the efficiency of turbojet engine?
+A. More turbine wheels can be used
+B. Higher compression ratios can be obtained [CA]
+C. The velocity of the air entering the combustion chamber is increased
+
+
+
+22. An advantage of the axial-flow compressor is its
+A. low starting power requirements.
+B. low weight.
+C. high peak efficiency. [CA]
+
+
+23. What is one purpose of the stator blades in the compressor section of a turbine engine?
+A. Stabilize the pressure of the airflow.
+B. Control the direction of the airflow. [CA]
+C. Increase the velocity of the airflow.
+
+
+24.Where do stress rupture cracks usually appear on turbine blades?
+A. Across the blade root, parallel to the fir tree.
+B. Along the leading edge, parallel to the edge.
+C. Across the leading or trailing edge at a right angle to the edge length. [CA]
+
+25. When the leading edge of a first-stage turbine blade is found to have stress rupture cracks, which of the following should be suspected?
+A. Faulty cooling shield
+B. Overtemperature condition. [CA]
+C. Overspeed condition.
+
+26.Turbine blades are generally more susceptible to operating damage than compressor blades because of
+A. higher centrifugal loading.
+B. exposure to high temperatures. [CA]
+C. high pressure and high velocity gas flow.
+
+
+27.Which of the following is the ultimate limiting factor of turbine engine operation?
+A. Compressor inlet air temperature.
+B. Turbine inlet temperature. [CA]
+C. Burner-can pressure.
+
+
+28.Which of the following engine variables is the most critical during turbine engine operation?
+A. Compressor inlet air temperature.
+B. Compressor RPM.
+C. Turbine inlet temperature. [CA]
+
+
+29.Which turbine engine compressor offers the greatest advantages for both starting flexibility and improved high-altitude performance?
+A. Dual-stage, centrifugal-flow.
+B. Split-spool, axial-flow. [CA]
+C. Single-spool, axial-flow.
+
+
+30. An advantage of the centrifugal-flow compressor is its high
+A. pressure rise per stage. [CA]
+B. ram efficiency.
+C. peak efficiency.
+
+
+31.Which two elements make up the axial-flow compressor assembly?
+A. Rotor and stator. [CA]
+B. Compressor and manifold
+C. Stator and diffuser.
+
+32.Standard sea level pressure is
+A. 29.00” Hg.
+B. 29.29” Hg.
+C. 29.92” Hg. [CA]
+
+
+
+33. Using standard atmospheric conditions, the standard sea level temperature is
+A. 150C [CA]
+B. 590C
+C. 290C
+
+
+34.When aircraft turbine blades are subjected to excessive heat stress, what type of failures would you expect?
+A. Bending and torsion.
+B. Torsion and tension.
+C. Stress rupture. [CA]
+
+
+35. In an axial-flow compressor, one purpose of the stator vanes at the discharge end of the compressor is to
+A. straighten the airflow and eliminate turbulence. [CA]
+B. increase the velocity and prevent swirling and eddying.
+C. decrease the velocity, prevent swirling, and decrease pressure.
+
+36. Compressor field cleaning on turbine engines is performed primarily in order to
+A. prevent engine oil contamination and subsequent engine bearing wear or damage.
+B. facilitate flight line inspection of engine inlet and compressor areas for defects or FOD
+C. prevent engine performance degradation, increased fuel costs, and damage or corrosion to gas path surfaces. [CA]
+37. Hot section inspections for many modern turbine engines are required
+A. only at engine overhaul.
+B. only when an overtemperature or overspeed has occurred
+C. on a time or cycle basic [CA]
+
+38. In a dual axial-flow compressor, the first stage turbine drives
+A. N2 compressor. [CA]
+B. N1 compressor.
+C. low pressure compressor.
+
+39.What should be done initially if a turbine engine catches fire when starting?
+A. Turn off the fuel and continue engine rotation with the starter. [CA]
+B. Continue engine start rotation and discharge a fire extinguisher into the intake.
+C. Continue starting attempt in order to blow out the fire.
+40. What is the proper starting sequence for a turbojet engine?
+A. Ignition, starter, fuel.
+B. Starter, ignition, fuel. [CA]
+C. Starter, fuel, ignition.
+41. In a turbine engine with a dual-spool compressor, the low speed compressor
+A. always turns at the same speed as the high speed compressor.
+B. is connected directly to the high speed compressor.
+C. seeks its own best operating speed [CA]
+
+
+42. What is the function of the inlet guide vane assembly on an axial-flow compressor?
+A. Directs the air into the first stage rotor blades at the proper angle. [CA]
+B. Converts velocity energy into pressure energy.
+C. Converts pressure energy into velocity energy.
+
+
+43. The stator vanes in an axial-flow compressor
+A. convert velocity energy into pressure energy. [CA]
+B. convert pressure energy into velocity energy.
+C. direct air into the first stage rotor vanes at the proper angle.
+
+44. The velocity of subsonic air as it flows through a convergent nozzle
+A. increases. [CA]
+B. decreases.
+C. remains constant.
+
+45. The velocity of supersonic air as it flows through a divergent nozzle
+A. increases. [CA]
+B. decreases.
+C. is inversely proportional to the temperature.
+
+46. The pressure of subsonic air as flows through a convergent nozzle
+A. increases.
+B. decreases. [CA]
+C. remains constant.
+47. The pressure of supersonic air as it flows through a divergent nozzle
+A. increases.
+B. decreases. [CA]
+C. is inversely proportional to the temperature.
+48. Anti-icing of jet engine air inlets is commonly accomplished by
+A. electrical heating elements inside the inlet guide vanes.
+B. engine bleed air ducted through the critical areas. [CA]
+C. electrical heating elements located within the engine air inlet cowling.
+49. Generally, when starting a turbine engine, the starter should be disengaged
+A. after the engine has reached self-accelerating speed [CA]
+B. only after the engine has reached full idle RPM.
+C. when the ignition and fuel system are activated
+50.What is the primary advantage of an axial-flow compressor over a centrifugal compressor?
+A. High frontal area.
+B. Less expensive.
+C. Greater pressure ratio. [CA]
+51. What is the major function of the turbine assembly in a turbojet engine?
+A. Directs the gages in the proper direction to the tailpipe.
+B. Supplies the power to turn the compressor. [CA]
+C. Increases the temperature of the exhaust gages.
+52. What is the primary factor which controls the pressure ratio of an axial-flow compressor?
+A. Number of stages in compressor. [CA]
+B. Compressor inlet pressure.
+C. Compressor inlet temperature.
+53.The non-rotating axial-flow compressor airfoils in an aircraft gas turbine engine are called
+A. pressurization vanes.
+B. stator vanes. [CA]
+C. bleed vanes.
+
+
+54. The air passing through the combustion chamber of a turbine engine is
+A. used to support combustion and to cool the engine. [CA]
+B. entired combined with fuel and burned
+C. speeded up and heated by the action of the turbines.
+55. The compressor stators in a gas turbine engine act as diffusers to
+A. decrease the velocity of the gas flow. [CA]
+B. increase the velocity of the gas flow.
+C. increase the velocity and decrease the pressure of the gas.
+56. Which of the following may be used to accomplish internal inspection of an assembled turbine engine?1- Infrared photography.2- Ultrasound 3- A borescope.4- Fluorescent penetrant and ultraviolet light.
+A. 1, 2, 3.
+B. 1, 3.
+C. 3. [CA]
+
+
+57.What is the possible cause when a turbine engine indicates no change in power setting parameters, but oil temperature is high?
+A. High scavenge pump oil flow.
+B. Engine main bearing distress. [CA]
+C. Turbine damage and/or loss of turbine efficiency.
+
+58.The compression ratio of an axial-flow compressor is function of the
+A. number of compressor stages. [CA]
+B. rotor diameter.
+C. air inlet velocity.
+
+
+59. Which of the following variables affect the inlet air density of turbine engine? 1. Speed of the aircraft./2. Compression ratio./3. Turbine inlet temperature./4. Altitude of the aircraft./5. Ambient temperature./6. Turbine and compressor efficiency.
+A. 1, 3, 6.
+B. 1, 4, 5. [CA]
+C. 4, 5, 6.
+
+
+60. In a jet engine which uses a fuel-oil heat exchanger, the oil temperature is controlled by a thermostatic valve that regulator the flow of
+A. fuel through the heat exchanger.
+B. both fuel and oil through the heat exchanger.
+C. oil through the heat exchanger. [CA]
+
+
+61. In an axial-flow turbine engine, compressor bleed air is sometimes used to aid in cooling the
+A. fuel.
+B. inlet guide vanes.
+C. turbine, vanes, blades, and bearings. [CA]
+
+
+62. Oil picks up the most heat from which of the following turbine engine components?
+A. Rotor coupling.
+B. Compressor bearing.
+C. Turbine bearing. [CA]
+
+
+63. Which of the following is a function of the fuel-oil heat exchanger on a turbojet engine?
+A. Aerates the fuel.
+B. Emulsifies the oil.
+C. Increases fuel temperature. [CA]
+
+64. What would be the probable result if the oil system pressure relief valve should stick in the open position on a turbine engine?
+A. Increased oil pressure.
+B. Decreased oil temperature.
+C. Insufficient lubrication. [CA]
+65. What is the primary purpose of the oil-to-fuel heat exchanger?
+A. Cool the fuel.
+B. Cool the oil. [CA]
+C. De-aerate the oil.
+66.What unit in an aircraft engine lubrication system is adjusted to maintain the desired system pressure?
+A. Oil pressure relief valve. [CA]
+B. Oil viscosity valve.
+C. Oil pump.
+67. Low oil pressure can be detrimental to the internal engine components. However, high oil pressure
+A. should be limited to the engine manufacture’s recommendations. [CA]
+B. has a negligible effect.
+C. will not occur because of pressure losses around the bearings.
+68. What is the primary purpose of the oil breather pressurization system that is used on turbine engines?
+A. Prevents foaming of the oil.
+B. Allows aeration of the oil for better lubrication because of the air/oil mist.
+C. Provides a proper oil spray pattern from the main bearing oil jets. [CA]
+69. The purpose of directing bleed air to the outer turbine case on some engines is to
+A. provide optimum turbine blade tip clearance by controlling thermal expansion. [CA]
+B. provide up to 100 percent kinetic energy extraction from the flowing gases.
+C. allow operation in a thermal environment 600 to 8000F above the temperature limits of turbine blade and vane alloys.
+70. In order to relive excessive pump pressure in an engine’s internal oil system, most engines are equipped with a
+A. vent.
+B. bypass valve.
+C. relief valve. [CA]
+71. From the following, identity the factor that has the least effect on the oil consumption of a specific engine.
+A. Mechanical efficiency. [CA]
+B. Engine RPM.
+C. Lubricant characteristics.
+
+
+72.Which of the following lubrication system components is never located between the pressure pump and the engine pressure system?
+A. Oil temperature bulb
+B. Fuel line for oil dilution system. [CA]
+C. Check valve.
+73.The basic oil pressure relief valve setting for a newly overhauled engine is made
+A. within the first 30 seconds of engine operation.
+B. when the oil is at a higher than normal temperature.
+C. in the overhaul shop. [CA]
+74. In which of the following situations will the oil cooler automatic bypass valve be open the greatest amount?
+A. Engine oil above normal operating temperature.
+B. Engine oil below normal operating temperature. [CA]
+C. Engine stopped with no oil flowing after run-up.
+75.The vent line connecting the oil supply tank and the engine in some dry sump engine installations permits
+A. pressurization of the oil supply to prevent cavitations of the oil supply pump.
+B. oil vapors from the engine to be condensed and drained into the oil supply tank.
+C. the oil tank to be vented through the normal engine vent. [CA]
+76.An engine lubrication system pressure relief valve is usually located between the
+A. oil cooler and the scavenger pump.
+B. scavenger pump and the external oil system.
+C. pump and the internal oil system. [CA]
+77.The purpose of a relief valve installed in the tank venting system of a turbine engine oil tank is to
+A. prevent oil pump cavitations by maintaining a constant pressure on the oil pump inlet. [CA]
+B. maintain internal tank air pressure at the ambient atmospheric level regardless of altitude or rate of change in altitude.
+C. maintain a positive internal pressure in the oil tank after shutdown to prevent oil pump cavitations on engine start.
+78.An oil tank having a capacity of 5 gallons must have an expansion space of
+A. 2 quarts. [CA]
+B. 4 quarts.
+C. 5 quarts.
+
+79.As a general rule, a small amount of small fuzzy particles or gray metallic paste on a turbine engine magnetic chip detector
+A. is considered to be the result of normal wear. [CA]
+B. indicates an imminent component failure.
+C. indicates accelerated generalized wear.
+80. Why is expansion space required in an engine oil supply tank?
+A. To eliminate oil foaming.
+B. For oil enlargement and collection of foam. [CA]
+C. For proper oil tank ventilation.
+81.Which statement is correct regarding the ignition system of a turbine engine?
+A. The system is normally de-energized as soon as the engine starts. [CA]
+B. It is energized during the starting and warm-up periods only.
+C. The system generally includes a polar inductor-type magneto.
+
+82.Why do turbine engine ignition systems require high energy?
+A. To ignite the fuel under conditions of high altitude and high temperatures.
+B. Because the applied voltage is much greater.
+C. To ignite the fuel under conditions of high altitude and low temperatures. [CA]
+83.The primary advantage of pneumatic (air turbine) starters over comparable electric starters for turbine engines is
+A. a decreased fire hazard
+B. reduction gearing not required
+C. high power-to-weight ratio. [CA]
+84. Inspection of pneumatic starters by maintenance technicians usually includes checking the
+A. oil level and magnetic drain plug condition. [CA]
+B. stator and rotor blades for FOD
+C. rotor alignment.
+85. A safety feature usually employed in pneumatic starters that is used if the clutch does not release from the engine drive at the proper time during start is the
+A. flyweight cutout switch.
+B. spring coupling release.
+C. drive shaft shear point. [CA]
+86.In the event a pneumatic start valve will not operate and the manual override must be used, the starter T-handle must be closed at scheduled starter drop out because
+A. the starter will overheat.
+B. the starter will overspeed at a given N2. [CA]
+C. the starter oil will be blown overboard
+87.What factor is not used in the operation of an aircraft gas turbine engine fuel control unit?
+A. Compressor inlet air temperature.
+B. Mixture control position. [CA]
+C. Power lever position.
+88. A supervisory electronic engine control (EEC) is a system that receives engine operating information and
+A. adjusts a standard hydromechanical fuel control unit to obtain the most effective engine operation. [CA]
+B. develops the commands to various actuators to control engine parameters.
+C. controls engine operation according to ambient temperature, pressure and humidity.
+89.Generally, the practice when trimming an engine is to
+A. turn all accessory bleed air off. [CA]
+B. turn all accessory bleed air on.
+C. make adjustments (as necessary) for all engines on the same aircraft with accessory bleed air settings the same - either on or off.
+90. Boost pumps in a fuel system
+A. operate during takeoff only.
+B. are primarily used for fuel transfer.
+C. provide a positive flow of fuel to the engine pump. [CA]
+91. The fuel pump relief valve directs excess fuel to the
+A. fuel tank return line.
+B. inlet side of the fuel pump. [CA]
+C. inlet side of the fuel strainer.
+92. The primary condition(s) that allow(s) microorganisms to grow in the fuel in aircraft fuel tanks is (are)
+A. warm temperatures  and frequent fueling.
+B. the presence of water. [CA]
+C. the presence of dirt or other particulate contaminants.
+93. Where should the main fuel strainer be located in the aircraft fuel system?
+A. Downstream from the wobble pump check valve.
+B. At the lowest point in the fuel system. [CA]
+C. At any point in the system lower than the carburetor strainer.
+94.Where physical separation of the fuel lines from electrical wiring or conduit is impracticable, locate the fuel line
+A. below the wiring and clamp the line securely to the airframe structure. [CA]
+B. above the wiring  and clamp the line securely to the airframe structure.
+C. inboard of the wiring and clamp both securely to the airframe structure.
+95. What is a characteristic of a centrifugal-type fuel boost pump?
+A. It separates air and vapor from the fuel. [CA]
+B. It has positive displacement.
+C. It requires a relief valve.
+96.Fuel boost pumps are operated
+A. to provide a positive flow of fuel to the engine. [CA]
+B. during takeoff only.
+C. primarily for fuel transfer to another tank.
+97.Fuel pump relief valves designed to compensate for atmospheric pressure variations are known as
+A. compensated-flow valves.
+B. pressurized-relief valves.
+C. balanced-type relief valves. [CA]
+98. Fuel crossfeed systems are used in aircraft to
+A. purge the fuel tanks.
+B. jettison fuel in an emergency.
+C. maintain aircraft stability. [CA]
+99. A fuel pressure relief valve is required on
+A. engine-driven diaphragm-type fuel pumps.
+B. engine-driven vane-type fuel pumps. [CA]
+C. centrifugal fuel boots pumps.
+100. The component(s) in a turbine engine that operate(s) at the highest temperatures is/are the
+A. first stage turbine nozzle guide vanes. [CA]
+B. turbine disks.
+C. exhaust cone.
+101.Which statement is true regarding the air passing through the combustion section of a jet engine?
+A. Most is used for engine cooling. [CA]
+B. Most is used to support combustion.
+C.A small percentage is frequently bled off at this point to be used for air-conditioning and/or other pneumatic powered systems.
+102.Why is high nickel chromium steel used in many exhaust system?
+A. High heat conductivity and flexibility.
+B. Corrosion resistance and low expansion coefficient. [CA]
+C. Corrosion resistance and high heat conductivity.
+103.Repair of exhaust system components
+A. is impossible because the material cannot be identified
+B. must be accomplished by the component manufacturer.
+C. is not recommended to be accomplished in the field [CA]
+104.How are combustion liner walls cooled in a gas turbine engine?
+A. By secondary air flowing through the combustion chamber. [CA]
+B. By the pattern of holes and louvers cut in the diffuser section.
+C. By bleed air vented from the engine air inlet.
+
+105. Most exhaust system failures result from thermal fatigue cracking in the areas of stress concentration. This condition is usually caused by
+A. the drastic temperature change which is encountered at altitude.
+B. improper welding techniques during manufacture.
+C. the high temperatures at which the exhaust system operates. [CA]
+106.Operating thrust reversers at low ground speeds can sometimes cause 1. sand or other foreign object ingestion./2. hot gas re-ingestion./3. compressor stalls.
+A. 1, 2 and 3. [CA]
+B. 1 and 2.
+C. 2 and 3.
+107.Engines using cold stream, or both cold and hot stream reversing include
+A. high bypass turbofans. [CA]
+B. turbojets.
+C. turbojets with afterburner.
+108.Turbojet and turbofan thrust reverser  systems are generally powered by 1- fuel pressure./2- electricity./3- hydraulic pressure./4- pneumatic pressure./
+A. 1,3 and 4.
+B. 2, 3 and 4. [CA]
+C. 1, 2 and 3.
+109.The rearward thrust capability of an engine with the thrust reverser system deployed is
+A. less than its forward capability. [CA]
+B. equal to or less than its forward capability, depending on ambient conditions and system design.
+C. equal to its forward capability.
+
+
+110. Which statement is generally true regarding thrust reverser systems?
+A. It is possible to move some aircraft backward on the ground using reverse thrust. [CA]
+B. Engine thrust reversers on the same aircraft usually will not operate independently of each other (must all be simultaneously).
+C. Mechanical blockage system design permits a deployment position aft of the exhaust nozzle only.
+
+111.What is a function of the automatic propeller synchronizing system on multiengine aircraft?
+A. To control the tip speed of all propellers.
+B. To control engine RPM and reduce vibration. [CA]
+C. To control the power output of all engines.
+
+112.What operational force causes the greatest stress on a propeller?
+A. Aerodynamic twisting force.
+B. Centrifugal force. [CA]
+C. Thrust bending force.
+
+113. What operational force tends to increases propeller blade angle?
+A. Centrifugal twisting force.
+B. Aerodynamic twisting force. [CA]
+C. Thrust bending force.
+
+
+114. How is a propeller controlled in a large aircraft with a turboprop installation?
+A. Independently of the engine.
+B. By varying the engine RPM except for feathering and reversing.
+C. By the engine power lever. [CA]
+
+115. How does the aerodynamic twisting force affect operating propeller blades?
+A. It tends to turn the blades to a high blade angle. [CA]
+B. It tends to bend the blades forward
+C. It tends to turn the blades to a low blade angle.
+
+116. Propellers exposed to salt spray should be flushed with
+A. Stoddard solvent.
+B. fresh water. [CA]
+C. soapy water.
+
+117.How can a steel propeller hub be tested for cracks?
+A. By anodizing.
+B. By magnetic particle inspection. [CA]
+C. By etching.

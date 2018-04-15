@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Bank extension
+ * 
+ * @category       BS
+ * @package        BS_Bank
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_bank_subject_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_bank/subject</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_bank/adminhtml_subject" name="subject" />
+
+        </reference>
+    </adminhtml_bank_subject_index>
+    <adminhtml_bank_subject_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_bank/adminhtml_subject_grid" name="subject_grid"/>
+        </block>
+    </adminhtml_bank_subject_grid>
+    <!-- Subject add/edit action -->
+    <adminhtml_bank_subject_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_bank/subject</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_bank/adminhtml_subject_edit" name="subject_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_bank/adminhtml_subject_edit_tabs" name="subject_tabs"></block>
+        </reference>
+    </adminhtml_bank_subject_edit>
+
+    <adminhtml_bank_question_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_bank/question</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_bank/adminhtml_question" name="question" />
+
+        </reference>
+    </adminhtml_bank_question_index>
+    <adminhtml_bank_question_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_bank/adminhtml_question_grid" name="question_grid"/>
+        </block>
+    </adminhtml_bank_question_grid>
+    <!-- Question add/edit action -->
+    <adminhtml_bank_question_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_bank/question</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_bank/adminhtml_question_edit" name="question_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_bank/adminhtml_question_edit_tabs" name="question_tabs"></block>
+        </reference>
+    </adminhtml_bank_question_edit>
+
+    <adminhtml_bank_answer_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_bank/answer</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_bank/adminhtml_answer" name="answer" />
+
+        </reference>
+    </adminhtml_bank_answer_index>
+    <adminhtml_bank_answer_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_bank/adminhtml_answer_grid" name="answer_grid"/>
+        </block>
+    </adminhtml_bank_answer_grid>
+    <!-- Answer add/edit action -->
+    <adminhtml_bank_answer_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_bank/answer</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_bank/adminhtml_answer_edit" name="answer_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_bank/adminhtml_answer_edit_tabs" name="answer_tabs"></block>
+        </reference>
+    </adminhtml_bank_answer_edit>
+
+</layout>

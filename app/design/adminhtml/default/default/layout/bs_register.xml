@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Register extension
+ * 
+ * @category       BS
+ * @package        BS_Register
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_register_attendance_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_register/attendance</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_register/adminhtml_attendance" name="attendance" />
+
+        </reference>
+    </adminhtml_register_attendance_index>
+    <adminhtml_register_attendance_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_register/adminhtml_attendance_grid" name="attendance_grid"/>
+        </block>
+    </adminhtml_register_attendance_grid>
+    <!-- Attendance add/edit action -->
+    <adminhtml_register_attendance_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_register/attendance</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_register/adminhtml_attendance_edit" name="attendance_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_register/adminhtml_attendance_edit_tabs" name="attendance_tabs"></block>
+        </reference>
+    </adminhtml_register_attendance_edit>
+
+    <adminhtml_register_schedule_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_register/schedule</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_register/adminhtml_schedule" name="schedule" />
+
+        </reference>
+    </adminhtml_register_schedule_index>
+    <adminhtml_register_schedule_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_register/adminhtml_schedule_grid" name="schedule_grid"/>
+        </block>
+    </adminhtml_register_schedule_grid>
+    <!-- Schedule add/edit action -->
+    <adminhtml_register_schedule_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>catalog/bs_register/schedule</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_register/adminhtml_schedule_edit" name="schedule_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_register/adminhtml_schedule_edit_tabs" name="schedule_tabs"></block>
+        </reference>
+    </adminhtml_register_schedule_edit>
+    <adminhtml_register_schedule_catalog_product_schedules>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_register/adminhtml_catalog_product_edit_tab_schedule" name="product.edit.tab.schedule"/>
+            <!--<block type="adminhtml/widget_grid_serializer" name="schedule_grid_serializer">
+                <reference name="schedule_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.schedule</grid_block_name>
+                        <data_callback>getSelectedSchedules</data_callback>
+                        <hidden_input_name>schedules</hidden_input_name>
+                        <reload_param_name>product_schedules</reload_param_name>
+                    </action>
+
+                </reference>
+            </block>-->
+        </block>
+    </adminhtml_register_schedule_catalog_product_schedules>
+    <adminhtml_register_schedule_catalog_product_schedulesgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_register/adminhtml_catalog_product_edit_tab_schedule" name="product.edit.tab.schedule"/>
+        </block>
+    </adminhtml_register_schedule_catalog_product_schedulesgrid>
+
+    <adminhtml_register_schedule_catalog_product_absences>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_register/adminhtml_catalog_product_edit_tab_absence" name="product.edit.tab.absence"/>
+        </block>
+    </adminhtml_register_schedule_catalog_product_absences>
+    <adminhtml_register_schedule_catalog_product_absencesgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_register/adminhtml_catalog_product_edit_tab_absence" name="product.edit.tab.absence"/>
+        </block>
+    </adminhtml_register_schedule_catalog_product_absencesgrid>
+</layout>

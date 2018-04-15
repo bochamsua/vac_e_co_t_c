@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_InstructorApproval extension
+ * 
+ * @category       BS
+ * @package        BS_InstructorApproval
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_instructorapproval translate="title" module="bs_instructorapproval">
+                                        <title>InstructorApproval</title>
+                                    </bs_instructorapproval>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

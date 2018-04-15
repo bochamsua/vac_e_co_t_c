@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Instructor extension
+ * 
+ * @category       BS
+ * @package        BS_Instructor
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_instructor translate="title" module="bs_instructor">
+                                        <title>Instructor</title>
+                                    </bs_instructor>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <bs_instructor translate="title" module="bs_instructor">
+                                <title>Instructor</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <instructor translate="title" module="bs_instructor">
+                                        <title>Instructor List</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </instructor>
+                                    <iapproval translate="title" module="bs_instructorapproval">
+                                        <title>Instructor Approval</title>
+                                        <sort_order>20</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </iapproval>
+                                    <instructorfunction translate="title" module="bs_instructor">
+                                        <title>Instructor Approved Function</title>
+                                        <sort_order>30</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </instructorfunction>
+                                    <info translate="title" module="bs_instructorinfo">
+                                        <title>Instructor Approved Record</title>
+                                        <sort_order>40</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </info>
+                                    <otherinfo translate="title" module="bs_instructorinfo">
+                                        <title>Instructor Other Record</title>
+                                        <sort_order>50</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </otherinfo>
+                                    <instructorcopy translate="title" module="bs_instructorcopy">
+                                        <title>Instructor Copy</title>
+                                        <sort_order>60</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </instructorcopy>
+
+
+                                </children>
+                            </bs_instructor>
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_traininglist>
+            <children>
+                <bs_instructor translate="title" module="bs_instructor">
+                    <title>Instructor</title>
+                    <sort_order>30</sort_order>
+                    <children>
+                        <instructor translate="title" module="bs_instructor">
+                            <title>Instructor List</title>
+                            <action>adminhtml/instructor_instructor</action>
+                            <sort_order>10</sort_order>
+                        </instructor>
+                        <iapproval translate="title" module="bs_instructorapproval">
+                            <title>Instructor Approval</title>
+                            <action>adminhtml/instructorapproval_iapproval</action>
+                            <sort_order>20</sort_order>
+                        </iapproval>
+
+                        <instructorfunction translate="title" module="bs_instructor">
+                            <title>Instructor Approved Function</title>
+                            <action>adminhtml/instructor_instructorfunction</action>
+                            <sort_order>30</sort_order>
+                        </instructorfunction>
+                        <info translate="title" module="bs_instructorinfo">
+                            <title>Instructor Approved Record</title>
+                            <action>adminhtml/instructorinfo_info</action>
+                            <sort_order>40</sort_order>
+                        </info>
+                        <otherinfo translate="title" module="bs_instructorinfo">
+                            <title>Instructor Other Record</title>
+                            <action>adminhtml/instructorinfo_otherinfo</action>
+                            <sort_order>50</sort_order>
+                        </otherinfo>
+                        <instructorcopy translate="title" module="bs_instructorcopy">
+                            <title>Instructor Copy</title>
+                            <action>adminhtml/instructorcopy_instructorcopy/new</action>
+                            <sort_order>60</sort_order>
+                        </instructorcopy>
+                    </children>
+                </bs_instructor>
+                <instructor_attributes translate="title" module="bs_instructor">
+                    <title>Instructor Attributes</title>
+                    <action>adminhtml/instructor_instructor_attribute</action>
+                    <sort_order>110</sort_order>
+                </instructor_attributes>
+            </children>
+        </bs_traininglist>
+
+    </menu>
+</config>

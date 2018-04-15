@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wpProQuiz>
+    <header version="0.37" exportVersion="1"/>
+    <data>
+        <quiz>
+            <title titleHidden="false"><![CDATA[Law]]></title>
+            <text><![CDATA[Law]]></text>
+            <category/>
+            <resultText gradeEnabled="false"><![CDATA[]]></resultText>
+            <btnRestartQuizHidden>false</btnRestartQuizHidden>
+            <btnViewQuestionHidden>false</btnViewQuestionHidden>
+            <questionRandom>false</questionRandom>
+            <answerRandom>false</answerRandom>
+            <timeLimit>0</timeLimit>
+            <showPoints>true</showPoints>
+            <statistic activated="true" ipLock="1440"/>
+            <quizRunOnce type="1" cookie="false" time="0">false</quizRunOnce>
+            <numberedAnswer>true</numberedAnswer>
+            <hideAnswerMessageBox>false</hideAnswerMessageBox>
+            <disabledAnswerMark>false</disabledAnswerMark>
+            <showMaxQuestion showMaxQuestionValue="1" showMaxQuestionPercent="false">false</showMaxQuestion>
+            <toplist activated="false">
+                <toplistDataAddPermissions>1</toplistDataAddPermissions>
+                <toplistDataSort>1</toplistDataSort>
+                <toplistDataAddMultiple>false</toplistDataAddMultiple>
+                <toplistDataAddBlock>1</toplistDataAddBlock>
+                <toplistDataShowLimit>1</toplistDataShowLimit>
+                <toplistDataShowIn>0</toplistDataShowIn>
+                <toplistDataCaptcha>false</toplistDataCaptcha>
+                <toplistDataAddAutomatic>false</toplistDataAddAutomatic>
+            </toplist>
+            <showAverageResult>false</showAverageResult>
+            <prerequisite>false</prerequisite>
+            <showReviewQuestion>true</showReviewQuestion>
+            <quizSummaryHide>false</quizSummaryHide>
+            <skipQuestionDisabled>false</skipQuestionDisabled>
+            <emailNotification>0</emailNotification>
+            <userEmailNotification>false</userEmailNotification>
+            <showCategoryScore>true</showCategoryScore>
+            <hideResultCorrectQuestion>false</hideResultCorrectQuestion>
+            <hideResultQuizTime>false</hideResultQuizTime>
+            <hideResultPoints>false</hideResultPoints>
+            <autostart>false</autostart>
+            <forcingQuestionSolve>false</forcingQuestionSolve>
+            <hideQuestionPositionOverview>false</hideQuestionPositionOverview>
+            <hideQuestionNumbering>false</hideQuestionNumbering>
+            <sortCategories>true</sortCategories>
+            <showCategory>false</showCategory>
+            <quizModus questionsPerPage="0">2</quizModus>
+            <startOnlyRegisteredUser>false</startOnlyRegisteredUser>
+            <adminEmail>
+                <to/>
+                <form/>
+                <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+                <html>false</html>
+                <message><![CDATA[Wp-Pro-Quiz
+
+The user "$username" has completed "$quizname" the quiz.
+
+Points: $points
+Result: $result]]></message>
+            </adminEmail>
+            <userEmail>
+                <to>-1</to>
+                <toUser>false</toUser>
+                <toForm>false</toForm>
+                <form/>
+                <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+                <html>false</html>
+                <message><![CDATA[Wp-Pro-Quiz
+
+You have completed the quiz "$quizname".
+
+Points: $points
+Result: $result]]></message>
+            </userEmail>
+            <forms activated="false" position="0"/>
+            <questions><question answerType="single">
+                    <title><![CDATA[Question: 1]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA["Maintenance" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means any or combination of overhaul, repair, inspections, replacement, modification or defect rectification of an aircraft/aircraft component.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means any or combination of repair, inspections, replacement, modification or defect rectification of an aircraft/aircraft component.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 2]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA["Maintenance data" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means any information necessary to ensure that the aircraft or aircraft component can be maintained in a condition such that airworthiness of the aircraft, or serviceability of operational and emergency equipment as appropriate, is assured:]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means any information necessary to ensure that the aircraft or aircraft component can be maintained in a condition such that airworthiness of the aircraft, or serviceability of operational and emergency equipment as appropriate, is assured]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[are documents such as: AMM, MEL, AFM, SAM, AMS and NDT guidance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 3]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA["Inspection" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means the examination of an aircraft to establish conformity with an approved standard]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means the examination of an aircraft/aircraft component to establish conformity with an approved standard]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means the examination of an aircraft component to establish conformity with an approved standard]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 4]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[" Pre-flight inspection" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means the inspection carried out before flight to ensure that the aircraft is fit for all flights. It does not include defect rectification.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means the inspection carried out before flight to ensure that the aircraft is fit for the intended flight. It includes defect rectification.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means the inspection carried out before flight to ensure that the aircraft is fit for the intended flight. It does not include defect rectification.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 5]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA["Certifying staff" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means those personnel who are authorised by the VAR145 approved maintenance organisation in accordance with a procedure acceptable to the CAAV to certify aircraft or aircraft components for release to service.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means those personnel who are authorised by the approved maintenance organisation in accordance with a procedure established by the AMO to certify aircraft or aircraft components for release to service.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means those personnel who are authorised by an airlines in accordance with a procedure acceptable to the CAAV to certify aircraft or aircraft components for release to service.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 6]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A maintenance organisation may be maintain an aircraft if:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[working under the quality system of an appropriately approved VAR -145 approved maintenance organisation or accepted in accordance with VAR 145.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[such aircraft not used for commercial air transport.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Neither A nor B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 7]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A certificate of release to service must be issued when:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[satisfied that all required maintenance of aircraft carried out by the VAR-145 approved maintenance organisation in accordance with the procedures specified in the VAR 145 approved maintenance organisation exposition.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[aircraft component has been properly carried out by the VAR-145 approved maintenance organisation in accordance with the procedures specified in the VAR 145 approved maintenance organisation exposition.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 8]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[A certificate of release to service must be issued by:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[appropriately authorised staff on behalf of the VAR-145 approved maintenance organisation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the level C certifying staff authorised by VAR-145 AMO.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the accoutable manager of AMO]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 9]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA["Category B1 and B2 support staff" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means those category B1 and B2 staff in the base and line maintenance environment who do not hold necessarily certification privileges.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means those category B1 and B2 staff in the base maintenance environment who do not hold necessarily certification privileges.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means those category B1 and B2 staff in the base maintenance environment who do not hold VAR-66 licence.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 10]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA["Aircraft component" definition:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means means those aircraft or components specified in the particular certification authorisation]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[means any assembly/item/component/part of an aircraft up to and including a complete powerplant and/or any operational/emergency equipment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[means any assembly/item/component/part of an aircraft up to but excluding a complete powerplant and/or any operational/emergency equipment.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 11]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Certifying staff shall produce their certification authorisation to any authorised person:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[within 24 hours]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[immediately]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[within 72 hours]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 12]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum age for certifying staff and category B1 and B2 support staff is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[18 years]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[21 years]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[not required]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 13]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Prior to installation of a component, the organisation shall ensure that:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the particular component is eligible to be fitted when different modification and/or airworthiness directive standards may be applicable.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[standard parts used on an aircraft, engine, propeller or other aircraft component must be specified in the manufacturer's illustrated parts catalogue and/or the maintenance data]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 14]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[When an aircraft is grounded at a location other than the main line station or main maintenance base due to the non-availability of a component with the appropriate release certificate, it is permissible to temporarily fit a component without the appropriate release certificate:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[for a maximum of 30 flight hours or until the aircraft first returns to the main line station or main maintenance base, whichever is the sooner.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[until the aircraft first returns to the main line station or main maintenance base or for maximum of 30 flight hours.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Neither A nor B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 15]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The VAR-145 approved maintenance organisationmust retain a copy of all detailed maintenance records and any associated maintenance data for:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[two years from the date the aircraft or aircraft component to which the work relates was released from the 145 approved maintenance organisation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[three years from the date the aircraft or aircraft component to which the work relates was released from the 145 approved maintenance organisation as required by the Operator.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[according to the Annex 8 to Chicago Convention.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 16]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[If any condition of the aircraft or aircraft component, identified by the VAR-145 approved maintenance organisation that has resulted or may result in an unsafe condition that could seriously hazard the aircraft, the VAR-145 approved maintenance organisation must report to:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the CAAV and the Operator.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the CAAV and organisation responsible for the design of the aircraft or aircraft component.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the CAAV and the manufacture of the aircraft or aircraft component.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 17]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Where the VAR-145 approved maintenance organisation is contracted by an operator to carry out maintenance, the VAR-145 approved maintenance organisation must also report any such condition affecting the operator’s aircraft or aircraft component.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[to the operator]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the CAA of State of Registry in the case of an aircraft, where the state of registration is different to that of Vietnam.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 18]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The VAR-145 approved maintenance organisationmay only carry out the following tasks as permitted by and in accordance with the VAR-145 approved maintenance organisation exposition including:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[maintain any aircraft or aircraft component for which it is contracted by an operator to carry out maintenance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[arrange for maintenance of any aircraft or aircraft component within the limitations for which it is approved at another organisation that is working under the quality system of the 145 approved maintenance organisation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[maintain any aircraft or aircraft component for which it is approved at a location identified as a line maintenance location capable of supporting minor maintenance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 19]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which following changes that the VAR-145 approved maintenance organisation must not notify CAAV:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The name of the organisation]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The list of certifying staff .]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The accountable manager]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 20]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The organisation shall ensure that personnel who carry out and/or control a continued airworthiness non-destructive test of aircraft structures and/or components are appropriately qualified for the particular non-destructive test in accordance with:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the 22TCN 338-05 or equivalent Standard recognised by Authority]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the standards of State of the Operator]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the standards of State of the Oner]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 21]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[For a repetitive pre-flight airworthiness directive which specifically states that the flight crew may carry out such airworthiness directive, the organisation may issue a limited certification authorisation to:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the aircraft commander on the basis of the flight crew licence held]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[any flight crew members on the basis of the flight crew licence held]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[any crew members on the basis of the crew licence held]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 22]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[In the case of aircraft operating away from a supported location the organisation may issue a limited certification authorisation to:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the commander on the basis of the flight crew licence held subject to being satisfied that sufficient practical training has been carried out to ensure that the commander can accomplish the specified task to the required standard]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the the flight engineer on the basis of the flight crew licence held subject to being satisfied that sufficient practical training has been carried out to ensure that the flight engineer can accomplish the specified task to the required standard]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 23]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[In the following unforeseen cases, where an aircraft is grounded at a location other than the main base where no appropriate certifying staff are available, the organisation contracted to provide maintenance support may issue a one-off certification authorisation:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[to one of its employees holding equivalent type authorisations on aircraft of similar technology, construction and systems.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[to any person with not less than three years maintenance experience and holding a valid ICAO aircraft maintenance licence rated for the aircraft type requiring certification provided there is no organisation appropriately approved under this VAR-145 at that location and the contracted organisation obtains and holds on file evidence of the experience and the licence of that person]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Neither A nor B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 24]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[In the following unforeseen cases, where an aircraft is grounded at a location other than the main base where no appropriate certifying staff are available, the organisation contracted to provide maintenance support may issue a one-off certification authorisation:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[to any person with not less than three years maintenance experience and holding a valid ICAO aircraft maintenance licence rated for the aircraft type requiring certification provided there is no organisation appropriately approved under this VAR-145 at that location and the contracted organisation obtains and holds on file evidence of the experience and the licence of that person.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[to any person with not less than five years maintenance experience and holding a valid ICAO aircraft maintenance licence rated for the aircraft type requiring certification provided there is no organisation appropriately approved under this VAR-145 at that location and the contracted organisation obtains and holds on file evidence of the experience and the licence of that person]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Neither A nor B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 25]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which following statements is incorrect:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[No aircraft when used for Commercial Air Transport may fly unless a certificate of release to service has been issued by an organisation for maintenance carried out on the aircraft or an aircraft component intended for fitment to such an aircraft.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[No organisation may certify for release to service an aircraft used for Commercial Air Transport unless either approved in accordance with this VAR-145 or accepted in accordance with the VAR-145 alternative.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[A 145 approval is required for the pre-flight inspection.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 26]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which following statements is incorrect:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[No organisation may certify for release to service an aircraft component intended for fitment to an aircraft used for Commercial Air Transport unless either approved in accordance with this VAR-145 or accepted in accordance with the VAR-145 alternative.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A maintenance organisation approval may be granted for maintenance activity varying from that for an aircraft component to that for a complete aircraft or any combination thereof]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[No organisation may maintain such an aircraft if either appropriately approved in accordance with this VAR-145 or accepted in accordance with the VAR-14 alternative, or working under the quality system of an appropriately approved or accepted VAR-145 maintenance organisation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 27]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The organisation shall:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[appoint an accountable manager who has corporate Authority for ensuring that all maintenance required by the customer can be financed and carried out to the standard required by this VAR-145]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[nominate a person or group of persons, whose responsibilities include ensuring that the organization complies with this VAR-145.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 28]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Who shall have direct access to the accountable manager to ensure that the accountable manager is kept properly informed on quality and compliance matters?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[certifying staff]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[person or group of persons nominated by organisation, whose responsibilities include ensuring that the organization complies with this VAR-145.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[person appointed by the accoutable manager, whose responsibility for monitoring the quality system, including the associated feedback system as required by VAR-145.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 29]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The organisation shall have:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[a maintenance man-hour plan showing that the organisation has sufficient staff to plan, perform, supervise, inspect and quality monitor the organisation in accordance with the approval.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[a procedure to reassess work intended to be carried out when actual staff availability is more than the planned staffing level for any particular work shift or perio]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 30]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which is correct:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The organisation shall establish and control the competence of personnel involved in any maintenance, management and/or quality audits in accordance with a procedure and to a standard agreed by Authority.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[In addition to the necessary expertise related to the job function, competence must include an understanding of the application of human factors and human performance issues appropriate to that person's function in the organisation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 31]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The organisation issuing the one-off authorisation shall report to the CAAV within:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[5 days]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[7 days]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[10 days]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 32]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[This VAR–66 becomes effective on]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[01st May 2000]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[03 Feb 2000]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[03 Feb 1999]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 33]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Certifying staff must not be less than :]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[21 years of age]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[18 years of age]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[17 years of age]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 34]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Certifying staff must be:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[able to read, write and communicate to an understandable level in the language(s) in which the technical documentation and organisation procedures necessary to support the issue of the certificate of release to service are written.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[less than 21 years of age]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 35]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[How many categories prescibed in VAR-66]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[2]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[3]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[4]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 36]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which category of certifying staff authorisation permits the holder to issue certificates of release to service following line maintenance on avionic and electrical systems:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[B1]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[B2]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 37]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which category of certifying staff authorisation permits the holder to issue certificates of release to service following minor scheduled line maintenance and simple defect rectification, as specified in VAR–145, within the limits of tasks specifically endorsed on the authorisation:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[A]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[B1]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[C]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 38]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which category of certifying staff authorisation permits the holder to issue certificates of release to service following line maintenance, including aircraft structure, powerplants and mechanical and electrical systems. Replacement of avionic line replaceable units, requiring simple tests to prove their serviceability, is also included in the privileges.]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[B1]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[B2]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[C]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 39]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which category of certifying staff authorisation permits the holder to issue certificates of release to service following base maintenance. The authorisation is valid for the aircraft in its entirety, including all systems]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[B1]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[B2]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[C]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 40]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum civil aircraft maintenance experience requirement for category A is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[three years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[five years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[two years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 41]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum civil aircraft maintenance experience requirement for category B1 is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[three years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[five years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[seven years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 42]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum civil aircraft maintenance experience for category B2 is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[three years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[five years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[seven years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 43]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum civil aircraft maintenance experience for category C is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[three years involved with a representative cross section of maintenance tasks on aircraft]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[three years on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks if certifying staff qualified by holding an academic degree in a technical discipline from a university or other higher educational institute accepted by the CAAV.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 44]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum civil aircraft maintenance experience for category C is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[three years on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks if certifying staff qualified by holding an academic degree in a technical discipline from a university or other higher educational institute accepted by the CAAV.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[five years qualified as a B1 or B2 certifying staff in line maintenance, or, in base maintenance supporting the category C certifying staff, or, a combination of both.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 45]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The minimum civil aircraft maintenance experience for category C is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[three years on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks if certifying staff qualified by holding an academic degree in a technical discipline from a university or other higher educational institute accepted by the CAAV.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[three years qualified as a B1 or B2 certifying staff in line maintenance, or, in base maintenance supporting the category C certifying staff, or, a combination of both.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 46]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Obtained the VAR–66 aircraft maintenance licence and/or the VAR–145 certification authorisation by falsification of submitted evidence.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Failed to carry out requested maintenance combined with failure to report such fact to the organisation that requested the maintenance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 47]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Failed to carry out required maintenance resulting from own inspection combined with failure to report such fact to the organisation for whom the maintenance was intended to be carried out.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Meet a minimum civil aircraft maintenance experience requirement appropriate to the VAR–66 aircraft maintenance licence sought, which will be reduced by the CAAV when satisfied that either approved training or other appropriate technical training has been received]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 48]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Negligent maintenance.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Falsification of the maintenance record]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 49]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The issue of a certificate of release to service knowing that the maintenance specified on the certificate of release to service has not been carried out or without verifying that such maintenance has been carried out.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[demonstrate by examination a level of knowledge acceptable to the CAAV, in subject modules appropriate to the VAR–66 category for which a VAR–66 aircraft maintenance licence is issued or extended]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[a minimum civil aircraft maintenance experience requirement appropriate to the VAR–66 aircraft maintenance licence sought, which will be reduced by the CAAV when satisfied that either approved training or other appropriate technical training has been received]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 50]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[For all certifying staff, the required recent maintenance experience on aircraft typical of the category/sub-category for which the VAR–66 aircraft maintenance licence is sought must be:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[at least 1 year]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[6 months]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[3 years]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 51]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The CAAV may, on reasonable grounds after due enquiry, revoke, suspend or limit the VAR–66 aircraft maintenance licence or direct the VAR–145 approved maintenance organisation to revoke, suspend or limit the VAR–145 certification authorisation if the holder has knowingly carried out or been involved in one or more of the following activities:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Carrying out maintenance or issuing a certificate of release to service when adversely affected by alcohol or drugs]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[produce their licence if requested by an authorised person within a reasonable time]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Both A and B are correct]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 52]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The number of Annex to Chicago Convention is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[28]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[18]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[22]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 53]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Each earoplane shall be operated in compliance with the term of its Certificate of Airworthiness and within the approved limitation contained in its:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[MPD]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[MEL]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[AMS]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 54]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An Operator shall established a MEL (Minimum Equipment List) approved by the CAAV for:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[all Operator’s own aircrafts]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[each type of aircraft operated under its AOC]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[each aircraft operated under its AOC]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 55]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[An Operator shall not operated an aircraft under its AOC other than in accordance with MEL:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[unless permitted by the CEO of the Operator]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[unless permitted by the Accountable Manager of the Operator.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[unless permitted by the CAAV.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 56]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[According to Chicago Convention, which country is responsible for investigation of an aircraft accident:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the State of occurrence]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the State of Registry]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the State of Operator]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 57]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The mandatory requirement for aircraft register in Vietnam is:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the owner is Vietnamese citizen.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the aircraft has not been registered or has been de-registered]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the aircraft shall be belonged to an AOC holder.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 58]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The Annex to Chicago Cenvention contains Standards and Recommendations on aircraft accident investigation:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Annex 11]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Annex 18]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Annex 13.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 59]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which following Annexes contains requirements concerning Aircraft Maintenance Engineer?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Annex 1]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Annex 11]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Annex 13]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 60]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The VAR-66 licence shall be re-issued not later than:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[60 months]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[36 months]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[24 months]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 61]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which is not correct?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The aircraft maintenance licence alone permit the holder to issue certificates of release to service in respect of aircraft used for commercial air transport.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[To issue a certificate of release to service for such aircraft, the aircraft maintenance licence holder must in addition hold a VAR–145 certification authorisation issued by the VAR–145 approved maintenance organisation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The aircraft maintenance licence alone does not permit the holder to issue certificates of release to service in respect of aircraft used for commercial air transport.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 62]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The International Civil Aviation Organisation (ICAO) establishes:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[standards and recommended international practices for contracting member states.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[aeronautical standards adopted by all states.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[proposals for aeronautical regulations in the form of 18 annexes.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 63]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The second freedom of the air is the:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[right to overfly without landing]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[right to land for a technical stop]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[right to operate a commercial passenger flight with passengers on board between two states.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 64]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[The loading limitations shall include:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[all limiting mass and centres of gravity]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[all limiting mass, centres of gravity position, mass distributions and floor loading]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[all limiting mass, centres of gravity position and floor loading]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 65]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[According to Annex 7, the registration mark shall be letters, numbers or a combination of letters and numbers and shall be that assigned by:]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[the state of registry or common mark registering authority]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the state of registry only]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[the International Civil Aviation Organisation]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 66]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is International Law based on :]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Historic rights of passage.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The ability of the strongest nation to impose its will.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Mutual agreement]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 67]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[Which of the following concerning aviation, applies in areas where international law is applicable :]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[ICAO Law applies]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The law of the state of registry of the aicraft applies.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Law as agreed by the Geneva Convention on Territorial Waters and Contiguous Zones applies.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 68]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[In civil aviation, what does Suzerainty mean :]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Where one state has control over the movement of traffic in the airspace of another.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Where one state applies its law to high seas areas.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Where one state accepts internationally agreed regulation.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 69]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What does the International Air Transport Agreement provide for ?]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Free and unhindered transit of aeroplanes over the high seas.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[The freedom for aeroplanes to over fly the territory of any other state without landing.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[The freedom for aeroplanes registered in one state to land in another state and drop off passengers.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 70]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What is each contracting state of ICAO required to provide :]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[Facilities for SAR operations to be undertaken in its airspace.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Oceanic control facilities in oceanic areas adjacent to territorial airspace.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[Modern radio navigation facilities for aeroplanes transiting its airspace.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question><question answerType="single">
+                    <title><![CDATA[Question: 71]]></title>
+                    <points>1</points>
+                    <questionText><![CDATA[What does the structure of ICAO consists of :]]></questionText>
+                    <correctMsg><![CDATA[]]></correctMsg>
+                    <incorrectMsg><![CDATA[]]></incorrectMsg>
+                    <tipMsg enabled="false"><![CDATA[]]></tipMsg>
+                    <category/>
+                    <correctSameText>false</correctSameText>
+                    <showPointsInBox>false</showPointsInBox>
+                    <answerPointsActivated>false</answerPointsActivated>
+                    <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+                    <disableCorrect>false</disableCorrect>
+                    <answers><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A Council; a Secretariat and committees and commissions.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="true">
+                            <answerText
+                                    html="false"><![CDATA[An Assembly, Council, Secretariat, committees and commissions.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer><answer points="1" correct="false">
+                            <answerText
+                                    html="false"><![CDATA[A ruling council of a small number of permanent states (like the UN Security Council) with committees and commissions reporting to the Council.]]></answerText>
+                            <stortText html="false"><![CDATA[]]></stortText>
+                        </answer></answers>
+                </question></questions>
+        </quiz>
+    </data>
+</wpProQuiz>

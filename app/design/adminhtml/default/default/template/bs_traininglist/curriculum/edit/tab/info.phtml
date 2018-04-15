@@ -1,0 +1,141 @@
+<?php $curriculum = $this->getCurriculum() ?>
+
+<?php
+if($curriculum->getId()){
+    $name = $curriculum->getCName();
+    $code = $curriculum->getCCode();
+    $approvedDate = $curriculum->getCApprovedDate();
+    if($approvedDate != ''){
+        $approvedDate = Mage::getModel('core/date')->timestamp(strtotime($approvedDate));
+        $approvedDate = date('d/m/Y', $approvedDate);
+    }
+
+
+    $docs = $this->getDocs();
+    $approvedPdf = $this->getApprovedPdf();
+    $worksheet = $this->getWorksheets();
+
+    $rating = $this->getRating();
+    $filefolder = $curriculum->getCFilefolder();
+
+
+?>
+<div class="entry-edit product-general-info">
+    <div class="entry-edit-head">
+        <h4 class="icon-head head-edit-form fieldset-legend"><?php echo Mage::helper('catalog')->__('General Information') ?></h4>
+    </div>
+    <fieldset>
+
+        <legend><?php echo Mage::helper('catalog')->__('General Information') ?></legend>
+        <table cellspacing="0" class="form-list" id="table_general">
+
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Curriculum Name') ?></label></td>
+                <td class="value"><?php echo $name ?></td>
+            </tr>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Curriculum Code') ?></label></td>
+                <td class="value"><?php echo $code ?></td>
+            </tr>
+            <?php if($approvedDate != ''){ ?>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Approved Date') ?></label></td>
+                <td class="value"><?php echo $approvedDate ?></td>
+            </tr>
+            <?php } ?>
+            <?php if($approvedPdf){ ?>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Approved PDF') ?></label></td>
+                <td class="value">
+                    <ul>
+                    <?php foreach ($approvedPdf as $item) { ?>
+                        <li><a href="<?php echo $item['url'] ?>" target="_blank"><?php echo $item['name'].' ['.$item['date'].'] - Rev: '.$item['rev'] ?> </a></li>
+
+                        <?php
+                    } ?>
+
+                    </ul>
+                </td>
+            </tr>
+            <?php } ?>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Rating') ?></label></td>
+                <td class="value"><?php echo $rating ?></td>
+            </tr>
+            <?php if(count($worksheet)){ ?>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Worksheet') ?></label></td>
+                <td class="value">
+                    <ul>
+                        <?php
+
+                            $i=1;
+                            foreach ($worksheet as $ws) {
+
+
+                                ?>
+                                <?php if($ws['pdf']){ ?>
+                                    <li><a href="<?php echo $ws['pdf'] ?>" target="_blank"><?php echo $i.'. '.$ws['name'].' [APPROVAL]' ?> </a> </li>
+                                <?php } ?>
+                                <?php if($ws['content']){ ?>
+                                    <li><a href="<?php echo $ws['content'] ?>" target="_blank"><?php echo $i.'. '.$ws['name'].'[CONTENT]' ?> </a> </li>
+                                <?php } ?>
+
+
+                                <?php $i++;
+                            }
+
+                         ?>
+
+                    </ul>
+                </td>
+            </tr>
+            <?php } ?>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Documents') ?></label></td>
+                <td class="value">
+                    <ul>
+                       <?php
+                        if(count($docs)){
+                            $i=1;
+                            foreach ($docs as $doc) {
+                                
+                            
+                       ?>
+                                <li><a href="<?php echo $doc['url'] ?>" target="_blank"><?php echo $i.'. '.$doc['name'] ?> </a> </li>
+
+                        <?php $i++;}
+
+                        } ?>
+                        
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('Instructors') ?></label></td>
+                <td class="value"><?php
+                    $ins = $this->getInstructors();
+                    $j=0;
+                    if(count($ins)){
+                        foreach ($ins as $i) {
+
+                            echo $i['name'];
+                            if($j < count($ins)-1){
+                                echo ', ';
+                            }
+                            $j++;
+                        }
+
+                    }
+                    ?></td>
+            </tr>
+            <tr>
+                <td class="label"><label><?php echo Mage::helper('catalog')->__('File Folder') ?></label></td>
+                <td class="value"><?php echo $filefolder ?></td>
+            </tr>
+
+
+        </table>
+    </fieldset>
+</div>
+<?php } ?>

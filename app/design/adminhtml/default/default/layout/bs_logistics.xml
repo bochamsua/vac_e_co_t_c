@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Logistics extension
+ * 
+ * @category       BS
+ * @package        BS_Logistics
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_logistics_classroom_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/classroom</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_classroom" name="classroom" />
+
+        </reference>
+    </adminhtml_logistics_classroom_index>
+    <adminhtml_logistics_classroom_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_classroom_grid" name="classroom_grid"/>
+        </block>
+    </adminhtml_logistics_classroom_grid>
+    <!-- Classroom add/edit action -->
+    <adminhtml_logistics_classroom_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/classroom</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_classroom_edit" name="classroom_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_classroom_edit_tabs" name="classroom_tabs"></block>
+        </reference>
+    </adminhtml_logistics_classroom_edit>
+
+    <adminhtml_logistics_workshop_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/workshop</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_workshop" name="workshop" />
+
+        </reference>
+    </adminhtml_logistics_workshop_index>
+    <adminhtml_logistics_workshop_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_workshop_grid" name="workshop_grid"/>
+        </block>
+    </adminhtml_logistics_workshop_grid>
+    <!-- Workshop add/edit action -->
+    <adminhtml_logistics_workshop_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/workshop</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_workshop_edit" name="workshop_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_workshop_edit_tabs" name="workshop_tabs"></block>
+        </reference>
+    </adminhtml_logistics_workshop_edit>
+
+    <adminhtml_logistics_otherroom_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/otherroom</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_otherroom" name="otherroom" />
+
+        </reference>
+    </adminhtml_logistics_otherroom_index>
+    <adminhtml_logistics_otherroom_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_otherroom_grid" name="otherroom_grid"/>
+        </block>
+    </adminhtml_logistics_otherroom_grid>
+    <!-- Otherroom add/edit action -->
+    <adminhtml_logistics_otherroom_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/otherroom</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_otherroom_edit" name="otherroom_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_otherroom_edit_tabs" name="otherroom_tabs"></block>
+        </reference>
+    </adminhtml_logistics_otherroom_edit>
+
+    <adminhtml_logistics_equipment_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/equipment</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_equipment" name="equipment" />
+
+        </reference>
+    </adminhtml_logistics_equipment_index>
+    <adminhtml_logistics_equipment_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_equipment_grid" name="equipment_grid"/>
+        </block>
+    </adminhtml_logistics_equipment_grid>
+    <!-- Equipment add/edit action -->
+    <adminhtml_logistics_equipment_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/equipment</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_equipment_edit" name="equipment_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_equipment_edit_tabs" name="equipment_tabs"></block>
+        </reference>
+    </adminhtml_logistics_equipment_edit>
+
+
+    <adminhtml_logistics_filecabinet_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/filecabinet</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_filecabinet" name="filecabinet" />
+
+        </reference>
+    </adminhtml_logistics_filecabinet_index>
+    <adminhtml_logistics_filecabinet_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filecabinet_grid" name="filecabinet_grid"/>
+        </block>
+    </adminhtml_logistics_filecabinet_grid>
+    <!-- Filecabinet add/edit action -->
+    <adminhtml_logistics_filecabinet_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/filecabinet</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_filecabinet_edit" name="filecabinet_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_filecabinet_edit_tabs" name="filecabinet_tabs"></block>
+        </reference>
+    </adminhtml_logistics_filecabinet_edit>
+
+    <adminhtml_logistics_filefolder_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/filefolder</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_filefolder" name="filefolder" />
+
+        </reference>
+    </adminhtml_logistics_filefolder_index>
+    <adminhtml_logistics_filefolder_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_grid" name="filefolder_grid"/>
+        </block>
+    </adminhtml_logistics_filefolder_grid>
+    <!-- Filefolder add/edit action -->
+    <adminhtml_logistics_filefolder_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/filefolder</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_filefolder_edit" name="filefolder_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tabs" name="filefolder_tabs"></block>
+        </reference>
+    </adminhtml_logistics_filefolder_edit>
+
+    <adminhtml_logistics_foldercontent_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/foldercontent</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_foldercontent" name="foldercontent" />
+
+        </reference>
+    </adminhtml_logistics_foldercontent_index>
+    <adminhtml_logistics_foldercontent_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_foldercontent_grid" name="foldercontent_grid"/>
+        </block>
+    </adminhtml_logistics_foldercontent_grid>
+    <!-- Foldercontent add/edit action -->
+    <adminhtml_logistics_foldercontent_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/foldercontent</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_foldercontent_edit" name="foldercontent_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_foldercontent_edit_tabs" name="foldercontent_tabs"></block>
+        </reference>
+    </adminhtml_logistics_foldercontent_edit>
+
+    <adminhtml_logistics_classroom_catalog_product_classrooms>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_catalog_product_edit_tab_classroom" name="product.edit.tab.classroom"/>
+            <block type="adminhtml/widget_grid_serializer" name="classroom_grid_serializer">
+                <reference name="classroom_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.classroom</grid_block_name>
+                        <data_callback>getSelectedClassrooms</data_callback>
+                        <hidden_input_name>classrooms</hidden_input_name>
+                        <reload_param_name>product_classrooms</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_classroom_catalog_product_classrooms>
+    <adminhtml_logistics_classroom_catalog_product_classroomsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_catalog_product_edit_tab_classroom" name="product.edit.tab.classroom"/>
+        </block>
+    </adminhtml_logistics_classroom_catalog_product_classroomsgrid>
+    <adminhtml_logistics_classroom_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_classroom_edit_tab_product" name="classroom.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>classroom.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>classroom_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_classroom_products>
+    <adminhtml_logistics_classroom_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_classroom_edit_tab_product" name="classroom.edit.tab.product"/>
+        </block>
+    </adminhtml_logistics_classroom_productsgrid>
+    <adminhtml_logistics_workshop_catalog_product_workshops>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_catalog_product_edit_tab_workshop" name="product.edit.tab.workshop"/>
+            <block type="adminhtml/widget_grid_serializer" name="workshop_grid_serializer">
+                <reference name="workshop_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.workshop</grid_block_name>
+                        <data_callback>getSelectedWorkshops</data_callback>
+                        <hidden_input_name>workshops</hidden_input_name>
+                        <reload_param_name>product_workshops</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_workshop_catalog_product_workshops>
+    <adminhtml_logistics_workshop_catalog_product_workshopsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_catalog_product_edit_tab_workshop" name="product.edit.tab.workshop"/>
+        </block>
+    </adminhtml_logistics_workshop_catalog_product_workshopsgrid>
+    <adminhtml_logistics_workshop_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_workshop_edit_tab_product" name="workshop.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>workshop.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>workshop_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_workshop_products>
+    <adminhtml_logistics_workshop_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_workshop_edit_tab_product" name="workshop.edit.tab.product"/>
+        </block>
+    </adminhtml_logistics_workshop_productsgrid>
+    <adminhtml_logistics_filefolder_catalog_product_filefolders>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_catalog_product_edit_tab_filefolder" name="product.edit.tab.filefolder"/>
+            <block type="adminhtml/widget_grid_serializer" name="filefolder_grid_serializer">
+                <reference name="filefolder_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>product.edit.tab.filefolder</grid_block_name>
+                        <data_callback>getSelectedFilefolders</data_callback>
+                        <hidden_input_name>filefolders</hidden_input_name>
+                        <reload_param_name>product_filefolders</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_filefolder_catalog_product_filefolders>
+    <adminhtml_logistics_filefolder_catalog_product_filefoldersgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_catalog_product_edit_tab_filefolder" name="product.edit.tab.filefolder"/>
+        </block>
+    </adminhtml_logistics_filefolder_catalog_product_filefoldersgrid>
+    <adminhtml_logistics_filefolder_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tab_product" name="filefolder.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>filefolder.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>filefolder_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_filefolder_products>
+    <adminhtml_logistics_filefolder_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tab_product" name="filefolder.edit.tab.product"/>
+        </block>
+    </adminhtml_logistics_filefolder_productsgrid>
+
+
+    <adminhtml_logistics_filefolder_exams>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tab_exam" name="filefolder.edit.tab.exam"/>
+            <block type="adminhtml/widget_grid_serializer" name="exam_grid_serializer">
+                <reference name="exam_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>filefolder.edit.tab.exam</grid_block_name>
+                        <data_callback>getSelectedExams</data_callback>
+                        <hidden_input_name>exams</hidden_input_name>
+                        <reload_param_name>filefolder_exams</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_logistics_filefolder_exams>
+    <adminhtml_logistics_filefolder_examsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tab_exam" name="filefolder.edit.tab.exam"/>
+        </block>
+    </adminhtml_logistics_filefolder_examsgrid>
+
+
+
+    <adminhtml_logistics_filefolder_foldercontents>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tab_foldercontent" name="filefolder.edit.tab.foldercontent"/>
+        </block>
+    </adminhtml_logistics_filefolder_foldercontents>
+    <adminhtml_logistics_filefolder_foldercontentsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_filefolder_edit_tab_foldercontent" name="filefolder.edit.tab.foldercontent"/>
+        </block>
+    </adminhtml_logistics_filefolder_foldercontentsgrid>
+
+    <adminhtml_logistics_wgroup_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/wgroup</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_wgroup" name="wgroup" />
+
+        </reference>
+    </adminhtml_logistics_wgroup_index>
+    <adminhtml_logistics_wgroup_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_wgroup_grid" name="wgroup_grid"/>
+        </block>
+    </adminhtml_logistics_wgroup_grid>
+    <!-- Wgroup add/edit action -->
+    <adminhtml_logistics_wgroup_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/wgroup</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_wgroup_edit" name="wgroup_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_wgroup_edit_tabs" name="wgroup_tabs"></block>
+        </reference>
+    </adminhtml_logistics_wgroup_edit>
+
+    <adminhtml_logistics_wgroupitem_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/wgroupitem</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_wgroupitem" name="wgroupitem" />
+
+        </reference>
+    </adminhtml_logistics_wgroupitem_index>
+    <adminhtml_logistics_wgroupitem_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_wgroupitem_grid" name="wgroupitem_grid"/>
+        </block>
+    </adminhtml_logistics_wgroupitem_grid>
+    <!-- Wgroupitem add/edit action -->
+    <adminhtml_logistics_wgroupitem_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/wgroupitem</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_wgroupitem_edit" name="wgroupitem_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_wgroupitem_edit_tabs" name="wgroupitem_tabs"></block>
+        </reference>
+    </adminhtml_logistics_wgroupitem_edit>
+
+    <adminhtml_logistics_wtool_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/wtool</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_wtool" name="wtool" />
+
+        </reference>
+    </adminhtml_logistics_wtool_index>
+    <adminhtml_logistics_wtool_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_wtool_grid" name="wtool_grid"/>
+        </block>
+    </adminhtml_logistics_wtool_grid>
+    <!-- Wtool add/edit action -->
+    <adminhtml_logistics_wtool_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/wtool</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_wtool_edit" name="wtool_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_wtool_edit_tabs" name="wtool_tabs"></block>
+        </reference>
+    </adminhtml_logistics_wtool_edit>
+
+    <adminhtml_logistics_grouptype_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/grouptype</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_grouptype" name="grouptype" />
+
+        </reference>
+    </adminhtml_logistics_grouptype_index>
+    <adminhtml_logistics_grouptype_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_logistics/adminhtml_grouptype_grid" name="grouptype_grid"/>
+        </block>
+    </adminhtml_logistics_grouptype_grid>
+    <!-- Grouptype add/edit action -->
+    <adminhtml_logistics_grouptype_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_logistics/grouptype</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_logistics/adminhtml_grouptype_edit" name="grouptype_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_logistics/adminhtml_grouptype_edit_tabs" name="grouptype_tabs"></block>
+        </reference>
+    </adminhtml_logistics_grouptype_edit>
+
+</layout>

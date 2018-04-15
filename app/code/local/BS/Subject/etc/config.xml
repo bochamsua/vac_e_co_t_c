@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Subject extension
+ * 
+ * @category       BS
+ * @package        BS_Subject
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Subject>
+            <version>1.0.6</version>
+        </BS_Subject>
+    </modules>
+    <global>
+        <resources>
+            <bs_subject_setup>
+                <setup>
+                    <module>BS_Subject</module>
+                    <class>BS_Subject_Model_Resource_Setup</class>
+                </setup>
+            </bs_subject_setup>
+        </resources>
+        <blocks>
+            <bs_subject>
+                <class>BS_Subject_Block</class>
+            </bs_subject>
+        </blocks>
+        <helpers>
+            <bs_subject>
+                <class>BS_Subject_Helper</class>
+            </bs_subject>
+        </helpers>
+        <models>
+            <bs_subject>
+                <class>BS_Subject_Model</class>
+                <resourceModel>bs_subject_resource</resourceModel>
+            </bs_subject>
+            <bs_subject_resource>
+                <class>BS_Subject_Model_Resource</class>
+                <entities>
+                    <subject>
+                        <table>bs_subject_subject</table>
+                    </subject>
+                    <subjectcontent>
+                        <table>bs_subject_subjectcontent</table>
+                    </subjectcontent>
+                </entities>
+            </bs_subject_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_subject>
+                    <file>bs_subject.xml</file>
+                </bs_subject>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Subject>
+                    <files>
+                        <default>BS_Subject.csv</default>
+                    </files>
+                </BS_Subject>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <subject>
+                <class>bs_subject/adminhtml_search_subject</class>
+                <acl>bs_subject</acl>
+            </subject>
+
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Subject before="Mage_Adminhtml">BS_Subject_Adminhtml</BS_Subject>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Logistics extension
+ * 
+ * @category       BS
+ * @package        BS_Logistics
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_logistics translate="title" module="bs_logistics">
+                                        <title>Facility</title>
+                                    </bs_logistics>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_logistics translate="title" module="bs_logistics">
+                        <title>Facility</title>
+                        <sort_order>50</sort_order>
+                        <children>
+                            <classroom translate="title" module="bs_logistics">
+                                <title>Classroom/Examroom</title>
+                                <sort_order>0</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </classroom>
+                            <workshop translate="title" module="bs_logistics">
+                                <title>Workshop</title>
+                                <sort_order>10</sort_order>
+                                <children>
+                                    <workshop translate="title" module="bs_logistics">
+                                        <title>Workshop</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </workshop>
+                                    <!--<wgroup translate="title" module="bs_logistics">
+                                        <title>Group</title>
+                                        <sort_order>70</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </wgroup>-->
+                                    <wgroupitem translate="title" module="bs_logistics">
+                                        <title>Equipment</title>
+                                        <sort_order>80</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </wgroupitem>
+                                    <wtool translate="title" module="bs_logistics">
+                                        <title>Tool</title>
+                                        <sort_order>90</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </wtool>
+                                    <grouptype translate="title" module="bs_logistics">
+                                        <title>Type</title>
+                                        <sort_order>100</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </grouptype>
+
+
+                                </children>
+                            </workshop>
+                            <otherroom translate="title" module="bs_logistics">
+                                <title>Other Room</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </otherroom>
+                            <equipment translate="title" module="bs_logistics">
+                                <title>Equipment</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </equipment>
+
+                            <filecabinet translate="title" module="bs_logistics">
+                                <title>File Cabinet</title>
+                                <sort_order>40</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </filecabinet>
+                            <filefolder translate="title" module="bs_logistics">
+                                <title>File Folder</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </filefolder>
+                            <foldercontent translate="title" module="bs_logistics">
+                                <title>Folder Content</title>
+                                <sort_order>60</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </foldercontent>
+
+
+                        </children>
+                    </bs_logistics>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_logistics translate="title" module="bs_logistics">
+            <title>Facility</title>
+            <sort_order>25</sort_order>
+            <children>
+                <classroom translate="title" module="bs_logistics">
+                    <title>Classroom/Examroom</title>
+                    <action>adminhtml/logistics_classroom</action>
+                    <sort_order>0</sort_order>
+                </classroom>
+                <workshop translate="title" module="bs_logistics">
+                    <title>Workshop</title>
+                    <action>adminhtml/logistics_workshop</action>
+                    <sort_order>10</sort_order>
+                    <children>
+                        <workshop translate="title" module="bs_logistics">
+                            <title>Workshop</title>
+                            <action>adminhtml/logistics_workshop</action>
+                            <sort_order>10</sort_order>
+                        </workshop>
+                        <!--<wgroup translate="title" module="bs_logistics">
+                            <title>Group</title>
+                            <action>adminhtml/logistics_wgroup</action>
+                            <sort_order>70</sort_order>
+                        </wgroup>-->
+                        <wgroupitem translate="title" module="bs_logistics">
+                            <title>Equipment</title>
+                            <action>adminhtml/logistics_wgroupitem</action>
+                            <sort_order>80</sort_order>
+                        </wgroupitem>
+                        <wtool translate="title" module="bs_logistics">
+                            <title>Tools</title>
+                            <action>adminhtml/logistics_wtool</action>
+                            <sort_order>90</sort_order>
+                        </wtool>
+                        <grouptype translate="title" module="bs_logistics">
+                            <title>Type</title>
+                            <action>adminhtml/logistics_grouptype</action>
+                            <sort_order>100</sort_order>
+                        </grouptype>
+
+                    </children>
+                </workshop>
+                <otherroom translate="title" module="bs_logistics">
+                    <title>Other Room</title>
+                    <action>adminhtml/logistics_otherroom</action>
+                    <sort_order>20</sort_order>
+                </otherroom>
+                <equipment translate="title" module="bs_logistics">
+                    <title>Equipment</title>
+                    <action>adminhtml/logistics_equipment</action>
+                    <sort_order>30</sort_order>
+                </equipment>
+
+                <filecabinet translate="title" module="bs_logistics">
+                    <title>File Cabinet</title>
+                    <action>adminhtml/logistics_filecabinet</action>
+                    <sort_order>40</sort_order>
+                </filecabinet>
+                <filefolder translate="title" module="bs_logistics">
+                    <title>File Folder</title>
+                    <action>adminhtml/logistics_filefolder</action>
+                    <sort_order>50</sort_order>
+                </filefolder>
+                <foldercontent translate="title" module="bs_logistics">
+                    <title>Folder Content</title>
+                    <action>adminhtml/logistics_foldercontent</action>
+                    <sort_order>60</sort_order>
+                </foldercontent>
+
+            </children>
+        </bs_logistics>
+    </menu>
+</config>

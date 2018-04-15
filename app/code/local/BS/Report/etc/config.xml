@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Report extension
+ * 
+ * @category       BS
+ * @package        BS_Report
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Report>
+            <version>1.0.6</version>
+        </BS_Report>
+    </modules>
+    <global>
+        <resources>
+            <bs_report_setup>
+                <setup>
+                    <module>BS_Report</module>
+                    <class>BS_Report_Model_Resource_Setup</class>
+                </setup>
+            </bs_report_setup>
+        </resources>
+        <blocks>
+            <bs_report>
+                <class>BS_Report_Block</class>
+            </bs_report>
+        </blocks>
+        <helpers>
+            <bs_report>
+                <class>BS_Report_Helper</class>
+            </bs_report>
+        </helpers>
+        <models>
+            <bs_report>
+                <class>BS_Report_Model</class>
+                <resourceModel>bs_report_resource</resourceModel>
+            </bs_report>
+            <bs_report_resource>
+                <class>BS_Report_Model_Resource</class>
+                <entities>
+                    <report>
+                        <table>bs_report_report</table>
+                    </report>
+                    <tctask>
+                        <table>bs_report_tctask</table>
+                    </tctask>
+                </entities>
+            </bs_report_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_report>
+                    <file>bs_report.xml</file>
+                </bs_report>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Report>
+                    <files>
+                        <default>BS_Report.csv</default>
+                    </files>
+                </BS_Report>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <tctask>
+                <class>bs_report/adminhtml_search_tctask</class>
+                <acl>bs_report</acl>
+            </tctask>
+        </global_search>-->
+
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Report before="Mage_Adminhtml">BS_Report_Adminhtml</BS_Report>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

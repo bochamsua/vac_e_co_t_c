@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Staff extension
+ * 
+ * @category       BS
+ * @package        BS_Staff
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Staff>
+            <version>1.0.0</version>
+        </BS_Staff>
+    </modules>
+    <global>
+        <resources>
+            <bs_staff_setup>
+                <setup>
+                    <module>BS_Staff</module>
+                    <class>BS_Staff_Model_Resource_Setup</class>
+                </setup>
+            </bs_staff_setup>
+        </resources>
+        <blocks>
+            <bs_staff>
+                <class>BS_Staff_Block</class>
+            </bs_staff>
+        </blocks>
+        <helpers>
+            <bs_staff>
+                <class>BS_Staff_Helper</class>
+            </bs_staff>
+        </helpers>
+        <models>
+            <bs_staff>
+                <class>BS_Staff_Model</class>
+                <resourceModel>bs_staff_resource</resourceModel>
+            </bs_staff>
+            <bs_staff_resource>
+                <class>BS_Staff_Model_Resource</class>
+                <entities>
+                    <staff>
+                        <table>bs_staff_staff</table>
+                    </staff>
+                </entities>
+            </bs_staff_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_staff>
+                    <file>bs_staff.xml</file>
+                </bs_staff>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Staff>
+                    <files>
+                        <default>BS_Staff.csv</default>
+                    </files>
+                </BS_Staff>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Staff before="Mage_Adminhtml">BS_Staff_Adminhtml</BS_Staff>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

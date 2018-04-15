@@ -1,0 +1,606 @@
+1.	The number of Annex to Chicago Convention is:
+A. 28
+B. 18[CA]
+C. 22
+2.	According to Chicago Convention, which country is responsible for investigation of an aircraft accident:
+A. the State of occurrence. [CA]
+B. the State of Registry.
+C. the State of Operator.
+3.	 The mandatory requirement for aircraft register in Vietnam is:
+A. the owner is Vietnamese citizen.
+B. the aircraft has not been registered or has been de-registered [CA]
+C. the aircraft shall be belonged to an AOC holder.
+4.	 The Annex to Chicago Cenvention contains Standards and Recommendations on  aircraft accident investigation:
+A. Annex 11
+B. Annex 18
+C. Annex 13 [CA]
+5.	 Which following Annexes contains requirements concerning Aircraft Maintenance Engineer?
+A. Annex 1 [CA]
+B. Annex 11
+C. Annex 13
+6.	 The International Civil Aviation Organisation (ICAO) establishes:
+A. standards and recommended international practices for contracting member states. [CA]
+B. aeronautical standards adopted by all states.
+C. proposals for aeronautical regulations in the form of 18 annexes.
+
+7.	 The second freedom of the air is the:
+A. right to overfly without landing.
+B. right to land for a technical stop. [CA]
+C. right to operate a commercial passenger flight with passengers on board between two states.
+
+8.	 The loading limitations shall include:
+A. all limiting mass and centres of gravity.
+B. all limiting mass, centres of gravity position, mass distributions and floor loading. [CA]
+C. all limiting mass, centres of gravity position and floor loading.
+
+9.	 According to Annex 7, the registration mark shall be letters, numbers or a combination of letters and numbers and shall be that assigned by:
+A. the state of registry or common mark registering authority. [CA]
+B. the state of registry only.
+C. the International Civil Aviation Organisation.
+
+10.	 What is International Law based on :
+A. Historic rights of passage.
+B. The ability of the strongest nation to impose its will.
+C. Mutual agreement. [CA]
+
+11.	 Which of the following concerning aviation, applies in areas where international law is applicable :
+A. ICAO Law applies.
+B. The law of the state of registry of the aicraft applies. [CA]
+C. Law as agreed by the Geneva Convention on Territorial Waters and Contiguous Zones applies.
+
+12.	  In civil aviation, what does Suzerainty mean :
+A. Where one state has control over the movement of traffic in the airspace of another.
+B. Where one state applies its law to high seas areas.
+C. Where one state accepts internationally agreed regulation. [CA]
+
+13.	 What does the International Air Transport Agreement provide for?
+A. Free and unhindered transit of aeroplanes over the high seas.
+B. The freedom for aeroplanes to over fly the territory of any other state without landing.
+C. The freedom for aeroplanes registered in one state to land in another state and drop off passengers. [CA]
+
+14.	 What is each contracting state of ICAO required to provide :
+A. Facilities for SAR operations to be undertaken in its airspace. [CA]
+B. Oceanic control facilities in oceanic areas adjacent to territorial airspace.
+C. Modern radio navigation facilities for aeroplanes transiting its airspace.
+
+15.	 What does the structure of ICAO consists of :
+A. A Council; a Secretariat and committees and commissions.
+B. An Assembly, Council, Secretariat, committees and commissions.
+C. A ruling council of a small number of permanent states (like the UN Security Council) with committees and commissions reporting to the Council.
+16.	An Airworthiness Certificate issued by the CAAV is effective for:
+A. 06 months.
+B. 12 months.
+C. 06 months for first issue and 12 months for reissue.
+17.	An identification plate required of each aircraft registered under the laws of Vietnam contains following informations:
+A. The aircraft type, model and serial number
+B. The nationality and registration mark[CA]
+C. All A and B
+
+18.	What’s the decision height for CAT I precision instrument approach and landing in accordance with VARs ?
+A. Lower than 60 m (200 ft), but not lower than 30 m (100 ft).
+B. Lower than 30 m (100 ft).
+C. Not lower than 60 m (200 ft). [CA]
+
+19.	What’s the decision height for CAT II precision instrument approach and landing in accordance with VARs ?
+A. Lower than 60 m (200 ft), but not lower than 30 m (100 ft). [CA]
+B. Lower than 30 m (100 ft).
+C. Not lower than 60 m (200 ft).
+
+20.	What’s the decision height and runway visual range for CAT IIIC precision instrument approach and landing in accordance with VARs ?
+A. Lower than 60 m (200 ft), but not lower than 30 m (100 ft).
+B. Lower than 30 m (100 ft).
+C. No decision height and no runway visual range limitations. [CA]
+
+21.	Which following statement is incorrect ?
+A. Reduced Vertical Separation Minimum (RVSM) is the reduction of the standard vertical separation required between aircraft flying above FL280 and up to FL410 from 2,000 feet to 1,000 feet.
+B. Reduced Vertical Separation Minimum (RVSM) is the reduction of the standard vertical separation required between aircraft flying above FL290 and up to FL410 from 2,000 feet to 1,000 feet. [CA]
+C. Reduced Vertical Separation Minimum (RVSM) is the reduction of the standard vertical separation required between aircraft flying above FL290 and up to FL410 from 3,000 feet to 2,000 feet.
+
+22.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for the registration and marking of civil aircraft ?
+A. Part 1
+B. Part 2 [CA]
+C. Part 3
+
+23.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for Issuance of approvals to organizations for the maintenance, preventive maintenance of aircraft and aircraft components ?
+A. Part 3
+B. Part 4
+C. Part 5 [CA]
+
+24.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for reporting and investigation of aircraft incidents and accidents ?
+A. Part 18
+B. Part 19 [CA]
+C. Part 20
+
+25.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for issuance of airman licences ?
+A. Part 5
+B. Part 6
+C. Part 7 [CA]
+
+26.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for the transport of dangerous goods by air ?
+A. Part 18 [CA]
+B. Part 19
+C. Part 20
+
+27.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for qualification and currency of operations personnel to be able to serve in commercial air transport or to be used by the holder of an Air Operator Certificate issued by the CAAV ?
+A. Part 13
+B. Part 14 [CA]
+C. Part 15
+
+28.	Which part of Vietnam Aviation Regulations (VARs) prescribes the requirements of Vietnam for the maximum duty periods, maximum flight time and minimum rest periods to ensure that flight crew and cabin crew members do not experience fatigue during AOC-related duties ?
+A. Part 15 [CA]
+B. Part 16
+C. Part 17
+
+29.	“Aircraft” definition:
+A.  Any machine that can derive support in the atmosphere from the reactions of the air, which includes airplane, helicopter, glider, balloon, and/or other flying apparatus, other than from the reactions of the air against the earth’s surface. [CA]
+B. Any machine that can derive support in the atmosphere from the reactions of the
+air, which includes airplane, helicopter, glider, balloon.
+C. Aircraft includes airplane, helicopter, glider, balloon, and/or other flying apparatus,
+
+30.	Large aeroplane is an aeroplane of a maximum certificated take-off mass of over:
+A.  5 700 kg. [CA]
+B. 2730 kg.
+C. 7500 kg.
+
+31.	Large helicopter is a helicopter with a maximum certifcated take-off mas of over:
+A. 5700 kg.
+B. 2730 kg. [CA]
+C. 7500 kg.
+
+VARs Part 7
+
+32.	 The AMT licence shall be re-issued not later than:
+A. 60 months. [CA]
+B. 36 months.
+C. 24 months.
+
+33.	 Vietnam aviation regulations (VARs) becomes effective on:
+A.	27th Jan 2011
+B.	27th Jan 2012 [CA]
+C.	27th Feb 2011
+
+34.	 VARs Part 7 prescribes the requirements of Vietnam for:
+A.	issuance of airman licences, and ratings to those licenses.
+B.	the requirements for testing and validating licences, ratings.
+C.	All of above. [CA]
+
+35.	 The CAAV may issue the following category ratings for aircraft maintenance technicians:
+A.  Airframe. [CA]
+B. Instrument.
+C. Avionics.
+
+36.	 The CAAV may issue the following category ratings for aircraft maintenance technicians:
+A. Accessories.
+B. Avionics.
+C. Powerplant. [CA]
+
+37.	 The CAAV may issue the following type ratings for aviation maintenance technicians:
+A. Aircraft type ratings for aircraft with a takeoff gross weight of more than 5700 kg.
+B. Powerplant type ratings for powerplants on aircraft with a takeoff gross weight of more than 5700 kg.
+C. All of above. [CA]
+
+38.	 The CAAV may issue the following category ratings for aviation repair specialists:
+A.  Powerplant.
+B.  Airframe.
+C. Instrument. [CA]
+
+39.	 The CAAV may issue the following category ratings for aviation repair specialists:
+A. Instrument.
+B. Experimental Aircraft Builder.
+C. All of above. [CA]
+
+40.	 The CAAV may issue the following category ratings for aviation repair specialists:
+A. Instrument. [CA]
+B. Powerplant.
+C. All of above.
+
+41.	  An aviation repair specialist (ARS) licence issued on the basis of employment :
+A. expires 2 calendar years from the day in which it is issued
+B. expires 5 calendar years from the day in which it is issued
+C. is effective until ARS is relieved from the duties for which the holder was employed[CA]
+
+42.	 An aircraft maintenance technicians (AMT) licence:
+A. expires 2 calendar years from the day in which it is issued
+B. expires 5 calendar years from the day in which it is issued [CA]
+C. is effective until AMT is relieved from the duties for which the holder was employed
+
+43.	 How many categories prescibed in Part 7 VARs:
+A. 2
+B. 3
+C. 4 [CA]
+
+44.	 An applicant for an AMT licence must not be less than :
+A. 21 years of age.
+B. 18 years of age. [CA]
+C. 17 years of age.
+
+45.	 An applicant for an AMT licence must be:
+A. able to read, write, speak, and understand the English language by reading and explaining appropriate maintenance publications and by writing defect and repair statements.
+B. be at least 18 years of age.
+C. comply with the knowledge, experience, and competency requirements prescribed for the rating sought.
+D. All of above. [CA]
+
+46.	 An applicant for an AMT licence must be:
+A. comply with the knowledge and competency requirements prescribed for the rating sought.
+B. comply with the knowledge, experience, and competency requirements.
+C. comply with the knowledge, experience, and competency requirements prescribed for the rating sought. [CA]
+
+47.	 Which category of AMT licence permits the holder to issue certificates of release to service following line maintenance on avionic and electrical systems:
+A. A
+B. B1
+C. B2 [CA]
+
+48.	 Which category of AMT licence permits the holder to issue certificates of release to service following minor scheduled line maintenance and simple defect rectification within the limits of tasks specifically endorsed on the authorisation.:
+A. A [CA]
+B. B1
+C. C
+
+49.	 Which category of AMT licence permits the holder to issue certificates of release to service following line maintenance, including aircraft structure, powerplants and mechanical and electrical systems.
+A. B1 [CA]
+B. B2
+C. C
+
+50.	 Which category of AMT licence permits the holder to issue certificates of release to replace of avionic line replaceable units, requiring simple tests to prove their serviceability:
+A. B1
+B. B2
+C. B1 and B2 [CA]
+
+51.	 Which category of AMT license permits the holder to issue certificates of release to service following base maintenance:
+A. B1
+B. B2
+C. C [CA]
+
+52.	 The certification privileges shall be restricted to work that the licence holder has personally performed in the organisation approved in accordance with:
+A. VARs Part 5 [CA]
+B. VARs Part 7
+C. All of above.
+
+53.	 Which category of AMT license shall automatically include the appropriate A subcategory:
+A. B2.
+B. B1 [CA]
+C. All of above.
+
+54.	 The holder of an AMT licence may not exercise certification privileges unless:
+A. in compliance with the applicable requirements of VARs Part 5.
+B. in the preceding two-year period he/she has, either had six months of maintenance experience in accordance with the privileges granted by the aircraft maintenance licence or, met the provision for the issue of the appropriate privileges.
+C. All of above. [CA]
+
+55.	 The holder of an AMT licence may not exercise certification privileges unless in the preceding two-year period he/she had:
+A. 06 months of maintenance experience in accordance with the privileges granted by the aircraft maintenance licence. [CA]
+A. 12 months of maintenance experience in accordance with the privileges granted by the aircraft maintenance licence.
+C. All of above.
+
+56.	The holder of an AMT licence may not exercise certification privileges unless in the preceding two-year period he/she has:
+A. had six months of maintenance experience in accordance with the privileges granted by the aircraft maintenance licence.
+B. met the provision for the issue of the appropriate privileges.
+C. A or B [CA]
+
+57.	 Regarding AMT  experience requirements, each applicant for an AMT licence or rating shall present:
+A.  An appropriate graduation certificate or a certificate of completion from an ATO;
+B.  Acceptable documentary evidence of practical experience for the period of time and types of work prescribed by the Aeronautical Authority appropriate to the rating(s) sought.
+C. A or B [CA]
+
+58.	 The minimum practical maintenance experience requirement for category A of AMT license is:
+A. one years of practical maintenance experience on operating aircraft, if the applicant has no previous relevant technical training.
+B. three years of practical maintenance experience on operating aircraft, if the applicant has no previous relevant technical training. [CA]
+C. two years of practical maintenance experience on operating aircraft, if the applicant has no previous relevant technical training.
+
+59.	 The minimum practical maintenance experience requirement for category A of AMT license is:
+A. one years of practical maintenance experience on operating aircraft and completion of training considered relevant by CAAV as a skilled worker, in a technical trade.
+B. two years of practical maintenance experience on operating aircraft and completion of training considered relevant by CAAV as a skilled worker, in a technical trade. [CA]
+C. three years of practical maintenance experience on operating aircraft and completion of training considered relevant by CAAV as a skilled worker, in a technical trade.
+
+60.	 The minimum practical maintenance experience requirement for category A of AMT license is:
+A.three year of practical maintenance experience on operating aircraft and completion of a VARs Part 9 approved basic training course.
+B. two year of practical maintenance experience on operating aircraft and completion of a VARs Part 9 approved basic training course.
+C. one year of practical maintenance experience on operating aircraft and completion of a VARs Part 9 approved basic training course.  [CA]
+
+61.	 The minimum practical maintenance experience requirement for category B1 and B2 of AMT license is:
+A. five years of practical maintenance experience on operating aircraft if the applicant has no previous relevant technical training. [CA]
+B. two years of practical maintenance experience on operating aircraft if the applicant has no previous relevant technical training.
+C. three years of practical maintenance experience on operating aircraft if the applicant has no previous relevant technical training.
+
+62.	 The minimum practical maintenance experience requirement for category B1 and B2 of AMT license is:
+A. two years of practical maintenance experience on operating aircraft and completion of training considered relevant by the CAAV as a skilled worker, in a technical trade;
+A. five years of practical maintenance experience on operating aircraft and completion of training considered relevant by the CAAV as a skilled worker, in a technical trade;
+A. three years of practical maintenance experience on operating aircraft and completion of training considered relevant by the CAAV as a skilled worker, in a technical trade; [CA]
+
+63.	 The minimum practical maintenance experience requirement for category B1 and B2 of AMT license is:
+A. three years of practical maintenance experience on operating aircraft and completion of a Part 9 approved basic training course.
+B. two years of practical maintenance experience on operating aircraft and completion of a Part 9 approved basic training course. [CA]
+C. five years of practical maintenance experience on operating aircraft and completion of a Part 9 approved basic training course.
+
+64.	 The minimum experience requirement for category C of AMT license (for large aircraft with turbine engines) is:
+A. three years of experience exercising category B1 or B2 privileges on large aircraft.
+B. three years as Part 5 B1 or B2 support staff.
+C. A or B [CA]
+
+65.	 The minimum civil aircraft maintenance experience requirement for category C obtained through the academic route is:
+A. three years of experience working in a civil aircraft maintenance environment on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks. [CA]
+B. three years of experience exercising category B1 or B2 privileges on large aircraft.
+C. three years as Part 5 B1 or B2 support staff.
+
+66.	 The minimum civil aircraft maintenance experience for category C is:
+A. three years involved with a representative cross section of maintenance tasks on aircraft.
+B. three years of experience working in a civil aircraft maintenance environment on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks. [CA]
+C. Both A and B are correct
+
+67.	 The minimum civil aircraft maintenance experience for category C is:
+A. three years of experience working in a civil aircraft maintenance environment on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks. [CA]
+B. five years qualified  as a B1 or B2 certifying staff in line maintenance, or, in base maintenance supporting the category C certifying staff, or, a combination of both.
+C. Both A and B are correct.
+
+68.	 The minimum civil aircraft maintenance experience for category C is:
+A. three years of experience working in a civil aircraft maintenance environment on a representative selection of tasks directly associated with aircraft maintenance including six months of observation of base maintenance tasks.
+B. three years of experience exercising category B1 or B2 privileges on large aircraft (with turbine engines) or as VARs Part 5 B1 or B2 support staff.
+C. Both A and B are correct. [CA]
+
+69.	AMT-IA means:
+A. Aviation Maintenance Technicians – Inspection Authorisation. [CA]
+B. Aviation Maintenance Technicians – Inspection Authority.
+C. Aviation Maintenance Technicians – Inspector Authorisation.
+
+70.	Inspection authorisation for AMT expires:
+A. 24 calendar months. [CA]
+B. 12 calendar months.
+C. 06 calendar months.
+
+71.	AMT can be employed and nominated for the IA by an:
+A. AOC
+B. AMO.
+C. A or B [CA]
+
+72.	Which of the following are the sub-sections of a AMT in category A?.
+A. Aeroplanes - Piston, helicopters  Piston, Aeroplanes -Turbine and Helicopters  Turbine. [CA]
+B. Aeroplanes - Piston and helicopters  Piston.
+C. Aeroplanes - Turbine and helicopters  Turbine.
+
+73.	AMT experience requirements may be reduced with.
+A. aircraft production experience.
+B. completion of training at a VAR part 9 approved school	[CA]
+C. completion of a university engineering degree.
+
+74.	An VARs Part 7 B1.1 engineer can certify.
+A.aircraft - turbine engined	[CA]
+B.	aircraft -both turbine and piston engined
+C.	aircraft - piston engined
+
+
+75.	An VARs Part 7 B1.3 engineer can certify.
+A. helicopters - both turbine and piston engined
+B. helicopters - piston engined
+C. helicopters - turbine engined [CA]
+
+
+VARs Part 5
+
+76.	An AMO certificate issued by the CAAV is effective for:
+A. 06 months.
+B. 12 months. [CA]
+C. 06 months for first issue and 12 months for reissue.
+
+77.	An airframe rating with Class 2 on a VARs Part 5 maintenance organization certificate permits that maintenance organization to perform maintenance, preventive maintenance, or modifications on an aircraft, including work on the powerplant(s) of that aircraft up to, but not including, overhaul:
+A. Aircraft (other than rotorcraft and aircraft composed primarily of composite material) of 5,700 kg maximum certificated takeoff weight or less.
+B. Aircraft (other than rotorcraft and aircraft composed primarily of composite material) over 5,700 kg maximum certificated takeoff weight and up to, and including, 34,200 kg maximum certificated takeoff weight. [CA]
+C. Aircraft, (other than rotorcraft and aircraft composed primarily composite material) over 34,200 kg maximum certificated takeoff weight.
+
+78.	An airframe rating with Class 3 on a VARs Part 5 maintenance organization certificate permits that maintenance organization to perform maintenance, preventive maintenance, or modifications on an aircraft, including work on the powerplant(s) of that aircraft up to, but not including, overhaul:
+A. Aircraft, (other than rotorcraft and aircraft composed primarily composite material) over 34,200 kg maximum certificated takeoff weight. [CA]
+B. Aircraft (other than rotorcraft and aircraft composed primarily of composite material) of 5,700 kg maximum certificated takeoff weight or less.
+C. Aircraft (other than rotorcraft and aircraft composed primarily of composite material) over 5,700 kg maximum certificated takeoff weight and up to, and including, 34,200 kg maximum certificated takeoff weight.
+
+79.	An airframe rating with Class 1 on a VARs Part 5 maintenance organization certificate permits that maintenance organization to perform maintenance, preventive maintenance, or modifications on an aircraft, including work on the powerplant(s) of that aircraft up to, but not including, overhaul:
+A. Aircraft (other than rotorcraft and aircraft composed primarily of composite material) over 5,700 kg maximum certificated takeoff weight and up to, and including, 34,200 kg maximum certificated takeoff weight. [CA]
+C. Aircraft, (other than rotorcraft and aircraft composed primarily composite material) over 34,200 kg maximum certificated takeoff weight.
+A. Aircraft (other than rotorcraft and aircraft composed primarily of composite material) of 5,700 kg maximum certificated takeoff weight or less.
+
+80.	“Maintenance” definition:
+A. The performance of tasks required to ensure the continuing airworthiness of an aircraft, including any one or combination of overhaul, inspection, replacement, defect rectification, and the embodiment of a modification or repair. [CA]
+B. The performance of tasks required to ensure the continuing airworthiness of an aircraft, including any one or combination of overhaul, replacement, defect rectification, and the embodiment of a modification or repair.
+C. Both A and B are correct.
+
+81.	“Maintenance Organization Exposition Manual” definition:
+A. A document endorsed by the head of the maintenance organization.
+B. A document details the maintenance organization’s structure and management responsibilities, scope of work, description of facilities, maintenance procedures and quality assurance or inspection systems.
+C. Both A and B are correct. [CA]
+
+82.	“Inspection” definition:
+A. means the examination of an aircraft to establish conformity with an approved standard
+B. means the examination of an aircraft/aircraft component to establish conformity with an approved standard [CA]
+C. means the examination of an aircraft component to establish conformity with an approved standard
+
+83.	The restoration of an aircraft or aircraft component to a serviceable condition in conformity with an approved standard means:
+A.	Repair. [CA]
+B.	Modification.
+C.	Both A and B are correct.
+
+84.	VARs Part 5 prescribes the requirements of Vietnam for:
+A. Issuance of approvals to organizations for the maintenance, preventive maintenance
+ of aircraft and aircraft components
+B. The certification and general operating rules for an Approved Maintenance Organization (AMO).
+C. Both A and B are correct. [CA]
+
+85.	A maintenance organisation may be maintain an aircraft if:
+A. working under the quality system of an appropriately approved VARs Part 5 approved maintenance organisation or accepted in accordance with VARs Part 5. [CA]
+B. such aircraft not used for commercial air transport.
+C. Neither A nor B are correct.
+
+86.	A certificate of release to service must be issued when:
+A. satisfied that all required maintenance of aircraft carried out by the VARs Part 5  approved maintenance organisation in accordance with the procedures specified in the VARs Part 5 approved maintenance organisation exposition.
+B. aircraft component has been properly carried out by the VARs Part 5  approved maintenance organisation in accordance with the procedures specified in the VARs Part 5  approved maintenance organisation exposition.
+C. Both A and B are correct. [CA]
+
+87.	A certificate of release to service must be issued by:
+A. appropriately authorised certifying staff on behalf of the VARs Part 5 approved maintenance organisation. [CA]
+B. the level C  certifying staff  authorised by VARs Part 5 AMO.
+C. the accoutable manager of AMO.
+
+88.	The VARs Part 5 approved maintenance organization must retain a copy of all detailed maintenance records and any associated maintenance data for:
+A. two years from the date the aircraft or aircraft component to which the work relates was released from the 145 approved maintenance organisation. [CA]
+B. three years from the date the aircraft or aircraft component to which the work relates was released from the 145 approved maintenance organisation as required by the Operator.
+C. according to the Annex 8 to Chicago Convention.
+
+89.	If any condition of the aircraft or aircraft component, identified by the VARs Part 5 approved maintenance organisation that has resulted or may result in an unsafe condition that could seriously hazard the aircraft, the VARs Part 5 approved maintenance organisation must report to:
+A. the CAAV and the Operator.
+B. the CAAV and organisation responsible for the design of the aircraft or aircraft component. [CA]
+C. the CAAV and the manufacture of the aircraft or aircraft component.
+
+90.	Which following changes that the VARs Part 5 approved maintenance organisation must not notify CAAV:
+A. The name of the organization.
+B. The list of certifying staff. [CA]
+C. The accountable manager.   (cả 3 đáp án đều đúng theo 5.065)
+
+91.	Which following statement is incorrect? (phải là correct mới đúng với 5.020(b))
+A. An AMO holder may not contract out the maintenance, preventative maintenance, modification or alteration of a complete type-certificated product. [CA]
+B. An AMO holder may provide approval for return to service of a product following contract maintenance.
+C. Both A and B are correct. (phải sửa câu hỏi và lấy đáp án này)
+
+92.	The AMO holder may maintain or alter any article for which it is rated at a place other than the AMO principal base, if:
+A. The function would be performed in the same manner as when performed at the AMO principal base.
+B. All necessary personnel, equipment, material, and technical and/or approved standards are available at the place where the work is to be done.
+C. Both A and B are correct. [CA]
+
+93.	The AMO holder may maintain or alter any article for which it is rated at a place other than the AMO principal base, if:
+A. The maintenance organization exposition of the station sets forth approved procedures governing work to be performed at a place other than the AMO principal base. [CA]
+B. The function would be performed in the same manner as when performed at the AMO principal base and in accordance with VARs Part 7.
+C. Both A and B are correct.
+
+94.	Which following statement is incorrect ? (phải là correct cho đúng với 5.053(a))
+A. The CAAV may, at any time, inspect an AMO holder’s facilities and any of its contractmaintenance facilities to determine the organisation’s compliance with VARs Part 5[CA]
+B. The CAAV may, with 24h prior notice, inspect an AMO holder’s facilities and any of its contract maintenance facilities to determine the organisation’s compliance with VARs Part 5.
+C. The CAAV may, with 48h prior notice, inspect an AMO holder’s facilities and any of its contract maintenance facilities to determine the organisation’s compliance with VARs Part 5.
+
+95.	 What aircraft can an VARs part 5 AMO maintain?.
+A. Commercial Air Transport aircraft only.
+B. All aircraft over 5700 kg MTOM.
+C. All aircraft on its schedule of approval.	[CA] (theo Phần 5, AMO được cấp OpSpec, chứ không phải là  Schedule of Approval như 145 trước đây!)
+
+Operations of Aircraft
+96.	 Each earoplane shall be operated in compliance with the term of its Certificate of Airworthiness and within the approved limitation contained in its:
+A. MPD
+B. MEL [CA]
+C. AMS.
+
+97.	An Operator shall established a MEL (Minimum Equipment List) approved by the CAAV for:
+A. all Operator’s own aircrafts.
+B. each type of aircraft operated under its AOC (có lẽ đáp này đúng)
+C. each aircraft operated under its AOC [CA]
+
+98.	An Operator shall not operated an aircraft under its AOC other than in accordance with MEL:
+A. unless permitted by the CEO of the Operator.
+B. unless permitted by the Accountable Manager of the Operator.
+C. unless permitted by the CAAV. [CA]
+
+99.	Ensuring that each aircraft it is authorized to operate is maintained in an airworthy condition is responsibility of:
+A. AOC [CA]
+B. AMO.
+C. A or B
+
+100.	The AOC holder shall ensure that:
+A. The operational and emergency equipment necessary for an intended flight is serviceable.
+B. The Certificate of Airworthiness of each aircraft remains valid
+C. A and B [CA]
+
+101.	An AOC issued by the CAAV is effective for:
+A. 12 calendar months. [CA]
+B. 06 calendar months.
+C. 06 months for first issue and 12 months for reissue.
+
+102.	An aircraft maintenance schedule (AMS) shall be provided for the use and guidance of maintenance and operational personnel concerned by:
+A. Air operator. [CA]
+B. Approved Maintenance Organisation.
+C. The Design of aircraft.
+
+103.	An aircraft maintenance schedule (AMS) shall be approved by:
+A. The state of Registry.
+B. The state of the Operator.
+C. The state of Design.
+
+104.	A master minimum equipment list (MMEL) shall be approved by:
+A. The state of Registry.
+B. The state of the Operator.
+C. The state of Design. [CA]
+
+105.	A minimum equipment list (MEL) shall be provided by:
+A. Approved Maintenance Organisation.
+B. The Design of aircraft.
+C. Air operator. [CA]
+
+106.	A maintenance planning document (MPD) shall be provided by:
+A. The state of Registry.
+B. The state of the Operator.
+C. The Design of aircraft[CA]
+
+107.	Documents to be carried on board during aircraft operations include:
+A.	Certificate of Registration, Airworthiness, Insurance and Radio License.	[CA]
+B.	C of A, Permit to Fly, radio License, Crew Licenses, and C of R.
+C.	Crew licenses, radio licence and aircraft dealers certificate.
+
+108.	Aircraft types which an operator can fly are listed in the:
+A.	Aircraft Flight Manual.
+B.	Air Operators Certificate.	[CA]
+C.	Company Maintenance Schedule.
+
+109.	In which book would you expect to find all the following:  a maintenance statement, a sector record and a deferred defect?.
+A.	Technical log book. [CA]
+B.	Flight manual.
+C.	Aircraft Log book.
+
+110.	Deferred defects are recorded in.
+A.	the Deferred defect manual.
+B.	the Technical Log. [CA]
+C.	the Technical Manual.
+
+111.	Which of the following documents must be carried on an aircraft?.
+A.	Certificate of Registration.
+B.	Copy of Air operators Certificate.
+C.	Engine Log Book.
+D. Both A and B
+
+112.	Which of the following documents are to be carried on an aircraft?.
+A.	Tech log, full Operations Manual and Flight Manual.
+B.	Tech Log and parts of the Operations Manual.	[CA]
+C.	Full Operations Manual and Flight Manual.
+
+113.	A type certificate is.
+A.	issued after a Certificate of Registration.
+B.	issued before a Certificate of Airworthiness. [CA]
+C.	issued after a Certificate of Airworthiness.
+
+114.	A Type Certificate is a.
+A.	requirement prior to the issue of a C of A for aircraft in the Transport Category.
+B.	requirement for aircraft above 2730Kg MTWA.
+C.	prerequisite to the issue of a C of A [CA]
+
+115.	A design organisation is approved in accordance with.
+A.	VARs Part 5.
+B.	VARs Part 21	[CA]
+C.	VARs Part 3.
+
+116.	A Noise Certificate is a requirement of.
+A.	VARs Part 21	[CA]
+B.	VARs Part 5.
+C.	VARs Part 3.
+
+117.	An aircraft operator's MEL.
+A.	can be more restrictive than the MMEL.	[CA]
+B.	can be less restrictive than the MMEL.
+C.	can be more restrictive with certain limitations.
+
+118.	A Master Minimum Equipment List (MMEL) is.
+A.	more restrictive than a Minimum Equipment List.
+B.	is a list of items that may be inoperative on an aircraft.	[CA]
+C.	originated by the aircraft operator.
+
+119.	An airline's MEL contains an additional note (M). This indicates a
+A.	Mandatory operational restrictions.
+B.	Maintenance requirements.	[CA]
+C.	Modified component or system.
+120.	The CMR covers all work including.
+A.	scheduled maintenance, modifications, defects and any deferred defects. [CA]
+B.	scheduled maintenance, defect rectifications.
+C.	scheduled maintenance, modifications.
+121.	What modifications are recorded in the aircraft log book?.
+A.	Aircraft only.	[CA]
+B.	Engine, propeller and aircraft.
+C.	Engine and propeller.

@@ -1,0 +1,16 @@
+                ${{entity}}->save();
+                $add = '';
+                if($this->getRequest()->getParam('popup')){
+                    $add = '<script>window.opener.'.$this->getJsObjectName().'.reload(); window.close()</script>';
+                }
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                    Mage::helper('{{namespace}}_{{module}}')->__('{{EntityLabel}} was successfully saved. %s', $add)
+                );
+                Mage::getSingleton('adminhtml/session')->setFormData(false);
+                if ($this->getRequest()->getParam('back')) {
+                    $this->_redirect('*/*/edit', array('id' => ${{entity}}->getId()));
+                    return;
+                }
+                $this->_redirect('*/*/');
+                return;
+            } catch (Mage_Core_Exception $e) {

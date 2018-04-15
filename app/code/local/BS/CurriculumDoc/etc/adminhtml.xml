@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_CurriculumDoc extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_CurriculumDoc
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_curriculumdoc translate="title" module="bs_curriculumdoc">
+                                        <title>CurriculumDoc</title>
+                                    </bs_curriculumdoc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_material>
+                        <children>
+                            <curriculumdoc translate="title" module="bs_curriculumdoc">
+                                <title>Curriculum Document</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </curriculumdoc>
+                        </children>
+                    </bs_material>
+
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_material translate="title" module="bs_material">
+
+            <children>
+                <curriculumdoc translate="title" module="bs_curriculumdoc">
+                    <title>Curriculum Document</title>
+                    <action>adminhtml/curriculumdoc_curriculumdoc</action>
+                    <sort_order>20</sort_order>
+                </curriculumdoc>
+            </children>
+        </bs_material>
+    </menu>
+</config>

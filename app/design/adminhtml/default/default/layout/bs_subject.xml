@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Subject extension
+ * 
+ * @category       BS
+ * @package        BS_Subject
+ * @copyright      Copyright (c) 2015
+ */
+--> 
+<layout>
+    <adminhtml_subject_subject_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/subject</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_subject/adminhtml_subject" name="subject" />
+
+        </reference>
+    </adminhtml_subject_subject_index>
+    <adminhtml_subject_subject_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subject/adminhtml_subject_grid" name="subject_grid"/>
+        </block>
+    </adminhtml_subject_subject_grid>
+    <!-- Subject add/edit action -->
+    <adminhtml_subject_subject_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/subject</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_subject/adminhtml_subject_edit" name="subject_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_subject/adminhtml_subject_edit_tabs" name="subject_tabs"></block>
+        </reference>
+    </adminhtml_subject_subject_edit>
+
+    <adminhtml_subject_subjectcontent_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/subject/subjectcontent</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_subject/adminhtml_subjectcontent" name="subjectcontent" />
+
+        </reference>
+    </adminhtml_subject_subjectcontent_index>
+    <adminhtml_subject_subjectcontent_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subject/adminhtml_subjectcontent_grid" name="subjectcontent_grid"/>
+        </block>
+    </adminhtml_subject_subjectcontent_grid>
+    <!-- Subjectcontent add/edit action -->
+    <adminhtml_subject_subjectcontent_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>bs_traininglist/subject/subjectcontent</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="bs_subject/adminhtml_subjectcontent_edit" name="subjectcontent_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="bs_subject/adminhtml_subjectcontent_edit_tabs" name="subjectcontent_tabs"></block>
+        </reference>
+    </adminhtml_subject_subjectcontent_edit>
+
+
+    <adminhtml_subject_subject_traininglist_curriculum_subjects>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subject/adminhtml_traininglist_curriculum_edit_tab_subject" name="curriculum.edit.tab.subject"/>
+        </block>
+    </adminhtml_subject_subject_traininglist_curriculum_subjects>
+
+    <adminhtml_subject_subject_traininglist_curriculum_subjectsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subject/adminhtml_traininglist_curriculum_edit_tab_subject" name="curriculum.edit.tab.subject"/>
+        </block>
+    </adminhtml_subject_subject_traininglist_curriculum_subjectsgrid>
+
+    <adminhtml_subject_subject_subjectcontents>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subject/adminhtml_subject_edit_tab_subjectcontent" name="subject.edit.tab.subjectcontent"/>
+        </block>
+    </adminhtml_subject_subject_subjectcontents>
+    <adminhtml_subject_subject_subjectcontentsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="bs_subject/adminhtml_subject_edit_tab_subjectcontent" name="subject.edit.tab.subjectcontent"/>
+        </block>
+    </adminhtml_subject_subject_subjectcontentsgrid>
+
+</layout>

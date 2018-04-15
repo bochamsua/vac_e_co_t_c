@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_TraineeCert extension
+ * 
+ * @category       BS
+ * @package        BS_TraineeCert
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_TraineeCert>
+            <version>1.0.0</version>
+        </BS_TraineeCert>
+    </modules>
+    <global>
+        <resources>
+            <bs_traineecert_setup>
+                <setup>
+                    <module>BS_TraineeCert</module>
+                    <class>BS_TraineeCert_Model_Resource_Setup</class>
+                </setup>
+            </bs_traineecert_setup>
+        </resources>
+        <blocks>
+            <bs_traineecert>
+                <class>BS_TraineeCert_Block</class>
+            </bs_traineecert>
+        </blocks>
+        <helpers>
+            <bs_traineecert>
+                <class>BS_TraineeCert_Helper</class>
+            </bs_traineecert>
+        </helpers>
+        <models>
+            <bs_traineecert>
+                <class>BS_TraineeCert_Model</class>
+                <resourceModel>bs_traineecert_resource</resourceModel>
+            </bs_traineecert>
+            <bs_traineecert_resource>
+                <class>BS_TraineeCert_Model_Resource</class>
+                <entities>
+                    <traineecert>
+                        <table>bs_traineecert_traineecert</table>
+                    </traineecert>
+                </entities>
+            </bs_traineecert_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_traineecert>
+                    <file>bs_traineecert.xml</file>
+                </bs_traineecert>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_TraineeCert>
+                    <files>
+                        <default>BS_TraineeCert.csv</default>
+                    </files>
+                </BS_TraineeCert>
+            </modules>
+        </translate>
+       <!-- <global_search>
+            <traineecert>
+                <class>bs_traineecert/adminhtml_search_traineecert</class>
+                <acl>bs_traineecert</acl>
+            </traineecert>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_TraineeCert before="Mage_Adminhtml">BS_TraineeCert_Adminhtml</BS_TraineeCert>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

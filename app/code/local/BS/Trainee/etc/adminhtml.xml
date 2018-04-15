@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Trainee extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       BS
+ * @package        BS_Trainee
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_trainee translate="title" module="bs_trainee">
+                                        <title>Trainee</title>
+                                    </bs_trainee>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <trainee translate="title" module="bs_trainee">
+                                <title>Trainee</title>
+                                <sort_order>50</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </trainee>
+                            <!--<trainee_attributes translate="title" module="bs_trainee">
+                                <title>Manage Trainee attributes</title>
+                                <sort_order>7</sort_order>
+                            </trainee_attributes>-->
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_traininglist>
+            <children>
+                <trainee translate="title" module="bs_trainee">
+                    <title>Trainee</title>
+                    <action>adminhtml/trainee_trainee</action>
+                    <sort_order>50</sort_order>
+                </trainee>
+                <trainee_attributes translate="title" module="bs_trainee">
+                    <title>Trainee Attributes</title>
+                    <action>adminhtml/trainee_trainee_attribute</action>
+                    <sort_order>200</sort_order>
+                </trainee_attributes>
+            </children>
+        </bs_traininglist>
+
+    </menu>
+</config>

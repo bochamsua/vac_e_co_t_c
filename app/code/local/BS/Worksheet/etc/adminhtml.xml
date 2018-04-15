@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Worksheet extension
+ * 
+ * 
+ * @category       BS
+ * @package        BS_Worksheet
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_worksheet translate="title" module="bs_worksheet">
+                                        <title>Worksheet</title>
+                                    </bs_worksheet>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <worksheet translate="title" module="bs_worksheet">
+                                <title>Worksheet</title>
+                                <sort_order>20</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                </children>
+                            </worksheet>
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_traininglist>
+            <children>
+                <worksheet translate="title" module="bs_worksheet">
+                    <title>Worksheet</title>
+                    <action>adminhtml/worksheet_worksheet</action>
+                    <sort_order>20</sort_order>
+                </worksheet>
+            </children>
+        </bs_traininglist>
+
+    </menu>
+</config>

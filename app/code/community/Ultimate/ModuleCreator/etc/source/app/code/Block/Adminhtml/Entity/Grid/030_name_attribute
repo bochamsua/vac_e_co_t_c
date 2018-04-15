@@ -1,0 +1,10 @@
+        $this->addColumn(
+            '{{nameAttributeCode}}',
+            array(
+                'header'    => Mage::helper('{{namespace}}_{{module}}')->__('{{nameAttributeLabel}}'),
+                'align'     => 'left',
+                'index'     => '{{nameAttributeCode}}',
+            )
+        );
+        {{nameAttributeGridEav}}
+

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Otherdoc extension
+ * 
+ * @category       BS
+ * @package        BS_Otherdoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Otherdoc>
+            <version>1.0.0</version>
+        </BS_Otherdoc>
+    </modules>
+    <global>
+        <resources>
+            <bs_otherdoc_setup>
+                <setup>
+                    <module>BS_Otherdoc</module>
+                    <class>BS_Otherdoc_Model_Resource_Setup</class>
+                </setup>
+            </bs_otherdoc_setup>
+        </resources>
+        <blocks>
+            <bs_otherdoc>
+                <class>BS_Otherdoc_Block</class>
+            </bs_otherdoc>
+        </blocks>
+        <helpers>
+            <bs_otherdoc>
+                <class>BS_Otherdoc_Helper</class>
+            </bs_otherdoc>
+        </helpers>
+        <models>
+            <bs_otherdoc>
+                <class>BS_Otherdoc_Model</class>
+                <resourceModel>bs_otherdoc_resource</resourceModel>
+            </bs_otherdoc>
+            <bs_otherdoc_resource>
+                <class>BS_Otherdoc_Model_Resource</class>
+                <entities>
+                    <otherdoc>
+                        <table>bs_otherdoc_otherdoc</table>
+                    </otherdoc>
+                    <otherdoc_product>
+                        <table>bs_otherdoc_otherdoc_product</table>
+                    </otherdoc_product>
+                </entities>
+            </bs_otherdoc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_otherdoc>
+                    <file>bs_otherdoc.xml</file>
+                </bs_otherdoc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Otherdoc>
+                    <files>
+                        <default>BS_Otherdoc.csv</default>
+                    </files>
+                </BS_Otherdoc>
+            </modules>
+        </translate>
+        <events>
+            <core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_otherdoc_otherdoc_product>
+                        <type>singleton</type>
+                        <class>bs_otherdoc/adminhtml_observer</class>
+                        <method>addProductOtherdocBlock</method>
+                    </bs_otherdoc_otherdoc_product>
+                </observers>
+            </core_block_abstract_prepare_layout_after>
+            <catalog_product_save_after>
+                <observers>
+                    <bs_otherdoc_otherdoc_product>
+                        <type>singleton</type>
+                        <class>bs_otherdoc/adminhtml_observer</class>
+                        <method>saveProductOtherdocData</method>
+                    </bs_otherdoc_otherdoc_product>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+        <!--<global_search>
+            <otherdoc>
+                <class>bs_otherdoc/adminhtml_search_otherdoc</class>
+                <acl>bs_otherdoc</acl>
+            </otherdoc>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Otherdoc before="Mage_Adminhtml">BS_Otherdoc_Adminhtml</BS_Otherdoc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Subject extension
+ * 
+ * @category       BS
+ * @package        BS_Subject
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_subject translate="title" module="bs_subject">
+                                        <title>Subject</title>
+                                    </bs_subject>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <bs_traininglist>
+                        <children>
+                            <subject translate="title" module="bs_subject">
+                                <title>Subject</title>
+                                <sort_order>60</sort_order>
+                                <children>
+                                    <new translate="title"><title>New</title></new>
+                                    <edit translate="title"><title>Edit</title></edit>
+                                    <delete translate="title"><title>Delete</title></delete>
+                                    <subjectcontent translate="title" module="bs_subject">
+                                        <title>Subject Content</title>
+                                        <sort_order>10</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </subjectcontent>
+                                </children>
+                            </subject>
+                        </children>
+                    </bs_traininglist>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <bs_traininglist>
+            <children>
+                <subject translate="title" module="bs_subject">
+                    <title>Subject</title>
+                    <action>adminhtml/subject_subject</action>
+                    <sort_order>60</sort_order>
+                    <children>
+                        <subjectcontent translate="title" module="bs_subject">
+                            <title>Subject Content</title>
+                            <action>adminhtml/subject_subjectcontent</action>
+                            <sort_order>10</sort_order>
+                        </subjectcontent>
+                    </children>
+                </subject>
+            </children>
+        </bs_traininglist>
+
+    </menu>
+</config>

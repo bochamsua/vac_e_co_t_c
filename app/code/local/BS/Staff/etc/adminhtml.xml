@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Staff extension
+ * 
+ * @category       BS
+ * @package        BS_Staff
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bs_staff translate="title" module="bs_staff">
+                                        <title>Staff</title>
+                                    </bs_staff>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <!--<system>
+                        <children>
+                            <bs_staff translate="title" module="bs_staff">
+                                <title>Staff</title>
+                                <children>
+                                    <staff translate="title" module="bs_staff">
+                                        <title>Staff</title>
+                                        <sort_order>0</sort_order>
+                                        <children>
+                                            <new translate="title"><title>New</title></new>
+                                            <edit translate="title"><title>Edit</title></edit>
+                                            <delete translate="title"><title>Delete</title></delete>
+                                        </children>
+                                    </staff>
+                                </children>
+                            </bs_staff>                        </children>
+                    </system>-->
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <system>
+            <children>
+                <staff translate="title" module="bs_staff">
+                    <title>Import VAECO Staff</title>
+                    <action>adminhtml/staff_staff</action>
+                    <sort_order>100</sort_order>
+                </staff>
+            </children>
+        </system>
+
+    </menu>
+</config>

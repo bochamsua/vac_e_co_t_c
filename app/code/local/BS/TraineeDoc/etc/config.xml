@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_TraineeDoc extension
+ * 
+ * @category       BS
+ * @package        BS_TraineeDoc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_TraineeDoc>
+            <version>1.0.1</version>
+        </BS_TraineeDoc>
+    </modules>
+    <global>
+        <resources>
+            <bs_traineedoc_setup>
+                <setup>
+                    <module>BS_TraineeDoc</module>
+                    <class>BS_TraineeDoc_Model_Resource_Setup</class>
+                </setup>
+            </bs_traineedoc_setup>
+        </resources>
+        <blocks>
+            <bs_traineedoc>
+                <class>BS_TraineeDoc_Block</class>
+            </bs_traineedoc>
+        </blocks>
+        <helpers>
+            <bs_traineedoc>
+                <class>BS_TraineeDoc_Helper</class>
+            </bs_traineedoc>
+        </helpers>
+        <models>
+            <bs_traineedoc>
+                <class>BS_TraineeDoc_Model</class>
+                <resourceModel>bs_traineedoc_resource</resourceModel>
+            </bs_traineedoc>
+            <bs_traineedoc_resource>
+                <class>BS_TraineeDoc_Model_Resource</class>
+                <entities>
+                    <traineedoc>
+                        <table>bs_traineedoc_traineedoc</table>
+                    </traineedoc>
+                    <traineedoc_trainee>
+                        <table>bs_traineedoc_traineedoc_trainee</table>
+                    </traineedoc_trainee>
+                </entities>
+            </bs_traineedoc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_traineedoc>
+                    <file>bs_traineedoc.xml</file>
+                </bs_traineedoc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_TraineeDoc>
+                    <files>
+                        <default>BS_TraineeDoc.csv</default>
+                    </files>
+                </BS_TraineeDoc>
+            </modules>
+        </translate>
+        <events>
+            <!--<core_block_abstract_prepare_layout_after>
+                <observers>
+                    <bs_traineedoc_traineedoc_trainee>
+                        <type>singleton</type>
+                        <class>bs_traineedoc/adminhtml_observer</class>
+                        <method>addTraineeTraineedocBlock</method>
+                    </bs_traineedoc_traineedoc_trainee>
+                </observers>
+            </core_block_abstract_prepare_layout_after>-->
+            <trainee_trainee_save_after>
+                <observers>
+                    <bs_traineedoc_traineedoc_trainee>
+                        <type>singleton</type>
+                        <class>bs_traineedoc/adminhtml_observer</class>
+                        <method>saveTraineeTraineedocData</method>
+                    </bs_traineedoc_traineedoc_trainee>
+                </observers>
+            </trainee_trainee_save_after>
+        </events>
+        <!--<global_search>
+            <traineedoc>
+                <class>bs_traineedoc/adminhtml_search_traineedoc</class>
+                <acl>bs_traineedoc</acl>
+            </traineedoc>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_TraineeDoc before="Mage_Adminhtml">BS_TraineeDoc_Adminhtml</BS_TraineeDoc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BS_Tc extension
+ * 
+ * @category       BS
+ * @package        BS_Tc
+ * @copyright      Copyright (c) 2015
+ */
+-->
+<config>
+    <modules>
+        <BS_Tc>
+            <version>1.0.0</version>
+        </BS_Tc>
+    </modules>
+    <global>
+        <resources>
+            <bs_tc_setup>
+                <setup>
+                    <module>BS_Tc</module>
+                    <class>BS_Tc_Model_Resource_Setup</class>
+                </setup>
+            </bs_tc_setup>
+        </resources>
+        <blocks>
+            <bs_tc>
+                <class>BS_Tc_Block</class>
+            </bs_tc>
+        </blocks>
+        <helpers>
+            <bs_tc>
+                <class>BS_Tc_Helper</class>
+            </bs_tc>
+        </helpers>
+        <models>
+            <bs_tc>
+                <class>BS_Tc_Model</class>
+                <resourceModel>bs_tc_resource</resourceModel>
+            </bs_tc>
+            <bs_tc_resource>
+                <class>BS_Tc_Model_Resource</class>
+                <entities>
+                    <employee>
+                        <table>bs_tc_employee</table>
+                    </employee>
+                    <family>
+                        <table>bs_tc_family</table>
+                    </family>
+                    <eav_attribute>
+                        <table>bs_tc_eav_attribute</table>
+                    </eav_attribute>
+                </entities>
+            </bs_tc_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <bs_tc>
+                    <file>bs_tc.xml</file>
+                </bs_tc>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <BS_Tc>
+                    <files>
+                        <default>BS_Tc.csv</default>
+                    </files>
+                </BS_Tc>
+            </modules>
+        </translate>
+        <!--<global_search>
+            <employee>
+                <class>bs_tc/adminhtml_search_employee</class>
+                <acl>bs_tc</acl>
+            </employee>
+            <family>
+                <class>bs_tc/adminhtml_search_family</class>
+                <acl>bs_tc</acl>
+            </family>
+        </global_search>-->
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <BS_Tc before="Mage_Adminhtml">BS_Tc_Adminhtml</BS_Tc>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
